@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>UFC-Kader – Wer kommt, wer geht</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --canvas:#DADDE1;--surface:#F3F4F6;--ink:#16191D;--muted:#5A616B;--line:#B9BEC5;
+  --blue:#1C4FD8;--blue-soft:#DCE5FB;--red:#C8202A;--red-soft:#F7DCDD;--gold:#A87A12;--gold-soft:#F4EAD0;
+  --on-corner:#fff;
+  color-scheme:light;box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --canvas:#14171B;--surface:#1D2126;--ink:#ECEEF1;--muted:#9AA2AD;--line:#343A42;
+    --blue:#6E94FF;--blue-soft:#1A2848;--red:#FF5A62;--red-soft:#3E1C1F;--gold:#E2B44A;--gold-soft:#3A2F14;
+    --on-corner:#0E1013;color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --canvas:#14171B;--surface:#1D2126;--ink:#ECEEF1;--muted:#9AA2AD;--line:#343A42;
+  --blue:#6E94FF;--blue-soft:#1A2848;--red:#FF5A62;--red-soft:#3E1C1F;--gold:#E2B44A;--gold-soft:#3A2F14;
+  --on-corner:#0E1013;color-scheme:dark;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--canvas);color:var(--ink);font-family:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--canvas)}
+.wrap{max-width:860px;margin:0 auto;padding:0 18px}
+h1,h2,h3,.num{font-family:"Big Shoulders Display","Arial Narrow",Impact,sans-serif}
+header.top{padding:28px 0 8px}
+h1{font-size:clamp(2.6rem,9vw,4.4rem);line-height:.92;font-weight:900;margin:0}
+.sub{color:var(--muted);margin:10px 0 0;max-width:60ch}
+
+.tape{display:grid;grid-template-columns:1fr 1fr;margin:26px 0 8px;border-radius:6px;overflow:hidden}
+.corner{padding:18px 18px 16px;cursor:pointer;border:0;text-align:left;font:inherit;color:var(--on-corner);display:block;width:100%}
+.corner.blue{background:var(--blue)}
+.corner.red{background:var(--red);text-align:right}
+.corner .num{display:block;font-size:clamp(4rem,17vw,7.5rem);line-height:.85;font-weight:900}
+.corner .lab{display:block;font-weight:600;font-size:1.05rem;margin-top:6px}
+.corner .hint{display:block;font-size:.85rem;opacity:.85}
+.corner:focus-visible{outline:3px solid var(--ink);outline-offset:-3px}
+
+nav.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--canvas);padding:12px 0 10px;margin-top:14px;border-bottom:1px solid var(--line)}
+.tablist{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+.tablist::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:600 .95rem "Barlow",sans-serif;padding:8px 14px;border-radius:999px;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--canvas);border-color:var(--ink)}
+.tab:focus-visible,select:focus-visible,input:focus-visible,button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.filters{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.filters input,.filters select{font:500 .95rem "Barlow",sans-serif;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:9px 10px;min-width:0}
+.filters input{flex:1 1 180px}
+.filters select{flex:0 1 210px}
+
+main{padding:8px 0 40px}
+.intro{color:var(--muted);margin:14px 0 4px;font-size:.95rem}
+h2.month{font-size:1.6rem;font-weight:800;margin:26px 0 8px;display:flex;align-items:baseline;gap:10px}
+h2.month small{font:500 .9rem "Barlow",sans-serif;color:var(--muted)}
+
+ul.rows{list-style:none;margin:0;padding:0;background:var(--surface);border-radius:6px;border:1px solid var(--line)}
+ul.rows li{display:grid;grid-template-columns:44px 1fr auto;gap:4px 12px;padding:11px 14px;border-top:1px solid var(--line);align-items:center}
+ul.rows li:first-child{border-top:0}
+.day{font-family:"Big Shoulders Display",sans-serif;font-weight:800;font-size:1.5rem;line-height:1;text-align:center;font-variant-numeric:tabular-nums}
+.day small{display:block;font:500 .7rem "Barlow",sans-serif;color:var(--muted)}
+.who{min-width:0}
+.name{font-weight:700;font-size:1.05rem}
+.meta{color:var(--muted);font-size:.9rem}
+.badge{font-weight:600;font-size:.82rem;padding:4px 9px;border-radius:4px;white-space:nowrap;justify-self:end}
+.b-in{background:var(--blue-soft);color:var(--blue)}
+.b-out{background:var(--red-soft);color:var(--red)}
+.b-ret{background:var(--surface);color:var(--muted);border:1px solid var(--line)}
+.b-gold{background:var(--gold-soft);color:var(--gold)}
+@media (max-width:520px){ul.rows li{grid-template-columns:40px 1fr}.badge{grid-column:2;justify-self:start;margin-top:2px}}
+
+/* clickable fighter names */
+.fl{background:none;border:0;padding:0;font:inherit;color:inherit;cursor:pointer;text-align:left;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px;text-decoration-thickness:2px}
+.fl:hover{text-decoration-color:var(--blue)}
+
+/* Champions */
+.belts{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;margin-top:16px}
+.belt{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--gold);border-radius:6px;padding:14px 16px}
+.belt .div{color:var(--muted);font-size:.88rem;font-weight:600}
+.belt .champ{font-family:"Big Shoulders Display",sans-serif;font-weight:800;font-size:1.7rem;line-height:1.05;margin:2px 0 6px}
+.belt .next{font-size:.9rem}
+.belt .next b{color:var(--gold)}
+
+/* Rankings */
+h2.divh{font-size:1.6rem;font-weight:800;margin:28px 0 8px}
+ol.rank{list-style:none;margin:0;padding:0;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+ol.rank li{display:grid;grid-template-columns:40px 1fr auto;gap:2px 12px;align-items:center;padding:9px 14px;border-top:1px solid var(--line)}
+ol.rank li:first-child{border-top:0}
+ol.rank .pos{font-family:"Big Shoulders Display",sans-serif;font-weight:800;font-size:1.4rem;text-align:center;font-variant-numeric:tabular-nums}
+ol.rank li.c{background:var(--gold-soft)}
+ol.rank li.c .pos{color:var(--gold);font-size:1.1rem}
+ol.rank .rec{font-variant-numeric:tabular-nums;font-weight:600;font-size:.92rem;color:var(--muted);white-space:nowrap}
+.note{font-size:.88rem;color:var(--muted);margin:8px 2px 0}
+
+/* Calendar */
+.ev{background:var(--surface);border:1px solid var(--line);border-radius:6px;margin-top:16px;overflow:hidden}
+.ev-head{display:grid;grid-template-columns:auto 1fr;gap:4px 16px;padding:16px;align-items:center;border-bottom:1px solid var(--line)}
+.ev-date{font-family:"Big Shoulders Display",sans-serif;font-weight:900;text-align:center;line-height:.9;min-width:56px}
+.ev-date .d{font-size:2.6rem;display:block}
+.ev-date .m{font:600 .8rem "Barlow",sans-serif;color:var(--muted)}
+.ev h3{font-size:1.55rem;font-weight:800;margin:0;line-height:1.05}
+.ev .place{color:var(--muted);font-size:.9rem}
+.soon{display:inline-block;background:var(--red);color:var(--on-corner);font-weight:700;font-size:.8rem;padding:2px 8px;border-radius:4px;margin-left:6px;vertical-align:middle}
+.times{display:flex;flex-wrap:wrap;gap:6px 18px;padding:10px 16px;font-size:.92rem;border-bottom:1px solid var(--line)}
+.times b{font-weight:700}
+ul.bouts{list-style:none;margin:0;padding:0}
+ul.bouts li{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;padding:10px 16px;border-top:1px solid var(--line);align-items:center}
+ul.bouts li:first-child{border-top:0}
+ul.bouts .r{text-align:right}
+ul.bouts .vs{font-family:"Big Shoulders Display",sans-serif;font-weight:800;color:var(--muted);font-size:.95rem}
+ul.bouts .cls{grid-column:1 / -1;text-align:center;font-size:.8rem;color:var(--muted);margin-top:-6px}
+ul.bouts li.title .cls{color:var(--gold);font-weight:700}
+ul.bouts .fn{font-weight:700}
+
+/* Profile dialog */
+dialog{border:0;padding:0;border-radius:10px;background:var(--surface);color:var(--ink);width:min(440px,calc(100% - 28px));max-height:calc(100% - 40px);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(10,12,15,.55)}
+.pf-top{padding:20px 20px 14px;border-bottom:4px solid var(--blue)}
+.pf-top.champ{border-bottom-color:var(--gold)}
+.pf-rank{font-weight:700;font-size:.9rem;color:var(--blue)}
+.pf-top.champ .pf-rank{color:var(--gold)}
+.pf-name{font-family:"Big Shoulders Display",sans-serif;font-weight:900;font-size:2.4rem;line-height:.95;margin:4px 0 6px}
+.pf-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line)}
+.pf-grid div{background:var(--surface);padding:12px 20px}
+.pf-grid dt{font-size:.8rem;color:var(--muted);font-weight:600}
+.pf-grid dd{margin:0;font-family:"Big Shoulders Display",sans-serif;font-weight:800;font-size:1.6rem;line-height:1.1}
+.pf-grid dd.t{font:600 1rem/1.3 "Barlow",sans-serif}
+.pf-grid div.w{grid-column:1 / -1}
+.pf-grid dd.miss{font:500 .95rem "Barlow",sans-serif;color:var(--muted)}
+.pf-next{padding:14px 20px;background:var(--blue-soft)}
+.pf-next h4{margin:0 0 4px;font-size:.8rem;color:var(--blue);font-weight:700}
+.pf-next p{margin:0;font-weight:600}
+.pf-sec{padding:14px 20px;border-top:1px solid var(--line)}
+.pf-sec h4{margin:0 0 4px;font-size:.8rem;color:var(--muted);font-weight:600}
+.pf-sec p{margin:0}
+.win{color:var(--blue);font-weight:700}.loss{color:var(--red);font-weight:700}.nc{color:var(--muted);font-weight:700}
+.pf-close{display:block;width:calc(100% - 40px);margin:6px 20px 20px;padding:11px;border-radius:6px;border:1px solid var(--line);background:var(--canvas);color:var(--ink);font:600 1rem "Barlow",sans-serif;cursor:pointer}
+
+.empty{padding:28px 16px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:6px;margin-top:18px}
+footer{color:var(--muted);font-size:.85rem;padding:20px 0 36px;border-top:1px solid var(--line)}
+footer p{margin:0 0 8px;max-width:70ch}
+footer a,.pf-src a{color:var(--blue)}
+.src{font:500 .8rem "Barlow",sans-serif;color:var(--muted)}
+.empty code{font-size:.85rem;background:var(--canvas);padding:1px 4px;border-radius:3px}
+[hidden]{display:none!important}
+@media (prefers-reduced-motion:no-preference){
+  .corner .num{animation:pop .5s ease-out both}
+  .corner.red .num{animation-delay:.12s}
+  @keyframes pop{from{transform:translateY(12px);opacity:0}to{transform:none;opacity:1}}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1 id="titel">UFC-Kader</h1>
+    <p class="sub">Wer neu in der UFC ist, wer rausgeflogen ist, wann gekämpft wird und wer oben steht. <span id="stand"></span></p>
+    <div class="tape">
+      <button class="corner blue" data-go="neu" aria-label="Neue Kämpfer anzeigen">
+        <span class="num" id="cIn">0</span><span class="lab">Neu dabei</span><span class="hint" id="hintIn">UFC-Debüts</span>
+      </button>
+      <button class="corner red" data-go="raus" aria-label="Abgänge anzeigen">
+        <span class="num" id="cOut">0</span><span class="lab">Raus</span><span class="hint">Entlassen, Karriereende, Wechsel</span>
+      </button>
+    </div>
+  </header>
+</div>
+
+<nav class="tabs">
+  <div class="wrap">
+    <div class="tablist" role="tablist">
+      <button class="tab" role="tab" data-tab="neu">Neu dabei</button>
+      <button class="tab" role="tab" data-tab="raus">Raus</button>
+      <button class="tab" role="tab" data-tab="kalender">Kalender</button>
+      <button class="tab" role="tab" data-tab="ranglisten">Ranglisten</button>
+      <button class="tab" role="tab" data-tab="vertrag">Frisch unterschrieben</button>
+    </div>
+    <div class="filters">
+      <input id="q" type="search" placeholder="Kämpfer suchen" aria-label="Kämpfer suchen">
+      <select id="div" aria-label="Gewichtsklasse"></select>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+  <main id="main"></main>
+  <footer>
+    <p>Tipp: Tippe auf einen unterstrichenen Namen, um das Kämpferprofil zu öffnen.</p>
+    <p>Quellen: <a href="https://en.wikipedia.org/wiki/List_of_current_UFC_fighters">Wikipedia</a> („List of current UFC fighters“, „UFC rankings“, „List of UFC events“, Jahresartikel „… in UFC“ und die Artikel der einzelnen Kämpfer und Events), ergänzt um Wikipedia auf Russisch, Japanisch, Spanisch, Portugiesisch und Deutsch sowie <a href="https://www.wikidata.org/">Wikidata</a>. Texte und Daten aus Wikipedia stehen unter der Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a>.</p>
+    <p>Die Daten werden täglich automatisch aktualisiert. Nicht gesicherte Angaben stehen als „folgt“ da, widersprüchliche Angaben werden mit Quelle nebeneinander gezeigt. Kein offizielles Angebot der UFC.</p>
+  </footer>
+</div>
+
+<dialog id="pf" aria-label="Kämpferprofil"><div id="pfBody"></div><button class="pf-close" id="pfClose">Schließen</button></dialog>
+
+<script>
+// Alle Daten kommen aus data/fighters.json (erzeugt von scraper/sammle_kaempfer.py).
+// Grundregel: nichts raten. Fehlt ein Wert -> "folgt". Widersprechen sich Quellen -> alle Werte zeigen.
+const DIV_ORDER = ["Flyweight","Bantamweight","Featherweight","Lightweight","Welterweight","Middleweight","Light Heavyweight","Heavyweight","Women's Strawweight","Women's Flyweight","Women's Bantamweight"];
+// offizielle Gewichtslimits der Klassen in kg
+const LIMIT = {"Flyweight":56.7,"Bantamweight":61.2,"Featherweight":65.8,"Lightweight":70.3,"Welterweight":77.1,"Middleweight":83.9,"Light Heavyweight":93.0,"Heavyweight":120.2,"Women's Strawweight":52.2,"Women's Flyweight":56.7,"Women's Bantamweight":61.2,"Women's Featherweight":65.8};
+const LAND = {USA:"USA",BRA:"Brasilien",RUS:"Russland",AUS:"Australien",ENG:"England",FRA:"Frankreich",NZL:"Neuseeland",MMR:"Myanmar",GER:"Deutschland",DEU:"Deutschland",CHN:"China",JPN:"Japan",MEX:"Mexiko",CAN:"Kanada",GEO:"Georgien",POR:"Portugal",KAZ:"Kasachstan",UZB:"Usbekistan",IRQ:"Irak",AZE:"Aserbaidschan",ARM:"Armenien",POL:"Polen",ECU:"Ecuador",IRL:"Irland",IRE:"Irland",NGR:"Nigeria",NGA:"Nigeria",RSA:"Südafrika",ZAF:"Südafrika",UAE:"Vereinigte Arabische Emirate",SRB:"Serbien",UKR:"Ukraine",MDA:"Moldau",MAR:"Marokko",ARG:"Argentinien",DOM:"Dominikanische Republik",BHR:"Bahrain",CZE:"Tschechien",NED:"Niederlande",PAN:"Panama",VEN:"Venezuela",KOR:"Südkorea",ESP:"Spanien",PER:"Peru",SWE:"Schweden",FIN:"Finnland",ITA:"Italien",BEL:"Belgien",TUR:"Türkei",COL:"Kolumbien",CHI:"Chile",CHL:"Chile",LTU:"Litauen",LIT:"Litauen",KGZ:"Kirgisistan",MGL:"Mongolei",MNG:"Mongolei",INA:"Indonesien",MNE:"Montenegro",ABW:"Aruba",AFG:"Afghanistan",TJK:"Tadschikistan",ROU:"Rumänien",ROM:"Rumänien",CRO:"Kroatien",ZIM:"Simbabwe",GUY:"Guyana",BOL:"Bolivien",AGO:"Angola",ALB:"Albanien",AUT:"Österreich",CHE:"Schweiz",SUI:"Schweiz",CMR:"Kamerun",CUB:"Kuba",DEN:"Dänemark",DNK:"Dänemark",DRC:"DR Kongo",HUN:"Ungarn",IND:"Indien",IRN:"Iran",ISL:"Island",JAM:"Jamaika",NOR:"Norwegen",PSE:"Palästina",SCO:"Schottland",SEN:"Senegal",SVK:"Slowakei",THA:"Thailand",UGA:"Uganda",WAL:"Wales",JAP:"Japan",PRT:"Portugal",MLD:"Moldau",SER:"Serbien","Islamic Republic of Afghanistan":"Afghanistan"};
+const MONTHS = ["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];
+// heutiges Datum in deutscher Zeit (JJJJ-MM-TT)
+const TODAY = new Intl.DateTimeFormat("sv-SE",{timeZone:"Europe/Berlin"}).format(new Date());
+
+const $ = s => document.querySelector(s);
+const main = $("#main"), q = $("#q"), divSel = $("#div");
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const norm = s => String(s).normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+const fmtDate = iso => { const [y,m,d] = iso.split("-"); return `${+d}. ${MONTHS[+m-1]}`; };
+const fmtDateJahr = iso => fmtDate(iso) + " " + iso.slice(0,4);
+const fmtDatumKurz = iso => { const [y,m,d] = iso.split("-"); return `${d}.${m}.${y}`; };
+const zahl = (x, stellen) => String(stellen ? x.toFixed(stellen) : x).replace(".", ",");
+const land = iso => iso ? (LAND[iso] || iso) : null;
+function ageOf(b){ const t = TODAY.split("-").map(Number), d = b.split("-").map(Number); let a = t[0]-d[0]; if (t[1] < d[1] || (t[1] === d[1] && t[2] < d[2])) a--; return a; }
+const ERGEBNIS = {Win:'<span class="win">Sieg</span>', Loss:'<span class="loss">Niederlage</span>', Draw:'<span class="nc">Unentschieden</span>', NC:'<span class="nc">Kein Ergebnis</span>', "No contest":'<span class="nc">Kein Ergebnis</span>'};
+
+let D, tab = "neu";
+const ENT = {};          // Schlüssel -> alles, was über einen Kämpfer bekannt ist
+const BY_ART = {}, BY_NAME = {};
+const EVDATE = {};       // Event-Artikel -> Datum
+
+// Ordnet Namen/Artikel einem Kämpfer zu (Artikel zuerst, sonst exakter Name)
+function keyOf(name, artikel){
+  if (artikel && BY_ART[artikel] != null) return "k" + BY_ART[artikel];
+  if (name && BY_NAME[norm(name)] != null) return "k" + BY_NAME[norm(name)];
+  return name ? "n:" + norm(name) : null;
+}
+function ent(name, artikel){
+  const k = keyOf(name, artikel);
+  if (!k) return null;
+  return ENT[k] || (ENT[k] = {key:k, name, artikel, ranks:[]});
+}
+function aufbauen(){
+  D.kaempfer.forEach((k, i) => {
+    if (k.artikel) BY_ART[k.artikel] = i;
+    const n = norm(k.name);
+    BY_NAME[n] = BY_NAME[n] === undefined ? i : -1;   // doppelte Namen nicht zuordnen
+  });
+  Object.keys(BY_NAME).forEach(n => { if (BY_NAME[n] === -1) delete BY_NAME[n]; });
+  D.kaempfer.forEach((k, i) => { ENT["k" + i] = {key:"k"+i, name:k.name, artikel:k.artikel, k, ranks:[]}; });
+  for (const div of DIV_ORDER){
+    const r = D.ranglisten[div];
+    if (r) r.plaetze.forEach(p => { const e = ent(p.name, p.artikel); if (e) e.ranks.push({div, p}); });
+  }
+  D.debuets.forEach(d => { const e = ent(d.name, d.artikel); if (e) e.deb = d; });
+  D.neu_unter_vertrag.forEach(s => { const e = ent(s.name, s.artikel); if (e) e.sig = s; });
+  D.events.forEach(e => { EVDATE[e.artikel] = e.datum; });
+  D.kaempfer.forEach(k => { const n = k.naechster_kampf; if (n && n.event_wiki && n.datum && !EVDATE[n.event_wiki]) EVDATE[n.event_wiki] = n.datum; });
+}
+// klickbarer Name, wenn es ein Profil gibt
+function fname(name, artikel){
+  if (!name) return "folgt";
+  const k = keyOf(name, artikel);
+  return k && ENT[k] ? `<button class="fl" data-f="${esc(k)}">${esc(name)}</button>` : esc(name);
+}
+
+// Kurzname der Quelle für die Anzeige
+function quelleKurz(q){
+  if (!q) return "";
+  if (q.includes("List of current UFC fighters")) return "Wikipedia-Liste";
+  if (q.startsWith("Wikipedia: ")) return "Wikipedia-Artikel";
+  const m = q.match(/^Wikipedia \((\w+)\)/);
+  if (m) return "Wikipedia " + m[1];
+  if (q.startsWith("Wikidata")) return "Wikidata";
+  return q.split(":")[0];
+}
+// Wert eines Feldes – bei Widerspruch alle Werte mit Quelle
+function wert(k, feld, fmt){
+  if (!k) return null;
+  const konf = k.konflikte && k.konflikte[feld];
+  if (konf){
+    // gleiche Werte zusammenfassen: "206 cm (Quelle A, Quelle B)"
+    const gruppen = new Map();
+    konf.forEach(x => { const w = fmt(x.wert); if (!gruppen.has(w)) gruppen.set(w, []); gruppen.get(w).push(quelleKurz(x.quelle)); });
+    return [...gruppen].map(([w, qs]) => `${esc(w)} <span class="src">(${esc([...new Set(qs)].join(", "))})</span>`).join("<br>");
+  }
+  return k[feld] == null ? null : esc(fmt(k[feld]));
+}
+
+// ---------- Listen: Neu dabei, Raus, Frisch unterschrieben
+function badgeFor(kind, r){
+  if (kind === "in") return `<span class="badge b-in">${esc(r.event || "Event folgt")}</span>`;
+  if (kind === "signed"){
+    const n = r.naechster_kampf;
+    return `<span class="badge b-gold">${n ? esc(n.event + (n.gegner ? " gegen " + n.gegner : "")) : "Debüt noch offen"}</span>`;
+  }
+  return `<span class="badge ${r.grund === "Entlassen" ? "b-out" : "b-ret"}">${esc(r.grund || "Grund folgt")}</span>`;
+}
+function filtered(list){
+  const t = norm(q.value.trim()), d = divSel.value;
+  return list.filter(r => (!d || r.gewichtsklasse === d) && (!t || norm(r.name).includes(t)));
+}
+const emptyMsg = `<div class="empty">Kein Kämpfer passt zu deiner Suche. Ändere den Namen oder wähle „Alle Gewichtsklassen“.</div>`;
+
+function renderList(list, kind, intro){
+  const rows = filtered(list).slice().sort((a,b) => (b.datum || "").localeCompare(a.datum || ""));
+  let html = `<p class="intro">${intro}</p>`;
+  if (!rows.length) return html + emptyMsg;
+  const groups = {};
+  rows.forEach(r => { const m = r.datum ? r.datum.slice(0,7) : "ohne"; (groups[m] = groups[m] || []).push(r); });
+  for (const m of Object.keys(groups)){
+    const g = groups[m], mo = m === "ohne" ? 0 : +m.slice(5,7);
+    html += `<h2 class="month">${mo ? MONTHS[mo-1] + " " + m.slice(0,4) : "Datum folgt"} <small>${g.length} Kämpfer</small></h2><ul class="rows">`;
+    g.forEach(r => {
+      html += `<li><div class="day">${r.datum ? +r.datum.slice(8,10) : "–"}<small>${mo ? MONTHS[mo-1].slice(0,3) : ""}</small></div>
+        <div class="who"><div class="name">${fname(r.name, r.artikel)}</div><div class="meta">${esc(r.land_iso || "Land folgt")}, ${esc(r.gewichtsklasse || "Gewichtsklasse folgt")}</div></div>
+        ${badgeFor(kind, r)}</li>`;
+    });
+    html += `</ul>`;
+  }
+  return html;
+}
+
+// ---------- Ranglisten
+function naechsterText(n, kurz){
+  if (!n) return "";
+  const datum = EVDATE[n.event_wiki];
+  const gegner = n.gegner ? (kurz ? esc(n.gegner) : fname(n.gegner, n.gegner_artikel)) : "Gegner folgt";
+  if (datum && datum < TODAY) return `Kampf gegen ${gegner} bei ${esc(n.event)} am ${fmtDate(datum)}. Ergebnis kommt beim nächsten Update.`;
+  return `gegen ${gegner}, ${esc(n.event)}${datum ? ", " + fmtDate(datum) : ""}`;
+}
+function renderRankings(){
+  const d = divSel.value, t = norm(q.value.trim());
+  let html = `<p class="intro">Die Top 15 jeder Gewichtsklasse nach den offiziellen Meta UFC Rankings. Tippe auf einen Namen für das Profil.</p>`;
+  let any = false;
+  DIV_ORDER.filter(k => !d || k === d).forEach(k => {
+    const r = D.ranglisten[k];
+    if (!r) return;
+    const rows = r.plaetze.filter(p => !t || norm(p.name).includes(t));
+    if (!rows.length) return;
+    any = true;
+    html += `<h2 class="divh">${esc(k)}</h2><ol class="rank">`;
+    rows.forEach(p => {
+      const c = p.rang === "C" || p.rang === "IC";
+      html += `<li class="${c ? "c" : ""}"><div class="pos">${p.rang === "C" ? "Champ" : p.rang === "IC" ? "Interim" : esc(p.rang)}</div>
+        <div class="who"><div class="name">${fname(p.name, p.artikel)}</div><div class="meta">${esc(p.land_iso || "")}${p.naechster_kampf ? ", nächster Kampf: " + naechsterText(p.naechster_kampf, true) : ""}</div></div>
+        <div class="rec">${esc(p.bilanz || "folgt")}</div></li>`;
+    });
+    html += `</ol>`;
+    if (r.stand) html += `<p class="note">Stand der Rangliste: ${fmtDateJahr(r.stand)}${r.nach_event ? ", nach " + esc(r.nach_event) : ""}.</p>`;
+  });
+  return any ? html : html + emptyMsg;
+}
+
+// ---------- Kalender
+function renderCalendar(){
+  const t = norm(q.value.trim());
+  let html = `<p class="intro">Die nächsten UFC-Events mit allen bekannten Kämpfen.</p>`;
+  const list = D.events.filter(e => e.datum >= TODAY).filter(e => !t || e.kaempfe.some(b => norm(b.a || "").includes(t) || norm(b.b || "").includes(t)));
+  if (!list.length) return html + `<div class="empty">Kein angesetzter Kampf passt zu deiner Suche.</div>`;
+  list.forEach((e,i) => {
+    const days = Math.round((new Date(e.datum) - new Date(TODAY)) / 864e5);
+    const soon = i === 0 && !t ? `<span class="soon">${days === 0 ? "Heute" : days === 1 ? "Morgen" : "in " + days + " Tagen"}</span>` : "";
+    const mo = +e.datum.slice(5,7);
+    const ort = [e.halle, e.ort].filter(x => x && !/^(TBA|TBD)$/i.test(x)).join(", ");
+    html += `<article class="ev"><div class="ev-head">
+      <div class="ev-date"><span class="d">${+e.datum.slice(8,10)}</span><span class="m">${MONTHS[mo-1].slice(0,3)}</span></div>
+      <div><h3>${esc(e.name)}${soon}</h3><div class="place">${esc(ort || "Ort folgt")}</div></div></div>
+      <ul class="bouts">`;
+    if (!e.kaempfe.length) html += `<li><span class="meta" style="grid-column:1 / -1;text-align:center">Kämpfe folgen</span></li>`;
+    e.kaempfe.forEach(b => {
+      html += `<li class="${b.titelkampf ? "title" : ""}"><span class="fn">${fname(b.a, b.a_artikel)}</span><span class="vs">VS</span><span class="fn r">${fname(b.b, b.b_artikel)}</span>
+        <span class="cls">${b.titelkampf ? "Titelkampf " : ""}${esc(b.gewichtsklasse || "")}</span></li>`;
+    });
+    html += `</ul></article>`;
+  });
+  return html;
+}
+
+function render(){
+  document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === tab));
+  divSel.hidden = tab === "kalender";
+  if (tab === "neu") main.innerHTML = renderList(D.debuets, "in", `Kämpfer, die ${D.jahr} ihren ersten UFC-Kampf hatten.`);
+  else if (tab === "raus") main.innerHTML = renderList(D.abgaenge, "out", `Kämpfer, die ${D.jahr} entlassen wurden, ihre Karriere beendet haben oder gewechselt sind.`);
+  else if (tab === "vertrag") main.innerHTML = renderList(D.neu_unter_vertrag, "signed", "Neu unter Vertrag oder zurückgekehrt, aber noch ohne (erneuten) UFC-Kampf.");
+  else if (tab === "kalender") main.innerHTML = renderCalendar();
+  else main.innerHTML = renderRankings();
+}
+
+// ---------- Profil
+const dlg = $("#pf"), pfBody = $("#pfBody");
+function upcomingFor(e){
+  for (const ev of D.events){ if (ev.datum < TODAY) continue;
+    for (const b of ev.kaempfe){
+      const a = keyOf(b.a, b.a_artikel) === e.key, bb = keyOf(b.b, b.b_artikel) === e.key;
+      if (a || bb) return {ev, opp: a ? b.b : b.a, oppArt: a ? b.b_artikel : b.a_artikel, title: b.titelkampf};
+    } }
+  return null;
+}
+function openProfile(key){
+  const e = ENT[key];
+  if (!e) return;
+  const k = e.k, r = e.ranks[0], deb = e.deb, sig = e.sig, up = upcomingFor(e);
+  const div = (k && k.gewichtsklasse) || (r && r.div) || (deb && deb.gewichtsklasse) || (sig && sig.gewichtsklasse) || "";
+  const iso = (k && k.land_iso) || (r && r.p.land_iso) || (deb && deb.land_iso) || (sig && sig.land_iso);
+  const isC = r && (r.p.rang === "C" || r.p.rang === "IC");
+  const rankTxt = r ? (isC ? `${r.p.rang === "IC" ? "Interims-Champion" : "Champion"}, ${esc(r.div)}` : `Nr. ${esc(r.p.rang)}, ${esc(r.div)}`)
+    : sig && !k ? `Neu unter Vertrag, ${esc(div)}` : deb ? `Neu in der UFC, ${esc(div)}` : esc(div);
+  const also = e.ranks.length > 1 ? `<div class="meta">Auch gelistet: ${e.ranks.slice(1).map(a => `Nr. ${esc(a.p.rang)}, ${esc(a.div)}`).join("; ")}</div>` : "";
+
+  // Nächster Kampf: Kampfkarte > Kaderliste > Rangliste > Hinweis
+  let nx;
+  if (up) nx = `${fname(up.opp, up.oppArt)}${up.title ? " (Titelkampf)" : ""}<br>${esc(up.ev.name)}, ${fmtDate(up.ev.datum)}`;
+  else if (k && k.naechster_kampf) nx = naechsterText(k.naechster_kampf, false);
+  else if (r && r.p.naechster_kampf) nx = naechsterText(r.p.naechster_kampf, false);
+  else if (sig && sig.naechster_kampf) nx = naechsterText(sig.naechster_kampf, false);
+  else nx = "Noch kein Kampf angesetzt";
+
+  const cell = (label, val, wide) => `<div class="${wide ? "w" : ""}"><dt>${label}</dt><dd class="${val == null ? "miss" : "t"}">${val == null ? "folgt" : val}</dd></div>`;
+  const alter = k && k.konflikte.geburtsdatum ? wert(k, "geburtsdatum", x => `${ageOf(x)} Jahre, geb. ${fmtDatumKurz(x)}`)
+    : k && k.geburtsdatum ? `${ageOf(k.geburtsdatum)} Jahre <span class="src">(geb. ${fmtDatumKurz(k.geburtsdatum)})</span>` : null;
+  const bilanz = k ? wert(k, "bilanz", x => x) : r ? esc(r.p.bilanz) : sig && sig.bilanz ? esc(sig.bilanz) : null;
+  let g = "";
+  g += cell("Alter", alter);
+  g += cell("Gewicht", wert(k, "gewicht_kg", x => zahl(x, 1) + " kg"));
+  g += cell("Größe", wert(k, "groesse_cm", x => x + " cm"));
+  g += cell("Reichweite", wert(k, "reichweite_cm", x => x + " cm"));
+  g += cell("Bilanz", bilanz);
+  g += cell("Siegesserie", r && r.p.serie != null ? String(r.p.serie) : null);
+  g += cell("Gewichtsklasse", div ? `${esc(div)}${LIMIT[div] ? ` <span class="src">(bis ${zahl(LIMIT[div])} kg)</span>` : ""}` : null, true);
+  g += cell("Kampfstil", wert(k, "kampfstil", x => x), true);
+  g += cell("Geburtsort", wert(k, "geburtsort", x => x), true);
+  g += cell("Kämpft für", iso ? esc(land(iso)) : null, true);
+
+  let h = `<div class="pf-top ${isC ? "champ" : ""}"><div class="pf-rank">${rankTxt}</div><div class="pf-name">${esc(e.name)}</div>${also}</div>
+    <div class="pf-next"><h4>Nächster Kampf</h4><p>${nx}</p></div>
+    <dl class="pf-grid">${g}</dl>`;
+  const letzter = (r && r.p.letzter_kampf && r.p.letzter_kampf.event) ? r.p.letzter_kampf : k && k.letzter_kampf;
+  if (letzter){
+    const gegner = letzter.gegner ? fname(letzter.gegner, letzter.gegner_artikel) : "Gegner folgt";
+    h += `<div class="pf-sec"><h4>Letzter Kampf</h4><p>${ERGEBNIS[letzter.ergebnis] || esc(letzter.ergebnis || "Ergebnis folgt")} gegen ${gegner}, ${esc(letzter.event || "")}</p></div>`;
+  }
+  if (deb) h += `<div class="pf-sec"><h4>UFC-Debüt</h4><p>${fmtDateJahr(deb.datum)}, ${esc(deb.event || "Event folgt")}</p></div>`;
+  const hinweis = (r && r.p.hinweis) || (k && !k.naechster_kampf && k.status) || (sig && !sig.naechster_kampf && sig.status);
+  if (hinweis && !up) h += `<div class="pf-sec"><h4>Hinweis (Originaltext Wikipedia)</h4><p>${esc(hinweis)}</p></div>`;
+  if (k && !k.wikipedia) h += `<div class="pf-sec"><p class="meta">Zu diesem Kämpfer gibt es noch keinen eigenen Wikipedia-Artikel. Fehlende Angaben werden ergänzt, sobald eine Quelle sie nennt.</p></div>`;
+  const links = [];
+  if (k && k.wikipedia) links.push(`<a href="${esc(k.wikipedia)}" target="_blank" rel="noopener">Wikipedia</a>`);
+  if (k && k.wikidata) links.push(`<a href="${esc(k.wikidata)}" target="_blank" rel="noopener">Wikidata</a>`);
+  links.push(`<a href="https://en.wikipedia.org/wiki/List_of_current_UFC_fighters" target="_blank" rel="noopener">UFC-Kaderliste</a>`);
+  h += `<div class="pf-sec pf-src"><h4>Quellen</h4><p>${links.join(" · ")}</p></div>`;
+  pfBody.innerHTML = h;
+  if (!dlg.open) dlg.showModal();
+  dlg.scrollTop = 0;
+}
+document.addEventListener("click", ev => {
+  const b = ev.target.closest(".fl");
+  if (b){ ev.preventDefault(); openProfile(b.dataset.f); }
+});
+$("#pfClose").addEventListener("click", () => dlg.close());
+dlg.addEventListener("click", ev => { if (ev.target === dlg) dlg.close(); });
+
+// ---------- Navigation
+const TABS = ["neu","raus","kalender","ranglisten","vertrag"];
+function go(t, scroll){
+  tab = TABS.includes(t) ? t : "neu";
+  if (location.hash !== "#" + tab) history.replaceState(null, "", "#" + tab);
+  render();
+  if (scroll) document.querySelector("nav.tabs").scrollIntoView({behavior:"smooth"});
+}
+
+// ---------- Daten laden
+main.innerHTML = `<p class="intro">Daten werden geladen …</p>`;
+fetch("data/fighters.json", {cache: "no-cache"})
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(daten => {
+    D = daten;
+    aufbauen();
+    const stand = new Intl.DateTimeFormat("de-DE", {timeZone:"Europe/Berlin", day:"numeric", month:"long", year:"numeric"}).format(new Date(D.stand));
+    document.title = `UFC-Kader ${D.jahr} – Wer kommt, wer geht`;
+    $("#titel").textContent = `UFC-Kader ${D.jahr}`;
+    $("#stand").textContent = `Stand: ${stand}.`;
+    $("#hintIn").textContent = `UFC-Debüts ${D.jahr}`;
+    $("#cIn").textContent = D.debuets.length;
+    $("#cOut").textContent = D.abgaenge.length;
+    divSel.innerHTML = '<option value="">Alle Gewichtsklassen</option>' + DIV_ORDER.map(k => `<option value="${esc(k)}">${esc(k)}</option>`).join("");
+    document.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => go(b.dataset.tab)));
+    document.querySelectorAll("[data-go]").forEach(b => b.addEventListener("click", () => go(b.dataset.go, true)));
+    q.addEventListener("input", render);
+    divSel.addEventListener("change", render);
+    window.addEventListener("hashchange", () => go(location.hash.slice(1)));
+    go(location.hash.slice(1) || "neu");
+  })
+  .catch(() => {
+    main.innerHTML = `<div class="empty">Die Daten (data/fighters.json) konnten nicht geladen werden.<br>
+      Wenn du die Datei direkt per Doppelklick geöffnet hast: Browser blockieren das aus Sicherheitsgründen.
+      Online (GitHub Pages) funktioniert es. Zum Testen auf dem eigenen Rechner im Terminal im Projektordner
+      <code>python3 -m http.server</code> starten und <code>http://localhost:8000/ufc-kader.html</code> öffnen.</div>`;
+  });
+</script>
+</body>
+</html>

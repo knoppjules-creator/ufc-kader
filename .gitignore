@@ -1,0 +1,6 @@
+# Zwischenspeicher des Sammel-Skripts (wird bei jedem Lauf neu erzeugt)
+scraper/cache/
+__pycache__/
+.DS_Store
+# lokale Vorschau-Einstellung (zeigt auf einen temporären Ordner)
+.claude/launch.json

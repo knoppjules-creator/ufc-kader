@@ -1,0 +1,81 @@
+# Holt jeden Tag frische Daten von Wikipedia und veröffentlicht die Seite auf GitHub Pages.
+#
+# Läuft automatisch:
+#   - jeden Tag um 04:00 UTC (= 5 Uhr Winterzeit / 6 Uhr Sommerzeit in Deutschland)
+#   - wenn eine Änderung auf "main" hochgeladen wird (dann ohne neue Daten, nur veröffentlichen)
+# Von Hand starten: auf GitHub unter "Actions" -> "Täglich aktualisieren" -> "Run workflow".
+
+name: Täglich aktualisieren
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write   # neue Daten zurück ins Repository speichern
+  pages: write      # Seite veröffentlichen
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  daten:
+    name: Daten von Wikipedia holen
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sammel-Skript ausführen
+        run: python3 scraper/sammle_kaempfer.py
+
+      - name: Neue Daten speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/fighters.json
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "Daten aktualisiert ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+  veroeffentlichen:
+    name: Seite veröffentlichen
+    needs: daten
+    # auch veröffentlichen, wenn "daten" übersprungen wurde (Upload einer Änderung),
+    # aber NICHT, wenn das Holen der Daten fehlgeschlagen ist
+    if: always() && (needs.daten.result == 'success' || needs.daten.result == 'skipped')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main   # neuester Stand inklusive gerade gespeicherter Daten
+
+      - name: Seite zusammenstellen
+        run: |
+          mkdir _site
+          cp ufc-kader.html _site/index.html
+          cp ufc-kader.html _site/ufc-kader.html
+          cp -r data _site/data
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4
