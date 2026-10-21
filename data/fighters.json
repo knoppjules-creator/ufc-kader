@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-21T14:36:07+00:00",
+ "stand": "2026-10-21T15:43:48+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -8177,7 +8177,7 @@
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
-    "gegner": "Zachary Reese",
+    "gegner": "Zachary Reese / Moving to Lightweight",
     "datum": "2026-10-31"
    },
    "status": null,
@@ -9797,6 +9797,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Islam Dulatov",
     "reichweite_cm": "Wikipedia: Islam Dulatov",
     "kampfstil": "Wikipedia (russisch): Дулатов, Ислам",
@@ -9808,8 +9810,14 @@
    "groesse_cm": 190,
    "nationalitaet": null,
    "letzter_kampf": null,
-   "naechster_kampf": null,
-   "status": "(July 25, 2026) – Illness – Bout cancelled – UFC Fight Night 282 (Abu Dhabi) – Wellington Turman",
+   "naechster_kampf": {
+    "event": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night 295",
+    "ort": "Riyadh",
+    "gegner": "Levan Chokheli",
+    "datum": "2026-12-05"
+   },
+   "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q130485682",
    "gewicht_kg": 77.1,
    "reichweite_cm": 190,
@@ -10206,21 +10214,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "15-3",
    "geburtsdatum": "1996-10-02",
    "groesse_cm": 180,
    "nationalitaet": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 279",
-    "event_wiki": "UFC Fight Night: Kape vs. Horiguchi",
-    "ort": "Las Vegas",
-    "gegner": "Leon Shahbazyan",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night 295",
+    "ort": "Riyadh",
+    "gegner": "Islam Dulatov",
+    "datum": "2026-12-05"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -20421,21 +20430,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "17-5",
    "geburtsdatum": "1993-05-05",
    "groesse_cm": 170,
    "nationalitaet": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 274",
-    "event_wiki": "UFC Fight Night: Sterling vs. Zalal",
-    "ort": "Las Vegas",
-    "gegner": "Cody Durden",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night 295",
+    "ort": "Riyadh",
+    "gegner": "Bruno Gustavo da Silva",
+    "datum": "2026-12-05"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -22341,6 +22351,7 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Bruno Gustavo da Silva",
     "reichweite_cm": "Wikipedia: Bruno Gustavo da Silva",
     "kampfstil": "Wikipedia (russisch): Да Силва, Бруну Густаво",
@@ -22351,14 +22362,14 @@
    "geburtsdatum": "1990-03-16",
    "groesse_cm": 163,
    "nationalitaet": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 278",
-    "event_wiki": "UFC Fight Night: Muhammad vs. Bonfim",
-    "ort": "Las Vegas",
-    "gegner": "Édgar Cháirez",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night 295",
+    "ort": "Riyadh",
+    "gegner": "Jafel Filho",
+    "datum": "2026-12-05"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q100270431",
    "gewicht_kg": 56.9,
