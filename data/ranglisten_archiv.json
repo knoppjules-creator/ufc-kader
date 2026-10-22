@@ -1,0 +1,1952 @@
+{
+ "klassen": {
+  "Heavyweight": [
+   {
+    "stand": "2026-09-26",
+    "nach_event": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Ciryl Gane",
+      "artikel": "Ciryl Gane"
+     },
+     {
+      "rang": "1",
+      "name": "Tom Aspinall",
+      "artikel": "Tom Aspinall"
+     },
+     {
+      "rang": "2",
+      "name": "Sergei Pavlovich",
+      "artikel": "Sergei Pavlovich"
+     },
+     {
+      "rang": "3",
+      "name": "Alex Pereira",
+      "artikel": "Alex Pereira"
+     },
+     {
+      "rang": "4",
+      "name": "Alexander Volkov",
+      "artikel": "Alexander Volkov (fighter)"
+     },
+     {
+      "rang": "5",
+      "name": "Rizvan Kuniev",
+      "artikel": "Rizvan Kuniev"
+     },
+     {
+      "rang": "6",
+      "name": "Josh Hokit",
+      "artikel": "Josh Hokit"
+     },
+     {
+      "rang": "7",
+      "name": "Curtis Blaydes",
+      "artikel": "Curtis Blaydes"
+     },
+     {
+      "rang": "8",
+      "name": "Waldo Cortes-Acosta",
+      "artikel": "Waldo Cortes-Acosta"
+     },
+     {
+      "rang": "9",
+      "name": "Vitor Petrino",
+      "artikel": "Vitor Petrino"
+     },
+     {
+      "rang": "10",
+      "name": "Mario Pinto",
+      "artikel": "Mario Pinto"
+     },
+     {
+      "rang": "11",
+      "name": "Valter Walker",
+      "artikel": "Valter Walker"
+     },
+     {
+      "rang": "12",
+      "name": "Brando Peričić",
+      "artikel": "Brando Peričić"
+     },
+     {
+      "rang": "13",
+      "name": "Serghei Spivac",
+      "artikel": "Serghei Spivac"
+     },
+     {
+      "rang": "14",
+      "name": "Shamil Gaziev",
+      "artikel": "Shamil Gaziev"
+     },
+     {
+      "rang": "15",
+      "name": "Aleksandar Rakić",
+      "artikel": "Aleksandar Rakić"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-05)"
+   },
+   {
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Ciryl Gane",
+      "artikel": "Ciryl Gane"
+     },
+     {
+      "rang": "1",
+      "name": "Tom Aspinall",
+      "artikel": "Tom Aspinall"
+     },
+     {
+      "rang": "2",
+      "name": "Sergei Pavlovich",
+      "artikel": "Sergei Pavlovich"
+     },
+     {
+      "rang": "3",
+      "name": "Alex Pereira",
+      "artikel": "Alex Pereira"
+     },
+     {
+      "rang": "4",
+      "name": "Alexander Volkov",
+      "artikel": "Alexander Volkov (fighter)"
+     },
+     {
+      "rang": "5",
+      "name": "Rizvan Kuniev",
+      "artikel": "Rizvan Kuniev"
+     },
+     {
+      "rang": "6",
+      "name": "Josh Hokit",
+      "artikel": "Josh Hokit"
+     },
+     {
+      "rang": "7",
+      "name": "Curtis Blaydes",
+      "artikel": "Curtis Blaydes"
+     },
+     {
+      "rang": "8",
+      "name": "Waldo Cortes-Acosta",
+      "artikel": "Waldo Cortes-Acosta"
+     },
+     {
+      "rang": "9",
+      "name": "Vitor Petrino",
+      "artikel": "Vitor Petrino"
+     },
+     {
+      "rang": "10",
+      "name": "Mario Pinto",
+      "artikel": "Mario Pinto"
+     },
+     {
+      "rang": "11",
+      "name": "Valter Walker",
+      "artikel": "Valter Walker"
+     },
+     {
+      "rang": "12",
+      "name": "Johnny Walker",
+      "artikel": "Johnny Walker (fighter)"
+     },
+     {
+      "rang": "13",
+      "name": "Brando Peričić",
+      "artikel": "Brando Peričić"
+     },
+     {
+      "rang": "14",
+      "name": "Serghei Spivac",
+      "artikel": "Serghei Spivac"
+     },
+     {
+      "rang": "15",
+      "name": "Anthony Wint",
+      "artikel": "Anthony Wint"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings",
+    "gespeichert": "2026-10-22"
+   }
+  ],
+  "Light Heavyweight": [
+   {
+    "stand": "2026-09-26",
+    "nach_event": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Carlos Ulberg",
+      "artikel": "Carlos Ulberg"
+     },
+     {
+      "rang": "1",
+      "name": "Alex Pereira",
+      "artikel": "Alex Pereira"
+     },
+     {
+      "rang": "2",
+      "name": "Magomed Ankalaev",
+      "artikel": "Magomed Ankalaev"
+     },
+     {
+      "rang": "3",
+      "name": "Jiří Procházka",
+      "artikel": "Jiří Procházka"
+     },
+     {
+      "rang": "4",
+      "name": "Paulo Costa",
+      "artikel": "Paulo Costa"
+     },
+     {
+      "rang": "5",
+      "name": "Jamahal Hill",
+      "artikel": "Jamahal Hill"
+     },
+     {
+      "rang": "6",
+      "name": "Khalil Rountree Jr.",
+      "artikel": "Khalil Rountree Jr."
+     },
+     {
+      "rang": "7",
+      "name": "Navajo Stirling",
+      "artikel": "Navajo Stirling"
+     },
+     {
+      "rang": "8",
+      "name": "Dominick Reyes",
+      "artikel": "Dominick Reyes"
+     },
+     {
+      "rang": "9",
+      "name": "Reinier de Ridder",
+      "artikel": "Reinier de Ridder"
+     },
+     {
+      "rang": "10",
+      "name": "Azamat Murzakanov",
+      "artikel": "Azamat Murzakanov"
+     },
+     {
+      "rang": "11",
+      "name": "Alonzo Menifield",
+      "artikel": "Alonzo Menifield"
+     },
+     {
+      "rang": "12",
+      "name": "Bogdan Guskov",
+      "artikel": "Bogdan Guskov"
+     },
+     {
+      "rang": "13",
+      "name": "Robert Whittaker",
+      "artikel": "Robert Whittaker (fighter)"
+     },
+     {
+      "rang": "14",
+      "name": "Johnny Walker",
+      "artikel": "Johnny Walker (fighter)"
+     },
+     {
+      "rang": "15",
+      "name": "Muhammad Saidov",
+      "artikel": null
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-05)"
+   },
+   {
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Carlos Ulberg",
+      "artikel": "Carlos Ulberg"
+     },
+     {
+      "rang": "1",
+      "name": "Alex Pereira",
+      "artikel": "Alex Pereira"
+     },
+     {
+      "rang": "2",
+      "name": "Magomed Ankalaev",
+      "artikel": "Magomed Ankalaev"
+     },
+     {
+      "rang": "3",
+      "name": "Jiří Procházka",
+      "artikel": "Jiří Procházka"
+     },
+     {
+      "rang": "4",
+      "name": "Paulo Costa",
+      "artikel": "Paulo Costa"
+     },
+     {
+      "rang": "5",
+      "name": "Khalil Rountree Jr.",
+      "artikel": "Khalil Rountree Jr."
+     },
+     {
+      "rang": "6",
+      "name": "Navajo Stirling",
+      "artikel": "Navajo Stirling"
+     },
+     {
+      "rang": "7",
+      "name": "Dominick Reyes",
+      "artikel": "Dominick Reyes"
+     },
+     {
+      "rang": "8",
+      "name": "Reinier de Ridder",
+      "artikel": "Reinier de Ridder"
+     },
+     {
+      "rang": "9",
+      "name": "Azamat Murzakanov",
+      "artikel": "Azamat Murzakanov"
+     },
+     {
+      "rang": "10",
+      "name": "Alonzo Menifield",
+      "artikel": "Alonzo Menifield"
+     },
+     {
+      "rang": "11",
+      "name": "Bogdan Guskov",
+      "artikel": "Bogdan Guskov"
+     },
+     {
+      "rang": "12",
+      "name": "Robert Whittaker",
+      "artikel": "Robert Whittaker (fighter)"
+     },
+     {
+      "rang": "13",
+      "name": "Muhammad Saidov",
+      "artikel": null
+     },
+     {
+      "rang": "14",
+      "name": "Modestas Bukauskas",
+      "artikel": "Modestas Bukauskas"
+     },
+     {
+      "rang": "15",
+      "name": "Abdul-Rakhman Yakhyaev",
+      "artikel": null
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings",
+    "gespeichert": "2026-10-22"
+   }
+  ],
+  "Middleweight": [
+   {
+    "stand": "2026-10-03",
+    "nach_event": "UFC 332",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Sean Strickland",
+      "artikel": "Sean Strickland"
+     },
+     {
+      "rang": "1",
+      "name": "Khamzat Chimaev",
+      "artikel": "Khamzat Chimaev"
+     },
+     {
+      "rang": "2",
+      "name": "Dricus du Plessis",
+      "artikel": "Dricus du Plessis"
+     },
+     {
+      "rang": "3",
+      "name": "Nassourdine Imavov",
+      "artikel": "Nassourdine Imavov"
+     },
+     {
+      "rang": "4",
+      "name": "Joe Pyfer",
+      "artikel": "Joe Pyfer"
+     },
+     {
+      "rang": "5",
+      "name": "Brendan Allen",
+      "artikel": "Brendan Allen"
+     },
+     {
+      "rang": "6",
+      "name": "Caio Borralho",
+      "artikel": "Caio Borralho"
+     },
+     {
+      "rang": "7",
+      "name": "Gregory Rodrigues",
+      "artikel": "Gregory Rodrigues"
+     },
+     {
+      "rang": "8",
+      "name": "Anthony Hernandez",
+      "artikel": "Anthony Hernandez"
+     },
+     {
+      "rang": "9",
+      "name": "Israel Adesanya",
+      "artikel": "Israel Adesanya"
+     },
+     {
+      "rang": "10",
+      "name": "Christian Leroy Duncan",
+      "artikel": "Christian Leroy Duncan"
+     },
+     {
+      "rang": "11",
+      "name": "Ikram Aliskerov",
+      "artikel": "Ikram Aliskerov"
+     },
+     {
+      "rang": "12",
+      "name": "Bo Nickal",
+      "artikel": "Bo Nickal"
+     },
+     {
+      "rang": "13",
+      "name": "Abusupiyan Magomedov",
+      "artikel": "Abusupiyan Magomedov"
+     },
+     {
+      "rang": "14",
+      "name": "Roman Kopylov",
+      "artikel": "Roman Kopylov"
+     },
+     {
+      "rang": "15",
+      "name": "Edmen Shahbazyan",
+      "artikel": "Edmen Shahbazyan"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-11)"
+   },
+   {
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Sean Strickland",
+      "artikel": "Sean Strickland"
+     },
+     {
+      "rang": "1",
+      "name": "Khamzat Chimaev",
+      "artikel": "Khamzat Chimaev"
+     },
+     {
+      "rang": "2",
+      "name": "Dricus du Plessis",
+      "artikel": "Dricus du Plessis"
+     },
+     {
+      "rang": "3",
+      "name": "Nassourdine Imavov",
+      "artikel": "Nassourdine Imavov"
+     },
+     {
+      "rang": "4",
+      "name": "Brendan Allen",
+      "artikel": "Brendan Allen"
+     },
+     {
+      "rang": "5",
+      "name": "Joe Pyfer",
+      "artikel": "Joe Pyfer"
+     },
+     {
+      "rang": "6",
+      "name": "Caio Borralho",
+      "artikel": "Caio Borralho"
+     },
+     {
+      "rang": "7",
+      "name": "Gregory Rodrigues",
+      "artikel": "Gregory Rodrigues"
+     },
+     {
+      "rang": "8",
+      "name": "Anthony Hernandez",
+      "artikel": "Anthony Hernandez"
+     },
+     {
+      "rang": "9",
+      "name": "Israel Adesanya",
+      "artikel": "Israel Adesanya"
+     },
+     {
+      "rang": "10",
+      "name": "Ikram Aliskerov",
+      "artikel": "Ikram Aliskerov"
+     },
+     {
+      "rang": "11",
+      "name": "Christian Leroy Duncan",
+      "artikel": "Christian Leroy Duncan"
+     },
+     {
+      "rang": "12",
+      "name": "Bo Nickal",
+      "artikel": "Bo Nickal"
+     },
+     {
+      "rang": "13",
+      "name": "Abusupiyan Magomedov",
+      "artikel": "Abusupiyan Magomedov"
+     },
+     {
+      "rang": "14",
+      "name": "Roman Kopylov",
+      "artikel": "Roman Kopylov"
+     },
+     {
+      "rang": "15",
+      "name": "Edmen Shahbazyan",
+      "artikel": "Edmen Shahbazyan"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings",
+    "gespeichert": "2026-10-22"
+   }
+  ],
+  "Welterweight": [
+   {
+    "stand": "2026-10-10",
+    "nach_event": "UFC Fight Night: Allen vs. Duncan",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Islam Makhachev",
+      "artikel": "Islam Makhachev"
+     },
+     {
+      "rang": "1",
+      "name": "Carlos Prates",
+      "artikel": "Carlos Prates"
+     },
+     {
+      "rang": "2",
+      "name": "Ian Machado Garry",
+      "artikel": "Ian Machado Garry"
+     },
+     {
+      "rang": "3",
+      "name": "Michael Morales",
+      "artikel": "Michael Morales (fighter)"
+     },
+     {
+      "rang": "4",
+      "name": "Jack Della Maddalena",
+      "artikel": "Jack Della Maddalena"
+     },
+     {
+      "rang": "5",
+      "name": "Sean Brady",
+      "artikel": "Sean Brady (fighter)"
+     },
+     {
+      "rang": "6",
+      "name": "Gabriel Bonfim",
+      "artikel": "Gabriel Bonfim"
+     },
+     {
+      "rang": "7",
+      "name": "Belal Muhammad",
+      "artikel": "Belal Muhammad"
+     },
+     {
+      "rang": "8",
+      "name": "Joaquin Buckley",
+      "artikel": "Joaquin Buckley"
+     },
+     {
+      "rang": "9",
+      "name": "Uroš Medić",
+      "artikel": "Uroš Medić"
+     },
+     {
+      "rang": "10",
+      "name": "Leon Edwards",
+      "artikel": "Leon Edwards"
+     },
+     {
+      "rang": "11",
+      "name": "Mike Malott",
+      "artikel": "Mike Malott"
+     },
+     {
+      "rang": "12",
+      "name": "Kamaru Usman",
+      "artikel": "Kamaru Usman"
+     },
+     {
+      "rang": "13",
+      "name": "Yaroslav Amosov",
+      "artikel": "Yaroslav Amosov"
+     },
+     {
+      "rang": "14",
+      "name": "Kevin Holland",
+      "artikel": "Kevin Holland"
+     },
+     {
+      "rang": "15",
+      "name": "Daniel Rodriguez",
+      "artikel": "Daniel Rodriguez (fighter)"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-18)"
+   },
+   {
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Islam Makhachev",
+      "artikel": "Islam Makhachev"
+     },
+     {
+      "rang": "1",
+      "name": "Carlos Prates",
+      "artikel": "Carlos Prates"
+     },
+     {
+      "rang": "2",
+      "name": "Ian Machado Garry",
+      "artikel": "Ian Machado Garry"
+     },
+     {
+      "rang": "3",
+      "name": "Michael Morales",
+      "artikel": "Michael Morales (fighter)"
+     },
+     {
+      "rang": "4",
+      "name": "Jack Della Maddalena",
+      "artikel": "Jack Della Maddalena"
+     },
+     {
+      "rang": "5",
+      "name": "Sean Brady",
+      "artikel": "Sean Brady (fighter)"
+     },
+     {
+      "rang": "6",
+      "name": "Gabriel Bonfim",
+      "artikel": "Gabriel Bonfim"
+     },
+     {
+      "rang": "7",
+      "name": "Belal Muhammad",
+      "artikel": "Belal Muhammad"
+     },
+     {
+      "rang": "8",
+      "name": "Mike Malott",
+      "artikel": "Mike Malott"
+     },
+     {
+      "rang": "9",
+      "name": "Uroš Medić",
+      "artikel": "Uroš Medić"
+     },
+     {
+      "rang": "10",
+      "name": "Leon Edwards",
+      "artikel": "Leon Edwards"
+     },
+     {
+      "rang": "11",
+      "name": "Kamaru Usman",
+      "artikel": "Kamaru Usman"
+     },
+     {
+      "rang": "12",
+      "name": "Joaquin Buckley",
+      "artikel": "Joaquin Buckley"
+     },
+     {
+      "rang": "13",
+      "name": "Yaroslav Amosov",
+      "artikel": "Yaroslav Amosov"
+     },
+     {
+      "rang": "14",
+      "name": "Kevin Holland",
+      "artikel": "Kevin Holland"
+     },
+     {
+      "rang": "15",
+      "name": "Daniel Rodriguez",
+      "artikel": "Daniel Rodriguez (fighter)"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings",
+    "gespeichert": "2026-10-22"
+   }
+  ],
+  "Lightweight": [
+   {
+    "stand": "2026-09-26",
+    "nach_event": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Justin Gaethje",
+      "artikel": "Justin Gaethje"
+     },
+     {
+      "rang": "1",
+      "name": "Ilia Topuria",
+      "artikel": "Ilia Topuria"
+     },
+     {
+      "rang": "2",
+      "name": "Arman Tsarukyan",
+      "artikel": "Arman Tsarukyan"
+     },
+     {
+      "rang": "3",
+      "name": "Charles Oliveira",
+      "artikel": "Charles Oliveira"
+     },
+     {
+      "rang": "4",
+      "name": "Max Holloway",
+      "artikel": "Max Holloway"
+     },
+     {
+      "rang": "5",
+      "name": "Paddy Pimblett",
+      "artikel": "Paddy Pimblett"
+     },
+     {
+      "rang": "6",
+      "name": "Quillan Salkilld",
+      "artikel": "Quillan Salkilld"
+     },
+     {
+      "rang": "7",
+      "name": "Benoît Saint Denis",
+      "artikel": "Benoît Saint Denis"
+     },
+     {
+      "rang": "8",
+      "name": "Renato Moicano",
+      "artikel": "Renato Moicano"
+     },
+     {
+      "rang": "9",
+      "name": "Mateusz Gamrot",
+      "artikel": "Mateusz Gamrot"
+     },
+     {
+      "rang": "10",
+      "name": "Maurício Ruffy",
+      "artikel": "Maurício Ruffy"
+     },
+     {
+      "rang": "11",
+      "name": "Tom Nolan",
+      "artikel": "Tom Nolan (fighter)"
+     },
+     {
+      "rang": "12",
+      "name": "Rafael Fiziev",
+      "artikel": "Rafael Fiziev"
+     },
+     {
+      "rang": "13",
+      "name": "Tofiq Musayev",
+      "artikel": "Tofiq Musayev"
+     },
+     {
+      "rang": "14",
+      "name": "Grant Dawson",
+      "artikel": "Grant Dawson"
+     },
+     {
+      "rang": "15",
+      "name": "Jalin Turner",
+      "artikel": "Jalin Turner"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-05)"
+   },
+   {
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Justin Gaethje",
+      "artikel": "Justin Gaethje"
+     },
+     {
+      "rang": "1",
+      "name": "Ilia Topuria",
+      "artikel": "Ilia Topuria"
+     },
+     {
+      "rang": "2",
+      "name": "Arman Tsarukyan",
+      "artikel": "Arman Tsarukyan"
+     },
+     {
+      "rang": "3",
+      "name": "Charles Oliveira",
+      "artikel": "Charles Oliveira"
+     },
+     {
+      "rang": "4",
+      "name": "Max Holloway",
+      "artikel": "Max Holloway"
+     },
+     {
+      "rang": "5",
+      "name": "Paddy Pimblett",
+      "artikel": "Paddy Pimblett"
+     },
+     {
+      "rang": "6",
+      "name": "Quillan Salkilld",
+      "artikel": "Quillan Salkilld"
+     },
+     {
+      "rang": "7",
+      "name": "Benoît Saint Denis",
+      "artikel": "Benoît Saint Denis"
+     },
+     {
+      "rang": "8",
+      "name": "Renato Moicano",
+      "artikel": "Renato Moicano"
+     },
+     {
+      "rang": "9",
+      "name": "Mateusz Gamrot",
+      "artikel": "Mateusz Gamrot"
+     },
+     {
+      "rang": "10",
+      "name": "Maurício Ruffy",
+      "artikel": "Maurício Ruffy"
+     },
+     {
+      "rang": "11",
+      "name": "Tom Nolan",
+      "artikel": "Tom Nolan (fighter)"
+     },
+     {
+      "rang": "12",
+      "name": "Rafael Fiziev",
+      "artikel": "Rafael Fiziev"
+     },
+     {
+      "rang": "13",
+      "name": "Tofiq Musayev",
+      "artikel": "Tofiq Musayev"
+     },
+     {
+      "rang": "14",
+      "name": "Grant Dawson",
+      "artikel": "Grant Dawson"
+     },
+     {
+      "rang": "15",
+      "name": "Esteban Ribovics",
+      "artikel": "Esteban Ribovics"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings",
+    "gespeichert": "2026-10-22"
+   }
+  ],
+  "Featherweight": [
+   {
+    "stand": "2026-09-12",
+    "nach_event": "UFC Fight Night: Silva vs. Delgado",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Alexander Volkanovski",
+      "artikel": "Alexander Volkanovski"
+     },
+     {
+      "rang": "1",
+      "name": "Movsar Evloev",
+      "artikel": "Movsar Evloev"
+     },
+     {
+      "rang": "2",
+      "name": "Diego Lopes",
+      "artikel": "Diego Lopes (fighter)"
+     },
+     {
+      "rang": "3",
+      "name": "Lerone Murphy",
+      "artikel": "Lerone Murphy"
+     },
+     {
+      "rang": "4",
+      "name": "Aljamain Sterling",
+      "artikel": "Aljamain Sterling"
+     },
+     {
+      "rang": "5",
+      "name": "Jean Silva",
+      "artikel": "Jean Silva"
+     },
+     {
+      "rang": "6",
+      "name": "Arnold Allen",
+      "artikel": "Arnold Allen"
+     },
+     {
+      "rang": "7",
+      "name": "Pat Sabatini",
+      "artikel": "Pat Sabatini"
+     },
+     {
+      "rang": "8",
+      "name": "Pavel Andrusca",
+      "artikel": null
+     },
+     {
+      "rang": "9",
+      "name": "Youssef Zalal",
+      "artikel": "Youssef Zalal"
+     },
+     {
+      "rang": "10",
+      "name": "Kevin Vallejos",
+      "artikel": "Kevin Vallejos"
+     },
+     {
+      "rang": "11",
+      "name": "Melquizael Costa",
+      "artikel": "Melquizael Costa"
+     },
+     {
+      "rang": "12",
+      "name": "Steve Garcia",
+      "artikel": "Steve Garcia"
+     },
+     {
+      "rang": "13",
+      "name": "Aaron Pico",
+      "artikel": "Aaron Pico"
+     },
+     {
+      "rang": "14",
+      "name": "Jamall Emmers",
+      "artikel": "Jamall Emmers"
+     },
+     {
+      "rang": "15",
+      "name": "Joanderson Brito",
+      "artikel": "Joanderson Brito"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings (Version vom 2026-09-21)"
+   },
+   {
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Alexander Volkanovski",
+      "artikel": "Alexander Volkanovski"
+     },
+     {
+      "rang": "1",
+      "name": "Movsar Evloev",
+      "artikel": "Movsar Evloev"
+     },
+     {
+      "rang": "2",
+      "name": "Diego Lopes",
+      "artikel": "Diego Lopes (fighter)"
+     },
+     {
+      "rang": "3",
+      "name": "Lerone Murphy",
+      "artikel": "Lerone Murphy"
+     },
+     {
+      "rang": "4",
+      "name": "Aljamain Sterling",
+      "artikel": "Aljamain Sterling"
+     },
+     {
+      "rang": "5",
+      "name": "Jean Silva",
+      "artikel": "Jean Silva"
+     },
+     {
+      "rang": "6",
+      "name": "Arnold Allen",
+      "artikel": "Arnold Allen"
+     },
+     {
+      "rang": "7",
+      "name": "Pat Sabatini",
+      "artikel": "Pat Sabatini"
+     },
+     {
+      "rang": "8",
+      "name": "Pavel Andrusca",
+      "artikel": null
+     },
+     {
+      "rang": "9",
+      "name": "Youssef Zalal",
+      "artikel": "Youssef Zalal"
+     },
+     {
+      "rang": "10",
+      "name": "Kevin Vallejos",
+      "artikel": "Kevin Vallejos"
+     },
+     {
+      "rang": "11",
+      "name": "Joanderson Brito",
+      "artikel": "Joanderson Brito"
+     },
+     {
+      "rang": "12",
+      "name": "Melquizael Costa",
+      "artikel": "Melquizael Costa"
+     },
+     {
+      "rang": "13",
+      "name": "Steve Garcia",
+      "artikel": "Steve Garcia"
+     },
+     {
+      "rang": "14",
+      "name": "Aaron Pico",
+      "artikel": "Aaron Pico"
+     },
+     {
+      "rang": "15",
+      "name": "Jamall Emmers",
+      "artikel": "Jamall Emmers"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings",
+    "gespeichert": "2026-10-22"
+   }
+  ],
+  "Bantamweight": [
+   {
+    "stand": "2026-10-10",
+    "nach_event": "UFC Fight Night: Allen vs. Duncan",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Petr Yan",
+      "artikel": "Petr Yan"
+     },
+     {
+      "rang": "1",
+      "name": "Merab Dvalishvili",
+      "artikel": "Merab Dvalishvili"
+     },
+     {
+      "rang": "2",
+      "name": "Song Yadong",
+      "artikel": "Song Yadong"
+     },
+     {
+      "rang": "3",
+      "name": "Sean O'Malley",
+      "artikel": "Sean O'Malley (fighter)"
+     },
+     {
+      "rang": "4",
+      "name": "Mario Bautista",
+      "artikel": "Mario Bautista"
+     },
+     {
+      "rang": "5",
+      "name": "Umar Nurmagomedov",
+      "artikel": "Umar Nurmagomedov"
+     },
+     {
+      "rang": "6",
+      "name": "Cory Sandhagen",
+      "artikel": "Cory Sandhagen"
+     },
+     {
+      "rang": "7",
+      "name": "David Martínez",
+      "artikel": "David Martínez (fighter)"
+     },
+     {
+      "rang": "8",
+      "name": "Raul Rosas Jr.",
+      "artikel": "Raul Rosas Jr."
+     },
+     {
+      "rang": "9",
+      "name": "Farid Basharat",
+      "artikel": "Farid Basharat"
+     },
+     {
+      "rang": "10",
+      "name": "Marcus McGhee",
+      "artikel": "Marcus McGhee"
+     },
+     {
+      "rang": "11",
+      "name": "Payton Talbott",
+      "artikel": "Payton Talbott"
+     },
+     {
+      "rang": "12",
+      "name": "Montel Jackson",
+      "artikel": "Montel Jackson"
+     },
+     {
+      "rang": "13",
+      "name": "Aiemann Zahabi",
+      "artikel": "Aiemann Zahabi"
+     },
+     {
+      "rang": "14",
+      "name": "Bryce Mitchell",
+      "artikel": "Bryce Mitchell"
+     },
+     {
+      "rang": "15",
+      "name": "Marlon Vera",
+      "artikel": "Marlon Vera"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-18)"
+   },
+   {
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Allen vs. Duncan",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Petr Yan",
+      "artikel": "Petr Yan"
+     },
+     {
+      "rang": "1",
+      "name": "Merab Dvalishvili",
+      "artikel": "Merab Dvalishvili"
+     },
+     {
+      "rang": "2",
+      "name": "Song Yadong",
+      "artikel": "Song Yadong"
+     },
+     {
+      "rang": "3",
+      "name": "Sean O'Malley",
+      "artikel": "Sean O'Malley (fighter)"
+     },
+     {
+      "rang": "4",
+      "name": "Mario Bautista",
+      "artikel": "Mario Bautista"
+     },
+     {
+      "rang": "5",
+      "name": "Umar Nurmagomedov",
+      "artikel": "Umar Nurmagomedov"
+     },
+     {
+      "rang": "6",
+      "name": "Cory Sandhagen",
+      "artikel": "Cory Sandhagen"
+     },
+     {
+      "rang": "7",
+      "name": "David Martínez",
+      "artikel": "David Martínez (fighter)"
+     },
+     {
+      "rang": "8",
+      "name": "Raul Rosas Jr.",
+      "artikel": "Raul Rosas Jr."
+     },
+     {
+      "rang": "9",
+      "name": "Marcus McGhee",
+      "artikel": "Marcus McGhee"
+     },
+     {
+      "rang": "10",
+      "name": "Payton Talbott",
+      "artikel": "Payton Talbott"
+     },
+     {
+      "rang": "11",
+      "name": "Montel Jackson",
+      "artikel": "Montel Jackson"
+     },
+     {
+      "rang": "12",
+      "name": "Aiemann Zahabi",
+      "artikel": "Aiemann Zahabi"
+     },
+     {
+      "rang": "13",
+      "name": "Bryce Mitchell",
+      "artikel": "Bryce Mitchell"
+     },
+     {
+      "rang": "14",
+      "name": "Marlon Vera",
+      "artikel": "Marlon Vera"
+     },
+     {
+      "rang": "15",
+      "name": "Raoni Barcelos",
+      "artikel": "Raoni Barcelos"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings",
+    "gespeichert": "2026-10-22"
+   }
+  ],
+  "Flyweight": [
+   {
+    "stand": "2026-10-10",
+    "nach_event": "UFC Fight Night: Allen vs. Duncan",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Joshua Van",
+      "artikel": "Joshua Van"
+     },
+     {
+      "rang": "1",
+      "name": "Manel Kape",
+      "artikel": "Manel Kape"
+     },
+     {
+      "rang": "2",
+      "name": "Alexandre Pantoja",
+      "artikel": "Alexandre Pantoja"
+     },
+     {
+      "rang": "3",
+      "name": "Brandon Royval",
+      "artikel": "Brandon Royval"
+     },
+     {
+      "rang": "4",
+      "name": "Tatsuro Taira",
+      "artikel": "Tatsuro Taira"
+     },
+     {
+      "rang": "5",
+      "name": "Asu Almabayev",
+      "artikel": "Asu Almabayev"
+     },
+     {
+      "rang": "6",
+      "name": "Lone'er Kavanagh",
+      "artikel": "Lone'er Kavanagh"
+     },
+     {
+      "rang": "7",
+      "name": "Ramazan Temirov",
+      "artikel": null
+     },
+     {
+      "rang": "8",
+      "name": "Kyoji Horiguchi",
+      "artikel": "Kyoji Horiguchi"
+     },
+     {
+      "rang": "9",
+      "name": "Amir Albazi",
+      "artikel": "Amir Albazi"
+     },
+     {
+      "rang": "10",
+      "name": "Brandon Moreno",
+      "artikel": "Brandon Moreno"
+     },
+     {
+      "rang": "11",
+      "name": "Su Mudaerji",
+      "artikel": "Su Mudaerji"
+     },
+     {
+      "rang": "12",
+      "name": "Mitch Raposo",
+      "artikel": null
+     },
+     {
+      "rang": "13",
+      "name": "Imanol Rodríguez",
+      "artikel": "Imanol Rodríguez"
+     },
+     {
+      "rang": "14",
+      "name": "Rei Tsuruya",
+      "artikel": null
+     },
+     {
+      "rang": "15",
+      "name": "Charles Johnson",
+      "artikel": "Charles Johnson (fighter)"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-13)"
+   },
+   {
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Joshua Van",
+      "artikel": "Joshua Van"
+     },
+     {
+      "rang": "1",
+      "name": "Manel Kape",
+      "artikel": "Manel Kape"
+     },
+     {
+      "rang": "2",
+      "name": "Alexandre Pantoja",
+      "artikel": "Alexandre Pantoja"
+     },
+     {
+      "rang": "3",
+      "name": "Brandon Royval",
+      "artikel": "Brandon Royval"
+     },
+     {
+      "rang": "4",
+      "name": "Tatsuro Taira",
+      "artikel": "Tatsuro Taira"
+     },
+     {
+      "rang": "5",
+      "name": "Asu Almabayev",
+      "artikel": "Asu Almabayev"
+     },
+     {
+      "rang": "6",
+      "name": "Lone'er Kavanagh",
+      "artikel": "Lone'er Kavanagh"
+     },
+     {
+      "rang": "7",
+      "name": "Ramazan Temirov",
+      "artikel": "Ramazan Temirov"
+     },
+     {
+      "rang": "8",
+      "name": "Kyoji Horiguchi",
+      "artikel": "Kyoji Horiguchi"
+     },
+     {
+      "rang": "9",
+      "name": "Amir Albazi",
+      "artikel": "Amir Albazi"
+     },
+     {
+      "rang": "10",
+      "name": "Brandon Moreno",
+      "artikel": "Brandon Moreno"
+     },
+     {
+      "rang": "11",
+      "name": "Su Mudaerji",
+      "artikel": "Su Mudaerji"
+     },
+     {
+      "rang": "12",
+      "name": "Mitch Raposo",
+      "artikel": null
+     },
+     {
+      "rang": "13",
+      "name": "Imanol Rodríguez",
+      "artikel": "Imanol Rodríguez"
+     },
+     {
+      "rang": "14",
+      "name": "Rei Tsuruya",
+      "artikel": null
+     },
+     {
+      "rang": "15",
+      "name": "Charles Johnson",
+      "artikel": "Charles Johnson (fighter)"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings",
+    "gespeichert": "2026-10-22"
+   }
+  ],
+  "Women's Bantamweight": [
+   {
+    "stand": "2026-10-10",
+    "nach_event": "UFC Fight Night: Allen vs. Duncan",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Kayla Harrison",
+      "artikel": "Kayla Harrison"
+     },
+     {
+      "rang": "1",
+      "name": "Joselyne Edwards",
+      "artikel": "Joselyne Edwards"
+     },
+     {
+      "rang": "2",
+      "name": "Ailín Pérez",
+      "artikel": "Ailín Pérez"
+     },
+     {
+      "rang": "3",
+      "name": "Norma Dumont",
+      "artikel": "Norma Dumont"
+     },
+     {
+      "rang": "4",
+      "name": "Luana Santos",
+      "artikel": "Luana Santos"
+     },
+     {
+      "rang": "5",
+      "name": "Julianna Peña",
+      "artikel": "Julianna Peña"
+     },
+     {
+      "rang": "6",
+      "name": "Yana Santos",
+      "artikel": "Yana Santos"
+     },
+     {
+      "rang": "7",
+      "name": "Jacqueline Cavalcanti",
+      "artikel": "Jacqueline Cavalcanti"
+     },
+     {
+      "rang": "8",
+      "name": "Michelle Montague",
+      "artikel": null
+     },
+     {
+      "rang": "9",
+      "name": "Melissa Croden",
+      "artikel": null
+     },
+     {
+      "rang": "10",
+      "name": "Karol Rosa",
+      "artikel": "Karol Rosa"
+     },
+     {
+      "rang": "11",
+      "name": "Beatriz Mesquita",
+      "artikel": "Beatriz Mesquita"
+     },
+     {
+      "rang": "12",
+      "name": "Alice Pereira",
+      "artikel": null
+     },
+     {
+      "rang": "13",
+      "name": "Nora Cornolle",
+      "artikel": "Nora Cornolle"
+     },
+     {
+      "rang": "14",
+      "name": "Macy Chiasson",
+      "artikel": "Macy Chiasson"
+     },
+     {
+      "rang": "15",
+      "name": "Chelsea Chandler",
+      "artikel": "Chelsea Chandler"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-18)"
+   },
+   {
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Kayla Harrison",
+      "artikel": "Kayla Harrison"
+     },
+     {
+      "rang": "1",
+      "name": "Joselyne Edwards",
+      "artikel": "Joselyne Edwards"
+     },
+     {
+      "rang": "2",
+      "name": "Ailín Pérez",
+      "artikel": "Ailín Pérez"
+     },
+     {
+      "rang": "3",
+      "name": "Norma Dumont",
+      "artikel": "Norma Dumont"
+     },
+     {
+      "rang": "4",
+      "name": "Luana Santos",
+      "artikel": "Luana Santos"
+     },
+     {
+      "rang": "5",
+      "name": "Julianna Peña",
+      "artikel": "Julianna Peña"
+     },
+     {
+      "rang": "6",
+      "name": "Yana Santos",
+      "artikel": "Yana Santos"
+     },
+     {
+      "rang": "7",
+      "name": "Jacqueline Cavalcanti",
+      "artikel": "Jacqueline Cavalcanti"
+     },
+     {
+      "rang": "8",
+      "name": "Michelle Montague",
+      "artikel": null
+     },
+     {
+      "rang": "9",
+      "name": "Chelsea Chandler",
+      "artikel": "Chelsea Chandler"
+     },
+     {
+      "rang": "10",
+      "name": "Karol Rosa",
+      "artikel": "Karol Rosa"
+     },
+     {
+      "rang": "11",
+      "name": "Beatriz Mesquita",
+      "artikel": "Beatriz Mesquita"
+     },
+     {
+      "rang": "12",
+      "name": "Alice Pereira",
+      "artikel": null
+     },
+     {
+      "rang": "13",
+      "name": "Nora Cornolle",
+      "artikel": "Nora Cornolle"
+     },
+     {
+      "rang": "14",
+      "name": "Macy Chiasson",
+      "artikel": "Macy Chiasson"
+     },
+     {
+      "rang": "15",
+      "name": "Melissa Croden",
+      "artikel": null
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings",
+    "gespeichert": "2026-10-22"
+   }
+  ],
+  "Women's Flyweight": [
+   {
+    "stand": "2026-10-10",
+    "nach_event": "UFC Fight Night: Allen vs. Duncan",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Natália Silva",
+      "artikel": "Natália Silva (fighter)"
+     },
+     {
+      "rang": "1",
+      "name": "Valentina Shevchenko",
+      "artikel": "Valentina Shevchenko"
+     },
+     {
+      "rang": "2",
+      "name": "Alexa Grasso",
+      "artikel": "Alexa Grasso"
+     },
+     {
+      "rang": "3",
+      "name": "Erin Blanchfield",
+      "artikel": "Erin Blanchfield"
+     },
+     {
+      "rang": "4",
+      "name": "Manon Fiorot",
+      "artikel": "Manon Fiorot"
+     },
+     {
+      "rang": "5",
+      "name": "Zhang Weili",
+      "artikel": "Zhang Weili"
+     },
+     {
+      "rang": "6",
+      "name": "Jasmine Jasudavicius",
+      "artikel": "Jasmine Jasudavicius"
+     },
+     {
+      "rang": "7",
+      "name": "Rose Namajunas",
+      "artikel": "Rose Namajunas"
+     },
+     {
+      "rang": "8",
+      "name": "Wang Cong",
+      "artikel": "Wang Cong"
+     },
+     {
+      "rang": "9",
+      "name": "Maycee Barber",
+      "artikel": "Maycee Barber"
+     },
+     {
+      "rang": "10",
+      "name": "Tracy Cortez",
+      "artikel": "Tracy Cortez"
+     },
+     {
+      "rang": "11",
+      "name": "Casey O'Neill",
+      "artikel": "Casey O'Neill"
+     },
+     {
+      "rang": "12",
+      "name": "Miranda Maverick",
+      "artikel": "Miranda Maverick"
+     },
+     {
+      "rang": "13",
+      "name": "Regina Tarín",
+      "artikel": "Regina Tarín"
+     },
+     {
+      "rang": "14",
+      "name": "Karine Silva",
+      "artikel": "Karine Silva"
+     },
+     {
+      "rang": "15",
+      "name": "Carli Judice",
+      "artikel": null
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-18)"
+   },
+   {
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Natália Silva",
+      "artikel": "Natália Silva (fighter)"
+     },
+     {
+      "rang": "1",
+      "name": "Valentina Shevchenko",
+      "artikel": "Valentina Shevchenko"
+     },
+     {
+      "rang": "2",
+      "name": "Alexa Grasso",
+      "artikel": "Alexa Grasso"
+     },
+     {
+      "rang": "3",
+      "name": "Jasmine Jasudavicius",
+      "artikel": "Jasmine Jasudavicius"
+     },
+     {
+      "rang": "4",
+      "name": "Manon Fiorot",
+      "artikel": "Manon Fiorot"
+     },
+     {
+      "rang": "5",
+      "name": "Erin Blanchfield",
+      "artikel": "Erin Blanchfield"
+     },
+     {
+      "rang": "6",
+      "name": "Zhang Weili",
+      "artikel": "Zhang Weili"
+     },
+     {
+      "rang": "7",
+      "name": "Rose Namajunas",
+      "artikel": "Rose Namajunas"
+     },
+     {
+      "rang": "8",
+      "name": "Wang Cong",
+      "artikel": "Wang Cong"
+     },
+     {
+      "rang": "9",
+      "name": "Maycee Barber",
+      "artikel": "Maycee Barber"
+     },
+     {
+      "rang": "10",
+      "name": "Tracy Cortez",
+      "artikel": "Tracy Cortez"
+     },
+     {
+      "rang": "11",
+      "name": "Casey O'Neill",
+      "artikel": "Casey O'Neill"
+     },
+     {
+      "rang": "12",
+      "name": "Miranda Maverick",
+      "artikel": "Miranda Maverick"
+     },
+     {
+      "rang": "13",
+      "name": "Regina Tarín",
+      "artikel": null
+     },
+     {
+      "rang": "14",
+      "name": "Karine Silva",
+      "artikel": "Karine Silva"
+     },
+     {
+      "rang": "15",
+      "name": "Carli Judice",
+      "artikel": null
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings",
+    "gespeichert": "2026-10-22"
+   }
+  ],
+  "Women's Strawweight": [
+   {
+    "stand": "2026-10-10",
+    "nach_event": "UFC Fight Night: Allen vs. Duncan",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Mackenzie Dern",
+      "artikel": "Mackenzie Dern"
+     },
+     {
+      "rang": "1",
+      "name": "Zhang Weili",
+      "artikel": "Zhang Weili"
+     },
+     {
+      "rang": "2",
+      "name": "Virna Jandiroba",
+      "artikel": "Virna Jandiroba"
+     },
+     {
+      "rang": "3",
+      "name": "Tatiana Suarez",
+      "artikel": "Tatiana Suarez"
+     },
+     {
+      "rang": "4",
+      "name": "Denise Gomes",
+      "artikel": "Denise Gomes"
+     },
+     {
+      "rang": "5",
+      "name": "Gillian Robertson",
+      "artikel": "Gillian Robertson"
+     },
+     {
+      "rang": "6",
+      "name": "Fatima Kline",
+      "artikel": "Fatima Kline"
+     },
+     {
+      "rang": "7",
+      "name": "Alexia Thainara",
+      "artikel": null
+     },
+     {
+      "rang": "8",
+      "name": "Loopy Godínez",
+      "artikel": "Loopy Godínez"
+     },
+     {
+      "rang": "9",
+      "name": "Piera Rodriguez",
+      "artikel": null
+     },
+     {
+      "rang": "10",
+      "name": "Yan Xiaonan",
+      "artikel": "Yan Xiaonan"
+     },
+     {
+      "rang": "11",
+      "name": "Mizuki Inoue",
+      "artikel": "Mizuki Inoue"
+     },
+     {
+      "rang": "12",
+      "name": "Tabatha Ricci",
+      "artikel": "Tabatha Ricci"
+     },
+     {
+      "rang": "13",
+      "name": "Jaqueline Amorim",
+      "artikel": null
+     },
+     {
+      "rang": "14",
+      "name": "Talita Alencar",
+      "artikel": "Talita Alencar"
+     },
+     {
+      "rang": "15",
+      "name": "Amanda Lemos",
+      "artikel": "Amanda Lemos"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-18)"
+   },
+   {
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Mackenzie Dern",
+      "artikel": "Mackenzie Dern"
+     },
+     {
+      "rang": "1",
+      "name": "Zhang Weili",
+      "artikel": "Zhang Weili"
+     },
+     {
+      "rang": "2",
+      "name": "Virna Jandiroba",
+      "artikel": "Virna Jandiroba"
+     },
+     {
+      "rang": "3",
+      "name": "Tatiana Suarez",
+      "artikel": "Tatiana Suarez"
+     },
+     {
+      "rang": "4",
+      "name": "Denise Gomes",
+      "artikel": "Denise Gomes"
+     },
+     {
+      "rang": "5",
+      "name": "Gillian Robertson",
+      "artikel": "Gillian Robertson"
+     },
+     {
+      "rang": "6",
+      "name": "Fatima Kline",
+      "artikel": "Fatima Kline"
+     },
+     {
+      "rang": "7",
+      "name": "Alexia Thainara",
+      "artikel": null
+     },
+     {
+      "rang": "8",
+      "name": "Loopy Godínez",
+      "artikel": "Loopy Godínez"
+     },
+     {
+      "rang": "9",
+      "name": "Piera Rodriguez",
+      "artikel": null
+     },
+     {
+      "rang": "10",
+      "name": "Yan Xiaonan",
+      "artikel": "Yan Xiaonan"
+     },
+     {
+      "rang": "11",
+      "name": "Mizuki Inoue",
+      "artikel": "Mizuki Inoue"
+     },
+     {
+      "rang": "12",
+      "name": "Tabatha Ricci",
+      "artikel": "Tabatha Ricci"
+     },
+     {
+      "rang": "13",
+      "name": "Talita Alencar",
+      "artikel": "Talita Alencar"
+     },
+     {
+      "rang": "14",
+      "name": "Amanda Lemos",
+      "artikel": "Amanda Lemos"
+     },
+     {
+      "rang": "15",
+      "name": "Sam Hughes",
+      "artikel": "Sam Hughes (fighter)"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings",
+    "gespeichert": "2026-10-22"
+   }
+  ]
+ },
+ "versionsgeschichte_geprueft": "2026-10-22"
+}

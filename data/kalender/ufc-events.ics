@@ -1,0 +1,176 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UFC-Kader//Wikipedia//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UFC-Events
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ufc-333@ufc-kader
+DTSTAMP:20261022T042136Z
+SUMMARY:UFC 333: Volkanovski vs. Evloev
+LOCATION:Etihad Arena\, Abu Dhabi\, United Arab Emirates
+DESCRIPTION:Kämpfe:\nAlexander Volkanovski vs. Movsar Evloev (Featherweigh
+ t\, Titelkampf)\nPetr Yan vs. Merab Dvalishvili (Bantamweight\, Titelkampf
+ )\nLone'er Kavanagh vs. Ramazan Temirov (Flyweight)\nAlexander Volkov vs. 
+ Rizvan Kuniev (Heavyweight)\nAaron Pico vs. Losene Keita (Featherweight)\n
+ Azamat Murzakanov vs. Dominick Reyes (Light Heavyweight)\nNikita Krylov vs
+ . Abdul-Rakhman Yakhyaev (Light Heavyweight)\nAbusupiyan Magomedov vs. Cam
+ eron Rowston (Middleweight)\nGrant Dawson vs. Nurullo Aliev (Lightweight)\
+ nColby Thicknesse vs. Asaf Chopurov (Bantamweight)\nAbubakar Vagaev vs. Ja
+ cob Malkoun (Middleweight)\nBolaji Oki vs. Daniel Santos (Featherweight)\n
+ Kody Steele vs. Noah Gugnon (Lightweight)\nIasmin Lucindo vs. Nicole Calia
+ ri (Women's Strawweight)\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedia
+ .org/wiki/UFC_333
+URL:https://en.wikipedia.org/wiki/UFC_333
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-fight-night-moicano-vs-nolan@ufc-kader
+DTSTAMP:20261022T042136Z
+SUMMARY:UFC Fight Night: Moicano vs. Nolan
+LOCATION:Meta Apex\, Las Vegas\, Nevada\, U.S.
+DESCRIPTION:Kämpfe:\nRenato Moicano vs. Tom Nolan (Lightweight)\nYana Sant
+ os vs. Luana Santos (Women's Bantamweight)\nJean-Paul Lebosnoyani vs. Farm
+ an Hasanov (Welterweight)\nAzamat Bekoev vs. Andre Petroski (Middleweight)
+ \nRodrigo Sezinando vs. Theodor Berggren (Welterweight)\nJulian Erosa vs. 
+ Lee Jeong-yeong (Featherweight)\nNick Klein vs. Joseph Kropschot (Middlewe
+ ight)\nTalita Alencar vs. Piera Rodriguez (Women's Strawweight)\nLucia Sza
+ bová vs. Tainara Lisboa (Women's Bantamweight)\n\nUhrzeit folgt.\n\nQuell
+ e: https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Moicano_vs._Nolan
+URL:https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Moicano_vs._Nolan
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-fight-night-bonfim-vs-brady@ufc-kader
+DTSTAMP:20261022T042136Z
+SUMMARY:UFC Fight Night: Bonfim vs. Brady
+LOCATION:Meta Apex\, Las Vegas\, Nevada\, U.S.
+DESCRIPTION:Kämpfe:\nGabriel Bonfim vs. Sean Brady (Welterweight)\nTatiana
+  Suarez vs. Virna Jandiroba (Women's Strawweight)\nDavey Grant vs. Elijah 
+ Smith (Bantamweight)\nKo Seok-hyeon vs. Wellington Turman (Welterweight)\n
+ Billy Elekana vs. Lucas Fernando (Light Heavyweight)\nMantas Kondrataviči
+ us vs. Wesley Schultz (Middleweight)\nKarine Silva vs. Gabriella Fernandes
+  (Women's Flyweight)\nJosé Mauro Delano vs. Murtazali Magomedov (Featherw
+ eight)\nKeiichiro Nakamura vs. Ollie Schmid (Featherweight)\nAustin Bashi 
+ vs. Lucas Brennan (Featherweight)\nPriscila Cachoeira vs. Nina Nikolija Mi
+ lošević (Women's Bantamweight)\nJonny Parsons vs. José Henrique Souza (
+ Welterweight)\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedia.org/wiki/U
+ FC_Fight_Night%3A_Bonfim_vs._Brady
+URL:https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Bonfim_vs._Brady
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-334@ufc-kader
+DTSTAMP:20261022T042136Z
+SUMMARY:UFC 334: Gane vs. Hokit
+LOCATION:Madison Square Garden\, New York City\, New York\, U.S.
+DESCRIPTION:Kämpfe:\nCiryl Gane vs. Josh Hokit (Heavyweight\, Titelkampf)\
+ nKayla Harrison vs. Amanda Nunes (Women's Bantamweight\, Titelkampf)\nCaio
+  Borralho vs. Yousri Belgaroui (Middleweight)\nUroš Medić vs. Kevin Holl
+ and (Welterweight)\nBilal Hasan vs. Luis Gurule (Flyweight)\nStephen Thomp
+ son vs. Charles Radtke (Welterweight)\nDrew Dober vs. Chris Duncan (Lightw
+ eight)\nJim Miller vs. Terrance McKinney (Lightweight)\nMacy Chiasson vs. 
+ Beatriz Mesquita (Women's Bantamweight)\n\nUhrzeit folgt.\n\nQuelle: https
+ ://en.wikipedia.org/wiki/UFC_334
+URL:https://en.wikipedia.org/wiki/UFC_334
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-fight-night-prochazka-vs-stirling@ufc-kader
+DTSTAMP:20261022T042136Z
+SUMMARY:UFC Fight Night: Procházka vs. Stirling
+LOCATION:Ali Bin Hamad al-Attiyah Arena\, Al Rayyan\, Qatar
+DESCRIPTION:Kämpfe:\nJiří Procházka vs. Navajo Stirling (Light Heavywei
+ ght)\nAljamain Sterling vs. Kevin Vallejos (Featherweight)\nDan Hooker vs.
+  Brian Ortega (Lightweight)\nJared Cannonier vs. Ikram Aliskerov (Middlewe
+ ight)\nShamil Gaziev vs. Tallison Teixeira (Heavyweight)\nJake Matthews vs
+ . Tahir Abdullayev (Welterweight)\nAleksandre Topuria vs. Santiago Luna (B
+ antamweight)\nAsu Almabayev vs. Kyoji Horiguchi (Flyweight)\nAmir Albazi v
+ s. Alessandro Costa (Flyweight)\n\nUhrzeit folgt.\n\nQuelle: https://en.wi
+ kipedia.org/wiki/UFC_Fight_Night%3A_Proch%C3%A1zka_vs._Stirling
+URL:https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Proch%C3%A1zka_vs._Sti
+ rling
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-fight-night-295@ufc-kader
+DTSTAMP:20261022T042136Z
+SUMMARY:UFC Fight Night 295
+LOCATION:Riyadh\, Saudi Arabia
+DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
+ a.org/wiki/UFC_Fight_Night_295
+URL:https://en.wikipedia.org/wiki/UFC_Fight_Night_295
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-335@ufc-kader
+DTSTAMP:20261022T042136Z
+SUMMARY:UFC 335: Oliveira vs. Lopes
+LOCATION:T-Mobile Arena\, Las Vegas\, Nevada\, U.S.
+DESCRIPTION:Kämpfe:\nCharles Oliveira vs. Diego Lopes (Lightweight\, Titel
+ kampf)\nSergei Pavlovich vs. Alex Pereira (Heavyweight)\nBrandon Moreno vs
+ . Charles Johnson (Flyweight)\nMaycee Barber vs. Carli Judice (Women's Fly
+ weight)\nQuentin Pasley vs. Junior Tafa (Light Heavyweight)\n\nUhrzeit fol
+ gt.\n\nQuelle: https://en.wikipedia.org/wiki/UFC_335
+URL:https://en.wikipedia.org/wiki/UFC_335
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-336@ufc-kader
+DTSTAMP:20261022T042136Z
+SUMMARY:UFC 336
+LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canada
+DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
+ a.org/wiki/UFC_336
+URL:https://en.wikipedia.org/wiki/UFC_336
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-fight-night-296@ufc-kader
+DTSTAMP:20261022T042136Z
+SUMMARY:UFC Fight Night 296
+LOCATION:Afterpay Arena\, Sydney\, Australia
+DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
+ a.org/wiki/UFC_Fight_Night_296
+URL:https://en.wikipedia.org/wiki/UFC_Fight_Night_296
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -781,27 +781,25 @@ def lies_jahrestabelle(wikitext, ueberschrift, jahr, art):
             else:
                 e["grund"] = grund_deutsch(z[5][0])
                 e["grund_original"] = klartext(z[5][0]) or None
+                e["kategorie"] = grund_kategorie(e["grund"])
             eintraege.append(e)
     return eintraege
 
 
-def lies_neuverpflichtungen(wikitext):
-    """'Recent signings' aus der Kaderliste: unter Vertrag, aber noch ohne UFC-Kampf."""
-    eintraege = []
-    for t in tabellen_im_abschnitt(wikitext, "Recent signings")[:1]:
-        for z in tabelle(t):
-            if len(z) < 6 or all(k for _, k in z):
-                continue
-            name, artikel = person(z[2][0])
-            if not name:
-                continue
-            _letzter, naechster, status = kampf_zelle(z[5][0])
-            eintraege.append({"datum": datum_englisch(z[0][0]), "land_iso": flagge(z[1][0]),
-                              "name": name, "artikel": artikel,
-                              "gewichtsklasse": klasse_englisch(z[4][0]),
-                              "naechster_kampf": naechster, "status": status,
-                              "bilanz": bilanz_normal(z[7][0]) if len(z) > 7 else None})
-    return eintraege
+# feste Kategorien für das Abgänge-Diagramm (Reihenfolge = Farbreihenfolge auf der Seite)
+KATEGORIEN = ["Entlassen", "Karriereende", "Wechsel zu anderer Liga", "Vertrag ausgelaufen",
+              "Sonstiges", "Grund unbekannt"]
+
+
+def grund_kategorie(grund):
+    """Ordnet den (übersetzten) Grund einer festen Kategorie zu. Ohne Grund: 'Grund unbekannt'."""
+    if not grund:
+        return "Grund unbekannt"
+    if grund in ("Entlassen", "Karriereende", "Vertrag ausgelaufen"):
+        return grund
+    if grund.startswith(("Wechsel zu ", "Zurück zu ")):
+        return "Wechsel zu anderer Liga"
+    return "Sonstiges"
 
 
 # ---------------------------------------------------------------- Kalender
@@ -867,6 +865,9 @@ def lies_kalender(events_liste_text):
         if box.get("name"):
             e["name"] = klartext(box["name"])
         e["kaempfe"] = lies_kampfkarte(text or "")
+        # Beginn der Hauptkarte (ISO, UTC). Keine erlaubte Quelle nennt ihn bisher -> leer.
+        e["hauptkarte_utc"] = None
+        e["hauptkarte_quelle"] = None
     return sorted(events, key=lambda e: e["datum"])
 
 
@@ -911,6 +912,270 @@ def artikel_aufloesen(daten, kaempfer):
             for v in x:
                 ersetze(v)
     ersetze(daten)
+
+
+# ---------------------------------------------------------------- Kalenderdateien (.ics)
+# ufc-events.ics: alle kommenden Events zum Abonnieren (täglich neu erzeugt).
+# <event>.ics: einzelne Events – nur, wenn der Beginn der Hauptkarte belegt ist.
+# Ohne belegte Uhrzeit steht ein Event im Abo als ganztägiger Termin (das Datum ist belegt).
+
+KALENDER = PROJEKT / "data" / "kalender"
+ABO_DATEI = "ufc-events.ics"
+VTIMEZONE_BERLIN = [
+    "BEGIN:VTIMEZONE", "TZID:Europe/Berlin",
+    "BEGIN:DAYLIGHT", "TZOFFSETFROM:+0100", "TZOFFSETTO:+0200", "TZNAME:CEST",
+    "DTSTART:19700329T020000", "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU", "END:DAYLIGHT",
+    "BEGIN:STANDARD", "TZOFFSETFROM:+0200", "TZOFFSETTO:+0100", "TZNAME:CET",
+    "DTSTART:19701025T030000", "RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU", "END:STANDARD",
+    "END:VTIMEZONE",
+]
+
+
+def _ics_text(t):
+    return (str(t).replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,")
+            .replace("\n", "\\n"))
+
+
+def _falten(zeile):
+    """Zeilen nach RFC 5545 bei 75 Bytes umbrechen (ohne UTF-8-Zeichen zu zerteilen)."""
+    teile, aktuell = [], ""
+    for zeichen in zeile:
+        grenze = 75 if not teile else 74
+        if len((aktuell + zeichen).encode("utf-8")) > grenze:
+            teile.append(aktuell)
+            aktuell = ""
+        aktuell += zeichen
+    teile.append(aktuell)
+    return "\r\n ".join(teile)
+
+
+def _slug(text):
+    import unicodedata
+    t = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+
+def _vevent(e, stempel):
+    from datetime import timedelta
+    from zoneinfo import ZoneInfo
+    kaempfe = []
+    for b in e["kaempfe"]:
+        zusatz = ", Titelkampf" if b["titelkampf"] else ""
+        kaempfe.append(f"{b['a'] or 'Gegner folgt'} vs. {b['b'] or 'Gegner folgt'}"
+                       f" ({b['gewichtsklasse'] or 'Gewichtsklasse folgt'}{zusatz})")
+    beschreibung = ("Kämpfe:\n" + "\n".join(kaempfe) if kaempfe else "Kämpfe folgen")
+    if not e.get("hauptkarte_utc"):
+        beschreibung += "\n\nUhrzeit folgt."
+    beschreibung += f"\n\nQuelle: {e['wikipedia']}"
+    ort = ", ".join(x for x in (e.get("halle"), e.get("ort")) if x and x not in ("TBA", "TBD"))
+    z = ["BEGIN:VEVENT", f"UID:{_slug(e['artikel'])}@ufc-kader", f"DTSTAMP:{stempel}",
+         f"SUMMARY:{_ics_text(e['name'])}"]
+    if ort:
+        z.append(f"LOCATION:{_ics_text(ort)}")
+    z += [f"DESCRIPTION:{_ics_text(beschreibung)}", f"URL:{e['wikipedia']}"]
+    if e.get("hauptkarte_utc"):
+        beginn = datetime.fromisoformat(e["hauptkarte_utc"].replace("Z", "+00:00"))
+        berlin = beginn.astimezone(ZoneInfo("Europe/Berlin"))
+        z += [f"DTSTART;TZID=Europe/Berlin:{berlin:%Y%m%dT%H%M%S}", "DURATION:PT3H",
+              "BEGIN:VALARM", "ACTION:DISPLAY", f"DESCRIPTION:{_ics_text(e['name'])}",
+              "TRIGGER:-PT30M", "END:VALARM"]
+    else:
+        tag = datetime.strptime(e["datum"], "%Y-%m-%d")
+        z += [f"DTSTART;VALUE=DATE:{tag:%Y%m%d}",
+              f"DTEND;VALUE=DATE:{tag + timedelta(days=1):%Y%m%d}", "TRANSP:TRANSPARENT"]
+    return z + ["END:VEVENT"]
+
+
+def _kalender(events, name):
+    stempel = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    zeilen = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//UFC-Kader//Wikipedia//DE",
+              "CALSCALE:GREGORIAN", "METHOD:PUBLISH", f"X-WR-CALNAME:{_ics_text(name)}",
+              "X-WR-TIMEZONE:Europe/Berlin", "REFRESH-INTERVAL;VALUE=DURATION:PT12H",
+              "X-PUBLISHED-TTL:PT12H"] + VTIMEZONE_BERLIN
+    for e in events:
+        zeilen += _vevent(e, stempel)
+    zeilen.append("END:VCALENDAR")
+    return "\r\n".join(_falten(z) for z in zeilen) + "\r\n"
+
+
+def schreibe_kalender(events):
+    """Schreibt die .ics-Dateien und trägt bei Events mit Uhrzeit den Dateipfad ein."""
+    heute = datetime.now(timezone.utc).astimezone(__import__("zoneinfo").ZoneInfo("Europe/Berlin"))
+    kommend = [e for e in events if e["datum"] >= heute.strftime("%Y-%m-%d")]
+    KALENDER.mkdir(parents=True, exist_ok=True)
+    behalten = {ABO_DATEI}
+    for e in events:
+        e["ics"] = None
+        if e in kommend and e.get("hauptkarte_utc"):
+            datei = _slug(e["artikel"]) + ".ics"
+            (KALENDER / datei).write_bytes(_kalender([e], e["name"]).encode("utf-8"))
+            e["ics"] = f"data/kalender/{datei}"
+            behalten.add(datei)
+    (KALENDER / ABO_DATEI).write_bytes(_kalender(kommend, "UFC-Events").encode("utf-8"))
+    for alt in KALENDER.glob("*.ics"):
+        if alt.name not in behalten:
+            alt.unlink()
+    return len(kommend), len(behalten) - 1
+
+
+# ---------------------------------------------------------------- Ranglisten-Archiv
+# Jede neue offizielle Rangliste wird mit Datum in data/ranglisten_archiv.json gespeichert.
+# Verglichen wird pro Gewichtsklasse mit der letzten gespeicherten Rangliste, die sich
+# tatsächlich unterscheidet (andere Plätze UND anderes offizielles Datum).
+# Beim allerersten Lauf wird die vorige Rangliste aus der Versionsgeschichte des
+# Wikipedia-Artikels "UFC rankings" geholt – ebenfalls eine belegte Quelle.
+
+ARCHIV = PROJEKT / "data" / "ranglisten_archiv.json"
+
+
+def _platz_schluessel(p):
+    return p.get("artikel") or "name:" + p["name"].lower()
+
+
+def _kurzfassung(r):
+    return {"stand": r["stand"], "nach_event": r["nach_event"],
+            "plaetze": [{"rang": p["rang"], "name": p["name"], "artikel": p["artikel"]}
+                        for p in r["plaetze"]]}
+
+
+def _gleiche_plaetze(a, b):
+    return [(p["rang"], _platz_schluessel(p)) for p in a["plaetze"]] == \
+           [(p["rang"], _platz_schluessel(p)) for p in b["plaetze"]]
+
+
+def _anders(alt, neu):
+    return alt["stand"] != neu["stand"] and not _gleiche_plaetze(alt, neu)
+
+
+def fruehere_ranglisten(aktuell, gesucht, max_abrufe=30):
+    """Sucht in der Versionsgeschichte von 'UFC rankings' die vorige Rangliste je Klasse."""
+    gefunden = {}
+    versionen = hole({"action": "query", "prop": "revisions", "titles": RANGLISTEN,
+                      "rvprop": "ids|timestamp", "rvlimit": "500"})
+    revs = (versionen.get("query", {}).get("pages") or [{}])[0].get("revisions", [])
+    # pro Kalendertag die letzte Version, vom neuesten Tag rückwärts
+    pro_tag = {}
+    for r in revs:
+        pro_tag.setdefault(r["timestamp"][:10], r["revid"])
+    for tag in sorted(pro_tag, reverse=True)[1:max_abrufe + 1]:
+        if len(gefunden) == len(gesucht):
+            break
+        d = hole({"action": "query", "prop": "revisions", "revids": str(pro_tag[tag]),
+                  "rvprop": "content", "rvslots": "main"})
+        seiten = d.get("query", {}).get("pages") or [{}]
+        text = (seiten[0].get("revisions") or [{}])[0].get("slots", {}).get("main", {}).get("content")
+        if not text:
+            continue
+        alt = lies_ranglisten(text)
+        artikel_aufloesen(alt, None)
+        for klasse in gesucht:
+            if klasse in gefunden or klasse not in alt or not alt[klasse]["plaetze"]:
+                continue
+            kurz = _kurzfassung(alt[klasse])
+            if kurz["stand"] and _anders(kurz, _kurzfassung(aktuell[klasse])):
+                kurz["quelle"] = f"Wikipedia: {RANGLISTEN} (Version vom {tag})"
+                gefunden[klasse] = kurz
+    return gefunden
+
+
+def rang_zahl(rang):
+    return 0 if rang in ("C", "IC") else int(re.match(r"\d+", rang).group(0)) \
+        if re.match(r"\d+", rang or "") else None
+
+
+def ranglisten_bewegung(ranglisten):
+    """Aktualisiert das Archiv und trägt Auf-/Abstiege in die aktuellen Ranglisten ein."""
+    archiv = json.loads(ARCHIV.read_text(encoding="utf-8")) if ARCHIV.exists() else {}
+    klassen = archiv.setdefault("klassen", {})
+    for klasse, r in ranglisten.items():
+        verlauf = klassen.setdefault(klasse, [])
+        kurz = _kurzfassung(r)
+        if not verlauf or not _gleiche_plaetze(verlauf[-1], kurz) or verlauf[-1]["stand"] != kurz["stand"]:
+            kurz["quelle"] = f"Wikipedia: {RANGLISTEN}"
+            kurz["gespeichert"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            verlauf.append(kurz)
+
+    # Erster Lauf: vorige Rangliste aus der Versionsgeschichte holen (nur einmal versuchen)
+    fehlend = [k for k, v in klassen.items()
+               if k in ranglisten and not any(_anders(x, _kurzfassung(ranglisten[k])) for x in v)]
+    if fehlend and not archiv.get("versionsgeschichte_geprueft"):
+        print(f"     Suche vorige Ranglisten in der Wikipedia-Versionsgeschichte ({len(fehlend)} Klassen) …",
+              flush=True)
+        for klasse, alt in fruehere_ranglisten(ranglisten, fehlend).items():
+            klassen[klasse].insert(0, alt)
+        archiv["versionsgeschichte_geprueft"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    for klasse, r in ranglisten.items():
+        kurz = _kurzfassung(r)
+        vergleich = next((x for x in reversed(klassen.get(klasse, [])) if _anders(x, kurz)), None)
+        r["vergleich"] = ({"stand": vergleich["stand"], "nach_event": vergleich.get("nach_event"),
+                           "quelle": vergleich.get("quelle")} if vergleich else None)
+        vorher = {_platz_schluessel(p): p["rang"] for p in vergleich["plaetze"]} if vergleich else {}
+        alter_champ = next((_platz_schluessel(p) for p in vergleich["plaetze"] if p["rang"] == "C"),
+                           None) if vergleich else None
+        for p in r["plaetze"]:
+            p["bewegung"] = None
+            if not vergleich:
+                continue
+            alt = vorher.get(_platz_schluessel(p))
+            if p["rang"] in ("C", "IC"):
+                if alt != p["rang"]:
+                    p["bewegung"] = {"art": "neuer_champion" if p["rang"] == "C" else "neuer_interims_champion"}
+                continue
+            if _platz_schluessel(p) == alter_champ:
+                p["bewegung"] = {"art": "titel_verloren"}
+            elif alt is None:
+                p["bewegung"] = {"art": "neu"}
+            elif rang_zahl(alt) is not None and rang_zahl(p["rang"]) is not None:
+                d = rang_zahl(alt) - rang_zahl(p["rang"])
+                p["bewegung"] = {"art": "auf" if d > 0 else "ab" if d < 0 else "gleich", "plaetze": abs(d)}
+    ARCHIV.write_text(json.dumps(archiv, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+# ---------------------------------------------------------------- Siegesserie
+# Aus der Tabelle "Mixed martial arts record" im englischen Artikel (neuester Kampf oben).
+# Nur übernommen, wenn die Bilanz in der obersten Zeile genau der aktuellen Bilanz
+# aus der Kaderliste entspricht – sonst ist die Tabelle evtl. veraltet -> weglassen.
+# Serie = Siege in Folge seit der letzten Niederlage, dem letzten Unentschieden oder No Contest.
+
+def _bilanz_teile(text):
+    t = (text or "").replace("–", "-").replace("—", "-")
+    m = re.search(r"(\d+)-(\d+)(?:-(\d+))?(?:\s*\((\d+)(?:\s*NC)?\))?", t)
+    return tuple(int(x or 0) for x in m.groups()) if m else None
+
+
+def siegesserie_aus_artikel(wikitext, bilanz_liste):
+    m = re.search(r"^(==+)\s*Mixed martial arts record\s*==+\s*$", wikitext or "", flags=re.M)
+    if not m or not bilanz_liste:
+        return None
+    rest = wikitext[m.end():]
+    ende = re.search(r"^={1," + str(len(m.group(1))) + r"}[^=]", rest, flags=re.M)
+    abschnitt = ohne_refs(rest[:ende.start()] if ende else rest)
+    start = re.search(r"\{\{\s*MMA record start\s*\}\}", abschnitt, flags=re.I)
+    if not start:
+        return None
+    ergebnisse = []
+    for zeile in re.split(r"\n\|-[^\n]*", abschnitt[start.end():])[1:]:
+        zeile = re.split(r"\n\|\}|\{\{\s*(?:end|MMA record end)\s*\}\}", zeile)[0]
+        zellen = [z.strip() for z in re.split(r"\n\|", "\n" + zeile.strip("\n"))[1:]]
+        if len(zellen) < 2:
+            continue
+        ergebnisse.append((klartext(zellen[0]).strip(), _bilanz_teile(klartext(zellen[1]))))
+    if not ergebnisse:
+        return None
+    oben_ergebnis, oben_bilanz = ergebnisse[0]
+    if oben_bilanz != _bilanz_teile(bilanz_liste):
+        return None
+    serie = 0
+    for ergebnis, _ in ergebnisse:
+        e = ergebnis.lower()
+        if e == "win":
+            serie += 1
+        elif e in ("loss", "draw", "nc", "no contest"):
+            break
+        else:
+            return None  # unbekannter Eintrag -> nicht sicher bestimmbar
+    return serie
 
 
 # ---------------------------------------------------------------- Weitere Quellen
@@ -1267,6 +1532,20 @@ def main():
         })
         vergleiche(e, "nationalitaet", [(klartext(info.get("nationality", "")) or None, q_art)])
 
+        # Siegesserie: aus der Kampftabelle (nur wenn sie zur aktuellen Bilanz passt) oder,
+        # bei Kämpfern ohne Niederlage, Unentschieden und No Contest, direkt aus der Bilanz.
+        serie, q_serie = None, None
+        if q_art:
+            serie = siegesserie_aus_artikel(artikel[k["artikel"]][1], k["bilanz"])
+            if serie is not None:
+                q_serie = f"{q_art} (Tabelle „Mixed martial arts record“)"
+        teile = _bilanz_teile(k["bilanz"])
+        if serie is None and teile and teile[1:] == (0, 0, 0) and "bilanz" not in e["konflikte"]:
+            serie, q_serie = teile[0], q_liste + " (nur Siege)"
+        e["siegesserie"] = serie
+        if q_serie:
+            e["quellen"]["siegesserie"] = q_serie
+
         e["letzter_kampf"] = k["letzter_kampf"]
         n = k["naechster_kampf"]
         if n:
@@ -1298,7 +1577,6 @@ def main():
                                       jahr, "debuet"),
         "abgaenge": lies_jahrestabelle(seiten[jahresartikel][1] or "", "Releases and retirements",
                                        jahr, "abgang"),
-        "neu_unter_vertrag": lies_neuverpflichtungen(liste_text),
         "events": lies_kalender(events_text),
     }
     artikel_aufloesen([weitere, ausgabe], ausgabe)
@@ -1315,6 +1593,9 @@ def main():
         fehler.append("keine angesetzten Events gefunden")
     if fehler:
         sys.exit("ABGEBROCHEN, Daten wurden nicht gespeichert: " + "; ".join(fehler))
+
+    ranglisten_bewegung(weitere["ranglisten"])
+    anzahl_abo, anzahl_einzeln = schreibe_kalender(weitere["events"])
 
     AUSGABE.parent.mkdir(parents=True, exist_ok=True)
     AUSGABE.write_text(json.dumps({
@@ -1335,10 +1616,13 @@ def main():
     bericht(ausgabe, probleme)
     print(f"\nRanglisten: {len(weitere['ranglisten'])} Gewichtsklassen, "
           f"{sum(len(r['plaetze']) for r in weitere['ranglisten'].values())} Plätze")
-    print(f"Debüts {jahr}: {len(weitere['debuets'])}, Abgänge {jahr}: {len(weitere['abgaenge'])}, "
-          f"neu unter Vertrag: {len(weitere['neu_unter_vertrag'])}")
+    mit_vergleich = [k for k, r in weitere["ranglisten"].items() if r["vergleich"]]
+    print(f"Ranglisten mit Vergleich (Pfeile): {len(mit_vergleich)} von {len(weitere['ranglisten'])}")
+    print(f"Debüts {jahr}: {len(weitere['debuets'])}, Abgänge {jahr}: {len(weitere['abgaenge'])}")
     print(f"Angesetzte Events: {len(weitere['events'])}, "
           f"Kämpfe darin: {sum(len(e['kaempfe']) for e in weitere['events'])}")
+    print(f"Kalender: Abo mit {anzahl_abo} Events, {anzahl_einzeln} Einzeldateien mit Uhrzeit")
+    print(f"Siegesserie sicher bestimmt: {sum(1 for e in ausgabe if e['siegesserie'] is not None)} Kämpfer")
 
 
 def bericht(ausgabe, probleme):

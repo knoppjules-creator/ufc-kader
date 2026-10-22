@@ -12,6 +12,7 @@
   --canvas:#DADDE1;--surface:#F3F4F6;--ink:#16191D;--muted:#5A616B;--line:#B9BEC5;
   --blue:#1C4FD8;--blue-soft:#DCE5FB;--red:#C8202A;--red-soft:#F7DCDD;--gold:#A87A12;--gold-soft:#F4EAD0;
   --on-corner:#fff;
+  --k1:#2a78d6;--k2:#eb6834;--k3:#1baf7a;--k4:#eda100;--k5:#e87ba4;--k6:#008300;--up:#1a7f37;
   color-scheme:light;box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
 }
@@ -20,12 +21,14 @@
     --canvas:#14171B;--surface:#1D2126;--ink:#ECEEF1;--muted:#9AA2AD;--line:#343A42;
     --blue:#6E94FF;--blue-soft:#1A2848;--red:#FF5A62;--red-soft:#3E1C1F;--gold:#E2B44A;--gold-soft:#3A2F14;
     --on-corner:#0E1013;color-scheme:dark;
+    --k1:#3987e5;--k2:#d95926;--k3:#199e70;--k4:#c98500;--k5:#d55181;--k6:#008300;--up:#4ac26b;
   }
 }
 :root[data-theme="dark"]{
   --canvas:#14171B;--surface:#1D2126;--ink:#ECEEF1;--muted:#9AA2AD;--line:#343A42;
   --blue:#6E94FF;--blue-soft:#1A2848;--red:#FF5A62;--red-soft:#3E1C1F;--gold:#E2B44A;--gold-soft:#3A2F14;
   --on-corner:#0E1013;color-scheme:dark;
+  --k1:#3987e5;--k2:#d95926;--k3:#199e70;--k4:#c98500;--k5:#d55181;--k6:#008300;--up:#4ac26b;
 }
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 *,*::before,*::after{box-sizing:border-box}
@@ -150,6 +153,47 @@ footer p{margin:0 0 8px;max-width:70ch}
 footer a,.pf-src a{color:var(--blue)}
 .src{font:500 .8rem "Barlow",sans-serif;color:var(--muted)}
 .empty code{font-size:.85rem;background:var(--canvas);padding:1px 4px;border-radius:3px}
+/* Abgänge-Diagramm */
+.chart{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 14px 12px;margin-top:16px;position:relative}
+.chart h2{font-size:1.35rem;font-weight:800;margin:0 0 2px}
+.chart .hilfe{font-size:.85rem;color:var(--muted);margin:0 0 10px}
+.bars{display:flex;align-items:stretch;gap:6px;height:170px;border-bottom:1px solid var(--line);padding-top:18px}
+.bar{flex:1 1 0;min-width:0;display:flex;flex-direction:column;justify-content:flex-end;align-items:stretch;background:none;border:0;padding:0;cursor:pointer;font:inherit;color:inherit;position:relative}
+.bar .stack{display:flex;flex-direction:column-reverse;gap:2px;width:100%}
+.bar .seg{display:block;width:100%;min-height:2px}
+.bar .stack .seg:last-child{border-radius:4px 4px 0 0}
+.bar .wert{font:600 .78rem "Barlow",sans-serif;color:var(--ink);text-align:center;margin-bottom:2px;font-variant-numeric:tabular-nums}
+.bars.gefiltert .bar:not([aria-pressed="true"]) .stack{opacity:.3}
+.bar:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:4px}
+.monate{display:flex;gap:6px;margin-top:4px}
+.monate span{flex:1 1 0;min-width:0;text-align:center;font-size:.75rem;color:var(--muted)}
+.monate span.an{color:var(--ink);font-weight:700}
+.legende{display:flex;flex-wrap:wrap;gap:6px 16px;list-style:none;margin:12px 0 0;padding:0;font-size:.88rem}
+.legende li{display:flex;align-items:center;gap:6px}
+.legende i{display:inline-block;width:12px;height:12px;border-radius:3px}
+.legende b{font-variant-numeric:tabular-nums}
+.tip{position:absolute;z-index:3;pointer-events:none;background:var(--ink);color:var(--canvas);font-size:.82rem;line-height:1.35;padding:8px 10px;border-radius:6px;white-space:nowrap;transform:translate(-50%,-100%);box-shadow:0 4px 14px rgba(0,0,0,.25)}
+.tip b{display:block}
+.filterhinweis{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 0 0;font-size:.9rem}
+.filterhinweis button{font:600 .85rem "Barlow",sans-serif;border:1px solid var(--line);background:var(--canvas);color:var(--ink);border-radius:999px;padding:4px 12px;cursor:pointer}
+
+/* Ranglisten-Bewegung und Bestenlisten */
+.mv{display:inline-block;font:700 .78rem "Barlow",sans-serif;margin-left:6px;white-space:nowrap;vertical-align:1px}
+.mv.up{color:var(--up)}
+.mv.down{color:var(--red)}
+.mv.neu{color:var(--blue);border:1px solid currentColor;border-radius:3px;padding:0 4px;font-size:.7rem}
+.mv.titel{color:var(--gold);border:1px solid currentColor;border-radius:3px;padding:0 4px;font-size:.7rem}
+.vergleich{font-size:.85rem;color:var(--muted);margin:6px 0 0}
+ol.rank.best .pos{font-size:1.25rem}
+ol.rank .zahl{font-family:"Big Shoulders Display",sans-serif;font-weight:800;font-size:1.35rem;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+ol.rank .zahl small{font:500 .75rem "Barlow",sans-serif;color:var(--muted);margin-left:3px}
+
+/* Kalender-Export */
+.abo{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;margin-top:14px;font-size:.92rem}
+.abo a{color:var(--blue);font-weight:700}
+.ev-aktion{padding:10px 16px;border-bottom:1px solid var(--line);font-size:.92rem;color:var(--muted)}
+.btn-ics{display:inline-flex;align-items:center;gap:6px;font:600 .9rem "Barlow",sans-serif;color:var(--ink);background:var(--canvas);border:1px solid var(--line);border-radius:6px;padding:7px 12px;text-decoration:none}
+.btn-ics:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
 [hidden]{display:none!important}
 @media (prefers-reduced-motion:no-preference){
   .corner .num{animation:pop .5s ease-out both}
@@ -181,7 +225,6 @@ footer a,.pf-src a{color:var(--blue)}
       <button class="tab" role="tab" data-tab="raus">Raus</button>
       <button class="tab" role="tab" data-tab="kalender">Kalender</button>
       <button class="tab" role="tab" data-tab="ranglisten">Ranglisten</button>
-      <button class="tab" role="tab" data-tab="vertrag">Frisch unterschrieben</button>
     </div>
     <div class="filters">
       <input id="q" type="search" placeholder="Kämpfer suchen" aria-label="Kämpfer suchen">
@@ -224,7 +267,7 @@ const land = iso => iso ? (LAND[iso] || iso) : null;
 function ageOf(b){ const t = TODAY.split("-").map(Number), d = b.split("-").map(Number); let a = t[0]-d[0]; if (t[1] < d[1] || (t[1] === d[1] && t[2] < d[2])) a--; return a; }
 const ERGEBNIS = {Win:'<span class="win">Sieg</span>', Loss:'<span class="loss">Niederlage</span>', Draw:'<span class="nc">Unentschieden</span>', NC:'<span class="nc">Kein Ergebnis</span>', "No contest":'<span class="nc">Kein Ergebnis</span>'};
 
-let D, tab = "neu";
+let D, tab = "neu", monatFilter = null;   // monatFilter: "JJJJ-MM" im Tab „Raus“
 const ENT = {};          // Schlüssel -> alles, was über einen Kämpfer bekannt ist
 const BY_ART = {}, BY_NAME = {};
 const EVDATE = {};       // Event-Artikel -> Datum
@@ -253,7 +296,8 @@ function aufbauen(){
     if (r) r.plaetze.forEach(p => { const e = ent(p.name, p.artikel); if (e) e.ranks.push({div, p}); });
   }
   D.debuets.forEach(d => { const e = ent(d.name, d.artikel); if (e) e.deb = d; });
-  D.neu_unter_vertrag.forEach(s => { const e = ent(s.name, s.artikel); if (e) e.sig = s; });
+  // Kämpfer, die nur auf einer Kampfkarte stehen (z. B. neu unter Vertrag), bleiben antippbar
+  D.events.forEach(ev => ev.kaempfe.forEach(b => { ent(b.a, b.a_artikel); ent(b.b, b.b_artikel); }));
   D.events.forEach(e => { EVDATE[e.artikel] = e.datum; });
   D.kaempfer.forEach(k => { const n = k.naechster_kampf; if (n && n.event_wiki && n.datum && !EVDATE[n.event_wiki]) EVDATE[n.event_wiki] = n.datum; });
 }
@@ -287,13 +331,9 @@ function wert(k, feld, fmt){
   return k[feld] == null ? null : esc(fmt(k[feld]));
 }
 
-// ---------- Listen: Neu dabei, Raus, Frisch unterschrieben
+// ---------- Listen: Neu dabei, Raus
 function badgeFor(kind, r){
   if (kind === "in") return `<span class="badge b-in">${esc(r.event || "Event folgt")}</span>`;
-  if (kind === "signed"){
-    const n = r.naechster_kampf;
-    return `<span class="badge b-gold">${n ? esc(n.event + (n.gegner ? " gegen " + n.gegner : "")) : "Debüt noch offen"}</span>`;
-  }
   return `<span class="badge ${r.grund === "Entlassen" ? "b-out" : "b-ret"}">${esc(r.grund || "Grund folgt")}</span>`;
 }
 function filtered(list){
@@ -302,9 +342,10 @@ function filtered(list){
 }
 const emptyMsg = `<div class="empty">Kein Kämpfer passt zu deiner Suche. Ändere den Namen oder wähle „Alle Gewichtsklassen“.</div>`;
 
-function renderList(list, kind, intro){
-  const rows = filtered(list).slice().sort((a,b) => (b.datum || "").localeCompare(a.datum || ""));
-  let html = `<p class="intro">${intro}</p>`;
+function renderList(list, kind, intro, vorspann){
+  const rows = filtered(list).filter(r => !monatFilter || (r.datum || "").slice(0,7) === monatFilter)
+    .sort((a,b) => (b.datum || "").localeCompare(a.datum || ""));
+  let html = `<p class="intro">${intro}</p>` + (vorspann || "");
   if (!rows.length) return html + emptyMsg;
   const groups = {};
   rows.forEach(r => { const m = r.datum ? r.datum.slice(0,7) : "ohne"; (groups[m] = groups[m] || []).push(r); });
@@ -321,6 +362,66 @@ function renderList(list, kind, intro){
   return html;
 }
 
+// ---------- Abgänge in Zahlen (Diagramm im Tab „Raus“)
+// Feste Reihenfolge = feste Farbe (--k1 … --k6); die Kategorie setzt das Update-Skript.
+const KATEGORIEN = ["Entlassen","Karriereende","Wechsel zu anderer Liga","Vertrag ausgelaufen","Sonstiges","Grund unbekannt"];
+const kategorie = r => KATEGORIEN.includes(r.kategorie) ? r.kategorie : "Grund unbekannt";
+let BALKEN = {};   // Monat -> Zählung, für den Tooltip
+function diagramm(){
+  const liste = filtered(D.abgaenge);   // folgt Suche und Gewichtsklassen-Filter
+  const jahr = String(D.jahr);
+  const bis = TODAY.startsWith(jahr) ? +TODAY.slice(5,7) : 12;
+  const monate = Array.from({length: bis}, (_, i) => `${jahr}-${String(i + 1).padStart(2, "0")}`);
+  BALKEN = {};
+  monate.forEach(m => { BALKEN[m] = Object.fromEntries(KATEGORIEN.map(k => [k, 0])); });
+  const summe = Object.fromEntries(KATEGORIEN.map(k => [k, 0]));
+  liste.forEach(r => { const m = (r.datum || "").slice(0,7); if (BALKEN[m]) BALKEN[m][kategorie(r)]++; summe[kategorie(r)]++; });
+  const gesamt = m => KATEGORIEN.reduce((a, k) => a + BALKEN[m][k], 0);
+  const max = Math.max(1, ...monate.map(gesamt));
+  let html = `<section class="chart" aria-label="Abgänge pro Monat"><h2>Abgänge in Zahlen</h2>
+    <p class="hilfe">Ein Balken pro Monat, aufgeteilt nach Grund. Tippe auf einen Balken, um nur diesen Monat zu sehen.</p>
+    <div class="bars${monatFilter ? " gefiltert" : ""}">`;
+  monate.forEach(m => {
+    const n = gesamt(m), mo = MONTHS[+m.slice(5,7) - 1];
+    const teile = KATEGORIEN.filter(k => BALKEN[m][k]).map(k => `${k} ${BALKEN[m][k]}`).join(", ");
+    const segs = KATEGORIEN.map((k, i) => BALKEN[m][k] ? `<span class="seg" style="flex:${BALKEN[m][k]} 1 0;background:var(--k${i + 1})"></span>` : "").join("");
+    html += `<button class="bar" type="button" data-monat="${m}" aria-pressed="${monatFilter === m}" aria-label="${mo}: ${n} Abgänge${teile ? " (" + teile + ")" : ""}">
+      ${n ? `<span class="wert" style="position:absolute;left:0;right:0;bottom:calc(${n / max * 100}% + 2px)">${n}</span>` : ""}
+      <span class="stack" style="height:${n / max * 100}%">${segs}</span></button>`;
+  });
+  html += `</div><div class="monate" aria-hidden="true">${monate.map(m => `<span class="${monatFilter === m ? "an" : ""}">${MONTHS[+m.slice(5,7) - 1].slice(0,3)}</span>`).join("")}</div>
+    <ul class="legende">${KATEGORIEN.map((k, i) => `<li><i style="background:var(--k${i + 1})"></i>${k}: <b>${summe[k]}</b></li>`).join("")}</ul>`;
+  if (monatFilter) html += `<div class="filterhinweis">Nur ${MONTHS[+monatFilter.slice(5,7) - 1]} ${monatFilter.slice(0,4)} <button type="button" data-filter-weg>Filter aufheben</button></div>`;
+  return html + `</section>`;
+}
+function monatWaehlen(m){
+  monatFilter = monatFilter === m ? null : m;
+  render();
+  const b = document.querySelector(`.bar[data-monat="${m}"]`);
+  if (b) b.focus({preventScroll: true});
+}
+document.addEventListener("click", ev => {
+  const b = ev.target.closest(".bar");
+  if (b) monatWaehlen(b.dataset.monat);
+  else if (ev.target.closest("[data-filter-weg]")) { monatFilter = null; render(); }
+});
+// Tooltip beim Zeigen auf einen Balken
+function tipZeigen(b){
+  const chart = b.closest(".chart"), m = b.dataset.monat, z = BALKEN[m];
+  if (!chart || !z) return;
+  let tip = chart.querySelector(".tip");
+  if (!tip){ tip = document.createElement("div"); tip.className = "tip"; tip.setAttribute("role", "presentation"); chart.appendChild(tip); }
+  const n = KATEGORIEN.reduce((a, k) => a + z[k], 0);
+  tip.innerHTML = `<b>${MONTHS[+m.slice(5,7) - 1]}: ${n} Abgänge</b>` + KATEGORIEN.filter(k => z[k]).map(k => `${esc(k)}: ${z[k]}`).join("<br>");
+  const cb = chart.getBoundingClientRect(), bb = b.getBoundingClientRect(), st = b.querySelector(".stack").getBoundingClientRect();
+  const x = Math.min(Math.max(bb.left + bb.width / 2 - cb.left, 90), cb.width - 90);
+  tip.style.left = x + "px";
+  tip.style.top = (Math.min(st.top, bb.bottom - 20) - cb.top - 6) + "px";
+}
+function tipWeg(){ document.querySelectorAll(".chart .tip").forEach(t => t.remove()); }
+document.addEventListener("pointerover", ev => { const b = ev.target.closest && ev.target.closest(".bar"); if (b && ev.pointerType === "mouse") tipZeigen(b); else if (!b) tipWeg(); });
+document.addEventListener("focusin", ev => { const b = ev.target.closest && ev.target.closest(".bar"); if (b) tipZeigen(b); else tipWeg(); });
+
 // ---------- Ranglisten
 function naechsterText(n, kurz){
   if (!n) return "";
@@ -329,9 +430,70 @@ function naechsterText(n, kurz){
   if (datum && datum < TODAY) return `Kampf gegen ${gegner} bei ${esc(n.event)} am ${fmtDate(datum)}. Ergebnis kommt beim nächsten Update.`;
   return `gegen ${gegner}, ${esc(n.event)}${datum ? ", " + fmtDate(datum) : ""}`;
 }
+function bewegung(p){
+  const b = p.bewegung;
+  if (!b) return "";
+  if (b.art === "auf") return `<span class="mv up" title="${b.plaetze} Plätze aufgestiegen">▲${b.plaetze}</span>`;
+  if (b.art === "ab") return `<span class="mv down" title="${b.plaetze} Plätze abgestiegen">▼${b.plaetze}</span>`;
+  if (b.art === "neu") return `<span class="mv neu" title="Neu in den Top 15">NEU</span>`;
+  if (b.art === "neuer_champion") return `<span class="mv titel">NEUER CHAMPION</span>`;
+  if (b.art === "neuer_interims_champion") return `<span class="mv titel">NEUER INTERIMS-CHAMPION</span>`;
+  if (b.art === "titel_verloren") return `<span class="mv titel">TITEL VERLOREN</span>`;
+  return "";
+}
+function vergleichsText(){
+  const daten = [...new Set(DIV_ORDER.map(k => D.ranglisten[k] && D.ranglisten[k].vergleich && D.ranglisten[k].vergleich.stand).filter(Boolean))].sort();
+  if (!daten.length) return `<p class="vergleich">Noch keine ältere Rangliste gespeichert, deshalb noch keine Pfeile.</p>`;
+  if (daten.length === 1) return `<p class="vergleich">Pfeile: Veränderung gegenüber der Rangliste vom ${fmtDateJahr(daten[0])}.</p>`;
+  return `<p class="vergleich">Pfeile: Veränderung gegenüber der jeweils vorigen Rangliste, je nach Gewichtsklasse vom ${fmtDateJahr(daten[0])} bis ${fmtDateJahr(daten[daten.length - 1])} (genaues Datum unter jeder Gewichtsklasse).</p>`;
+}
+// Bilanz "20-0-1 (2 NC)" -> [Siege, Niederlagen, Unentschieden, NC]
+function bilanzTeile(b){
+  const m = String(b || "").replace(/[–—]/g, "-").match(/(\d+)-(\d+)(?:-(\d+))?(?:\s*\((\d+)(?:\s*NC)?\))?/);
+  return m ? m.slice(1).map(x => +(x || 0)) : null;
+}
+function bestenlisten(){
+  const d = divSel.value, t = norm(q.value.trim());
+  const passt = k => (!d || k.gewichtsklasse === d) && (!t || norm(k.name).includes(t));
+  const alle = D.kaempfer.map((k, i) => ({k, key: "k" + i})).filter(x => passt(x.k));
+  // Längste Siegesserien: nur Kämpfer mit sicher bestimmter Serie
+  const serien = alle.filter(x => x.k.siegesserie != null && x.k.siegesserie > 0).sort((a,b) => b.k.siegesserie - a.k.siegesserie);
+  const grenze = serien.length >= 10 ? serien[9].k.siegesserie : 0;
+  const top = serien.filter(x => x.k.siegesserie >= grenze);
+  // Ungeschlagen: alle Quellen ohne Niederlage
+  const ohneNiederlage = alle.map(x => {
+    const werte = x.k.konflikte.bilanz ? x.k.konflikte.bilanz.map(v => v.wert) : [x.k.bilanz];
+    const teile = werte.map(bilanzTeile);
+    return teile.every(tt => tt && tt[1] === 0) ? Object.assign(x, {t: teile[0]}) : null;
+  }).filter(Boolean).sort((a,b) => b.t[0] - a.t[0] || a.k.name.localeCompare(b.k.name));
+
+  const zeile = (pos, x, rechts) => `<li><div class="pos">${pos}</div>
+      <div class="who"><div class="name"><button class="fl" data-f="${x.key}">${esc(x.k.name)}</button></div><div class="meta">${esc(x.k.gewichtsklasse)} · Bilanz ${wert(x.k, "bilanz", v => v) || "folgt"}</div></div>
+      <div class="zahl">${rechts}</div></li>`;
+  let html = `<h2 class="divh">Längste Siegesserien</h2>`;
+  if (!top.length) html += `<div class="empty">Für diese Auswahl ist keine Siegesserie sicher belegt.</div>`;
+  else {
+    html += `<ol class="rank best">`;
+    let platz = 0, vorher = null;
+    top.forEach((x, i) => { if (x.k.siegesserie !== vorher){ platz = i + 1; vorher = x.k.siegesserie; } html += zeile(platz, x, `${x.k.siegesserie}<small>Siege</small>`); });
+    html += `</ol><p class="note">Siege in Folge im Profibereich seit der letzten Niederlage, dem letzten Unentschieden oder No Contest. Nur Kämpfer, deren Serie sich sicher belegen lässt (Kampftabelle im Wikipedia-Artikel passt zur aktuellen Bilanz, oder Bilanz nur aus Siegen). Bei ${alle.filter(x => x.k.siegesserie != null).length} von ${alle.length} Kämpfern ist die Serie belegt.</p>`;
+  }
+  html += `<h2 class="divh">Ungeschlagen</h2>`;
+  if (!ohneNiederlage.length) html += `<div class="empty">Kein ungeschlagener Kämpfer in dieser Auswahl.</div>`;
+  else {
+    html += `<ol class="rank best">`;
+    ohneNiederlage.forEach((x, i) => {
+      const extra = [x.t[2] ? `${x.t[2]} Unentschieden` : "", x.t[3] ? `${x.t[3]} No Contest` : ""].filter(Boolean).join(", ");
+      html += zeile(i + 1, x, `${x.t[0]}<small>Siege</small>${extra ? `<br><small>${extra}</small>` : ""}`);
+    });
+    html += `</ol><p class="note">Aktive UFC-Kämpfer ohne Niederlage im Profibereich, sortiert nach Siegen. Bei widersprüchlichen Bilanzen nur, wenn keine Quelle eine Niederlage nennt.</p>`;
+  }
+  return html;
+}
 function renderRankings(){
   const d = divSel.value, t = norm(q.value.trim());
-  let html = `<p class="intro">Die Top 15 jeder Gewichtsklasse nach den offiziellen Meta UFC Rankings. Tippe auf einen Namen für das Profil.</p>`;
+  let html = `<p class="intro">Die Top 15 jeder Gewichtsklasse nach den offiziellen Meta UFC Rankings. Tippe auf einen Namen für das Profil.</p>` + vergleichsText();
+  html += bestenlisten();
   let any = false;
   DIV_ORDER.filter(k => !d || k === d).forEach(k => {
     const r = D.ranglisten[k];
@@ -343,19 +505,22 @@ function renderRankings(){
     rows.forEach(p => {
       const c = p.rang === "C" || p.rang === "IC";
       html += `<li class="${c ? "c" : ""}"><div class="pos">${p.rang === "C" ? "Champ" : p.rang === "IC" ? "Interim" : esc(p.rang)}</div>
-        <div class="who"><div class="name">${fname(p.name, p.artikel)}</div><div class="meta">${esc(p.land_iso || "")}${p.naechster_kampf ? ", nächster Kampf: " + naechsterText(p.naechster_kampf, true) : ""}</div></div>
+        <div class="who"><div class="name">${fname(p.name, p.artikel)}${bewegung(p)}</div><div class="meta">${esc(p.land_iso || "")}${p.naechster_kampf ? ", nächster Kampf: " + naechsterText(p.naechster_kampf, true) : ""}</div></div>
         <div class="rec">${esc(p.bilanz || "folgt")}</div></li>`;
     });
     html += `</ol>`;
-    if (r.stand) html += `<p class="note">Stand der Rangliste: ${fmtDateJahr(r.stand)}${r.nach_event ? ", nach " + esc(r.nach_event) : ""}.</p>`;
+    if (r.stand) html += `<p class="note">Stand der Rangliste: ${fmtDateJahr(r.stand)}${r.nach_event ? ", nach " + esc(r.nach_event) : ""}.${r.vergleich ? ` Verglichen mit der Rangliste vom ${fmtDateJahr(r.vergleich.stand)}.` : ""}</p>`;
   });
-  return any ? html : html + emptyMsg;
+  return any ? html : html + `<h2 class="divh">Gewichtsklassen</h2>` + emptyMsg;
 }
 
 // ---------- Kalender
 function renderCalendar(){
   const t = norm(q.value.trim());
-  let html = `<p class="intro">Die nächsten UFC-Events mit allen bekannten Kämpfen.</p>`;
+  const abo = new URL("data/kalender/ufc-events.ics", location.href);
+  const webcal = abo.href.replace(/^https?:/, "webcal:");
+  let html = `<p class="intro">Die nächsten UFC-Events mit allen bekannten Kämpfen.</p>
+    <div class="abo"><a href="${esc(webcal)}">Alle Events abonnieren</a><span class="meta">Dein Kalender holt neue Events dann automatisch. <a href="${esc(abo.href)}" download>Datei laden</a></span></div>`;
   const list = D.events.filter(e => e.datum >= TODAY).filter(e => !t || e.kaempfe.some(b => norm(b.a || "").includes(t) || norm(b.b || "").includes(t)));
   if (!list.length) return html + `<div class="empty">Kein angesetzter Kampf passt zu deiner Suche.</div>`;
   list.forEach((e,i) => {
@@ -366,6 +531,7 @@ function renderCalendar(){
     html += `<article class="ev"><div class="ev-head">
       <div class="ev-date"><span class="d">${+e.datum.slice(8,10)}</span><span class="m">${MONTHS[mo-1].slice(0,3)}</span></div>
       <div><h3>${esc(e.name)}${soon}</h3><div class="place">${esc(ort || "Ort folgt")}</div></div></div>
+      <div class="ev-aktion">${e.ics ? `<a class="btn-ics" href="${esc(e.ics)}" download>Zum Kalender hinzufügen</a>` : "Uhrzeit folgt"}</div>
       <ul class="bouts">`;
     if (!e.kaempfe.length) html += `<li><span class="meta" style="grid-column:1 / -1;text-align:center">Kämpfe folgen</span></li>`;
     e.kaempfe.forEach(b => {
@@ -381,8 +547,7 @@ function render(){
   document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === tab));
   divSel.hidden = tab === "kalender";
   if (tab === "neu") main.innerHTML = renderList(D.debuets, "in", `Kämpfer, die ${D.jahr} ihren ersten UFC-Kampf hatten.`);
-  else if (tab === "raus") main.innerHTML = renderList(D.abgaenge, "out", `Kämpfer, die ${D.jahr} entlassen wurden, ihre Karriere beendet haben oder gewechselt sind.`);
-  else if (tab === "vertrag") main.innerHTML = renderList(D.neu_unter_vertrag, "signed", "Neu unter Vertrag oder zurückgekehrt, aber noch ohne (erneuten) UFC-Kampf.");
+  else if (tab === "raus") main.innerHTML = renderList(D.abgaenge, "out", `Kämpfer, die ${D.jahr} entlassen wurden, ihre Karriere beendet haben oder gewechselt sind.`, diagramm());
   else if (tab === "kalender") main.innerHTML = renderCalendar();
   else main.innerHTML = renderRankings();
 }
@@ -393,19 +558,19 @@ function upcomingFor(e){
   for (const ev of D.events){ if (ev.datum < TODAY) continue;
     for (const b of ev.kaempfe){
       const a = keyOf(b.a, b.a_artikel) === e.key, bb = keyOf(b.b, b.b_artikel) === e.key;
-      if (a || bb) return {ev, opp: a ? b.b : b.a, oppArt: a ? b.b_artikel : b.a_artikel, title: b.titelkampf};
+      if (a || bb) return {ev, opp: a ? b.b : b.a, oppArt: a ? b.b_artikel : b.a_artikel, title: b.titelkampf, klasse: b.gewichtsklasse};
     } }
   return null;
 }
 function openProfile(key){
   const e = ENT[key];
   if (!e) return;
-  const k = e.k, r = e.ranks[0], deb = e.deb, sig = e.sig, up = upcomingFor(e);
-  const div = (k && k.gewichtsklasse) || (r && r.div) || (deb && deb.gewichtsklasse) || (sig && sig.gewichtsklasse) || "";
-  const iso = (k && k.land_iso) || (r && r.p.land_iso) || (deb && deb.land_iso) || (sig && sig.land_iso);
+  const k = e.k, r = e.ranks[0], deb = e.deb, up = upcomingFor(e);
+  const div = (k && k.gewichtsklasse) || (r && r.div) || (deb && deb.gewichtsklasse) || (up && up.klasse) || "";
+  const iso = (k && k.land_iso) || (r && r.p.land_iso) || (deb && deb.land_iso);
   const isC = r && (r.p.rang === "C" || r.p.rang === "IC");
   const rankTxt = r ? (isC ? `${r.p.rang === "IC" ? "Interims-Champion" : "Champion"}, ${esc(r.div)}` : `Nr. ${esc(r.p.rang)}, ${esc(r.div)}`)
-    : sig && !k ? `Neu unter Vertrag, ${esc(div)}` : deb ? `Neu in der UFC, ${esc(div)}` : esc(div);
+    : deb ? `Neu in der UFC, ${esc(div)}` : esc(div);
   const also = e.ranks.length > 1 ? `<div class="meta">Auch gelistet: ${e.ranks.slice(1).map(a => `Nr. ${esc(a.p.rang)}, ${esc(a.div)}`).join("; ")}</div>` : "";
 
   // Nächster Kampf: Kampfkarte > Kaderliste > Rangliste > Hinweis
@@ -413,20 +578,25 @@ function openProfile(key){
   if (up) nx = `${fname(up.opp, up.oppArt)}${up.title ? " (Titelkampf)" : ""}<br>${esc(up.ev.name)}, ${fmtDate(up.ev.datum)}`;
   else if (k && k.naechster_kampf) nx = naechsterText(k.naechster_kampf, false);
   else if (r && r.p.naechster_kampf) nx = naechsterText(r.p.naechster_kampf, false);
-  else if (sig && sig.naechster_kampf) nx = naechsterText(sig.naechster_kampf, false);
   else nx = "Noch kein Kampf angesetzt";
 
   const cell = (label, val, wide) => `<div class="${wide ? "w" : ""}"><dt>${label}</dt><dd class="${val == null ? "miss" : "t"}">${val == null ? "folgt" : val}</dd></div>`;
   const alter = k && k.konflikte.geburtsdatum ? wert(k, "geburtsdatum", x => `${ageOf(x)} Jahre, geb. ${fmtDatumKurz(x)}`)
     : k && k.geburtsdatum ? `${ageOf(k.geburtsdatum)} Jahre <span class="src">(geb. ${fmtDatumKurz(k.geburtsdatum)})</span>` : null;
-  const bilanz = k ? wert(k, "bilanz", x => x) : r ? esc(r.p.bilanz) : sig && sig.bilanz ? esc(sig.bilanz) : null;
+  const bilanz = k ? wert(k, "bilanz", x => x) : r ? esc(r.p.bilanz) : null;
+  // Siegesserie: aus dem Profil (Kampftabelle/Bilanz) und aus der Rangliste – bei Abweichung beide zeigen
+  const serien = [];
+  if (k && k.siegesserie != null) serien.push([k.siegesserie, quelleKurz(k.quellen.siegesserie)]);
+  if (r && r.p.serie != null) serien.push([r.p.serie, "Wikipedia-Rangliste"]);
+  const serie = !serien.length ? null : new Set(serien.map(x => x[0])).size === 1 ? String(serien[0][0])
+    : serien.map(([w, q]) => `${w} <span class="src">(${esc(q)})</span>`).join("<br>");
   let g = "";
   g += cell("Alter", alter);
   g += cell("Gewicht", wert(k, "gewicht_kg", x => zahl(x, 1) + " kg"));
   g += cell("Größe", wert(k, "groesse_cm", x => x + " cm"));
   g += cell("Reichweite", wert(k, "reichweite_cm", x => x + " cm"));
   g += cell("Bilanz", bilanz);
-  g += cell("Siegesserie", r && r.p.serie != null ? String(r.p.serie) : null);
+  g += cell("Siegesserie", serie);
   g += cell("Gewichtsklasse", div ? `${esc(div)}${LIMIT[div] ? ` <span class="src">(bis ${zahl(LIMIT[div])} kg)</span>` : ""}` : null, true);
   g += cell("Kampfstil", wert(k, "kampfstil", x => x), true);
   g += cell("Geburtsort", wert(k, "geburtsort", x => x), true);
@@ -441,13 +611,15 @@ function openProfile(key){
     h += `<div class="pf-sec"><h4>Letzter Kampf</h4><p>${ERGEBNIS[letzter.ergebnis] || esc(letzter.ergebnis || "Ergebnis folgt")} gegen ${gegner}, ${esc(letzter.event || "")}</p></div>`;
   }
   if (deb) h += `<div class="pf-sec"><h4>UFC-Debüt</h4><p>${fmtDateJahr(deb.datum)}, ${esc(deb.event || "Event folgt")}</p></div>`;
-  const hinweis = (r && r.p.hinweis) || (k && !k.naechster_kampf && k.status) || (sig && !sig.naechster_kampf && sig.status);
+  const hinweis = (r && r.p.hinweis) || (k && !k.naechster_kampf && k.status);
   if (hinweis && !up) h += `<div class="pf-sec"><h4>Hinweis (Originaltext Wikipedia)</h4><p>${esc(hinweis)}</p></div>`;
   if (k && !k.wikipedia) h += `<div class="pf-sec"><p class="meta">Zu diesem Kämpfer gibt es noch keinen eigenen Wikipedia-Artikel. Fehlende Angaben werden ergänzt, sobald eine Quelle sie nennt.</p></div>`;
+  if (!k && !r && !deb) h += `<div class="pf-sec"><p class="meta">Dieser Kämpfer steht bisher nur auf einer Kampfkarte, noch nicht in der UFC-Kaderliste. Weitere Angaben folgen, sobald eine Quelle sie nennt.</p></div>`;
   const links = [];
   if (k && k.wikipedia) links.push(`<a href="${esc(k.wikipedia)}" target="_blank" rel="noopener">Wikipedia</a>`);
   if (k && k.wikidata) links.push(`<a href="${esc(k.wikidata)}" target="_blank" rel="noopener">Wikidata</a>`);
-  links.push(`<a href="https://en.wikipedia.org/wiki/List_of_current_UFC_fighters" target="_blank" rel="noopener">UFC-Kaderliste</a>`);
+  if (!k && up) links.push(`<a href="${esc(up.ev.wikipedia)}" target="_blank" rel="noopener">Kampfkarte (Wikipedia)</a>`);
+  if (k) links.push(`<a href="https://en.wikipedia.org/wiki/List_of_current_UFC_fighters" target="_blank" rel="noopener">UFC-Kaderliste</a>`);
   h += `<div class="pf-sec pf-src"><h4>Quellen</h4><p>${links.join(" · ")}</p></div>`;
   pfBody.innerHTML = h;
   if (!dlg.open) dlg.showModal();
@@ -461,9 +633,10 @@ $("#pfClose").addEventListener("click", () => dlg.close());
 dlg.addEventListener("click", ev => { if (ev.target === dlg) dlg.close(); });
 
 // ---------- Navigation
-const TABS = ["neu","raus","kalender","ranglisten","vertrag"];
+const TABS = ["neu","raus","kalender","ranglisten"];
 function go(t, scroll){
   tab = TABS.includes(t) ? t : "neu";
+  monatFilter = null;
   if (location.hash !== "#" + tab) history.replaceState(null, "", "#" + tab);
   render();
   if (scroll) document.querySelector("nav.tabs").scrollIntoView({behavior:"smooth"});

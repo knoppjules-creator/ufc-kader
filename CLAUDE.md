@@ -19,7 +19,7 @@
 
 - Gewichtsklassen auf Englisch (z. B. "Lightweight", "Women's Strawweight").
 - Maße in cm und kg (Umrechnung aus Zoll/Pfund ist erlaubt, das ist kein Raten – die Originalwerte bleiben in den Rohdaten erhalten).
-- Keine Uhrzeiten anzeigen (vom Nutzer so entschieden), nur das Datum der Events.
+- Uhrzeiten: nur mit belegter Quelle. Der Kalender-Export (.ics) nutzt den Beginn der Hauptkarte in Europe/Berlin (Sommer-/Winterzeit), Dauer 3 Stunden, Erinnerung 30 Minuten vorher. Ohne belegte Uhrzeit: kein Einzel-Export-Knopf, sondern „Uhrzeit folgt“; im Abo erscheint das Event als ganztägiger Termin. Stand 22.10.2026: keine erlaubte Quelle nennt Startzeiten (`hauptkarte_utc` bleibt leer).
 - Design und Funktionen der bisherigen Seite `ufc-kader.html` bleiben erhalten.
 
 ## Datenabruf
@@ -31,7 +31,11 @@
 ## Projektaufbau
 
 - `scraper/sammle_kaempfer.py` – sammelt die Kämpferdaten (nur Python-Standardbibliothek, keine Zusatzpakete nötig).
-- `data/fighters.json` – Ergebnis, aus dem die Webseite liest. Enthält: `kaempfer` (Profile), `ranglisten`, `events` (Kalender mit Kampfkarten), `debuets`, `abgaenge`, `neu_unter_vertrag`.
+- `data/fighters.json` – Ergebnis, aus dem die Webseite liest. Enthält: `kaempfer` (Profile inkl. `siegesserie`), `ranglisten` (inkl. `bewegung` und `vergleich`), `events` (Kalender mit Kampfkarten), `debuets`, `abgaenge` (inkl. `kategorie`). „Frisch unterschrieben“ wurde entfernt.
+- `data/ranglisten_archiv.json` – jede neue offizielle Rangliste je Gewichtsklasse mit Datum. Verglichen wird mit der letzten gespeicherten Rangliste mit anderem Datum UND anderen Plätzen. Der erste Vergleichsstand stammt aus der Versionsgeschichte des Wikipedia-Artikels „UFC rankings“.
+- `data/kalender/ufc-events.ics` – Abo mit allen kommenden Events (täglich neu); `data/kalender/<event>.ics` nur für Events mit belegter Uhrzeit.
+- Siegesserie: aus der Tabelle „Mixed martial arts record“ im englischen Artikel, nur wenn deren oberste Bilanz exakt der Kaderliste entspricht; sonst bei reinen Siegesbilanzen (keine Niederlage/Unentschieden/NC) aus der Bilanz. Sonst weglassen. Serie endet bei Niederlage, Unentschieden oder No Contest.
+- Abgangs-Kategorien (feste Reihenfolge/Farbe): Entlassen, Karriereende, Wechsel zu anderer Liga, Vertrag ausgelaufen, Sonstiges, Grund unbekannt.
 - `ufc-kader.html` – die Webseite. Enthält keine eigenen Kämpferdaten mehr, nur Darstellung und feste Tabellen (Gewichtslimits, deutsche Ländernamen).
 - `.github/workflows/aktualisieren.yml` – GitHub Action: holt täglich um 04:00 UTC neue Daten, speichert `data/fighters.json` im Repository und veröffentlicht die Seite auf GitHub Pages (`ufc-kader.html` wird dort auch als `index.html` abgelegt). Schlägt das Datenholen fehl, bleibt die Seite beim letzten guten Stand.
 - Schutz im Skript: Kommen weniger als 300 Kämpfer, weniger als 11 Ranglisten oder keine Events an, wird nichts gespeichert (vermutlich hat sich der Aufbau einer Wikipedia-Seite geändert).
