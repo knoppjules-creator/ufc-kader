@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-22T06:30:20+00:00",
+ "stand": "2026-10-23T04:35:12+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -12,7 +12,7 @@
   "Wikipedia auf Russisch, Japanisch, Spanisch, Portugiesisch, Deutsch"
  ],
  "lizenz": "Wikipedia-Inhalte: CC BY-SA 4.0; Wikidata: CC0",
- "anzahl": 650,
+ "anzahl": 651,
  "kaempfer": [
   {
    "name": "Derrick Lewis",
@@ -4153,7 +4153,9 @@
     "land_iso": "Wikipedia: List of current UFC fighters",
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters"
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "10-1",
@@ -4162,8 +4164,14 @@
    "nationalitaet": null,
    "siegesserie": null,
    "letzter_kampf": null,
-   "naechster_kampf": null,
-   "status": "(July 8, 2026) – Unknown reasons – Pulled out of UFC Fight Night 282 (Abu Dhabi) – Dustin Jacoby",
+   "naechster_kampf": {
+    "event": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night 295",
+    "ort": "Riyadh",
+    "gegner": "Ivan Gnizditskiy",
+    "datum": "2026-12-05"
+   },
+   "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
    "kampfstil": null,
@@ -7604,6 +7612,43 @@
    "wikidata": null
   },
   {
+   "name": "Abubakar Vagaev",
+   "artikel": null,
+   "wikipedia": null,
+   "gewichtsklasse": "Middleweight",
+   "land_iso": "RUS",
+   "quellen": {
+    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
+    "land_iso": "Wikipedia: List of current UFC fighters",
+    "bilanz": "Wikipedia: List of current UFC fighters",
+    "geburtsdatum": "Wikipedia: List of current UFC fighters",
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
+    "kampfstil": "Wikipedia (russisch): Вагаев, Абубакар Романович"
+   },
+   "konflikte": {},
+   "bilanz": "25-4",
+   "geburtsdatum": "1993-04-14",
+   "groesse_cm": 180,
+   "nationalitaet": null,
+   "siegesserie": null,
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 333",
+    "event_wiki": "UFC 333",
+    "ort": "Abu Dhabi",
+    "gegner": "Jacob Malkoun",
+    "datum": "2026-10-24"
+   },
+   "status": null,
+   "wikidata": "https://www.wikidata.org/wiki/Q18421708",
+   "gewicht_kg": null,
+   "reichweite_cm": null,
+   "kampfstil": "Kickboxing",
+   "geburtsort": null
+  },
+  {
    "name": "Vlasto Čepo",
    "artikel": null,
    "wikipedia": null,
@@ -9943,7 +9988,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "14-8",
@@ -9951,14 +9997,14 @@
    "groesse_cm": 185,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 276",
-    "event_wiki": "UFC Fight Night: Allen vs. Costa",
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 335",
+    "event_wiki": "UFC 335",
     "ort": "Las Vegas",
-    "gegner": "Khaos Williams",
-    "ergebnis": "Loss"
+    "gegner": "Ronald Humphrey",
+    "datum": "2026-12-12"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -10739,43 +10785,6 @@
    "kampfstil": null,
    "geburtsort": null,
    "wikidata": null
-  },
-  {
-   "name": "Abubakar Vagaev",
-   "artikel": null,
-   "wikipedia": null,
-   "gewichtsklasse": "Welterweight",
-   "land_iso": "RUS",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
-    "kampfstil": "Wikipedia (russisch): Вагаев, Абубакар Романович"
-   },
-   "konflikte": {},
-   "bilanz": "25-4",
-   "geburtsdatum": "1993-04-14",
-   "groesse_cm": 180,
-   "nationalitaet": null,
-   "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
-    "event": "UFC 333",
-    "event_wiki": "UFC 333",
-    "ort": "Abu Dhabi",
-    "gegner": "Jacob Malkoun / Moving to Middleweight",
-    "datum": "2026-10-24"
-   },
-   "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q18421708",
-   "gewicht_kg": null,
-   "reichweite_cm": null,
-   "kampfstil": "Kickboxing",
-   "geburtsort": null
   },
   {
    "name": "Michael Oliveira",
@@ -13463,8 +13472,8 @@
   },
   {
    "name": "Nikolas Motta",
-   "artikel": null,
-   "wikipedia": null,
+   "artikel": "Nikolas Motta",
+   "wikipedia": "https://en.wikipedia.org/wiki/Nikolas_Motta",
    "gewichtsklasse": "Lightweight",
    "land_iso": "BRA",
    "quellen": {
@@ -13473,16 +13482,18 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "siegesserie": "Wikipedia: Nikolas Motta (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
     "kampfdatum": "Wikipedia: List of UFC events",
-    "geburtsort": "Wikipedia (spanisch): Nikolas Motta"
+    "gewicht_kg": "Wikipedia: Nikolas Motta",
+    "geburtsort": "Wikipedia: Nikolas Motta"
    },
    "konflikte": {},
    "bilanz": "15-6 (1 NC)",
    "geburtsdatum": "1993-02-08",
    "groesse_cm": 175,
    "nationalitaet": null,
-   "siegesserie": null,
+   "siegesserie": 0,
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 294",
@@ -13493,10 +13504,10 @@
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q131428911",
-   "gewicht_kg": null,
+   "gewicht_kg": 70.3,
    "reichweite_cm": null,
    "kampfstil": null,
-   "geburtsort": "Governador Valadares, Minas Gerais"
+   "geburtsort": "Governador Valadares, Minas Gerais, Brazil"
   },
   {
    "name": "Trey Ogden",
@@ -14284,42 +14295,6 @@
     "ergebnis": "Win"
    },
    "naechster_kampf": null,
-   "status": null,
-   "gewicht_kg": null,
-   "reichweite_cm": null,
-   "kampfstil": null,
-   "geburtsort": null,
-   "wikidata": null
-  },
-  {
-   "name": "Bolaji Oki",
-   "artikel": null,
-   "wikipedia": null,
-   "gewichtsklasse": "Lightweight",
-   "land_iso": "BEL",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
-   },
-   "konflikte": {},
-   "bilanz": "10-4",
-   "geburtsdatum": "1995-11-15",
-   "groesse_cm": 178,
-   "nationalitaet": null,
-   "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
-    "event": "UFC 333",
-    "event_wiki": "UFC 333",
-    "ort": "Abu Dhabi",
-    "gegner": "Daniel Santos / Moving to Featherweight",
-    "datum": "2026-10-24"
-   },
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -17743,6 +17718,42 @@
    "geburtsort": "Cebu City, Central Visayas, Philippines"
   },
   {
+   "name": "Bolaji Oki",
+   "artikel": null,
+   "wikipedia": null,
+   "gewichtsklasse": "Featherweight",
+   "land_iso": "BEL",
+   "quellen": {
+    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
+    "land_iso": "Wikipedia: List of current UFC fighters",
+    "bilanz": "Wikipedia: List of current UFC fighters",
+    "geburtsdatum": "Wikipedia: List of current UFC fighters",
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
+   },
+   "konflikte": {},
+   "bilanz": "10-4",
+   "geburtsdatum": "1995-11-15",
+   "groesse_cm": 178,
+   "nationalitaet": null,
+   "siegesserie": null,
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 333",
+    "event_wiki": "UFC 333",
+    "ort": "Abu Dhabi",
+    "gegner": "Daniel Santos",
+    "datum": "2026-10-24"
+   },
+   "status": null,
+   "gewicht_kg": null,
+   "reichweite_cm": null,
+   "kampfstil": null,
+   "geburtsort": null,
+   "wikidata": null
+  },
+  {
    "name": "Vinicius Oliveira",
    "artikel": "Vinicius Oliveira",
    "wikipedia": "https://en.wikipedia.org/wiki/Vinicius_Oliveira",
@@ -18086,10 +18097,6 @@
      {
       "wert": "Yuma Desert",
       "quelle": "Wikipedia (russisch): Дельгадо, Хосе (боец)"
-     },
-     {
-      "wert": "Phoenix, Arizona",
-      "quelle": "Wikipedia (spanisch): José Miguel Delgado"
      },
      {
       "wert": "Phoenix, Arizona",
@@ -20612,8 +20619,6 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Adrian Yañez (Tabelle „Mixed martial arts record“)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Adrian Yañez",
     "reichweite_cm": "Wikipedia: Adrian Yañez",
     "kampfstil": "Wikipedia (russisch): Яньес, Эдриан",
@@ -20641,14 +20646,8 @@
    "nationalitaet": null,
    "siegesserie": 1,
    "letzter_kampf": null,
-   "naechster_kampf": {
-    "event": "UFC 334",
-    "event_wiki": "UFC 334",
-    "ort": "New York City",
-    "gegner": "Juan Díaz",
-    "datum": "2026-11-14"
-   },
-   "status": null,
+   "naechster_kampf": null,
+   "status": "(October 17, 2026) – Unknown reasons – Pulled out of UFC 334 (New York City) – Juan Díaz",
    "wikidata": "https://www.wikidata.org/wiki/Q107638714",
    "gewicht_kg": 61.2,
    "reichweite_cm": 178,
@@ -22341,7 +22340,7 @@
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
-    "gegner": "Adrian Yañez",
+    "gegner": "TBD",
     "datum": "2026-11-14"
    },
    "status": null,
@@ -22695,6 +22694,43 @@
     "ergebnis": "Loss"
    },
    "naechster_kampf": null,
+   "status": null,
+   "gewicht_kg": null,
+   "reichweite_cm": null,
+   "kampfstil": null,
+   "geburtsort": null,
+   "wikidata": null
+  },
+  {
+   "name": "Asaf Chopurov",
+   "artikel": null,
+   "wikipedia": null,
+   "gewichtsklasse": "Bantamweight",
+   "land_iso": "AZE",
+   "quellen": {
+    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
+    "land_iso": "Wikipedia: List of current UFC fighters",
+    "bilanz": "Wikipedia: List of current UFC fighters",
+    "geburtsdatum": "Wikipedia: List of current UFC fighters",
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "siegesserie": "Wikipedia: List of current UFC fighters (nur Siege)",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
+   },
+   "konflikte": {},
+   "bilanz": "11-0",
+   "geburtsdatum": "2001-11-17",
+   "groesse_cm": 170,
+   "nationalitaet": null,
+   "siegesserie": 11,
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 333",
+    "event_wiki": "UFC 333",
+    "ort": "Abu Dhabi",
+    "gegner": "Colby Thicknesse",
+    "datum": "2026-10-24"
+   },
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -35752,7 +35788,7 @@
    "name": "UFC Fight Night 295",
    "artikel": "UFC Fight Night 295",
    "datum": "2026-12-05",
-   "halle": "TBA",
+   "halle": "anb Arena",
    "ort": "Riyadh, Saudi Arabia",
    "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_295",
    "kaempfe": [],
