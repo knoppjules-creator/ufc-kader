@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-23T04:35:12+00:00",
+ "stand": "2026-10-24T04:31:39+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -4215,8 +4215,8 @@
   },
   {
    "name": "Abdul-Rakhman Yakhyaev",
-   "artikel": null,
-   "wikipedia": null,
+   "artikel": "Abdul-Rakhman Yakhyaev",
+   "wikipedia": "https://en.wikipedia.org/wiki/Abdul-Rakhman_Yakhyaev",
    "gewichtsklasse": "Light Heavyweight",
    "land_iso": "TUR",
    "quellen": {
@@ -4225,15 +4225,20 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: List of current UFC fighters (nur Siege)",
+    "nationalitaet": "Wikipedia: Abdul-Rakhman Yakhyaev",
+    "siegesserie": "Wikipedia: Abdul-Rakhman Yakhyaev (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kampfdatum": "Wikipedia: List of UFC events",
+    "gewicht_kg": "Wikipedia: Abdul-Rakhman Yakhyaev",
+    "reichweite_cm": "Wikipedia: Abdul-Rakhman Yakhyaev",
+    "kampfstil": "Wikipedia: Abdul-Rakhman Yakhyaev",
+    "geburtsort": "Wikipedia: Abdul-Rakhman Yakhyaev"
    },
    "konflikte": {},
    "bilanz": "10-0",
    "geburtsdatum": "2001-01-03",
    "groesse_cm": 188,
-   "nationalitaet": null,
+   "nationalitaet": "Russian",
    "siegesserie": 10,
    "letzter_kampf": null,
    "naechster_kampf": {
@@ -4244,11 +4249,11 @@
     "datum": "2026-10-24"
    },
    "status": null,
-   "gewicht_kg": null,
-   "reichweite_cm": null,
-   "kampfstil": null,
-   "geburtsort": null,
-   "wikidata": null
+   "wikidata": "https://www.wikidata.org/wiki/Q141812238",
+   "gewicht_kg": 93.0,
+   "reichweite_cm": 198,
+   "kampfstil": "Mixed martial arts",
+   "geburtsort": "Chechnya, Russia"
   },
   {
    "name": "Iwo Baraniewski",
@@ -29878,7 +29883,7 @@
      "rang": "15",
      "land_iso": "TUR",
      "name": "Abdul-Rakhman Yakhyaev",
-     "artikel": null,
+     "artikel": "Abdul-Rakhman Yakhyaev",
      "bilanz": "10-0",
      "serie": 10,
      "letzter_kampf": {
@@ -35262,7 +35267,7 @@
      "a": "Nikita Krylov",
      "a_artikel": "Nikita Krylov",
      "b": "Abdul-Rakhman Yakhyaev",
-     "b_artikel": null,
+     "b_artikel": "Abdul-Rakhman Yakhyaev",
      "titelkampf": false,
      "karte": "Preliminary card (Paramount+)",
      "hinweis": null
@@ -35328,10 +35333,10 @@
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Women's Strawweight",
+     "gewichtsklasse": "Catchweight (120.5 lb)",
      "a": "Iasmin Lucindo",
      "a_artikel": "Iasmin Lucindo",
-     "b": "Nicole Caliari",
+     "b": "Nicolle Caliari",
      "b_artikel": null,
      "titelkampf": false,
      "karte": "Early preliminary card (Paramount+)",

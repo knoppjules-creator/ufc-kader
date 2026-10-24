@@ -352,6 +352,94 @@
     ],
     "quelle": "Wikipedia: UFC rankings",
     "gespeichert": "2026-10-22"
+   },
+   {
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "plaetze": [
+     {
+      "rang": "C",
+      "name": "Carlos Ulberg",
+      "artikel": "Carlos Ulberg"
+     },
+     {
+      "rang": "1",
+      "name": "Alex Pereira",
+      "artikel": "Alex Pereira"
+     },
+     {
+      "rang": "2",
+      "name": "Magomed Ankalaev",
+      "artikel": "Magomed Ankalaev"
+     },
+     {
+      "rang": "3",
+      "name": "Jiří Procházka",
+      "artikel": "Jiří Procházka"
+     },
+     {
+      "rang": "4",
+      "name": "Paulo Costa",
+      "artikel": "Paulo Costa"
+     },
+     {
+      "rang": "5",
+      "name": "Khalil Rountree Jr.",
+      "artikel": "Khalil Rountree Jr."
+     },
+     {
+      "rang": "6",
+      "name": "Navajo Stirling",
+      "artikel": "Navajo Stirling"
+     },
+     {
+      "rang": "7",
+      "name": "Dominick Reyes",
+      "artikel": "Dominick Reyes"
+     },
+     {
+      "rang": "8",
+      "name": "Reinier de Ridder",
+      "artikel": "Reinier de Ridder"
+     },
+     {
+      "rang": "9",
+      "name": "Azamat Murzakanov",
+      "artikel": "Azamat Murzakanov"
+     },
+     {
+      "rang": "10",
+      "name": "Alonzo Menifield",
+      "artikel": "Alonzo Menifield"
+     },
+     {
+      "rang": "11",
+      "name": "Bogdan Guskov",
+      "artikel": "Bogdan Guskov"
+     },
+     {
+      "rang": "12",
+      "name": "Robert Whittaker",
+      "artikel": "Robert Whittaker (fighter)"
+     },
+     {
+      "rang": "13",
+      "name": "Muhammad Saidov",
+      "artikel": null
+     },
+     {
+      "rang": "14",
+      "name": "Modestas Bukauskas",
+      "artikel": "Modestas Bukauskas"
+     },
+     {
+      "rang": "15",
+      "name": "Abdul-Rakhman Yakhyaev",
+      "artikel": "Abdul-Rakhman Yakhyaev"
+     }
+    ],
+    "quelle": "Wikipedia: UFC rankings",
+    "gespeichert": "2026-10-24"
    }
   ],
   "Middleweight": [
