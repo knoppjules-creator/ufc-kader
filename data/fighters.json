@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-24T04:31:39+00:00",
+ "stand": "2026-10-25T04:33:42+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -188,7 +188,6 @@
     "nationalitaet": "Wikipedia: Alexander Volkov (fighter)",
     "siegesserie": "Wikipedia: Alexander Volkov (fighter) (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Alexander Volkov (fighter)",
     "reichweite_cm": "Wikipedia: Alexander Volkov (fighter)",
     "kampfstil": "Wikipedia (russisch): Волков, Александр Евгеньевич",
@@ -206,19 +205,19 @@
      }
     ]
    },
-   "bilanz": "40-11",
+   "bilanz": "41-11",
    "geburtsdatum": "1988-10-24",
    "groesse_cm": 201,
    "nationalitaet": "Russian",
-   "siegesserie": 2,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 3,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Rizvan Kuniev",
-    "datum": "2026-10-24"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q4123254",
    "gewicht_kg": 116.6,
@@ -1426,25 +1425,24 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Rizvan Kuniev (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Rizvan Kuniev",
     "reichweite_cm": "Wikipedia: Rizvan Kuniev",
     "geburtsort": "Wikipedia: Rizvan Kuniev"
    },
    "konflikte": {},
-   "bilanz": "14-3-1 (1 NC)",
+   "bilanz": "14-4-1 (1 NC)",
    "geburtsdatum": "1992-03-10",
    "groesse_cm": 193,
    "nationalitaet": null,
-   "siegesserie": 2,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Alexander Volkov",
-    "datum": "2026-10-24"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q112990103",
    "gewicht_kg": 120.2,
@@ -2519,24 +2517,14 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "nationalitaet": "Wikipedia: Nikita Krylov",
+    "siegesserie": "Wikipedia: Nikita Krylov (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Nikita Krylov",
     "reichweite_cm": "Wikipedia (russisch): Крылов, Никита Андреевич",
     "kampfstil": "Wikipedia (russisch): Крылов, Никита Андреевич",
     "geburtsort": "Wikipedia: Nikita Krylov"
    },
    "konflikte": {
-    "bilanz": [
-     {
-      "wert": "31-1",
-      "quelle": "Wikipedia: List of current UFC fighters"
-     },
-     {
-      "wert": "31-12",
-      "quelle": "Wikipedia: Nikita Krylov"
-     }
-    ],
     "groesse_cm": [
      {
       "wert": 188,
@@ -2576,19 +2564,19 @@
      }
     ]
    },
-   "bilanz": "31-1",
+   "bilanz": "31-13",
    "geburtsdatum": "1992-03-07",
    "groesse_cm": 188,
    "nationalitaet": "Russian",
-   "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Abdul-Rakhman Yakhyaev",
-    "datum": "2026-10-24"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q15710959",
    "gewicht_kg": 97.5,
@@ -2879,7 +2867,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Dominick Reyes (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Dominick Reyes",
     "reichweite_cm": "Wikipedia: Dominick Reyes",
     "kampfstil": "Wikipedia (russisch): Рейес, Доминик",
@@ -2923,19 +2910,19 @@
      }
     ]
    },
-   "bilanz": "16-5",
+   "bilanz": "17-5",
    "geburtsdatum": "1989-12-26",
    "groesse_cm": 193,
    "nationalitaet": null,
-   "siegesserie": 1,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 2,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Azamat Murzakanov",
-    "datum": "2026-10-24"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q30323656",
    "gewicht_kg": 93.0,
@@ -3428,7 +3415,6 @@
     "nationalitaet": "Wikipedia: Azamat Murzakanov",
     "siegesserie": "Wikipedia: Azamat Murzakanov (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Azamat Murzakanov",
     "reichweite_cm": "Wikipedia: Azamat Murzakanov",
     "kampfstil": "Wikipedia (russisch): Мурзаканов, Азамат Анзорович",
@@ -3480,19 +3466,19 @@
      }
     ]
    },
-   "bilanz": "16-1",
+   "bilanz": "16-2",
    "geburtsdatum": "1989-04-12",
    "groesse_cm": 178,
    "nationalitaet": "Russian",
    "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Dominick Reyes",
-    "datum": "2026-10-24"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q56000949",
    "gewicht_kg": 93.0,
@@ -4228,30 +4214,29 @@
     "nationalitaet": "Wikipedia: Abdul-Rakhman Yakhyaev",
     "siegesserie": "Wikipedia: Abdul-Rakhman Yakhyaev (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Abdul-Rakhman Yakhyaev",
     "reichweite_cm": "Wikipedia: Abdul-Rakhman Yakhyaev",
     "kampfstil": "Wikipedia: Abdul-Rakhman Yakhyaev",
     "geburtsort": "Wikipedia: Abdul-Rakhman Yakhyaev"
    },
    "konflikte": {},
-   "bilanz": "10-0",
+   "bilanz": "11-0",
    "geburtsdatum": "2001-01-03",
    "groesse_cm": 188,
    "nationalitaet": "Russian",
-   "siegesserie": 10,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 11,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Nikita Krylov",
-    "datum": "2026-10-24"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q141812238",
    "gewicht_kg": 93.0,
-   "reichweite_cm": 198,
+   "reichweite_cm": 201,
    "kampfstil": "Mixed martial arts",
    "geburtsort": "Chechnya, Russia"
   },
@@ -5861,7 +5846,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Jacob Malkoun (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Jacob Malkoun",
     "reichweite_cm": "Wikipedia: Jacob Malkoun",
     "kampfstil": "Wikipedia: Jacob Malkoun",
@@ -5879,19 +5863,19 @@
      }
     ]
    },
-   "bilanz": "10-3",
+   "bilanz": "10-4",
    "geburtsdatum": "1995-08-26",
    "groesse_cm": 185,
    "nationalitaet": null,
-   "siegesserie": 3,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Abubakar Vagaev",
-    "datum": "2026-10-24"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q110906519",
    "gewicht_kg": 83.9,
@@ -6110,7 +6094,6 @@
     "nationalitaet": "Wikipedia: Abusupiyan Magomedov",
     "siegesserie": "Wikipedia: Abusupiyan Magomedov (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Abusupiyan Magomedov",
     "reichweite_cm": "Wikipedia: Abusupiyan Magomedov",
     "kampfstil": "Wikipedia (russisch): Магомедов, Абусупьян Ахмедович",
@@ -6128,19 +6111,19 @@
      }
     ]
    },
-   "bilanz": "29-7-1",
+   "bilanz": "30-7-1",
    "geburtsdatum": "1990-09-02",
    "groesse_cm": 188,
-   "nationalitaet": "Russian, German",
-   "siegesserie": 1,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "nationalitaet": "German",
+   "siegesserie": 2,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Cameron Rowston",
-    "datum": "2026-10-24"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q66132201",
    "gewicht_kg": 83.9,
@@ -7150,23 +7133,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "15-3",
+   "bilanz": "15-4",
    "geburtsdatum": "1995-02-19",
    "groesse_cm": 190,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Abusupiyan Magomedov",
-    "datum": "2026-10-24"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -7629,23 +7611,22 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "kampfstil": "Wikipedia (russisch): Вагаев, Абубакар Романович"
    },
    "konflikte": {},
-   "bilanz": "25-4",
+   "bilanz": "26-4",
    "geburtsdatum": "1993-04-14",
    "groesse_cm": 180,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Jacob Malkoun",
-    "datum": "2026-10-24"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q18421708",
    "gewicht_kg": null,
@@ -8306,7 +8287,6 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Islam Makhachev (Tabelle „Mixed martial arts record“)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
     "gewicht_kg": "Wikipedia: Islam Makhachev",
     "reichweite_cm": "Wikipedia: Islam Makhachev",
     "kampfstil": "Wikipedia: Islam Makhachev",
@@ -8337,15 +8317,9 @@
    "groesse_cm": 178,
    "nationalitaet": null,
    "siegesserie": 17,
-   "letzter_kampf": {
-    "event": "UFC 330",
-    "event_wiki": "UFC 330",
-    "ort": "Philadelphia",
-    "gegner": "Ian Machado Garry",
-    "ergebnis": "Win"
-   },
+   "letzter_kampf": null,
    "naechster_kampf": null,
-   "status": null,
+   "status": "(October 23, 2026) – Undisclosed reasons – Out of UFC 336 (Toronto) – Carlos Prates",
    "wikidata": "https://www.wikidata.org/wiki/Q18637676",
    "gewicht_kg": 77.1,
    "reichweite_cm": 178,
@@ -9452,6 +9426,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Ian Machado Garry (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Ian Machado Garry",
     "reichweite_cm": "Wikipedia: Ian Machado Garry",
     "kampfstil": "Wikipedia (russisch): Гэрри, Иэн",
@@ -9474,14 +9449,14 @@
    "groesse_cm": 190,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC 330",
-    "event_wiki": "UFC 330",
-    "ort": "Philadelphia",
-    "gegner": "Islam Makhachev",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 335",
+    "event_wiki": "UFC 335",
+    "ort": "Las Vegas",
+    "gegner": "Yaroslav Amosov",
+    "datum": "2026-12-12"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q109657967",
    "gewicht_kg": 77.1,
@@ -9542,6 +9517,8 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Michael Morales (fighter) (Tabelle „Mixed martial arts record“)",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Michael Morales (fighter)",
     "reichweite_cm": "Wikipedia (russisch): Моралес, Майкл",
     "kampfstil": "Wikipedia (russisch): Моралес, Майкл",
@@ -9569,7 +9546,13 @@
    "nationalitaet": null,
    "siegesserie": 19,
    "letzter_kampf": null,
-   "naechster_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "Carlos Prates",
+    "datum": "2027-01-30"
+   },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q115298767",
    "gewicht_kg": 77.1,
@@ -9920,6 +9903,7 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Carlos Prates",
     "reichweite_cm": "Wikipedia: Carlos Prates",
     "kampfstil": "Wikipedia: Carlos Prates",
@@ -9931,14 +9915,14 @@
    "groesse_cm": 185,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 275",
-    "event_wiki": "UFC Fight Night: Della Maddalena vs. Prates",
-    "ort": "Perth",
-    "gegner": "Jack Della Maddalena",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "Michael Morales",
+    "datum": "2027-01-30"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q131010375",
    "gewicht_kg": 77.1,
@@ -10375,6 +10359,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Yaroslav Amosov (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Yaroslav Amosov",
     "reichweite_cm": "Wikipedia (russisch): Амосов, Ярослав Александрович",
     "kampfstil": "Wikipedia: Yaroslav Amosov",
@@ -10386,14 +10371,14 @@
    "groesse_cm": 180,
    "nationalitaet": null,
    "siegesserie": 3,
-   "letzter_kampf": {
-    "event": "UFC 328",
-    "event_wiki": "UFC 328",
-    "ort": "Newark",
-    "gegner": "Joel Álvarez",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 335",
+    "event_wiki": "UFC 335",
+    "ort": "Las Vegas",
+    "gegner": "Ian Machado Garry",
+    "datum": "2026-12-12"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q26255520",
    "gewicht_kg": 77.1,
@@ -12296,7 +12281,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Grant Dawson (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Grant Dawson",
     "reichweite_cm": "Wikipedia: Grant Dawson",
     "kampfstil": "Wikipedia: Grant Dawson",
@@ -12332,19 +12316,19 @@
      }
     ]
    },
-   "bilanz": "24-3-1",
+   "bilanz": "25-3-1",
    "geburtsdatum": "1994-02-20",
    "groesse_cm": 178,
    "nationalitaet": null,
-   "siegesserie": 1,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 2,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Nurullo Aliev",
-    "datum": "2026-10-24"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q86883135",
    "gewicht_kg": 70.3,
@@ -13005,18 +12989,7 @@
     "kampfstil": "Wikipedia (russisch): Топурия, Илия",
     "geburtsort": "Wikipedia: Ilia Topuria"
    },
-   "konflikte": {
-    "groesse_cm": [
-     {
-      "wert": 170,
-      "quelle": "Wikipedia: List of current UFC fighters"
-     },
-     {
-      "wert": 173,
-      "quelle": "Wikipedia: Ilia Topuria"
-     }
-    ]
-   },
+   "konflikte": {},
    "bilanz": "17-1",
    "geburtsdatum": "1997-01-21",
    "groesse_cm": 170,
@@ -13954,7 +13927,6 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Nurullo Aliev",
     "reichweite_cm": "Wikipedia: Nurullo Aliev",
     "kampfstil": "Wikipedia (russisch): Алиев, Нурулло Хайруллоевич",
@@ -13963,11 +13935,11 @@
    "konflikte": {
     "bilanz": [
      {
-      "wert": "11-0",
+      "wert": "11-1",
       "quelle": "Wikipedia: List of current UFC fighters"
      },
      {
-      "wert": "12-0",
+      "wert": "12-1",
       "quelle": "Wikipedia: Nurullo Aliev"
      }
     ],
@@ -13992,19 +13964,19 @@
      }
     ]
    },
-   "bilanz": "11-0",
+   "bilanz": "11-1",
    "geburtsdatum": "1999-10-16",
    "groesse_cm": 178,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Grant Dawson",
-    "datum": "2026-10-24"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q109489643",
    "gewicht_kg": 70.3,
@@ -14531,23 +14503,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "8-1",
+   "bilanz": "9-1",
    "geburtsdatum": "1995-04-21",
    "groesse_cm": 175,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Noah Gugnon",
-    "datum": "2026-10-24"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -15208,23 +15179,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "10-2",
+   "bilanz": "10-3",
    "geburtsdatum": "2000-10-18",
    "groesse_cm": 180,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Kody Steele",
-    "datum": "2026-10-24"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -16041,7 +16011,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Alexander Volkanovski (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Alexander Volkanovski",
     "reichweite_cm": "Wikipedia: Alexander Volkanovski",
     "kampfstil": "Wikipedia (russisch): Волкановски, Александр",
@@ -16063,19 +16032,19 @@
      }
     ]
    },
-   "bilanz": "28-4",
+   "bilanz": "29-4",
    "geburtsdatum": "1988-09-29",
    "groesse_cm": 168,
    "nationalitaet": null,
-   "siegesserie": 2,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 3,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Movsar Evloev",
-    "datum": "2026-10-24"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q30123133",
    "gewicht_kg": 65.8,
@@ -16305,7 +16274,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Movsar Evloev (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Movsar Evloev",
     "reichweite_cm": "Wikipedia: Movsar Evloev",
     "kampfstil": "Wikipedia (russisch): Евлоев, Мовсар Магомедович",
@@ -16333,19 +16301,19 @@
      }
     ]
    },
-   "bilanz": "20-0",
+   "bilanz": "20-1",
    "geburtsdatum": "1992-11-03",
    "groesse_cm": 173,
    "nationalitaet": null,
-   "siegesserie": 20,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Alexander Volkanovski",
-    "datum": "2026-10-24"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q47453148",
    "gewicht_kg": 65.8,
@@ -17052,7 +17020,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "nationalitaet": "Wikipedia: Daniel Santos (fighter)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Daniel Santos (fighter)",
     "reichweite_cm": "Wikipedia: Daniel Santos (fighter)",
     "geburtsort": "Wikipedia: Daniel Santos (fighter)"
@@ -17060,28 +17027,28 @@
    "konflikte": {
     "bilanz": [
      {
-      "wert": "13-3",
+      "wert": "14-3",
       "quelle": "Wikipedia: List of current UFC fighters"
      },
      {
-      "wert": "14-3",
+      "wert": "15-3",
       "quelle": "Wikipedia: Daniel Santos (fighter)"
      }
     ]
    },
-   "bilanz": "13-3",
+   "bilanz": "14-3",
    "geburtsdatum": "1995-03-12",
    "groesse_cm": 170,
    "nationalitaet": "Brazilian",
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Bolaji Oki",
-    "datum": "2026-10-24"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q136534249",
    "gewicht_kg": 65.8,
@@ -17734,23 +17701,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "10-4",
+   "bilanz": "10-5",
    "geburtsdatum": "1995-11-15",
    "groesse_cm": 178,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Daniel Santos",
-    "datum": "2026-10-24"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -18365,26 +18331,25 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Aaron Pico (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Aaron Pico",
     "reichweite_cm": "Wikipedia (russisch): Пико, Аарон",
     "kampfstil": "Wikipedia: Aaron Pico",
     "geburtsort": "Wikipedia: Aaron Pico"
    },
    "konflikte": {},
-   "bilanz": "14-5",
+   "bilanz": "15-5",
    "geburtsdatum": "1996-09-23",
    "groesse_cm": 173,
    "nationalitaet": null,
-   "siegesserie": 1,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 2,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Losene Keita",
-    "datum": "2026-10-24"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q18786737",
    "gewicht_kg": 65.8,
@@ -18726,7 +18691,6 @@
     "nationalitaet": "Wikipedia: Losene Keita",
     "siegesserie": "Wikipedia: Losene Keita (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Losene Keita",
     "reichweite_cm": "Wikipedia (russisch): Кейта, Лосене",
     "geburtsort": "Wikipedia: Losene Keita"
@@ -18743,19 +18707,19 @@
      }
     ]
    },
-   "bilanz": "17-2",
+   "bilanz": "17-3",
    "geburtsdatum": "1997-12-30",
    "groesse_cm": 170,
    "nationalitaet": "Belgian",
-   "siegesserie": 1,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Aaron Pico",
-    "datum": "2026-10-24"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q115821268",
    "gewicht_kg": 69.9,
@@ -19814,7 +19778,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Merab Dvalishvili (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Merab Dvalishvili",
     "reichweite_cm": "Wikipedia (russisch): Двалишвили, Мераб",
     "kampfstil": "Wikipedia: Merab Dvalishvili",
@@ -19845,7 +19808,7 @@
     ],
     "geburtsort": [
      {
-      "wert": "Vani, Georgian SSR, Soviet Union",
+      "wert": "Vani, Imereti, Georgian SSR, Soviet Union",
       "quelle": "Wikipedia: Merab Dvalishvili"
      },
      {
@@ -19858,25 +19821,25 @@
      }
     ]
    },
-   "bilanz": "21-5",
+   "bilanz": "21-6",
    "geburtsdatum": "1991-01-10",
    "groesse_cm": 168,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Petr Yan",
-    "datum": "2026-10-24"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q48471377",
    "gewicht_kg": 61.2,
    "reichweite_cm": 173,
    "kampfstil": "Combat sambo",
-   "geburtsort": "Vani, Georgian SSR, Soviet Union"
+   "geburtsort": "Vani, Imereti, Georgian SSR, Soviet Union"
   },
   {
    "name": "Cory Sandhagen",
@@ -20131,7 +20094,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Petr Yan (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Petr Yan",
     "reichweite_cm": "Wikipedia: Petr Yan",
     "kampfstil": "Wikipedia (russisch): Ян, Пётр Евгеньевич",
@@ -20140,7 +20102,7 @@
    "konflikte": {
     "geburtsort": [
      {
-      "wert": "Dudinka, Russia",
+      "wert": "Dudinka, Krasnoyarsk, Russia",
       "quelle": "Wikipedia: Petr Yan"
      },
      {
@@ -20161,25 +20123,25 @@
      }
     ]
    },
-   "bilanz": "20-5",
+   "bilanz": "21-5",
    "geburtsdatum": "1993-02-11",
    "groesse_cm": 170,
    "nationalitaet": null,
-   "siegesserie": 4,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 5,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Merab Dvalishvili",
-    "datum": "2026-10-24"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q54218657",
    "gewicht_kg": 61.2,
    "reichweite_cm": 170,
    "kampfstil": "Taekwondo, Boxing",
-   "geburtsort": "Dudinka, Russia"
+   "geburtsort": "Dudinka, Krasnoyarsk, Russia"
   },
   {
    "name": "Said Nurmagomedov",
@@ -21682,25 +21644,24 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Colby Thicknesse (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Colby Thicknesse",
     "reichweite_cm": "Wikipedia: Colby Thicknesse",
     "geburtsort": "Wikipedia: Colby Thicknesse"
    },
    "konflikte": {},
-   "bilanz": "9-1",
+   "bilanz": "10-1",
    "geburtsdatum": "1999-06-23",
    "groesse_cm": 170,
    "nationalitaet": null,
-   "siegesserie": 2,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 3,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Asaf Chopurov",
-    "datum": "2026-10-24"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q141667196",
    "gewicht_kg": 61.2,
@@ -22718,24 +22679,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: List of current UFC fighters (nur Siege)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "11-0",
+   "bilanz": "11-1",
    "geburtsdatum": "2001-11-17",
    "groesse_cm": 170,
    "nationalitaet": null,
-   "siegesserie": 11,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": null,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Colby Thicknesse",
-    "datum": "2026-10-24"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -23473,6 +23432,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Manel Kape (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Manel Kape",
     "reichweite_cm": "Wikipedia: Manel Kape",
     "kampfstil": "Wikipedia (russisch): Капе, Манэл",
@@ -23484,14 +23444,14 @@
    "groesse_cm": 165,
    "nationalitaet": null,
    "siegesserie": 4,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 279",
-    "event_wiki": "UFC Fight Night: Kape vs. Horiguchi",
-    "ort": "Las Vegas",
-    "gegner": "Kyoji Horiguchi",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "Joshua Van",
+    "datum": "2027-01-30"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q56886154",
    "gewicht_kg": 56.7,
@@ -23761,6 +23721,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Joshua Van (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Joshua Van",
     "reichweite_cm": "Wikipedia (russisch): Ван, Джошуа",
     "kampfstil": "Wikipedia (russisch): Ван, Джошуа",
@@ -23772,14 +23733,14 @@
    "groesse_cm": 165,
    "nationalitaet": null,
    "siegesserie": 8,
-   "letzter_kampf": {
-    "event": "UFC 331",
-    "event_wiki": "UFC 331",
-    "ort": "Los Angeles",
-    "gegner": "Alexandre Pantoja",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "Manel Kape",
+    "datum": "2027-01-30"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q131411649",
    "gewicht_kg": 56.7,
@@ -24142,7 +24103,6 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "reichweite_cm": "Wikipedia (russisch): Темиров, Рамазонбек",
     "geburtsort": "Wikidata: Q112790841"
    },
@@ -24158,19 +24118,19 @@
      }
     ]
    },
-   "bilanz": "18-2",
+   "bilanz": "18-3",
    "geburtsdatum": "1997-01-31",
    "groesse_cm": 165,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Lone'er Kavanagh",
-    "datum": "2026-10-24"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q112790841",
    "gewicht_kg": null,
@@ -24192,26 +24152,36 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Lone'er Kavanagh (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Lone'er Kavanagh",
     "reichweite_cm": "Wikipedia: Lone'er Kavanagh",
     "kampfstil": "Wikipedia (russisch): Кавана, Лонэ",
     "geburtsort": "Wikipedia: Lone'er Kavanagh"
    },
-   "konflikte": {},
-   "bilanz": "10-2",
+   "konflikte": {
+    "groesse_cm": [
+     {
+      "wert": 163,
+      "quelle": "Wikipedia: List of current UFC fighters"
+     },
+     {
+      "wert": 168,
+      "quelle": "Wikipedia: Lone'er Kavanagh"
+     }
+    ]
+   },
+   "bilanz": "11-2",
    "geburtsdatum": "1999-06-09",
    "groesse_cm": 163,
    "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 1,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Ramazan Temirov",
-    "datum": "2026-10-24"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q138011225",
    "gewicht_kg": 56.7,
@@ -24538,7 +24508,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "9-1",
@@ -24546,14 +24517,14 @@
    "groesse_cm": 168,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 286",
-    "event_wiki": "UFC Fight Night: Nurmagomedov vs. Song",
-    "ort": "Shanghai",
-    "gegner": "Bilal Hasan",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 335",
+    "event_wiki": "UFC 335",
+    "ort": "Las Vegas",
+    "gegner": "Roque Conceição Moreira Jr.",
+    "datum": "2026-12-12"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -27227,6 +27198,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Angela Hill (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Angela Hill",
     "reichweite_cm": "Wikipedia (russisch): Хилл, Анджела (боец)",
     "kampfstil": "Wikipedia (russisch): Хилл, Анджела (боец)",
@@ -27238,14 +27210,14 @@
    "groesse_cm": 160,
    "nationalitaet": null,
    "siegesserie": 1,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 277",
-    "event_wiki": "UFC Fight Night: Song vs. Figueiredo",
-    "ort": "Macau",
-    "gegner": "Xiong Jing Nan",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 335",
+    "event_wiki": "UFC 335",
+    "ort": "Las Vegas",
+    "gegner": "Shanelle Dyer",
+    "datum": "2026-12-12"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q20979276",
    "gewicht_kg": 52.2,
@@ -28269,25 +28241,24 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Iasmin Lucindo (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Iasmin Lucindo",
     "reichweite_cm": "Wikipedia: Iasmin Lucindo",
     "geburtsort": "Wikipedia: Iasmin Lucindo"
    },
    "konflikte": {},
-   "bilanz": "18-6",
+   "bilanz": "19-6",
    "geburtsdatum": "2002-01-08",
    "groesse_cm": 160,
    "nationalitaet": null,
-   "siegesserie": 1,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 2,
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Nicolle Caliari",
-    "datum": "2026-10-24"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q136898149",
    "gewicht_kg": 52.6,
@@ -28678,23 +28649,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "9-4",
+   "bilanz": "9-5",
    "geburtsdatum": "1996-11-04",
    "groesse_cm": 160,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 333",
     "event_wiki": "UFC 333",
     "ort": "Abu Dhabi",
     "gegner": "Iasmin Lucindo",
-    "datum": "2026-10-24"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -28854,7 +28824,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "8-1",
@@ -28862,14 +28833,14 @@
    "groesse_cm": 168,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 285",
-    "event_wiki": "UFC Fight Night: Hernandez vs. Rodrigues",
-    "ort": "Sacramento",
-    "gegner": "Elise Reed",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 335",
+    "event_wiki": "UFC 335",
+    "ort": "Las Vegas",
+    "gegner": "Angela Hill",
+    "datum": "2026-12-12"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -29272,21 +29243,16 @@
      "land_iso": "RUS",
      "name": "Alexander Volkov",
      "artikel": "Alexander Volkov (fighter)",
-     "bilanz": "40-11",
-     "serie": 2,
+     "bilanz": "41-11",
+     "serie": 3,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC 328",
-      "event_wiki": "UFC 328",
-      "gegner": "Waldo Cortes-Acosta",
-      "gegner_artikel": "Waldo Cortes-Acosta"
-     },
-     "naechster_kampf": {
       "event": "UFC 333",
       "event_wiki": "UFC 333",
       "gegner": "Rizvan Kuniev",
       "gegner_artikel": "Rizvan Kuniev"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -29298,21 +29264,16 @@
      "land_iso": "RUS",
      "name": "Rizvan Kuniev",
      "artikel": "Rizvan Kuniev",
-     "bilanz": "14-3-1 (1 NC)",
-     "serie": 2,
+     "bilanz": "14-4-1 (1 NC)",
+     "serie": 0,
      "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC Fight Night 282",
-      "event_wiki": "UFC Fight Night: Ankalaev vs. Guskov",
-      "gegner": "Tyrell Fortune",
-      "gegner_artikel": "Tyrell Fortune"
-     },
-     "naechster_kampf": {
+      "ergebnis": "Loss",
       "event": "UFC 333",
       "event_wiki": "UFC 333",
       "gegner": "Alexander Volkov",
       "gegner_artikel": "Alexander Volkov (fighter)"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -29707,21 +29668,16 @@
      "land_iso": "USA",
      "name": "Dominick Reyes",
      "artikel": "Dominick Reyes",
-     "bilanz": "16-5",
-     "serie": 1,
+     "bilanz": "17-5",
+     "serie": 2,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC 327",
-      "event_wiki": "UFC 327",
-      "gegner": "Johnny Walker",
-      "gegner_artikel": "Johnny Walker (fighter)"
-     },
-     "naechster_kampf": {
       "event": "UFC 333",
       "event_wiki": "UFC 333",
       "gegner": "Azamat Murzakanov",
       "gegner_artikel": "Azamat Murzakanov"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "auf",
@@ -29754,21 +29710,16 @@
      "land_iso": "RUS",
      "name": "Azamat Murzakanov",
      "artikel": "Azamat Murzakanov",
-     "bilanz": "16-1",
+     "bilanz": "16-2",
      "serie": 0,
      "letzter_kampf": {
       "ergebnis": "Loss",
-      "event": "UFC 327",
-      "event_wiki": "UFC 327",
-      "gegner": "Paulo Costa",
-      "gegner_artikel": "Paulo Costa"
-     },
-     "naechster_kampf": {
       "event": "UFC 333",
       "event_wiki": "UFC 333",
       "gegner": "Dominick Reyes",
       "gegner_artikel": "Dominick Reyes"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "auf",
@@ -29884,21 +29835,16 @@
      "land_iso": "TUR",
      "name": "Abdul-Rakhman Yakhyaev",
      "artikel": "Abdul-Rakhman Yakhyaev",
-     "bilanz": "10-0",
-     "serie": 10,
+     "bilanz": "11-0",
+     "serie": 11,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC Fight Night 280",
-      "event_wiki": "UFC Fight Night: Fiziev vs. Torres",
-      "gegner": "Julius Walker",
-      "gegner_artikel": null
-     },
-     "naechster_kampf": {
       "event": "UFC 333",
       "event_wiki": "UFC 333",
       "gegner": "Nikita Krylov",
       "gegner_artikel": "Nikita Krylov"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "neu"
@@ -30205,21 +30151,16 @@
      "land_iso": "GER",
      "name": "Abusupiyan Magomedov",
      "artikel": "Abusupiyan Magomedov",
-     "bilanz": "29-7-1",
-     "serie": 1,
+     "bilanz": "30-7-1",
+     "serie": 2,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC Fight Night 280",
-      "event_wiki": "UFC Fight Night: Fiziev vs. Torres",
-      "gegner": "Michał Oleksiejczuk",
-      "gegner_artikel": "Michał Oleksiejczuk"
-     },
-     "naechster_kampf": {
       "event": "UFC 333",
       "event_wiki": "UFC 333",
       "gegner": "Cameron Rowston",
       "gegner_artikel": null
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -30311,7 +30252,12 @@
       "gegner": "Jack Della Maddalena",
       "gegner_artikel": "Jack Della Maddalena"
      },
-     "naechster_kampf": null,
+     "naechster_kampf": {
+      "event": "UFC 336",
+      "event_wiki": "UFC 336",
+      "gegner": "Michael Morales",
+      "gegner_artikel": "Michael Morales (fighter)"
+     },
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -30353,7 +30299,12 @@
       "gegner": "Sean Brady",
       "gegner_artikel": "Sean Brady (fighter)"
      },
-     "naechster_kampf": null,
+     "naechster_kampf": {
+      "event": "UFC 336",
+      "event_wiki": "UFC 336",
+      "gegner": "Carlos Prates",
+      "gegner_artikel": "Carlos Prates"
+     },
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -30954,21 +30905,16 @@
      "land_iso": "USA",
      "name": "Grant Dawson",
      "artikel": "Grant Dawson",
-     "bilanz": "24-3-1",
-     "serie": 1,
+     "bilanz": "25-3-1",
+     "serie": 2,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC 328",
-      "event_wiki": "UFC 328",
-      "gegner": "Mateusz Rębecki",
-      "gegner_artikel": "Mateusz Rębecki"
-     },
-     "naechster_kampf": {
       "event": "UFC 333",
       "event_wiki": "UFC 333",
       "gegner": "Nurullo Aliev",
       "gegner_artikel": "Nurullo Aliev"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -31011,21 +30957,16 @@
      "land_iso": "AUS",
      "name": "Alexander Volkanovski",
      "artikel": "Alexander Volkanovski",
-     "bilanz": "28-4",
-     "serie": 2,
+     "bilanz": "29-4",
+     "serie": 3,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC 325",
-      "event_wiki": "UFC 325",
-      "gegner": "Diego Lopes",
-      "gegner_artikel": "Diego Lopes (fighter)"
-     },
-     "naechster_kampf": {
       "event": "UFC 333",
       "event_wiki": "UFC 333",
       "gegner": "Movsar Evloev",
       "gegner_artikel": "Movsar Evloev"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": null
     },
@@ -31034,21 +30975,16 @@
      "land_iso": "RUS",
      "name": "Movsar Evloev",
      "artikel": "Movsar Evloev",
-     "bilanz": "20-0",
-     "serie": 20,
+     "bilanz": "20-1",
+     "serie": 0,
      "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC Fight Night 270",
-      "event_wiki": "UFC Fight Night: Evloev vs. Murphy",
-      "gegner": "Lerone Murphy",
-      "gegner_artikel": "Lerone Murphy"
-     },
-     "naechster_kampf": {
+      "ergebnis": "Loss",
       "event": "UFC 333",
       "event_wiki": "UFC 333",
       "gegner": "Alexander Volkanovski",
       "gegner_artikel": "Alexander Volkanovski"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -31332,21 +31268,16 @@
      "land_iso": "USA",
      "name": "Aaron Pico",
      "artikel": "Aaron Pico",
-     "bilanz": "14-5",
-     "serie": 1,
+     "bilanz": "15-5",
+     "serie": 2,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC 327",
-      "event_wiki": "UFC 327",
-      "gegner": "Patrício Pitbull",
-      "gegner_artikel": "Patrício Pitbull"
-     },
-     "naechster_kampf": {
       "event": "UFC 333",
       "event_wiki": "UFC 333",
       "gegner": "Losene Keita",
       "gegner_artikel": "Losene Keita"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "ab",
@@ -31390,21 +31321,16 @@
      "land_iso": "RUS",
      "name": "Petr Yan",
      "artikel": "Petr Yan",
-     "bilanz": "20-5",
-     "serie": 4,
+     "bilanz": "21-5",
+     "serie": 5,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC 323",
-      "event_wiki": "UFC 323",
-      "gegner": "Merab Dvalishvili",
-      "gegner_artikel": "Merab Dvalishvili"
-     },
-     "naechster_kampf": {
       "event": "UFC 333",
       "event_wiki": "UFC 333",
       "gegner": "Merab Dvalishvili",
       "gegner_artikel": "Merab Dvalishvili"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": null
     },
@@ -31413,21 +31339,16 @@
      "land_iso": "GEO",
      "name": "Merab Dvalishvili",
      "artikel": "Merab Dvalishvili",
-     "bilanz": "21-5",
+     "bilanz": "21-6",
      "serie": 0,
      "letzter_kampf": {
       "ergebnis": "Loss",
-      "event": "UFC 323",
-      "event_wiki": "UFC 323",
-      "gegner": "Petr Yan",
-      "gegner_artikel": "Petr Yan"
-     },
-     "naechster_kampf": {
       "event": "UFC 333",
       "event_wiki": "UFC 333",
       "gegner": "Petr Yan",
       "gegner_artikel": "Petr Yan"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -31752,7 +31673,12 @@
       "gegner": "Alexandre Pantoja",
       "gegner_artikel": "Alexandre Pantoja"
      },
-     "naechster_kampf": null,
+     "naechster_kampf": {
+      "event": "UFC 336",
+      "event_wiki": "UFC 336",
+      "gegner": "Manel Kape",
+      "gegner_artikel": "Manel Kape"
+     },
      "hinweis": null,
      "bewegung": null
     },
@@ -31770,7 +31696,12 @@
       "gegner": "Kyoji Horiguchi",
       "gegner_artikel": "Kyoji Horiguchi"
      },
-     "naechster_kampf": null,
+     "naechster_kampf": {
+      "event": "UFC 336",
+      "event_wiki": "UFC 336",
+      "gegner": "Joshua Van",
+      "gegner_artikel": "Joshua Van"
+     },
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -31871,21 +31802,16 @@
      "land_iso": "ENG",
      "name": "Lone'er Kavanagh",
      "artikel": "Lone'er Kavanagh",
-     "bilanz": "10-2",
-     "serie": 0,
+     "bilanz": "11-2",
+     "serie": 1,
      "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC 329",
-      "event_wiki": "UFC 329",
-      "gegner": "Brandon Royval",
-      "gegner_artikel": "Brandon Royval"
-     },
-     "naechster_kampf": {
+      "ergebnis": "Win",
       "event": "UFC 333",
       "event_wiki": "UFC 333",
       "gegner": "Ramazan Temirov",
       "gegner_artikel": "Ramazan Temirov"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -31897,21 +31823,16 @@
      "land_iso": "UZB",
      "name": "Ramazan Temirov",
      "artikel": "Ramazan Temirov",
-     "bilanz": "20-3",
-     "serie": 12,
+     "bilanz": "20-4",
+     "serie": 0,
      "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC Fight Night 282",
-      "event_wiki": "UFC Fight Night: Ankalaev vs. Guskov",
-      "gegner": "Steve Erceg",
-      "gegner_artikel": "Steve Erceg"
-     },
-     "naechster_kampf": {
+      "ergebnis": "Loss",
       "event": "UFC 333",
       "event_wiki": "UFC 333",
       "gegner": "Lone'er Kavanagh",
       "gegner_artikel": "Lone'er Kavanagh"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "neu"
@@ -34379,6 +34300,15 @@
    "gewichtsklasse": "Lightweight",
    "event": "UFC Fight Night 292",
    "event_wiki": "UFC Fight Night: Moicano vs. Nolan"
+  },
+  {
+   "datum": "2026-10-24",
+   "land_iso": "AZE",
+   "name": "Asaf Chopurov",
+   "artikel": null,
+   "gewichtsklasse": "Bantamweight",
+   "event": "UFC 333",
+   "event_wiki": "UFC 333"
   }
  ],
  "abgaenge": [
@@ -35195,159 +35125,6 @@
  ],
  "events": [
   {
-   "name": "UFC 333: Volkanovski vs. Evloev",
-   "artikel": "UFC 333",
-   "datum": "2026-10-24",
-   "halle": "Etihad Arena",
-   "ort": "Abu Dhabi, United Arab Emirates",
-   "wikipedia": "https://en.wikipedia.org/wiki/UFC_333",
-   "kaempfe": [
-    {
-     "gewichtsklasse": "Featherweight",
-     "a": "Alexander Volkanovski",
-     "a_artikel": "Alexander Volkanovski",
-     "b": "Movsar Evloev",
-     "b_artikel": "Movsar Evloev",
-     "titelkampf": true,
-     "karte": "Main card (Paramount+)",
-     "hinweis": "For the UFC Featherweight Championship."
-    },
-    {
-     "gewichtsklasse": "Bantamweight",
-     "a": "Petr Yan",
-     "a_artikel": "Petr Yan",
-     "b": "Merab Dvalishvili",
-     "b_artikel": "Merab Dvalishvili",
-     "titelkampf": true,
-     "karte": "Main card (Paramount+)",
-     "hinweis": "For the UFC Bantamweight Championship."
-    },
-    {
-     "gewichtsklasse": "Flyweight",
-     "a": "Lone'er Kavanagh",
-     "a_artikel": "Lone'er Kavanagh",
-     "b": "Ramazan Temirov",
-     "b_artikel": "Ramazan Temirov",
-     "titelkampf": false,
-     "karte": "Main card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Heavyweight",
-     "a": "Alexander Volkov",
-     "a_artikel": "Alexander Volkov (fighter)",
-     "b": "Rizvan Kuniev",
-     "b_artikel": "Rizvan Kuniev",
-     "titelkampf": false,
-     "karte": "Main card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Featherweight",
-     "a": "Aaron Pico",
-     "a_artikel": "Aaron Pico",
-     "b": "Losene Keita",
-     "b_artikel": "Losene Keita",
-     "titelkampf": false,
-     "karte": "Main card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Light Heavyweight",
-     "a": "Azamat Murzakanov",
-     "a_artikel": "Azamat Murzakanov",
-     "b": "Dominick Reyes",
-     "b_artikel": "Dominick Reyes",
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Light Heavyweight",
-     "a": "Nikita Krylov",
-     "a_artikel": "Nikita Krylov",
-     "b": "Abdul-Rakhman Yakhyaev",
-     "b_artikel": "Abdul-Rakhman Yakhyaev",
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Middleweight",
-     "a": "Abusupiyan Magomedov",
-     "a_artikel": "Abusupiyan Magomedov",
-     "b": "Cameron Rowston",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Lightweight",
-     "a": "Grant Dawson",
-     "a_artikel": "Grant Dawson",
-     "b": "Nurullo Aliev",
-     "b_artikel": "Nurullo Aliev",
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Bantamweight",
-     "a": "Colby Thicknesse",
-     "a_artikel": "Colby Thicknesse",
-     "b": "Asaf Chopurov",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Early preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Middleweight",
-     "a": "Abubakar Vagaev",
-     "a_artikel": null,
-     "b": "Jacob Malkoun",
-     "b_artikel": "Jacob Malkoun",
-     "titelkampf": false,
-     "karte": "Early preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Featherweight",
-     "a": "Bolaji Oki",
-     "a_artikel": null,
-     "b": "Daniel Santos",
-     "b_artikel": "Daniel Santos (fighter)",
-     "titelkampf": false,
-     "karte": "Early preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Lightweight",
-     "a": "Kody Steele",
-     "a_artikel": null,
-     "b": "Noah Gugnon",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Early preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Catchweight (120.5 lb)",
-     "a": "Iasmin Lucindo",
-     "a_artikel": "Iasmin Lucindo",
-     "b": "Nicolle Caliari",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Early preliminary card (Paramount+)",
-     "hinweis": null
-    }
-   ],
-   "hauptkarte_utc": null,
-   "hauptkarte_quelle": null,
-   "ics": null
-  },
-  {
    "name": "UFC Fight Night: Moicano vs. Nolan",
    "artikel": "UFC Fight Night: Moicano vs. Nolan",
    "datum": "2026-10-31",
@@ -35366,11 +35143,41 @@
      "hinweis": null
     },
     {
+     "gewichtsklasse": "Welterweight",
+     "a": "Randy Brown",
+     "a_artikel": "Randy Brown (fighter)",
+     "b": "Jacobe Smith",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
      "gewichtsklasse": "Women's Bantamweight",
      "a": "Yana Santos",
      "a_artikel": "Yana Santos",
      "b": "Luana Santos",
      "b_artikel": "Luana Santos",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Flyweight",
+     "a": "Ode' Osbourne",
+     "a_artikel": "Ode' Osbourne",
+     "b": "Cody Durden",
+     "b_artikel": "Cody Durden",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Middleweight",
+     "a": "Zachary Reese",
+     "a_artikel": "Zachary Reese",
+     "b": "Mickey Gall",
+     "b_artikel": "Mickey Gall",
      "titelkampf": false,
      "karte": "Fight card (Paramount+)",
      "hinweis": null
@@ -35386,13 +35193,23 @@
      "hinweis": null
     },
     {
+     "gewichtsklasse": "Featherweight",
+     "a": "Francis Marshall",
+     "a_artikel": null,
+     "b": "Dakota Hope",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
      "gewichtsklasse": "Middleweight",
      "a": "Azamat Bekoev",
      "a_artikel": "Azamat Bekoev",
      "b": "Andre Petroski",
      "b_artikel": "Andre Petroski",
      "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
+     "karte": "Fight card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35402,7 +35219,7 @@
      "b": "Theodor Berggren",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
+     "karte": "Fight card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35412,7 +35229,7 @@
      "b": "Lee Jeong-yeong",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
+     "karte": "Fight card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35422,7 +35239,7 @@
      "b": "Joseph Kropschot",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
+     "karte": "Fight card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35432,7 +35249,7 @@
      "b": "Piera Rodriguez",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
+     "karte": "Fight card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35442,7 +35259,7 @@
      "b": "Tainara Lisboa",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
+     "karte": "Fight card (Paramount+)",
      "hinweis": null
     }
    ],
@@ -35499,20 +35316,20 @@
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Light Heavyweight",
-     "a": "Billy Elekana",
-     "a_artikel": "Billy Elekana",
-     "b": "Lucas Fernando",
+     "gewichtsklasse": "Middleweight",
+     "a": "Mantas Kondratavičius",
+     "a_artikel": null,
+     "b": "Wesley Schultz",
      "b_artikel": null,
      "titelkampf": false,
      "karte": "Fight card (Paramount+)",
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Middleweight",
-     "a": "Mantas Kondratavičius",
-     "a_artikel": null,
-     "b": "Wesley Schultz",
+     "gewichtsklasse": "Light Heavyweight",
+     "a": "Billy Elekana",
+     "a_artikel": "Billy Elekana",
+     "b": "Lucas Fernando",
      "b_artikel": null,
      "titelkampf": false,
      "karte": "Fight card (Paramount+)",
@@ -35865,24 +35682,57 @@
    "ics": null
   },
   {
-   "name": "UFC 336",
-   "artikel": "UFC 336",
-   "datum": "2027-01-30",
-   "halle": "Scotiabank Arena",
-   "ort": "Toronto, Ontario, Canada",
-   "wikipedia": "https://en.wikipedia.org/wiki/UFC_336",
+   "name": "UFC Fight Night 296",
+   "artikel": "UFC Fight Night 296",
+   "datum": "2027-01-16",
+   "halle": "American Airlines Center",
+   "ort": "Dallas, Texas, U.S.",
+   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_296",
    "kaempfe": [],
    "hauptkarte_utc": null,
    "hauptkarte_quelle": null,
    "ics": null
   },
   {
-   "name": "UFC Fight Night 296",
-   "artikel": "UFC Fight Night 296",
+   "name": "UFC 336: Van vs. Kape",
+   "artikel": "UFC 336",
+   "datum": "2027-01-30",
+   "halle": "Scotiabank Arena",
+   "ort": "Toronto, Ontario, Canada",
+   "wikipedia": "https://en.wikipedia.org/wiki/UFC_336",
+   "kaempfe": [
+    {
+     "gewichtsklasse": "Flyweight",
+     "a": "Joshua Van",
+     "a_artikel": "Joshua Van",
+     "b": "Manel Kape",
+     "b_artikel": "Manel Kape",
+     "titelkampf": true,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": "For the UFC Flyweight Championship."
+    },
+    {
+     "gewichtsklasse": "Welterweight",
+     "a": "Carlos Prates",
+     "a_artikel": "Carlos Prates",
+     "b": "Michael Morales",
+     "b_artikel": "Michael Morales (fighter)",
+     "titelkampf": true,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": "For the interim UFC Welterweight Championship."
+    }
+   ],
+   "hauptkarte_utc": null,
+   "hauptkarte_quelle": null,
+   "ics": null
+  },
+  {
+   "name": "UFC Fight Night 297",
+   "artikel": "UFC Fight Night 297",
    "datum": "2027-02-07",
    "halle": "Afterpay Arena",
    "ort": "Sydney, Australia",
-   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_296",
+   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_297",
    "kaempfe": [],
    "hauptkarte_utc": null,
    "hauptkarte_quelle": null,

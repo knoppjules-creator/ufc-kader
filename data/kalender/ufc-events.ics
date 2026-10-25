@@ -25,40 +25,21 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ufc-333@ufc-kader
-DTSTAMP:20261024T043139Z
-SUMMARY:UFC 333: Volkanovski vs. Evloev
-LOCATION:Etihad Arena\, Abu Dhabi\, United Arab Emirates
-DESCRIPTION:Kämpfe:\nAlexander Volkanovski vs. Movsar Evloev (Featherweigh
- t\, Titelkampf)\nPetr Yan vs. Merab Dvalishvili (Bantamweight\, Titelkampf
- )\nLone'er Kavanagh vs. Ramazan Temirov (Flyweight)\nAlexander Volkov vs. 
- Rizvan Kuniev (Heavyweight)\nAaron Pico vs. Losene Keita (Featherweight)\n
- Azamat Murzakanov vs. Dominick Reyes (Light Heavyweight)\nNikita Krylov vs
- . Abdul-Rakhman Yakhyaev (Light Heavyweight)\nAbusupiyan Magomedov vs. Cam
- eron Rowston (Middleweight)\nGrant Dawson vs. Nurullo Aliev (Lightweight)\
- nColby Thicknesse vs. Asaf Chopurov (Bantamweight)\nAbubakar Vagaev vs. Ja
- cob Malkoun (Middleweight)\nBolaji Oki vs. Daniel Santos (Featherweight)\n
- Kody Steele vs. Noah Gugnon (Lightweight)\nIasmin Lucindo vs. Nicolle Cali
- ari (Catchweight (120.5 lb))\n\nUhrzeit folgt.\n\nQuelle: https://en.wikip
- edia.org/wiki/UFC_333
-URL:https://en.wikipedia.org/wiki/UFC_333
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ufc-fight-night-moicano-vs-nolan@ufc-kader
-DTSTAMP:20261024T043139Z
+DTSTAMP:20261025T043342Z
 SUMMARY:UFC Fight Night: Moicano vs. Nolan
 LOCATION:Meta Apex\, Las Vegas\, Nevada\, U.S.
-DESCRIPTION:Kämpfe:\nRenato Moicano vs. Tom Nolan (Lightweight)\nYana Sant
- os vs. Luana Santos (Women's Bantamweight)\nJean-Paul Lebosnoyani vs. Farm
- an Hasanov (Welterweight)\nAzamat Bekoev vs. Andre Petroski (Middleweight)
- \nRodrigo Sezinando vs. Theodor Berggren (Welterweight)\nJulian Erosa vs. 
- Lee Jeong-yeong (Featherweight)\nNick Klein vs. Joseph Kropschot (Middlewe
- ight)\nTalita Alencar vs. Piera Rodriguez (Women's Strawweight)\nLucia Sza
- bová vs. Tainara Lisboa (Women's Bantamweight)\n\nUhrzeit folgt.\n\nQuell
- e: https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Moicano_vs._Nolan
+DESCRIPTION:Kämpfe:\nRenato Moicano vs. Tom Nolan (Lightweight)\nRandy Bro
+ wn vs. Jacobe Smith (Welterweight)\nYana Santos vs. Luana Santos (Women's 
+ Bantamweight)\nOde' Osbourne vs. Cody Durden (Flyweight)\nZachary Reese vs
+ . Mickey Gall (Middleweight)\nJean-Paul Lebosnoyani vs. Farman Hasanov (We
+ lterweight)\nFrancis Marshall vs. Dakota Hope (Featherweight)\nAzamat Beko
+ ev vs. Andre Petroski (Middleweight)\nRodrigo Sezinando vs. Theodor Berggr
+ en (Welterweight)\nJulian Erosa vs. Lee Jeong-yeong (Featherweight)\nNick 
+ Klein vs. Joseph Kropschot (Middleweight)\nTalita Alencar vs. Piera Rodrig
+ uez (Women's Strawweight)\nLucia Szabová vs. Tainara Lisboa (Women's Bant
+ amweight)\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedia.org/wiki/UFC_F
+ ight_Night%3A_Moicano_vs._Nolan
 URL:https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Moicano_vs._Nolan
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
@@ -66,14 +47,14 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-bonfim-vs-brady@ufc-kader
-DTSTAMP:20261024T043139Z
+DTSTAMP:20261025T043342Z
 SUMMARY:UFC Fight Night: Bonfim vs. Brady
 LOCATION:Meta Apex\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nGabriel Bonfim vs. Sean Brady (Welterweight)\nTatiana
   Suarez vs. Virna Jandiroba (Women's Strawweight)\nDavey Grant vs. Elijah 
  Smith (Bantamweight)\nKo Seok-hyeon vs. Wellington Turman (Welterweight)\n
- Billy Elekana vs. Lucas Fernando (Light Heavyweight)\nMantas Kondrataviči
- us vs. Wesley Schultz (Middleweight)\nKarine Silva vs. Gabriella Fernandes
+ Mantas Kondratavičius vs. Wesley Schultz (Middleweight)\nBilly Elekana vs
+ . Lucas Fernando (Light Heavyweight)\nKarine Silva vs. Gabriella Fernandes
   (Women's Flyweight)\nJosé Mauro Delano vs. Murtazali Magomedov (Featherw
  eight)\nKeiichiro Nakamura vs. Ollie Schmid (Featherweight)\nAustin Bashi 
  vs. Lucas Brennan (Featherweight)\nPriscila Cachoeira vs. Nina Nikolija Mi
@@ -87,7 +68,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-334@ufc-kader
-DTSTAMP:20261024T043139Z
+DTSTAMP:20261025T043342Z
 SUMMARY:UFC 334: Gane vs. Hokit
 LOCATION:Madison Square Garden\, New York City\, New York\, U.S.
 DESCRIPTION:Kämpfe:\nCiryl Gane vs. Josh Hokit (Heavyweight\, Titelkampf)\
@@ -105,7 +86,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-prochazka-vs-stirling@ufc-kader
-DTSTAMP:20261024T043139Z
+DTSTAMP:20261025T043342Z
 SUMMARY:UFC Fight Night: Procházka vs. Stirling
 LOCATION:Ali Bin Hamad al-Attiyah Arena\, Al Rayyan\, Qatar
 DESCRIPTION:Kämpfe:\nJiří Procházka vs. Navajo Stirling (Light Heavywei
@@ -124,7 +105,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-295@ufc-kader
-DTSTAMP:20261024T043139Z
+DTSTAMP:20261025T043342Z
 SUMMARY:UFC Fight Night 295
 LOCATION:anb Arena\, Riyadh\, Saudi Arabia
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
@@ -136,7 +117,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-335@ufc-kader
-DTSTAMP:20261024T043139Z
+DTSTAMP:20261025T043342Z
 SUMMARY:UFC 335: Oliveira vs. Lopes
 LOCATION:T-Mobile Arena\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nCharles Oliveira vs. Diego Lopes (Lightweight\, Titel
@@ -150,25 +131,38 @@ DTEND;VALUE=DATE:20261213
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ufc-336@ufc-kader
-DTSTAMP:20261024T043139Z
-SUMMARY:UFC 336
-LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canada
+UID:ufc-fight-night-296@ufc-kader
+DTSTAMP:20261025T043342Z
+SUMMARY:UFC Fight Night 296
+LOCATION:American Airlines Center\, Dallas\, Texas\, U.S.
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
- a.org/wiki/UFC_336
+ a.org/wiki/UFC_Fight_Night_296
+URL:https://en.wikipedia.org/wiki/UFC_Fight_Night_296
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-336@ufc-kader
+DTSTAMP:20261025T043342Z
+SUMMARY:UFC 336: Van vs. Kape
+LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canada
+DESCRIPTION:Kämpfe:\nJoshua Van vs. Manel Kape (Flyweight\, Titelkampf)\nC
+ arlos Prates vs. Michael Morales (Welterweight\, Titelkampf)\n\nUhrzeit fo
+ lgt.\n\nQuelle: https://en.wikipedia.org/wiki/UFC_336
 URL:https://en.wikipedia.org/wiki/UFC_336
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ufc-fight-night-296@ufc-kader
-DTSTAMP:20261024T043139Z
-SUMMARY:UFC Fight Night 296
+UID:ufc-fight-night-297@ufc-kader
+DTSTAMP:20261025T043342Z
+SUMMARY:UFC Fight Night 297
 LOCATION:Afterpay Arena\, Sydney\, Australia
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
- a.org/wiki/UFC_Fight_Night_296
-URL:https://en.wikipedia.org/wiki/UFC_Fight_Night_296
+ a.org/wiki/UFC_Fight_Night_297
+URL:https://en.wikipedia.org/wiki/UFC_Fight_Night_297
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 TRANSP:TRANSPARENT
