@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-25T04:33:42+00:00",
+ "stand": "2026-10-26T04:37:26+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -8272,7 +8272,7 @@
    "gewicht_kg": 77.1,
    "reichweite_cm": 188,
    "kampfstil": "Kickboxing, Brazilian jiu-jitsu, Wrestling",
-   "geburtsort": "Kingston, Jamaica"
+   "geburtsort": "Kingston, Surrey, Jamaica"
   },
   {
    "name": "Islam Makhachev",
@@ -11620,6 +11620,7 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "siegesserie": "Wikipedia: Renato Moicano (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
     "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Renato Moicano",
@@ -11651,7 +11652,7 @@
    "geburtsdatum": "1989-05-21",
    "groesse_cm": 180,
    "nationalitaet": null,
-   "siegesserie": null,
+   "siegesserie": 1,
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 292",
@@ -16016,22 +16017,7 @@
     "kampfstil": "Wikipedia (russisch): Волкановски, Александр",
     "geburtsort": "Wikipedia: Alexander Volkanovski"
    },
-   "konflikte": {
-    "reichweite_cm": [
-     {
-      "wert": 182,
-      "quelle": "Wikipedia: Alexander Volkanovski"
-     },
-     {
-      "wert": 175,
-      "quelle": "Wikipedia (russisch): Волкановски, Александр"
-     },
-     {
-      "wert": 182,
-      "quelle": "Wikipedia (portugiesisch): Alexander Volkanovski"
-     }
-    ]
-   },
+   "konflikte": {},
    "bilanz": "29-4",
    "geburtsdatum": "1988-09-29",
    "groesse_cm": 168,
@@ -22399,7 +22385,8 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kampfdatum": "Wikipedia: List of UFC events",
+    "geburtsort": "Wikidata: Q106367933"
    },
    "konflikte": {},
    "bilanz": "16-2",
@@ -22416,11 +22403,11 @@
     "datum": "2026-12-05"
    },
    "status": null,
+   "wikidata": "https://www.wikidata.org/wiki/Q106367933",
    "gewicht_kg": null,
    "reichweite_cm": null,
    "kampfstil": null,
-   "geburtsort": null,
-   "wikidata": null
+   "geburtsort": "Lebanon"
   },
   {
    "name": "Borislav Nikolić",
@@ -22672,7 +22659,7 @@
    "artikel": null,
    "wikipedia": null,
    "gewichtsklasse": "Bantamweight",
-   "land_iso": "AZE",
+   "land_iso": "RUS",
    "quellen": {
     "gewichtsklasse": "Wikipedia: List of current UFC fighters",
     "land_iso": "Wikipedia: List of current UFC fighters",
@@ -30278,7 +30265,12 @@
       "gegner": "Islam Makhachev",
       "gegner_artikel": "Islam Makhachev"
      },
-     "naechster_kampf": null,
+     "naechster_kampf": {
+      "event": "UFC 335",
+      "event_wiki": "UFC 335",
+      "gegner": "Yaroslav Amosov",
+      "gegner_artikel": "Yaroslav Amosov"
+     },
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -30529,7 +30521,12 @@
       "gegner": "Joel Álvarez",
       "gegner_artikel": "Joel Álvarez"
      },
-     "naechster_kampf": null,
+     "naechster_kampf": {
+      "event": "UFC 335",
+      "event_wiki": "UFC 335",
+      "gegner": "Ian Machado Garry",
+      "gegner_artikel": "Ian Machado Garry"
+     },
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
