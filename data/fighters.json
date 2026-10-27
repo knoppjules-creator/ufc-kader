@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-26T04:37:26+00:00",
+ "stand": "2026-10-27T04:36:29+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -1096,7 +1096,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "11-5",
@@ -1104,14 +1105,14 @@
    "groesse_cm": 185,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 282",
-    "event_wiki": "UFC Fight Night: Ankalaev vs. Guskov",
-    "ort": "Abu Dhabi",
-    "gegner": "Valter Walker",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 293",
+    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "ort": "Las Vegas",
+    "gegner": "Gabriel Lorenço",
+    "datum": "2026-11-07"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -4223,7 +4224,7 @@
    "bilanz": "11-0",
    "geburtsdatum": "2001-01-03",
    "groesse_cm": 188,
-   "nationalitaet": "Russian",
+   "nationalitaet": "Turkish",
    "siegesserie": 11,
    "letzter_kampf": {
     "event": "UFC 333",
@@ -4234,7 +4235,7 @@
    },
    "naechster_kampf": null,
    "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q141812238",
+   "wikidata": "https://www.wikidata.org/wiki/Q136916530",
    "gewicht_kg": 93.0,
    "reichweite_cm": 201,
    "kampfstil": "Mixed martial arts",
@@ -5989,11 +5990,11 @@
    "siegesserie": 0,
    "letzter_kampf": null,
    "naechster_kampf": {
-    "event": "UFC Fight Night 292",
-    "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
+    "event": "UFC Fight Night 293",
+    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
     "ort": "Las Vegas",
-    "gegner": "Azamat Bekoev",
-    "datum": "2026-10-31"
+    "gegner": "Mantas Kondratavičius",
+    "datum": "2026-11-07"
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q112033004",
@@ -6787,8 +6788,6 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Azamat Bekoev (Tabelle „Mixed martial arts record“)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Azamat Bekoev",
     "reichweite_cm": "Wikipedia: Azamat Bekoev",
     "kampfstil": "Wikipedia: Azamat Bekoev",
@@ -6812,14 +6811,8 @@
    "nationalitaet": null,
    "siegesserie": 0,
    "letzter_kampf": null,
-   "naechster_kampf": {
-    "event": "UFC Fight Night 292",
-    "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
-    "ort": "Las Vegas",
-    "gegner": "Andre Petroski",
-    "datum": "2026-10-31"
-   },
-   "status": null,
+   "naechster_kampf": null,
+   "status": "(October 25, 2026) – Medical emergency – Out of UFC Fight Night 292 (Las Vegas) – Andre Petroski",
    "wikidata": "https://www.wikidata.org/wiki/Q124754561",
    "gewicht_kg": 83.9,
    "reichweite_cm": 183,
@@ -7104,17 +7097,25 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: List of current UFC fighters (nur Siege)"
+    "siegesserie": "Wikipedia: List of current UFC fighters (nur Siege)",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
-   "bilanz": "3-0",
+   "bilanz": "12-0",
    "geburtsdatum": "2001-01-08",
    "groesse_cm": 188,
    "nationalitaet": null,
-   "siegesserie": 3,
+   "siegesserie": 12,
    "letzter_kampf": null,
-   "naechster_kampf": null,
-   "status": "(September 29, 2026) – Unknown reasons – Out of UFC 334 (New York City) – Donte Johnson",
+   "naechster_kampf": {
+    "event": "UFC 335",
+    "event_wiki": "UFC 335",
+    "ort": "Las Vegas",
+    "gegner": "Damian Pinas",
+    "datum": "2026-12-12"
+   },
+   "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
    "kampfstil": null,
@@ -7326,6 +7327,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Damian Pinas (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Damian Pinas",
     "reichweite_cm": "Wikipedia: Damian Pinas",
     "geburtsort": "Wikipedia: Damian Pinas"
@@ -7336,14 +7338,14 @@
    "groesse_cm": 185,
    "nationalitaet": null,
    "siegesserie": 7,
-   "letzter_kampf": {
-    "event": "UFC 332",
-    "event_wiki": "UFC 332",
-    "ort": "Salt Lake City",
-    "gegner": "Andrey Pulyaev",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 335",
+    "event_wiki": "UFC 335",
+    "ort": "Las Vegas",
+    "gegner": "Baisangur Susurkaev",
+    "datum": "2026-12-12"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q140764414",
    "gewicht_kg": 83.9,
@@ -7362,9 +7364,7 @@
     "land_iso": "Wikipedia: List of current UFC fighters",
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "groesse_cm": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
    "bilanz": "9-4",
@@ -7373,14 +7373,8 @@
    "nationalitaet": null,
    "siegesserie": null,
    "letzter_kampf": null,
-   "naechster_kampf": {
-    "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
-    "ort": "Las Vegas",
-    "gegner": "Mantas Kondratavičius",
-    "datum": "2026-11-07"
-   },
-   "status": null,
+   "naechster_kampf": null,
+   "status": "(October 25, 2026) – Unknown reasons – Pulled out of UFC Fight Night 293 (Las Vegas) – Mantas Kondratavičius",
    "gewicht_kg": null,
    "reichweite_cm": null,
    "kampfstil": null,
@@ -7398,8 +7392,7 @@
     "land_iso": "Wikipedia: List of current UFC fighters",
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "groesse_cm": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
    "bilanz": "11-1",
@@ -7407,15 +7400,9 @@
    "groesse_cm": 185,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC 331",
-    "event_wiki": "UFC 331",
-    "ort": "Los Angeles",
-    "gegner": "Osman Diaz",
-    "ergebnis": "Win"
-   },
+   "letzter_kampf": null,
    "naechster_kampf": null,
-   "status": null,
+   "status": "(October 26, 2026) – Undisclosed reasons – Out of UFC 335 (Las Vegas) – Baisangur Susurkaev",
    "gewicht_kg": null,
    "reichweite_cm": null,
    "kampfstil": null,
@@ -7448,7 +7435,7 @@
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
     "ort": "Las Vegas",
-    "gegner": "Wesley Schultz",
+    "gegner": "Andre Petroski",
     "datum": "2026-11-07"
    },
    "status": null,
@@ -8490,7 +8477,7 @@
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
-    "gegner": "Zachary Reese / Moving to Lightweight",
+    "gegner": "Zachary Reese / Moving to Middleweight",
     "datum": "2026-10-31"
    },
    "status": null,
@@ -13024,7 +13011,6 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Mateusz Gamrot (Tabelle „Mixed martial arts record“)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
     "gewicht_kg": "Wikipedia: Mateusz Gamrot",
     "reichweite_cm": "Wikipedia: Mateusz Gamrot",
     "kampfstil": "Wikipedia: Mateusz Gamrot",
@@ -13077,15 +13063,9 @@
    "groesse_cm": 178,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 284",
-    "event_wiki": "UFC Fight Night: Gamrot vs. Salkilld",
-    "ort": "Las Vegas",
-    "gegner": "Quillan Salkilld",
-    "ergebnis": "Loss"
-   },
+   "letzter_kampf": null,
    "naechster_kampf": null,
-   "status": null,
+   "status": "(October 26, 2026) – Gamrot denied bout was taking place at UFC Fight Night 297 (Las Vegas) – Axel Sola",
    "wikidata": "https://www.wikidata.org/wiki/Q19521996",
    "gewicht_kg": 70.3,
    "reichweite_cm": 180,
@@ -14686,8 +14666,8 @@
   },
   {
    "name": "Axel Sola",
-   "artikel": null,
-   "wikipedia": null,
+   "artikel": "Axel Sola",
+   "wikipedia": "https://en.wikipedia.org/wiki/Axel_Sola",
    "gewichtsklasse": "Lightweight",
    "land_iso": "FRA",
    "quellen": {
@@ -14696,31 +14676,37 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "reichweite_cm": "Wikipedia (russisch): Сола, Аксель (боец)",
+    "siegesserie": "Wikipedia: Axel Sola (Tabelle „Mixed martial arts record“)",
+    "gewicht_kg": "Wikipedia: Axel Sola",
+    "reichweite_cm": "Wikipedia: Axel Sola",
     "kampfstil": "Wikipedia (russisch): Сола, Аксель (боец)",
-    "geburtsort": "Wikidata: Q129357325"
+    "geburtsort": "Wikipedia: Axel Sola"
    },
-   "konflikte": {},
+   "konflikte": {
+    "groesse_cm": [
+     {
+      "wert": 180,
+      "quelle": "Wikipedia: List of current UFC fighters"
+     },
+     {
+      "wert": 183,
+      "quelle": "Wikipedia: Axel Sola"
+     }
+    ]
+   },
    "bilanz": "13-1-1",
    "geburtsdatum": "1997-09-17",
    "groesse_cm": 180,
    "nationalitaet": null,
-   "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 287",
-    "event_wiki": "UFC Fight Night: Hooker vs. Parnasse",
-    "ort": "Paris",
-    "gegner": "Farès Ziam",
-    "ergebnis": "Win"
-   },
+   "siegesserie": 2,
+   "letzter_kampf": null,
    "naechster_kampf": null,
-   "status": null,
+   "status": "(October 26, 2026) – Gamrot denied bout was taking place at UFC Fight Night 297 (Las Vegas) – Mateusz Gamrot",
    "wikidata": "https://www.wikidata.org/wiki/Q129357325",
-   "gewicht_kg": null,
+   "gewicht_kg": 70.3,
    "reichweite_cm": 188,
    "kampfstil": "Brazilian jiu-jitsu, Boxing",
-   "geburtsort": "Nice"
+   "geburtsort": "Nice, France"
   },
   {
    "name": "Lance Gibson Jr.",
@@ -17432,6 +17418,16 @@
     "geburtsort": "Wikipedia: Diego Lopes (fighter)"
    },
    "konflikte": {
+    "gewicht_kg": [
+     {
+      "wert": 70.3,
+      "quelle": "Wikipedia: Diego Lopes (fighter)"
+     },
+     {
+      "wert": 66.0,
+      "quelle": "Wikipedia (portugiesisch): Diego Lopes"
+     }
+    ],
     "reichweite_cm": [
      {
       "wert": 184,
@@ -17462,7 +17458,7 @@
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q124217612",
-   "gewicht_kg": 65.8,
+   "gewicht_kg": 70.3,
    "reichweite_cm": 184,
    "kampfstil": "Brazilian jiu-jitsu, Boxing",
    "geburtsort": "Manaus, Amazonas, Brazil"
@@ -35150,16 +35146,6 @@
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Women's Bantamweight",
-     "a": "Yana Santos",
-     "a_artikel": "Yana Santos",
-     "b": "Luana Santos",
-     "b_artikel": "Luana Santos",
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
      "gewichtsklasse": "Flyweight",
      "a": "Ode' Osbourne",
      "a_artikel": "Ode' Osbourne",
@@ -35170,11 +35156,11 @@
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Middleweight",
-     "a": "Zachary Reese",
-     "a_artikel": "Zachary Reese",
-     "b": "Mickey Gall",
-     "b_artikel": "Mickey Gall",
+     "gewichtsklasse": "Women's Bantamweight",
+     "a": "Yana Santos",
+     "a_artikel": "Yana Santos",
+     "b": "Luana Santos",
+     "b_artikel": "Luana Santos",
      "titelkampf": false,
      "karte": "Fight card (Paramount+)",
      "hinweis": null
@@ -35196,17 +35182,7 @@
      "b": "Dakota Hope",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Middleweight",
-     "a": "Azamat Bekoev",
-     "a_artikel": "Azamat Bekoev",
-     "b": "Andre Petroski",
-     "b_artikel": "Andre Petroski",
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35216,7 +35192,7 @@
      "b": "Theodor Berggren",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35226,7 +35202,17 @@
      "b": "Lee Jeong-yeong",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Preliminary card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Middleweight",
+     "a": "Zachary Reese",
+     "a_artikel": "Zachary Reese",
+     "b": "Mickey Gall",
+     "b_artikel": "Mickey Gall",
+     "titelkampf": false,
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35236,7 +35222,7 @@
      "b": "Joseph Kropschot",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35246,7 +35232,7 @@
      "b": "Piera Rodriguez",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35256,7 +35242,7 @@
      "b": "Tainara Lisboa",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     }
    ],
@@ -35316,8 +35302,8 @@
      "gewichtsklasse": "Middleweight",
      "a": "Mantas Kondratavičius",
      "a_artikel": null,
-     "b": "Wesley Schultz",
-     "b_artikel": null,
+     "b": "Andre Petroski",
+     "b_artikel": "Andre Petroski",
      "titelkampf": false,
      "karte": "Fight card (Paramount+)",
      "hinweis": null
@@ -35724,12 +35710,12 @@
    "ics": null
   },
   {
-   "name": "UFC Fight Night 297",
-   "artikel": "UFC Fight Night 297",
+   "name": "UFC Fight Night 298",
+   "artikel": "UFC Fight Night 298",
    "datum": "2027-02-07",
    "halle": "Afterpay Arena",
    "ort": "Sydney, Australia",
-   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_297",
+   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_298",
    "kaempfe": [],
    "hauptkarte_utc": null,
    "hauptkarte_quelle": null,

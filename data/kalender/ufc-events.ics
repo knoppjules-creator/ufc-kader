@@ -26,20 +26,19 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:ufc-fight-night-moicano-vs-nolan@ufc-kader
-DTSTAMP:20261026T043726Z
+DTSTAMP:20261027T043629Z
 SUMMARY:UFC Fight Night: Moicano vs. Nolan
 LOCATION:Meta Apex\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nRenato Moicano vs. Tom Nolan (Lightweight)\nRandy Bro
- wn vs. Jacobe Smith (Welterweight)\nYana Santos vs. Luana Santos (Women's 
- Bantamweight)\nOde' Osbourne vs. Cody Durden (Flyweight)\nZachary Reese vs
- . Mickey Gall (Middleweight)\nJean-Paul Lebosnoyani vs. Farman Hasanov (We
- lterweight)\nFrancis Marshall vs. Dakota Hope (Featherweight)\nAzamat Beko
- ev vs. Andre Petroski (Middleweight)\nRodrigo Sezinando vs. Theodor Berggr
- en (Welterweight)\nJulian Erosa vs. Lee Jeong-yeong (Featherweight)\nNick 
- Klein vs. Joseph Kropschot (Middleweight)\nTalita Alencar vs. Piera Rodrig
- uez (Women's Strawweight)\nLucia Szabová vs. Tainara Lisboa (Women's Bant
- amweight)\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedia.org/wiki/UFC_F
- ight_Night%3A_Moicano_vs._Nolan
+ wn vs. Jacobe Smith (Welterweight)\nOde' Osbourne vs. Cody Durden (Flyweig
+ ht)\nYana Santos vs. Luana Santos (Women's Bantamweight)\nJean-Paul Lebosn
+ oyani vs. Farman Hasanov (Welterweight)\nFrancis Marshall vs. Dakota Hope 
+ (Featherweight)\nRodrigo Sezinando vs. Theodor Berggren (Welterweight)\nJu
+ lian Erosa vs. Lee Jeong-yeong (Featherweight)\nZachary Reese vs. Mickey G
+ all (Middleweight)\nNick Klein vs. Joseph Kropschot (Middleweight)\nTalita
+  Alencar vs. Piera Rodriguez (Women's Strawweight)\nLucia Szabová vs. Tai
+ nara Lisboa (Women's Bantamweight)\n\nUhrzeit folgt.\n\nQuelle: https://en
+ .wikipedia.org/wiki/UFC_Fight_Night%3A_Moicano_vs._Nolan
 URL:https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Moicano_vs._Nolan
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
@@ -47,13 +46,13 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-bonfim-vs-brady@ufc-kader
-DTSTAMP:20261026T043726Z
+DTSTAMP:20261027T043629Z
 SUMMARY:UFC Fight Night: Bonfim vs. Brady
 LOCATION:Meta Apex\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nGabriel Bonfim vs. Sean Brady (Welterweight)\nTatiana
   Suarez vs. Virna Jandiroba (Women's Strawweight)\nDavey Grant vs. Elijah 
  Smith (Bantamweight)\nKo Seok-hyeon vs. Wellington Turman (Welterweight)\n
- Mantas Kondratavičius vs. Wesley Schultz (Middleweight)\nBilly Elekana vs
+ Mantas Kondratavičius vs. Andre Petroski (Middleweight)\nBilly Elekana vs
  . Lucas Fernando (Light Heavyweight)\nKarine Silva vs. Gabriella Fernandes
   (Women's Flyweight)\nJosé Mauro Delano vs. Murtazali Magomedov (Featherw
  eight)\nKeiichiro Nakamura vs. Ollie Schmid (Featherweight)\nAustin Bashi 
@@ -68,7 +67,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-334@ufc-kader
-DTSTAMP:20261026T043726Z
+DTSTAMP:20261027T043629Z
 SUMMARY:UFC 334: Gane vs. Hokit
 LOCATION:Madison Square Garden\, New York City\, New York\, U.S.
 DESCRIPTION:Kämpfe:\nCiryl Gane vs. Josh Hokit (Heavyweight\, Titelkampf)\
@@ -86,7 +85,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-prochazka-vs-stirling@ufc-kader
-DTSTAMP:20261026T043726Z
+DTSTAMP:20261027T043629Z
 SUMMARY:UFC Fight Night: Procházka vs. Stirling
 LOCATION:Ali Bin Hamad al-Attiyah Arena\, Al Rayyan\, Qatar
 DESCRIPTION:Kämpfe:\nJiří Procházka vs. Navajo Stirling (Light Heavywei
@@ -105,7 +104,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-295@ufc-kader
-DTSTAMP:20261026T043726Z
+DTSTAMP:20261027T043629Z
 SUMMARY:UFC Fight Night 295
 LOCATION:anb Arena\, Riyadh\, Saudi Arabia
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
@@ -117,7 +116,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-335@ufc-kader
-DTSTAMP:20261026T043726Z
+DTSTAMP:20261027T043629Z
 SUMMARY:UFC 335: Oliveira vs. Lopes
 LOCATION:T-Mobile Arena\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nCharles Oliveira vs. Diego Lopes (Lightweight\, Titel
@@ -132,7 +131,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-296@ufc-kader
-DTSTAMP:20261026T043726Z
+DTSTAMP:20261027T043629Z
 SUMMARY:UFC Fight Night 296
 LOCATION:American Airlines Center\, Dallas\, Texas\, U.S.
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
@@ -144,7 +143,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-336@ufc-kader
-DTSTAMP:20261026T043726Z
+DTSTAMP:20261027T043629Z
 SUMMARY:UFC 336: Van vs. Kape
 LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canada
 DESCRIPTION:Kämpfe:\nJoshua Van vs. Manel Kape (Flyweight\, Titelkampf)\nC
@@ -156,13 +155,13 @@ DTEND;VALUE=DATE:20270131
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ufc-fight-night-297@ufc-kader
-DTSTAMP:20261026T043726Z
-SUMMARY:UFC Fight Night 297
+UID:ufc-fight-night-298@ufc-kader
+DTSTAMP:20261027T043629Z
+SUMMARY:UFC Fight Night 298
 LOCATION:Afterpay Arena\, Sydney\, Australia
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
- a.org/wiki/UFC_Fight_Night_297
-URL:https://en.wikipedia.org/wiki/UFC_Fight_Night_297
+ a.org/wiki/UFC_Fight_Night_298
+URL:https://en.wikipedia.org/wiki/UFC_Fight_Night_298
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 TRANSP:TRANSPARENT
