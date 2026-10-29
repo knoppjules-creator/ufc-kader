@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-27T04:36:29+00:00",
+ "stand": "2026-10-29T04:48:06+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -12977,7 +12977,18 @@
     "kampfstil": "Wikipedia (russisch): Топурия, Илия",
     "geburtsort": "Wikipedia: Ilia Topuria"
    },
-   "konflikte": {},
+   "konflikte": {
+    "groesse_cm": [
+     {
+      "wert": 170,
+      "quelle": "Wikipedia: List of current UFC fighters"
+     },
+     {
+      "wert": 173,
+      "quelle": "Wikipedia: Ilia Topuria"
+     }
+    ]
+   },
    "bilanz": "17-1",
    "geburtsdatum": "1997-01-21",
    "groesse_cm": 170,
@@ -13403,6 +13414,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Benoît Saint Denis (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Benoît Saint Denis",
     "reichweite_cm": "Wikipedia: Benoît Saint Denis",
     "kampfstil": "Wikipedia (russisch): Сен-Дени, Бенуа",
@@ -13414,14 +13426,14 @@
    "groesse_cm": 180,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC 329",
-    "event_wiki": "UFC 329",
-    "ort": "Las Vegas",
-    "gegner": "Paddy Pimblett",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 298",
+    "event_wiki": "UFC Fight Night 298",
+    "ort": "Sydney",
+    "gegner": "Quillan Salkilld",
+    "datum": "2027-02-07"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q112241194",
    "gewicht_kg": 70.3,
@@ -14435,6 +14447,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Quillan Salkilld (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Quillan Salkilld",
     "reichweite_cm": "Wikipedia: Quillan Salkilld",
     "kampfstil": "Wikipedia (russisch): Солкиллд, Куиллан",
@@ -14457,14 +14470,14 @@
    "groesse_cm": 183,
    "nationalitaet": null,
    "siegesserie": 13,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 284",
-    "event_wiki": "UFC Fight Night: Gamrot vs. Salkilld",
-    "ort": "Las Vegas",
-    "gegner": "Mateusz Gamrot",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 298",
+    "event_wiki": "UFC Fight Night 298",
+    "ort": "Sydney",
+    "gegner": "Benoît Saint Denis",
+    "datum": "2027-02-07"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q134467028",
    "gewicht_kg": 70.3,
@@ -17418,16 +17431,6 @@
     "geburtsort": "Wikipedia: Diego Lopes (fighter)"
    },
    "konflikte": {
-    "gewicht_kg": [
-     {
-      "wert": 70.3,
-      "quelle": "Wikipedia: Diego Lopes (fighter)"
-     },
-     {
-      "wert": 66.0,
-      "quelle": "Wikipedia (portugiesisch): Diego Lopes"
-     }
-    ],
     "reichweite_cm": [
      {
       "wert": 184,
@@ -17458,7 +17461,7 @@
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q124217612",
-   "gewicht_kg": 70.3,
+   "gewicht_kg": 65.8,
    "reichweite_cm": 184,
    "kampfstil": "Brazilian jiu-jitsu, Boxing",
    "geburtsort": "Manaus, Amazonas, Brazil"
@@ -29122,8 +29125,8 @@
  ],
  "ranglisten": {
   "Heavyweight": {
-   "stand": "2026-10-17",
-   "nach_event": "UFC Fight Night: Buckley vs. Malott",
+   "stand": "2026-10-24",
+   "nach_event": "UFC 333",
    "plaetze": [
     {
      "rang": "C",
@@ -29172,27 +29175,22 @@
     {
      "rang": "2",
      "land_iso": "RUS",
-     "name": "Sergei Pavlovich",
-     "artikel": "Sergei Pavlovich",
-     "bilanz": "21-3",
+     "name": "Alexander Volkov",
+     "artikel": "Alexander Volkov (fighter)",
+     "bilanz": "41-11",
      "serie": 3,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC Fight Night 277",
-      "event_wiki": "UFC Fight Night: Song vs. Figueiredo",
-      "gegner": "Tallison Teixeira",
-      "gegner_artikel": "Tallison Teixeira"
+      "event": "UFC 333",
+      "event_wiki": "UFC 333",
+      "gegner": "Rizvan Kuniev",
+      "gegner_artikel": "Rizvan Kuniev"
      },
-     "naechster_kampf": {
-      "event": "UFC 335",
-      "event_wiki": "UFC 335",
-      "gegner": "Alex Pereira",
-      "gegner_artikel": "Alex Pereira"
-     },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "auf",
+      "plaetze": 2
      }
     },
     {
@@ -29224,47 +29222,31 @@
     {
      "rang": "4",
      "land_iso": "RUS",
-     "name": "Alexander Volkov",
-     "artikel": "Alexander Volkov (fighter)",
-     "bilanz": "41-11",
+     "name": "Sergei Pavlovich",
+     "artikel": "Sergei Pavlovich",
+     "bilanz": "21-3",
      "serie": 3,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC 333",
-      "event_wiki": "UFC 333",
-      "gegner": "Rizvan Kuniev",
-      "gegner_artikel": "Rizvan Kuniev"
+      "event": "UFC Fight Night 277",
+      "event_wiki": "UFC Fight Night: Song vs. Figueiredo",
+      "gegner": "Tallison Teixeira",
+      "gegner_artikel": "Tallison Teixeira"
      },
-     "naechster_kampf": null,
+     "naechster_kampf": {
+      "event": "UFC 335",
+      "event_wiki": "UFC 335",
+      "gegner": "Alex Pereira",
+      "gegner_artikel": "Alex Pereira"
+     },
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 2
      }
     },
     {
      "rang": "5",
-     "land_iso": "RUS",
-     "name": "Rizvan Kuniev",
-     "artikel": "Rizvan Kuniev",
-     "bilanz": "14-4-1 (1 NC)",
-     "serie": 0,
-     "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC 333",
-      "event_wiki": "UFC 333",
-      "gegner": "Alexander Volkov",
-      "gegner_artikel": "Alexander Volkov (fighter)"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
-     }
-    },
-    {
-     "rang": "6",
      "land_iso": "USA",
      "name": "Josh Hokit",
      "artikel": "Josh Hokit",
@@ -29285,12 +29267,12 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "auf",
+      "plaetze": 1
      }
     },
     {
-     "rang": "7",
+     "rang": "6",
      "land_iso": "USA",
      "name": "Curtis Blaydes",
      "artikel": "Curtis Blaydes",
@@ -29306,8 +29288,29 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "auf",
+      "plaetze": 1
+     }
+    },
+    {
+     "rang": "7",
+     "land_iso": "RUS",
+     "name": "Rizvan Kuniev",
+     "artikel": "Rizvan Kuniev",
+     "bilanz": "14-4-1 (1 NC)",
+     "serie": 0,
+     "letzter_kampf": {
+      "ergebnis": "Loss",
+      "event": "UFC 333",
+      "event_wiki": "UFC 333",
+      "gegner": "Alexander Volkov",
+      "gegner_artikel": "Alexander Volkov (fighter)"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "ab",
+      "plaetze": 2
      }
     },
     {
@@ -29411,7 +29414,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "neu"
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -29431,8 +29435,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
-      "plaetze": 1
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -29452,8 +29456,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
-      "plaetze": 1
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -29473,19 +29477,20 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "neu"
+      "art": "gleich",
+      "plaetze": 0
      }
     }
    ],
    "vergleich": {
-    "stand": "2026-09-26",
-    "nach_event": "UFC Fight Night: Rosas Jr. vs. Barcelos",
-    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-05)"
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "quelle": "Wikipedia: UFC rankings"
    }
   },
   "Light Heavyweight": {
-   "stand": "2026-10-17",
-   "nach_event": "UFC Fight Night: Buckley vs. Malott",
+   "stand": "2026-10-24",
+   "nach_event": "UFC 333",
    "plaetze": [
     {
      "rang": "C",
@@ -29580,6 +29585,27 @@
     },
     {
      "rang": "4",
+     "land_iso": "USA",
+     "name": "Dominick Reyes",
+     "artikel": "Dominick Reyes",
+     "bilanz": "17-5",
+     "serie": 2,
+     "letzter_kampf": {
+      "ergebnis": "Win",
+      "event": "UFC 333",
+      "event_wiki": "UFC 333",
+      "gegner": "Azamat Murzakanov",
+      "gegner_artikel": "Azamat Murzakanov"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "auf",
+      "plaetze": 3
+     }
+    },
+    {
+     "rang": "5",
      "land_iso": "BRA",
      "name": "Paulo Costa",
      "artikel": "Paulo Costa",
@@ -29595,12 +29621,12 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
-     "rang": "5",
+     "rang": "6",
      "land_iso": "USA",
      "name": "Khalil Rountree Jr.",
      "artikel": "Khalil Rountree Jr.",
@@ -29616,12 +29642,12 @@
      "naechster_kampf": null,
      "hinweis": "(July 13, 2026) – Undisclosed injury",
      "bewegung": {
-      "art": "auf",
+      "art": "ab",
       "plaetze": 1
      }
     },
     {
-     "rang": "6",
+     "rang": "7",
      "land_iso": "NZL",
      "name": "Navajo Stirling",
      "artikel": "Navajo Stirling",
@@ -29642,28 +29668,7 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "auf",
-      "plaetze": 1
-     }
-    },
-    {
-     "rang": "7",
-     "land_iso": "USA",
-     "name": "Dominick Reyes",
-     "artikel": "Dominick Reyes",
-     "bilanz": "17-5",
-     "serie": 2,
-     "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC 333",
-      "event_wiki": "UFC 333",
-      "gegner": "Azamat Murzakanov",
-      "gegner_artikel": "Azamat Murzakanov"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "auf",
+      "art": "ab",
       "plaetze": 1
      }
     },
@@ -29684,33 +29689,12 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "auf",
-      "plaetze": 1
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
      "rang": "9",
-     "land_iso": "RUS",
-     "name": "Azamat Murzakanov",
-     "artikel": "Azamat Murzakanov",
-     "bilanz": "16-2",
-     "serie": 0,
-     "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC 333",
-      "event_wiki": "UFC 333",
-      "gegner": "Dominick Reyes",
-      "gegner_artikel": "Dominick Reyes"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "auf",
-      "plaetze": 1
-     }
-    },
-    {
-     "rang": "10",
      "land_iso": "USA",
      "name": "Alonzo Menifield",
      "artikel": "Alonzo Menifield",
@@ -29731,7 +29715,7 @@
      }
     },
     {
-     "rang": "11",
+     "rang": "10",
      "land_iso": "UZB",
      "name": "Bogdan Guskov",
      "artikel": "Bogdan Guskov",
@@ -29752,7 +29736,7 @@
      }
     },
     {
-     "rang": "12",
+     "rang": "11",
      "land_iso": "AUS",
      "name": "Robert Whittaker",
      "artikel": "Robert Whittaker (fighter)",
@@ -29773,7 +29757,7 @@
      }
     },
     {
-     "rang": "13",
+     "rang": "12",
      "land_iso": "RUS",
      "name": "Muhammad Saidov",
      "artikel": null,
@@ -29790,31 +29774,11 @@
      "hinweis": null,
      "bewegung": {
       "art": "auf",
-      "plaetze": 2
+      "plaetze": 1
      }
     },
     {
-     "rang": "14",
-     "land_iso": "LIT",
-     "name": "Modestas Bukauskas",
-     "artikel": "Modestas Bukauskas",
-     "bilanz": "21-7",
-     "serie": 2,
-     "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC Fight Night 287",
-      "event_wiki": "UFC Fight Night: Hooker vs. Parnasse",
-      "gegner": "Oumar Sy",
-      "gegner_artikel": null
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "neu"
-     }
-    },
-    {
-     "rang": "15",
+     "rang": "13",
      "land_iso": "TUR",
      "name": "Abdul-Rakhman Yakhyaev",
      "artikel": "Abdul-Rakhman Yakhyaev",
@@ -29830,19 +29794,62 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "neu"
+      "art": "auf",
+      "plaetze": 2
+     }
+    },
+    {
+     "rang": "14",
+     "land_iso": "RUS",
+     "name": "Azamat Murzakanov",
+     "artikel": "Azamat Murzakanov",
+     "bilanz": "16-2",
+     "serie": 0,
+     "letzter_kampf": {
+      "ergebnis": "Loss",
+      "event": "UFC 333",
+      "event_wiki": "UFC 333",
+      "gegner": "Dominick Reyes",
+      "gegner_artikel": "Dominick Reyes"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "ab",
+      "plaetze": 5
+     }
+    },
+    {
+     "rang": "15",
+     "land_iso": "LIT",
+     "name": "Modestas Bukauskas",
+     "artikel": "Modestas Bukauskas",
+     "bilanz": "21-7",
+     "serie": 2,
+     "letzter_kampf": {
+      "ergebnis": "Win",
+      "event": "UFC Fight Night 287",
+      "event_wiki": "UFC Fight Night: Hooker vs. Parnasse",
+      "gegner": "Oumar Sy",
+      "gegner_artikel": null
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "ab",
+      "plaetze": 1
      }
     }
    ],
    "vergleich": {
-    "stand": "2026-09-26",
-    "nach_event": "UFC Fight Night: Rosas Jr. vs. Barcelos",
-    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-05)"
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "quelle": "Wikipedia: UFC rankings"
    }
   },
   "Middleweight": {
-   "stand": "2026-10-17",
-   "nach_event": "UFC Fight Night: Buckley vs. Malott",
+   "stand": "2026-10-24",
+   "nach_event": "UFC 333",
    "plaetze": [
     {
      "rang": "C",
@@ -29942,8 +29949,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "auf",
-      "plaetze": 1
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -29963,8 +29970,8 @@
      "naechster_kampf": null,
      "hinweis": "UFC Fight Night 297",
      "bewegung": {
-      "art": "ab",
-      "plaetze": 1
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -30037,6 +30044,27 @@
     },
     {
      "rang": "9",
+     "land_iso": "GER",
+     "name": "Abusupiyan Magomedov",
+     "artikel": "Abusupiyan Magomedov",
+     "bilanz": "30-7-1",
+     "serie": 2,
+     "letzter_kampf": {
+      "ergebnis": "Win",
+      "event": "UFC 333",
+      "event_wiki": "UFC 333",
+      "gegner": "Cameron Rowston",
+      "gegner_artikel": null
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "auf",
+      "plaetze": 4
+     }
+    },
+    {
+     "rang": "10",
      "land_iso": "NGA",
      "name": "Israel Adesanya",
      "artikel": "Israel Adesanya",
@@ -30057,12 +30085,12 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
-     "rang": "10",
+     "rang": "11",
      "land_iso": "RUS",
      "name": "Ikram Aliskerov",
      "artikel": "Ikram Aliskerov",
@@ -30073,7 +30101,7 @@
       "event": "UFC Fight Night 280",
       "event_wiki": "UFC Fight Night: Fiziev vs. Torres",
       "gegner": "Brunno Ferreira",
-      "gegner_artikel": null
+      "gegner_artikel": "Brunno Ferreira"
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 294",
@@ -30083,12 +30111,12 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "auf",
+      "art": "ab",
       "plaetze": 1
      }
     },
     {
-     "rang": "11",
+     "rang": "12",
      "land_iso": "ENG",
      "name": "Christian Leroy Duncan",
      "artikel": "Christian Leroy Duncan",
@@ -30109,7 +30137,7 @@
      }
     },
     {
-     "rang": "12",
+     "rang": "13",
      "land_iso": "USA",
      "name": "Bo Nickal",
      "artikel": "Bo Nickal",
@@ -30125,29 +30153,8 @@
      "naechster_kampf": null,
      "hinweis": "UFC Fight Night 297",
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
-     }
-    },
-    {
-     "rang": "13",
-     "land_iso": "GER",
-     "name": "Abusupiyan Magomedov",
-     "artikel": "Abusupiyan Magomedov",
-     "bilanz": "30-7-1",
-     "serie": 2,
-     "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC 333",
-      "event_wiki": "UFC 333",
-      "gegner": "Cameron Rowston",
-      "gegner_artikel": null
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
@@ -30183,7 +30190,7 @@
       "event": "UFC Fight Night 280",
       "event_wiki": "UFC Fight Night: Fiziev vs. Torres",
       "gegner": "Brunno Ferreira",
-      "gegner_artikel": null
+      "gegner_artikel": "Brunno Ferreira"
      },
      "naechster_kampf": null,
      "hinweis": null,
@@ -30194,14 +30201,14 @@
     }
    ],
    "vergleich": {
-    "stand": "2026-10-03",
-    "nach_event": "UFC 332",
-    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-11)"
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "quelle": "Wikipedia: UFC rankings"
    }
   },
   "Welterweight": {
-   "stand": "2026-10-17",
-   "nach_event": "UFC Fight Night: Buckley vs. Malott",
+   "stand": "2026-10-24",
+   "nach_event": "UFC 333",
    "plaetze": [
     {
      "rang": "C",
@@ -30584,8 +30591,8 @@
    }
   },
   "Lightweight": {
-   "stand": "2026-10-17",
-   "nach_event": "UFC Fight Night: Buckley vs. Malott",
+   "stand": "2026-10-24",
+   "nach_event": "UFC 333",
    "plaetze": [
     {
      "rang": "C",
@@ -30827,6 +30834,27 @@
     },
     {
      "rang": "11",
+     "land_iso": "USA",
+     "name": "Grant Dawson",
+     "artikel": "Grant Dawson",
+     "bilanz": "25-3-1",
+     "serie": 2,
+     "letzter_kampf": {
+      "ergebnis": "Win",
+      "event": "UFC 333",
+      "event_wiki": "UFC 333",
+      "gegner": "Nurullo Aliev",
+      "gegner_artikel": "Nurullo Aliev"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "auf",
+      "plaetze": 3
+     }
+    },
+    {
+     "rang": "12",
      "land_iso": "AUS",
      "name": "Tom Nolan",
      "artikel": "Tom Nolan (fighter)",
@@ -30847,29 +30875,8 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
-     }
-    },
-    {
-     "rang": "12",
-     "land_iso": "AZE",
-     "name": "Rafael Fiziev",
-     "artikel": "Rafael Fiziev",
-     "bilanz": "14-5",
-     "serie": 1,
-     "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC Fight Night 280",
-      "event_wiki": "UFC Fight Night: Fiziev vs. Torres",
-      "gegner": "Manuel Torres",
-      "gegner_artikel": "Manuel Torres (fighter)"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
@@ -30895,23 +30902,23 @@
     },
     {
      "rang": "14",
-     "land_iso": "USA",
-     "name": "Grant Dawson",
-     "artikel": "Grant Dawson",
-     "bilanz": "25-3-1",
-     "serie": 2,
+     "land_iso": "AZE",
+     "name": "Rafael Fiziev",
+     "artikel": "Rafael Fiziev",
+     "bilanz": "14-5",
+     "serie": 1,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC 333",
-      "event_wiki": "UFC 333",
-      "gegner": "Nurullo Aliev",
-      "gegner_artikel": "Nurullo Aliev"
+      "event": "UFC Fight Night 280",
+      "event_wiki": "UFC Fight Night: Fiziev vs. Torres",
+      "gegner": "Manuel Torres",
+      "gegner_artikel": "Manuel Torres (fighter)"
      },
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 2
      }
     },
     {
@@ -30931,19 +30938,20 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "neu"
+      "art": "gleich",
+      "plaetze": 0
      }
     }
    ],
    "vergleich": {
-    "stand": "2026-09-26",
-    "nach_event": "UFC Fight Night: Rosas Jr. vs. Barcelos",
-    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-05)"
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "quelle": "Wikipedia: UFC rankings"
    }
   },
   "Featherweight": {
-   "stand": "2026-10-17",
-   "nach_event": "UFC Fight Night: Buckley vs. Malott",
+   "stand": "2026-10-24",
+   "nach_event": "UFC 333",
    "plaetze": [
     {
      "rang": "C",
@@ -31164,6 +31172,27 @@
     },
     {
      "rang": "10",
+     "land_iso": "USA",
+     "name": "Aaron Pico",
+     "artikel": "Aaron Pico",
+     "bilanz": "15-5",
+     "serie": 2,
+     "letzter_kampf": {
+      "ergebnis": "Win",
+      "event": "UFC 333",
+      "event_wiki": "UFC 333",
+      "gegner": "Losene Keita",
+      "gegner_artikel": "Losene Keita"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "auf",
+      "plaetze": 4
+     }
+    },
+    {
+     "rang": "11",
      "land_iso": "ARG",
      "name": "Kevin Vallejos",
      "artikel": "Kevin Vallejos",
@@ -31184,12 +31213,12 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
-     "rang": "11",
+     "rang": "12",
      "land_iso": "BRA",
      "name": "Joanderson Brito",
      "artikel": "Joanderson Brito",
@@ -31205,12 +31234,12 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "auf",
-      "plaetze": 4
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
-     "rang": "12",
+     "rang": "13",
      "land_iso": "BRA",
      "name": "Melquizael Costa",
      "artikel": "Melquizael Costa",
@@ -31236,7 +31265,7 @@
      }
     },
     {
-     "rang": "13",
+     "rang": "14",
      "land_iso": "USA",
      "name": "Steve Garcia",
      "artikel": "Steve Garcia",
@@ -31248,27 +31277,6 @@
       "event_wiki": "UFC Freedom 250",
       "gegner": "Diego Lopes",
       "gegner_artikel": "Diego Lopes (fighter)"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "ab",
-      "plaetze": 1
-     }
-    },
-    {
-     "rang": "14",
-     "land_iso": "USA",
-     "name": "Aaron Pico",
-     "artikel": "Aaron Pico",
-     "bilanz": "15-5",
-     "serie": 2,
-     "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC 333",
-      "event_wiki": "UFC 333",
-      "gegner": "Losene Keita",
-      "gegner_artikel": "Losene Keita"
      },
      "naechster_kampf": null,
      "hinweis": null,
@@ -31294,20 +31302,20 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
-      "plaetze": 1
+      "art": "gleich",
+      "plaetze": 0
      }
     }
    ],
    "vergleich": {
-    "stand": "2026-09-12",
-    "nach_event": "UFC Fight Night: Silva vs. Delgado",
-    "quelle": "Wikipedia: UFC rankings (Version vom 2026-09-21)"
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "quelle": "Wikipedia: UFC rankings"
    }
   },
   "Bantamweight": {
-   "stand": "2026-10-17",
-   "nach_event": "UFC Fight Night: Allen vs. Duncan",
+   "stand": "2026-10-24",
+   "nach_event": "UFC 333",
    "plaetze": [
     {
      "rang": "C",
@@ -31649,8 +31657,8 @@
    }
   },
   "Flyweight": {
-   "stand": "2026-10-17",
-   "nach_event": "UFC Fight Night: Buckley vs. Malott",
+   "stand": "2026-10-24",
+   "nach_event": "UFC 333",
    "plaetze": [
     {
      "rang": "C",
@@ -31766,6 +31774,27 @@
     },
     {
      "rang": "5",
+     "land_iso": "ENG",
+     "name": "Lone'er Kavanagh",
+     "artikel": "Lone'er Kavanagh",
+     "bilanz": "11-2",
+     "serie": 1,
+     "letzter_kampf": {
+      "ergebnis": "Win",
+      "event": "UFC 333",
+      "event_wiki": "UFC 333",
+      "gegner": "Ramazan Temirov",
+      "gegner_artikel": "Ramazan Temirov"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "auf",
+      "plaetze": 1
+     }
+    },
+    {
+     "rang": "6",
      "land_iso": "KAZ",
      "name": "Asu Almabayev",
      "artikel": "Asu Almabayev",
@@ -31786,53 +31815,12 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
-     }
-    },
-    {
-     "rang": "6",
-     "land_iso": "ENG",
-     "name": "Lone'er Kavanagh",
-     "artikel": "Lone'er Kavanagh",
-     "bilanz": "11-2",
-     "serie": 1,
-     "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC 333",
-      "event_wiki": "UFC 333",
-      "gegner": "Ramazan Temirov",
-      "gegner_artikel": "Ramazan Temirov"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
      "rang": "7",
-     "land_iso": "UZB",
-     "name": "Ramazan Temirov",
-     "artikel": "Ramazan Temirov",
-     "bilanz": "20-4",
-     "serie": 0,
-     "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC 333",
-      "event_wiki": "UFC 333",
-      "gegner": "Lone'er Kavanagh",
-      "gegner_artikel": "Lone'er Kavanagh"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "neu"
-     }
-    },
-    {
-     "rang": "8",
      "land_iso": "JPN",
      "name": "Kyoji Horiguchi",
      "artikel": "Kyoji Horiguchi",
@@ -31853,12 +31841,12 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "auf",
+      "plaetze": 1
      }
     },
     {
-     "rang": "9",
+     "rang": "8",
      "land_iso": "IRQ",
      "name": "Amir Albazi",
      "artikel": "Amir Albazi",
@@ -31879,12 +31867,12 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "auf",
+      "plaetze": 1
      }
     },
     {
-     "rang": "10",
+     "rang": "9",
      "land_iso": "MEX",
      "name": "Brandon Moreno",
      "artikel": "Brandon Moreno",
@@ -31905,8 +31893,29 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "auf",
+      "plaetze": 1
+     }
+    },
+    {
+     "rang": "10",
+     "land_iso": "UZB",
+     "name": "Ramazan Temirov",
+     "artikel": "Ramazan Temirov",
+     "bilanz": "20-4",
+     "serie": 0,
+     "letzter_kampf": {
+      "ergebnis": "Loss",
+      "event": "UFC 333",
+      "event_wiki": "UFC 333",
+      "gegner": "Lone'er Kavanagh",
+      "gegner_artikel": "Lone'er Kavanagh"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "ab",
+      "plaetze": 3
      }
     },
     {
@@ -31935,7 +31944,7 @@
      "land_iso": "USA",
      "name": "Mitch Raposo",
      "artikel": null,
-     "bilanz": "11-2",
+     "bilanz": "11-3",
      "serie": 2,
      "letzter_kampf": {
       "ergebnis": "Win",
@@ -32026,14 +32035,14 @@
     }
    ],
    "vergleich": {
-    "stand": "2026-10-10",
-    "nach_event": "UFC Fight Night: Allen vs. Duncan",
-    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-13)"
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "quelle": "Wikipedia: UFC rankings"
    }
   },
   "Women's Bantamweight": {
-   "stand": "2026-10-17",
-   "nach_event": "UFC Fight Night: Buckley vs. Malott",
+   "stand": "2026-10-24",
+   "nach_event": "UFC 333",
    "plaetze": [
     {
      "rang": "C",
@@ -32411,8 +32420,8 @@
    }
   },
   "Women's Flyweight": {
-   "stand": "2026-10-17",
-   "nach_event": "UFC Fight Night: Buckley vs. Malott",
+   "stand": "2026-10-24",
+   "nach_event": "UFC 333",
    "plaetze": [
     {
      "rang": "C",
@@ -32769,8 +32778,8 @@
    }
   },
   "Women's Strawweight": {
-   "stand": "2026-10-17",
-   "nach_event": "UFC Fight Night: Buckley vs. Malott",
+   "stand": "2026-10-24",
+   "nach_event": "UFC 333",
    "plaetze": [
     {
      "rang": "C",
@@ -32929,6 +32938,26 @@
     {
      "rang": "7",
      "land_iso": "BRA",
+     "name": "Iasmin Lucindo",
+     "artikel": "Iasmin Lucindo",
+     "bilanz": "19-6",
+     "serie": 2,
+     "letzter_kampf": {
+      "ergebnis": "Win",
+      "event": "UFC 333",
+      "event_wiki": "UFC 333",
+      "gegner": "Nicolle Caliari",
+      "gegner_artikel": null
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "neu"
+     }
+    },
+    {
+     "rang": "8",
+     "land_iso": "BRA",
      "name": "Alexia Thainara",
      "artikel": null,
      "bilanz": "15-1",
@@ -32943,12 +32972,12 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
-     "rang": "8",
+     "rang": "9",
      "land_iso": "MEX",
      "name": "Loopy Godínez",
      "artikel": "Loopy Godínez",
@@ -32964,12 +32993,12 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
-     "rang": "9",
+     "rang": "10",
      "land_iso": "VEN",
      "name": "Piera Rodriguez",
      "artikel": null,
@@ -32990,12 +33019,12 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
-     "rang": "10",
+     "rang": "11",
      "land_iso": "CHN",
      "name": "Yan Xiaonan",
      "artikel": "Yan Xiaonan",
@@ -33011,12 +33040,12 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
-     "rang": "11",
+     "rang": "12",
      "land_iso": "JPN",
      "name": "Mizuki Inoue",
      "artikel": "Mizuki Inoue",
@@ -33032,12 +33061,12 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
-     "rang": "12",
+     "rang": "13",
      "land_iso": "BRA",
      "name": "Tabatha Ricci",
      "artikel": "Tabatha Ricci",
@@ -33053,12 +33082,12 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
-     "rang": "13",
+     "rang": "14",
      "land_iso": "BRA",
      "name": "Talita Alencar",
      "artikel": "Talita Alencar",
@@ -33079,12 +33108,12 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "auf",
+      "art": "ab",
       "plaetze": 1
      }
     },
     {
-     "rang": "14",
+     "rang": "15",
      "land_iso": "BRA",
      "name": "Amanda Lemos",
      "artikel": "Amanda Lemos",
@@ -33100,35 +33129,15 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "auf",
+      "art": "ab",
       "plaetze": 1
-     }
-    },
-    {
-     "rang": "15",
-     "land_iso": "USA",
-     "name": "Sam Hughes",
-     "artikel": "Sam Hughes (fighter)",
-     "bilanz": "11-7",
-     "serie": 0,
-     "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC Fight Night 269",
-      "event_wiki": "UFC Fight Night: Emmett vs. Vallejos",
-      "gegner": "Piera Rodriguez",
-      "gegner_artikel": null
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "neu"
      }
     }
    ],
    "vergleich": {
-    "stand": "2026-10-10",
-    "nach_event": "UFC Fight Night: Allen vs. Duncan",
-    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-18)"
+    "stand": "2026-10-17",
+    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "quelle": "Wikipedia: UFC rankings"
    }
   }
  },
@@ -35329,6 +35338,16 @@
      "hinweis": null
     },
     {
+     "gewichtsklasse": "Flyweight",
+     "a": "Mitch Raposo",
+     "a_artikel": null,
+     "b": "Marcos Degli",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Preliminary card (Paramount+)",
+     "hinweis": null
+    },
+    {
      "gewichtsklasse": "Featherweight",
      "a": "José Mauro Delano",
      "a_artikel": null,
@@ -35467,6 +35486,16 @@
      "a_artikel": "Jim Miller (fighter)",
      "b": "Terrance McKinney",
      "b_artikel": "Terrance McKinney",
+     "titelkampf": false,
+     "karte": "Preliminary card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Middleweight",
+     "a": "Donte Johnson",
+     "a_artikel": null,
+     "b": "César Almeida",
+     "b_artikel": "César Almeida (fighter)",
      "titelkampf": false,
      "karte": "Preliminary card (Paramount+)",
      "hinweis": null

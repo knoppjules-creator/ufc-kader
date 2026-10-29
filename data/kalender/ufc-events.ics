@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:ufc-fight-night-moicano-vs-nolan@ufc-kader
-DTSTAMP:20261027T043629Z
+DTSTAMP:20261029T044806Z
 SUMMARY:UFC Fight Night: Moicano vs. Nolan
 LOCATION:Meta Apex\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nRenato Moicano vs. Tom Nolan (Lightweight)\nRandy Bro
@@ -46,7 +46,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-bonfim-vs-brady@ufc-kader
-DTSTAMP:20261027T043629Z
+DTSTAMP:20261029T044806Z
 SUMMARY:UFC Fight Night: Bonfim vs. Brady
 LOCATION:Meta Apex\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nGabriel Bonfim vs. Sean Brady (Welterweight)\nTatiana
@@ -54,12 +54,13 @@ DESCRIPTION:Kämpfe:\nGabriel Bonfim vs. Sean Brady (Welterweight)\nTatiana
  Smith (Bantamweight)\nKo Seok-hyeon vs. Wellington Turman (Welterweight)\n
  Mantas Kondratavičius vs. Andre Petroski (Middleweight)\nBilly Elekana vs
  . Lucas Fernando (Light Heavyweight)\nKarine Silva vs. Gabriella Fernandes
-  (Women's Flyweight)\nJosé Mauro Delano vs. Murtazali Magomedov (Featherw
- eight)\nKeiichiro Nakamura vs. Ollie Schmid (Featherweight)\nAustin Bashi 
- vs. Lucas Brennan (Featherweight)\nPriscila Cachoeira vs. Nina Nikolija Mi
- lošević (Women's Bantamweight)\nJonny Parsons vs. José Henrique Souza (
- Welterweight)\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedia.org/wiki/U
- FC_Fight_Night%3A_Bonfim_vs._Brady
+  (Women's Flyweight)\nMitch Raposo vs. Marcos Degli (Flyweight)\nJosé Mau
+ ro Delano vs. Murtazali Magomedov (Featherweight)\nKeiichiro Nakamura vs. 
+ Ollie Schmid (Featherweight)\nAustin Bashi vs. Lucas Brennan (Featherweigh
+ t)\nPriscila Cachoeira vs. Nina Nikolija Milošević (Women's Bantamweight
+ )\nJonny Parsons vs. José Henrique Souza (Welterweight)\n\nUhrzeit folgt.
+ \n\nQuelle: https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Bonfim_vs._Br
+ ady
 URL:https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Bonfim_vs._Brady
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
@@ -67,7 +68,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-334@ufc-kader
-DTSTAMP:20261027T043629Z
+DTSTAMP:20261029T044806Z
 SUMMARY:UFC 334: Gane vs. Hokit
 LOCATION:Madison Square Garden\, New York City\, New York\, U.S.
 DESCRIPTION:Kämpfe:\nCiryl Gane vs. Josh Hokit (Heavyweight\, Titelkampf)\
@@ -75,9 +76,10 @@ DESCRIPTION:Kämpfe:\nCiryl Gane vs. Josh Hokit (Heavyweight\, Titelkampf)\
   Borralho vs. Yousri Belgaroui (Middleweight)\nUroš Medić vs. Kevin Holl
  and (Welterweight)\nBilal Hasan vs. Luis Gurule (Flyweight)\nStephen Thomp
  son vs. Charles Radtke (Welterweight)\nDrew Dober vs. Chris Duncan (Lightw
- eight)\nJim Miller vs. Terrance McKinney (Lightweight)\nMacy Chiasson vs. 
- Beatriz Mesquita (Women's Bantamweight)\n\nUhrzeit folgt.\n\nQuelle: https
- ://en.wikipedia.org/wiki/UFC_334
+ eight)\nJim Miller vs. Terrance McKinney (Lightweight)\nDonte Johnson vs. 
+ César Almeida (Middleweight)\nMacy Chiasson vs. Beatriz Mesquita (Women's
+  Bantamweight)\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedia.org/wiki/
+ UFC_334
 URL:https://en.wikipedia.org/wiki/UFC_334
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
@@ -85,7 +87,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-prochazka-vs-stirling@ufc-kader
-DTSTAMP:20261027T043629Z
+DTSTAMP:20261029T044806Z
 SUMMARY:UFC Fight Night: Procházka vs. Stirling
 LOCATION:Ali Bin Hamad al-Attiyah Arena\, Al Rayyan\, Qatar
 DESCRIPTION:Kämpfe:\nJiří Procházka vs. Navajo Stirling (Light Heavywei
@@ -104,7 +106,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-295@ufc-kader
-DTSTAMP:20261027T043629Z
+DTSTAMP:20261029T044806Z
 SUMMARY:UFC Fight Night 295
 LOCATION:anb Arena\, Riyadh\, Saudi Arabia
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
@@ -116,7 +118,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-335@ufc-kader
-DTSTAMP:20261027T043629Z
+DTSTAMP:20261029T044806Z
 SUMMARY:UFC 335: Oliveira vs. Lopes
 LOCATION:T-Mobile Arena\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nCharles Oliveira vs. Diego Lopes (Lightweight\, Titel
@@ -131,7 +133,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-296@ufc-kader
-DTSTAMP:20261027T043629Z
+DTSTAMP:20261029T044806Z
 SUMMARY:UFC Fight Night 296
 LOCATION:American Airlines Center\, Dallas\, Texas\, U.S.
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
@@ -143,7 +145,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-336@ufc-kader
-DTSTAMP:20261027T043629Z
+DTSTAMP:20261029T044806Z
 SUMMARY:UFC 336: Van vs. Kape
 LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canada
 DESCRIPTION:Kämpfe:\nJoshua Van vs. Manel Kape (Flyweight\, Titelkampf)\nC
@@ -156,7 +158,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-298@ufc-kader
-DTSTAMP:20261027T043629Z
+DTSTAMP:20261029T044806Z
 SUMMARY:UFC Fight Night 298
 LOCATION:Afterpay Arena\, Sydney\, Australia
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
