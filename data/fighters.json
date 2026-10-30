@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-29T04:48:06+00:00",
+ "stand": "2026-10-30T04:48:27+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -428,6 +428,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Johnny Walker (fighter) (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Johnny Walker (fighter)",
     "reichweite_cm": "Wikipedia: Johnny Walker (fighter)",
     "kampfstil": "Wikipedia (russisch): Уокер, Джонни (боец)",
@@ -474,14 +475,14 @@
    "groesse_cm": 196,
    "nationalitaet": null,
    "siegesserie": 1,
-   "letzter_kampf": {
-    "event": "UFC 332",
-    "event_wiki": "UFC 332",
-    "ort": "Salt Lake City",
-    "gegner": "Mick Parkin",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 293",
+    "event_wiki": "UFC Fight Night 293",
+    "ort": "Las Vegas",
+    "gegner": "Waldo Cortes-Acosta",
+    "datum": "2026-11-07"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q61478503",
    "gewicht_kg": 109.8,
@@ -894,6 +895,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Waldo Cortes-Acosta (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Waldo Cortes-Acosta",
     "reichweite_cm": "Wikipedia: Waldo Cortes-Acosta",
     "kampfstil": "Wikipedia (russisch): Кортес-Акоста, Вальдо (боец)",
@@ -916,14 +918,14 @@
    "groesse_cm": 193,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 288",
-    "event_wiki": "UFC Fight Night: Silva vs. Delgado",
-    "ort": "Glendale",
-    "gegner": "Curtis Blaydes",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 293",
+    "event_wiki": "UFC Fight Night 293",
+    "ort": "Las Vegas",
+    "gegner": "Johnny Walker",
+    "datum": "2026-11-07"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q126165389",
    "gewicht_kg": 119.7,
@@ -1108,7 +1110,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Gabriel Lorenço",
     "datum": "2026-11-07"
@@ -4046,7 +4048,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Lucas Fernando",
     "datum": "2026-11-07"
@@ -4556,7 +4558,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Billy Elekana",
     "datum": "2026-11-07"
@@ -5991,7 +5993,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Mantas Kondratavičius",
     "datum": "2026-11-07"
@@ -7433,7 +7435,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Andre Petroski",
     "datum": "2026-11-07"
@@ -8860,7 +8862,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Ko Seok-hyeon",
     "datum": "2026-11-07"
@@ -8885,8 +8887,6 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Sean Brady (fighter) (Tabelle „Mixed martial arts record“)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Sean Brady (fighter)",
     "reichweite_cm": "Wikipedia: Sean Brady (fighter)",
     "kampfstil": "Wikipedia (russisch): Брэди, Шон (боец)",
@@ -8899,14 +8899,8 @@
    "nationalitaet": null,
    "siegesserie": 1,
    "letzter_kampf": null,
-   "naechster_kampf": {
-    "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
-    "ort": "Las Vegas",
-    "gegner": "Gabriel Bonfim",
-    "datum": "2026-11-07"
-   },
-   "status": null,
+   "naechster_kampf": null,
+   "status": "(October 29, 2026) – Knee staph infection – Bout cancelled – UFC Fight Night 293 (Las Vegas) – Gabriel Bonfim",
    "wikidata": "https://www.wikidata.org/wiki/Q98780764",
    "gewicht_kg": 77.1,
    "reichweite_cm": 183,
@@ -9665,8 +9659,6 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Gabriel Bonfim",
     "reichweite_cm": "Wikipedia: Gabriel Bonfim",
     "kampfstil": "Wikipedia (russisch): Бонфим, Габриэл",
@@ -9690,14 +9682,8 @@
    "nationalitaet": null,
    "siegesserie": null,
    "letzter_kampf": null,
-   "naechster_kampf": {
-    "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
-    "ort": "Las Vegas",
-    "gegner": "Sean Brady",
-    "datum": "2026-11-07"
-   },
-   "status": null,
+   "naechster_kampf": null,
+   "status": "(October 29, 2026) – Brady knee staph infection – Bout cancelled – UFC Fight Night 293 (Las Vegas) – Sean Brady",
    "wikidata": "https://www.wikidata.org/wiki/Q121590551",
    "gewicht_kg": 77.1,
    "reichweite_cm": 183,
@@ -10145,7 +10131,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Wellington Turman",
     "datum": "2026-11-07"
@@ -10543,7 +10529,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": null,
     "gegner": "Jonny Parsons",
     "datum": "2026-11-07"
@@ -13414,7 +13400,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Benoît Saint Denis (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Benoît Saint Denis",
     "reichweite_cm": "Wikipedia: Benoît Saint Denis",
     "kampfstil": "Wikipedia (russisch): Сен-Дени, Бенуа",
@@ -13432,7 +13417,7 @@
     "event_wiki": "UFC Fight Night 298",
     "ort": "Sydney",
     "gegner": "Quillan Salkilld",
-    "datum": "2027-02-07"
+    "datum": null
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q112241194",
@@ -14447,7 +14432,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Quillan Salkilld (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Quillan Salkilld",
     "reichweite_cm": "Wikipedia: Quillan Salkilld",
     "kampfstil": "Wikipedia (russisch): Солкиллд, Куиллан",
@@ -14476,7 +14460,7 @@
     "event_wiki": "UFC Fight Night 298",
     "ort": "Sydney",
     "gegner": "Benoît Saint Denis",
-    "datum": "2027-02-07"
+    "datum": null
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q134467028",
@@ -14943,8 +14927,6 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Lucas Brennan (Tabelle „Mixed martial arts record“)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Lucas Brennan",
     "reichweite_cm": "Wikipedia: Lucas Brennan",
     "kampfstil": "Wikipedia (russisch): Бреннан, Лукас",
@@ -14968,14 +14950,8 @@
    "nationalitaet": null,
    "siegesserie": 0,
    "letzter_kampf": null,
-   "naechster_kampf": {
-    "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
-    "ort": "Las Vegas",
-    "gegner": "Austin Bashi / Moving to Featherweight",
-    "datum": "2026-11-07"
-   },
-   "status": null,
+   "naechster_kampf": null,
+   "status": "(October 29, 2026) – Torn ACL – Out of UFC Fight Night 293 (Las Vegas) – Austin Bashi / Moving to Featherweight",
    "wikidata": "https://www.wikidata.org/wiki/Q112990147",
    "gewicht_kg": 65.8,
    "reichweite_cm": 180,
@@ -17972,9 +17948,9 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
-    "gegner": "Lucas Brennan",
+    "gegner": "TBD",
     "datum": "2026-11-07"
    },
    "status": null,
@@ -18508,7 +18484,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Ollie Schmid",
     "datum": "2026-11-07"
@@ -18806,7 +18782,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Murtazali Magomedov",
     "datum": "2026-11-07"
@@ -18927,7 +18903,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Keiichiro Nakamura",
     "datum": "2026-11-07"
@@ -19063,7 +19039,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "José Mauro Delano",
     "datum": "2026-11-07"
@@ -19353,7 +19329,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Elijah Smith",
     "datum": "2026-11-07"
@@ -21720,7 +21696,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Davey Grant",
     "datum": "2026-11-07"
@@ -23997,7 +23973,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Marcos Degli",
     "datum": "2026-11-07"
@@ -24786,7 +24762,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Nina Nikolija Milošević",
     "datum": "2026-11-07"
@@ -25684,7 +25660,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Priscila Cachoeira",
     "datum": "2026-11-07"
@@ -26518,7 +26494,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Gabriella Fernandes",
     "datum": "2026-11-07"
@@ -26682,7 +26658,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Karine Silva",
     "datum": "2026-11-07"
@@ -27344,7 +27320,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Virna Jandiroba",
     "datum": "2026-11-07"
@@ -27665,7 +27641,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "event_wiki": "UFC Fight Night 293",
     "ort": "Las Vegas",
     "gegner": "Tatiana Suarez",
     "datum": "2026-11-07"
@@ -30343,7 +30319,7 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 293",
-      "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+      "event_wiki": "UFC Fight Night 293",
       "gegner": "Gabriel Bonfim",
       "gegner_artikel": "Gabriel Bonfim"
      },
@@ -30369,7 +30345,7 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 293",
-      "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+      "event_wiki": "UFC Fight Night 293",
       "gegner": "Sean Brady",
       "gegner_artikel": "Sean Brady (fighter)"
      },
@@ -31955,7 +31931,7 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 293",
-      "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+      "event_wiki": "UFC Fight Night 293",
       "gegner": "Marcos Degli",
       "gegner_artikel": null
      },
@@ -32734,7 +32710,7 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 293",
-      "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+      "event_wiki": "UFC Fight Night 293",
       "gegner": "Gabriella Fernandes",
       "gegner_artikel": null
      },
@@ -32836,7 +32812,7 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 293",
-      "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+      "event_wiki": "UFC Fight Night 293",
       "gegner": "Tatiana Suarez",
       "gegner_artikel": "Tatiana Suarez"
      },
@@ -32862,7 +32838,7 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 293",
-      "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+      "event_wiki": "UFC Fight Night 293",
       "gegner": "Virna Jandiroba",
       "gegner_artikel": "Virna Jandiroba"
      },
@@ -35260,23 +35236,13 @@
    "ics": null
   },
   {
-   "name": "UFC Fight Night: Bonfim vs. Brady",
-   "artikel": "UFC Fight Night: Bonfim vs. Brady",
+   "name": "UFC Fight Night 293",
+   "artikel": "UFC Fight Night 293",
    "datum": "2026-11-07",
    "halle": "Meta Apex",
    "ort": "Las Vegas, Nevada, U.S.",
-   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Bonfim_vs._Brady",
+   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_293",
    "kaempfe": [
-    {
-     "gewichtsklasse": "Welterweight",
-     "a": "Gabriel Bonfim",
-     "a_artikel": "Gabriel Bonfim",
-     "b": "Sean Brady",
-     "b_artikel": "Sean Brady (fighter)",
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
     {
      "gewichtsklasse": "Women's Strawweight",
      "a": "Tatiana Suarez",
@@ -35308,21 +35274,21 @@
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Middleweight",
-     "a": "Mantas Kondratavičius",
-     "a_artikel": null,
-     "b": "Andre Petroski",
-     "b_artikel": "Andre Petroski",
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
      "gewichtsklasse": "Light Heavyweight",
      "a": "Billy Elekana",
      "a_artikel": "Billy Elekana",
      "b": "Lucas Fernando",
      "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Middleweight",
+     "a": "Mantas Kondratavičius",
+     "a_artikel": null,
+     "b": "Andre Petroski",
+     "b_artikel": "Andre Petroski",
      "titelkampf": false,
      "karte": "Fight card (Paramount+)",
      "hinweis": null
@@ -35363,16 +35329,6 @@
      "a_artikel": null,
      "b": "Ollie Schmid",
      "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Featherweight",
-     "a": "Austin Bashi",
-     "a_artikel": null,
-     "b": "Lucas Brennan",
-     "b_artikel": "Lucas Brennan",
      "titelkampf": false,
      "karte": "Preliminary card (Paramount+)",
      "hinweis": null
@@ -35739,12 +35695,12 @@
    "ics": null
   },
   {
-   "name": "UFC Fight Night 298",
-   "artikel": "UFC Fight Night 298",
+   "name": "UFC Fight Night 297",
+   "artikel": "UFC Fight Night 297",
    "datum": "2027-02-07",
    "halle": "Afterpay Arena",
    "ort": "Sydney, Australia",
-   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_298",
+   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_297",
    "kaempfe": [],
    "hauptkarte_utc": null,
    "hauptkarte_quelle": null,
