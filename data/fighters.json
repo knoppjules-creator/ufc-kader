@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-31T04:44:34+00:00",
+ "stand": "2026-11-01T04:51:35+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -12,7 +12,7 @@
   "Wikipedia auf Russisch, Japanisch, Spanisch, Portugiesisch, Deutsch"
  ],
  "lizenz": "Wikipedia-Inhalte: CC BY-SA 4.0; Wikidata: CC0",
- "anzahl": 653,
+ "anzahl": 652,
  "kaempfer": [
   {
    "name": "Derrick Lewis",
@@ -2674,6 +2674,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Ion Cutelaba (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Ion Cutelaba",
     "reichweite_cm": "Wikipedia: Ion Cutelaba",
     "kampfstil": "Wikipedia (russisch): Куцелаба, Ион Николаевич",
@@ -2696,14 +2697,14 @@
    "groesse_cm": 185,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 279",
-    "event_wiki": "UFC Fight Night: Kape vs. Horiguchi",
-    "ort": "Las Vegas",
-    "gegner": "Navajo Stirling",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night 295",
+    "ort": "Riyadh",
+    "gegner": "Magomed Tuchalov",
+    "datum": "2026-12-05"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q27663348",
    "gewicht_kg": 93.0,
@@ -4472,6 +4473,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: List of current UFC fighters (nur Siege)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikidata: Q125178575",
     "reichweite_cm": "Wikipedia (russisch): Тучалов, Магомед Юсупович",
     "kampfstil": "Wikipedia (russisch): Тучалов, Магомед Юсупович",
@@ -4483,14 +4485,14 @@
    "groesse_cm": 190,
    "nationalitaet": null,
    "siegesserie": 6,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 282",
-    "event_wiki": "UFC Fight Night: Ankalaev vs. Guskov",
-    "ort": "Abu Dhabi",
-    "gegner": "Brendson Ribeiro",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night 295",
+    "ort": "Riyadh",
+    "gegner": "Ion Cuțelaba",
+    "datum": "2026-12-05"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q125178575",
    "gewicht_kg": 93.0,
@@ -5009,26 +5011,25 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Mickey Gall (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Mickey Gall",
     "reichweite_cm": "Wikipedia: Mickey Gall",
     "kampfstil": "Wikipedia (japanisch): ミッキー・ガル",
     "geburtsort": "Wikipedia: Mickey Gall"
    },
    "konflikte": {},
-   "bilanz": "7-7",
+   "bilanz": "7-8",
    "geburtsdatum": "1992-01-22",
    "groesse_cm": 188,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Zachary Reese",
-    "datum": "2026-10-31"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q26879930",
    "gewicht_kg": 77.1,
@@ -6513,25 +6514,24 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Zachary Reese (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Zachary Reese",
     "reichweite_cm": "Wikipedia: Zachary Reese",
     "geburtsort": "Wikipedia: Zachary Reese"
    },
    "konflikte": {},
-   "bilanz": "10-4 (1 NC)",
+   "bilanz": "11-4 (1 NC)",
    "geburtsdatum": "1994-03-24",
    "groesse_cm": 193,
    "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 1,
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Mickey Gall",
-    "datum": "2026-10-31"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q137164061",
    "gewicht_kg": 88.0,
@@ -6909,23 +6909,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "6-3",
+   "bilanz": "6-4",
    "geburtsdatum": "1995-09-08",
    "groesse_cm": 185,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Joseph Kropschot",
-    "datum": "2026-10-31"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -7817,23 +7816,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "9-3",
+   "bilanz": "10-3",
    "geburtsdatum": "1995-06-19",
    "groesse_cm": 190,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Nick Klein",
-    "datum": "2026-10-31"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -8473,7 +8471,6 @@
     "nationalitaet": "Wikipedia: Randy Brown (fighter)",
     "siegesserie": "Wikipedia: Randy Brown (fighter) (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Randy Brown (fighter)",
     "reichweite_cm": "Wikipedia: Randy Brown (fighter)",
     "kampfstil": "Wikipedia (russisch): Браун, Рэнди (боец)",
@@ -8505,19 +8502,19 @@
      }
     ]
    },
-   "bilanz": "20-8",
+   "bilanz": "20-9",
    "geburtsdatum": "1990-07-08",
    "groesse_cm": 190,
-   "nationalitaet": "American",
+   "nationalitaet": "Jamaican, American",
    "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Jacobe Smith",
-    "datum": "2026-10-31"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q22958637",
    "gewicht_kg": 77.1,
@@ -10051,23 +10048,22 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: List of current UFC fighters (nur Siege)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "13-0",
+   "bilanz": "14-0",
    "geburtsdatum": "1996-01-17",
    "groesse_cm": 178,
    "nationalitaet": null,
-   "siegesserie": 13,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 14,
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Randy Brown",
-    "datum": "2026-10-31"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -10295,23 +10291,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "8-2",
+   "bilanz": "9-2",
    "geburtsdatum": "1997-12-11",
    "groesse_cm": 183,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Theodor Berggren",
-    "datum": "2026-10-31"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -10444,26 +10439,25 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikidata: Q138392818",
     "reichweite_cm": "Wikipedia (russisch): Лебоснояни, Жан-Пол",
     "kampfstil": "Wikipedia (russisch): Лебоснояни, Жан-Пол",
     "geburtsort": "Wikidata: Q138392818"
    },
    "konflikte": {},
-   "bilanz": "11-2",
+   "bilanz": "12-2",
    "geburtsdatum": "1999-01-27",
    "groesse_cm": 180,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Farman Hasanov",
-    "datum": "2026-10-31"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q138392818",
    "gewicht_kg": 77.0,
@@ -10724,23 +10718,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "8-4",
+   "bilanz": "8-5",
    "geburtsdatum": "2000-04-09",
    "groesse_cm": 180,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Rodrigo Sezinando",
-    "datum": "2026-10-31"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -10750,8 +10743,8 @@
   },
   {
    "name": "Farman Hasanov",
-   "artikel": null,
-   "wikipedia": null,
+   "artikel": "Farman Hasanov",
+   "wikipedia": "https://en.wikipedia.org/wiki/Farman_Hasanov",
    "gewichtsklasse": "Welterweight",
    "land_iso": "AZE",
    "quellen": {
@@ -10760,30 +10753,33 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: List of current UFC fighters (nur Siege)",
+    "siegesserie": "Wikipedia: Farman Hasanov (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "gewicht_kg": "Wikipedia: Farman Hasanov",
+    "reichweite_cm": "Wikipedia: Farman Hasanov",
+    "kampfstil": "Wikipedia: Farman Hasanov",
+    "geburtsort": "Wikipedia: Farman Hasanov"
    },
    "konflikte": {},
-   "bilanz": "5-0",
+   "bilanz": "5-1",
    "geburtsdatum": "1995-08-01",
    "groesse_cm": 180,
    "nationalitaet": null,
-   "siegesserie": 5,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Jean-Paul Lebosnoyani",
-    "datum": "2026-10-31"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
-   "gewicht_kg": null,
-   "reichweite_cm": null,
-   "kampfstil": null,
-   "geburtsort": null,
-   "wikidata": null
+   "wikidata": "https://www.wikidata.org/wiki/Q141744873",
+   "gewicht_kg": 77.1,
+   "reichweite_cm": 188,
+   "kampfstil": "Freestyle wrestling",
+   "geburtsort": "Baku, Azerbaijan"
   },
   {
    "name": "Michael Oliveira",
@@ -11631,7 +11627,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Renato Moicano (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Renato Moicano",
     "reichweite_cm": "Wikipedia: Renato Moicano",
     "kampfstil": "Wikipedia: Renato Moicano",
@@ -11657,19 +11652,19 @@
      }
     ]
    },
-   "bilanz": "21-7-1",
+   "bilanz": "21-8-1",
    "geburtsdatum": "1989-05-21",
    "groesse_cm": 180,
    "nationalitaet": null,
-   "siegesserie": 1,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Tom Nolan",
-    "datum": "2026-10-31"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q24258839",
    "gewicht_kg": 70.3,
@@ -14175,7 +14170,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Tom Nolan (fighter) (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Tom Nolan (fighter)",
     "reichweite_cm": "Wikipedia: Tom Nolan (fighter)",
     "geburtsort": "Wikipedia: Tom Nolan (fighter)"
@@ -14202,19 +14196,19 @@
      }
     ]
    },
-   "bilanz": "11-1",
+   "bilanz": "12-1",
    "geburtsdatum": "2000-03-08",
    "groesse_cm": 190,
    "nationalitaet": null,
-   "siegesserie": 5,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 6,
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Renato Moicano",
-    "datum": "2026-10-31"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q138016466",
    "gewicht_kg": 70.3,
@@ -15807,58 +15801,6 @@
    "geburtsort": "Ipswich, Suffolk, England"
   },
   {
-   "name": "Julian Erosa",
-   "artikel": "Julian Erosa",
-   "wikipedia": "https://en.wikipedia.org/wiki/Julian_Erosa",
-   "gewichtsklasse": "Featherweight",
-   "land_iso": "USA",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: Julian Erosa (Tabelle „Mixed martial arts record“)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
-    "gewicht_kg": "Wikipedia: Julian Erosa",
-    "reichweite_cm": "Wikipedia: Julian Erosa",
-    "kampfstil": "Wikipedia (portugiesisch): Julian Erosa",
-    "geburtsort": "Wikipedia: Julian Erosa"
-   },
-   "konflikte": {
-    "reichweite_cm": [
-     {
-      "wert": 189,
-      "quelle": "Wikipedia: Julian Erosa"
-     },
-     {
-      "wert": 175,
-      "quelle": "Wikipedia (portugiesisch): Julian Erosa"
-     }
-    ]
-   },
-   "bilanz": "31-13",
-   "geburtsdatum": "1989-07-31",
-   "groesse_cm": 185,
-   "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
-    "event": "UFC Fight Night 292",
-    "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
-    "ort": "Las Vegas",
-    "gegner": "Lee Jeong-yeong",
-    "datum": "2026-10-31"
-   },
-   "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q97306946",
-   "gewicht_kg": 65.8,
-   "reichweite_cm": 189,
-   "kampfstil": "Wrestling",
-   "geburtsort": "Seattle, Washington, U.S."
-  },
-  {
    "name": "Josh Emmett",
    "artikel": "Josh Emmett",
    "wikipedia": "https://en.wikipedia.org/wiki/Josh_Emmett",
@@ -17028,23 +16970,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "10-3",
+   "bilanz": "10-4",
    "geburtsdatum": "1999-03-09",
    "groesse_cm": 175,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Dakota Hope",
-    "datum": "2026-10-31"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -17104,23 +17045,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "11-2",
+   "bilanz": "11-3",
    "geburtsdatum": "1995-11-13",
    "groesse_cm": 178,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Julian Erosa",
-    "datum": "2026-10-31"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -18806,23 +18746,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "11-2",
+   "bilanz": "12-2",
    "geburtsdatum": "1997-01-29",
    "groesse_cm": 168,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Francis Marshall",
-    "datum": "2026-10-31"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -23182,7 +23121,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Ode' Osbourne (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Ode' Osbourne",
     "reichweite_cm": "Wikipedia: Ode' Osbourne",
     "kampfstil": "Wikipedia (russisch): Осборн, Оде",
@@ -23204,19 +23142,19 @@
      }
     ]
    },
-   "bilanz": "13-9 (2 NC)",
+   "bilanz": "13-10 (2 NC)",
    "geburtsdatum": "1992-01-09",
    "groesse_cm": 170,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Cody Durden",
-    "datum": "2026-10-31"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q83093836",
    "gewicht_kg": 56.7,
@@ -23330,26 +23268,25 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Cody Durden (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Cody Durden",
     "reichweite_cm": "Wikipedia: Cody Durden",
     "kampfstil": "Wikipedia (russisch): Дёрден, Коди (боец)",
     "geburtsort": "Wikipedia: Cody Durden"
    },
    "konflikte": {},
-   "bilanz": "18-11-1",
+   "bilanz": "19-11-1",
    "geburtsdatum": "1991-03-29",
    "groesse_cm": 170,
    "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 1,
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Ode' Osbourne",
-    "datum": "2026-10-31"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q109658681",
    "gewicht_kg": 56.7,
@@ -24825,26 +24762,25 @@
     "nationalitaet": "Wikipedia: Yana Santos",
     "siegesserie": "Wikipedia: Yana Santos (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Yana Santos",
     "reichweite_cm": "Wikipedia: Yana Santos",
     "kampfstil": "Wikipedia: Yana Santos",
     "geburtsort": "Wikipedia: Yana Santos"
    },
    "konflikte": {},
-   "bilanz": "17-8 (1 NC)",
+   "bilanz": "17-9 (1 NC)",
    "geburtsdatum": "1989-11-11",
    "groesse_cm": 168,
    "nationalitaet": "Russian",
-   "siegesserie": 3,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Luana Santos",
-    "datum": "2026-10-31"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q8048201",
    "gewicht_kg": 61.2,
@@ -25228,25 +25164,35 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Luana Santos (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Luana Santos",
     "reichweite_cm": "Wikipedia: Luana Santos",
     "kampfstil": "Wikipedia (portugiesisch): Luana Santos"
    },
-   "konflikte": {},
-   "bilanz": "11-2",
+   "konflikte": {
+    "bilanz": [
+     {
+      "wert": "12-2",
+      "quelle": "Wikipedia: List of current UFC fighters"
+     },
+     {
+      "wert": "11-2",
+      "quelle": "Wikipedia: Luana Santos"
+     }
+    ]
+   },
+   "bilanz": "12-2",
    "geburtsdatum": "2000-04-16",
    "groesse_cm": 168,
    "nationalitaet": null,
-   "siegesserie": 3,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 4,
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Yana Santos",
-    "datum": "2026-10-31"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q122840468",
    "gewicht_kg": 61.2,
@@ -26710,23 +26656,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "7-4",
+   "bilanz": "7-5",
    "geburtsdatum": "1991-03-02",
    "groesse_cm": 168,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Lucia Szabová",
-    "datum": "2026-10-31"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -27115,7 +27060,6 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Lucia Szabová",
     "kampfstil": "Wikipedia: Lucia Szabová",
     "geburtsort": "Wikipedia: Lucia Szabová"
@@ -27123,11 +27067,11 @@
    "konflikte": {
     "bilanz": [
      {
-      "wert": "10-0",
+      "wert": "11-0",
       "quelle": "Wikipedia: List of current UFC fighters"
      },
      {
-      "wert": "12-0",
+      "wert": "13-0",
       "quelle": "Wikipedia: Lucia Szabová"
      }
     ],
@@ -27142,19 +27086,19 @@
      }
     ]
    },
-   "bilanz": "10-0",
+   "bilanz": "11-0",
    "geburtsdatum": "1997-12-27",
    "groesse_cm": 170,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Tainara Lisboa",
-    "datum": "2026-10-31"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q134352895",
    "gewicht_kg": 60.8,
@@ -27956,7 +27900,7 @@
     "event": "UFC Fight Night 269",
     "event_wiki": "UFC Fight Night: Emmett vs. Vallejos",
     "ort": "Las Vegas",
-    "gegner": "Piera Rodriguez",
+    "gegner": "Piera Rodríguez",
     "ergebnis": "Loss"
    },
    "naechster_kampf": null,
@@ -28212,9 +28156,9 @@
    "geburtsort": "Cleveland, Ohio, U.S."
   },
   {
-   "name": "Piera Rodriguez",
-   "artikel": null,
-   "wikipedia": null,
+   "name": "Piera Rodríguez",
+   "artikel": "Piera Rodríguez",
+   "wikipedia": "https://en.wikipedia.org/wiki/Piera_Rodr%C3%ADguez",
    "gewichtsklasse": "Women's Strawweight",
    "land_iso": "VEN",
    "quellen": {
@@ -28223,29 +28167,32 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "siegesserie": "Wikipedia: Piera Rodríguez (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "gewicht_kg": "Wikipedia: Piera Rodríguez",
+    "reichweite_cm": "Wikipedia: Piera Rodríguez",
+    "geburtsort": "Wikipedia: Piera Rodríguez"
    },
    "konflikte": {},
-   "bilanz": "12-2",
+   "bilanz": "13-2",
    "geburtsdatum": "1992-11-11",
    "groesse_cm": 160,
    "nationalitaet": null,
-   "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 4,
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Talita Alencar",
-    "datum": "2026-10-31"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
-   "gewicht_kg": null,
-   "reichweite_cm": null,
+   "wikidata": "https://www.wikidata.org/wiki/Q126718723",
+   "gewicht_kg": 52.2,
+   "reichweite_cm": 160,
    "kampfstil": null,
-   "geburtsort": null,
-   "wikidata": null
+   "geburtsort": "Maracaibo, Zulia, Venezuela"
   },
   {
    "name": "Yazmin Jauregui",
@@ -28491,25 +28438,24 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Talita Alencar (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Talita Alencar",
     "kampfstil": "Wikipedia (portugiesisch): Talita Alencar",
     "geburtsort": "Wikipedia: Talita Alencar"
    },
    "konflikte": {},
-   "bilanz": "8-1-1",
+   "bilanz": "8-2-1",
    "geburtsdatum": "1990-10-17",
    "groesse_cm": 155,
    "nationalitaet": null,
-   "siegesserie": 3,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC Fight Night 292",
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
-    "gegner": "Piera Rodriguez",
-    "datum": "2026-10-31"
+    "gegner": "Piera Rodríguez",
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q85877553",
    "gewicht_kg": 56.7,
@@ -30856,21 +30802,16 @@
      "land_iso": "BRA",
      "name": "Renato Moicano",
      "artikel": "Renato Moicano",
-     "bilanz": "21-7-1",
-     "serie": 1,
+     "bilanz": "21-8-1",
+     "serie": 0,
      "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC Fight Night 272",
-      "event_wiki": "UFC Fight Night: Moicano vs. Duncan",
-      "gegner": "Chris Duncan",
-      "gegner_artikel": "Chris Duncan (fighter)"
-     },
-     "naechster_kampf": {
+      "ergebnis": "Loss",
       "event": "UFC Fight Night 292",
       "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
       "gegner": "Tom Nolan",
       "gegner_artikel": "Tom Nolan (fighter)"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -30945,21 +30886,16 @@
      "land_iso": "AUS",
      "name": "Tom Nolan",
      "artikel": "Tom Nolan (fighter)",
-     "bilanz": "11-1",
-     "serie": 5,
+     "bilanz": "12-1",
+     "serie": 6,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC Fight Night 278",
-      "event_wiki": "UFC Fight Night: Muhammad vs. Bonfim",
-      "gegner": "Farès Ziam",
-      "gegner_artikel": "Farès Ziam"
-     },
-     "naechster_kampf": {
       "event": "UFC Fight Night 292",
       "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
       "gegner": "Renato Moicano",
       "gegner_artikel": "Renato Moicano"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "ab",
@@ -32222,21 +32158,16 @@
      "land_iso": "BRA",
      "name": "Luana Santos",
      "artikel": "Luana Santos",
-     "bilanz": "11-2",
-     "serie": 3,
+     "bilanz": "12-2",
+     "serie": 4,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC Fight Night 279",
-      "event_wiki": "UFC Fight Night: Kape vs. Horiguchi",
-      "gegner": "Karol Rosa",
-      "gegner_artikel": "Karol Rosa"
-     },
-     "naechster_kampf": {
       "event": "UFC Fight Night 292",
       "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
       "gegner": "Yana Santos",
       "gegner_artikel": "Yana Santos"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -32269,21 +32200,16 @@
      "land_iso": "RUS",
      "name": "Yana Santos",
      "artikel": "Yana Santos",
-     "bilanz": "17-8 (1 NC)",
-     "serie": 3,
+     "bilanz": "17-9 (1 NC)",
+     "serie": 0,
      "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC 320",
-      "event_wiki": "UFC 320",
-      "gegner": "Macy Chiasson",
-      "gegner_artikel": "Macy Chiasson"
-     },
-     "naechster_kampf": {
+      "ergebnis": "Loss",
       "event": "UFC Fight Night 292",
       "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
       "gegner": "Luana Santos",
       "gegner_artikel": "Luana Santos"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -33087,27 +33013,21 @@
     {
      "rang": "10",
      "land_iso": "VEN",
-     "name": "Piera Rodriguez",
-     "artikel": null,
-     "bilanz": "12-2",
-     "serie": 3,
+     "name": "Piera Rodríguez",
+     "artikel": "Piera Rodríguez",
+     "bilanz": "13-2",
+     "serie": 4,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC Fight Night 269",
-      "event_wiki": "UFC Fight Night: Emmett vs. Vallejos",
-      "gegner": "Sam Hughes",
-      "gegner_artikel": "Sam Hughes (fighter)"
-     },
-     "naechster_kampf": {
       "event": "UFC Fight Night 292",
       "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
       "gegner": "Talita Alencar",
       "gegner_artikel": "Talita Alencar"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
-      "plaetze": 1
+      "art": "neu"
      }
     },
     {
@@ -33178,21 +33098,16 @@
      "land_iso": "BRA",
      "name": "Talita Alencar",
      "artikel": "Talita Alencar",
-     "bilanz": "8-1-1",
-     "serie": 3,
+     "bilanz": "8-2-1",
+     "serie": 0,
      "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC Fight Night 274",
-      "event_wiki": "UFC Fight Night: Sterling vs. Zalal",
-      "gegner": "Julia Polastri",
-      "gegner_artikel": null
-     },
-     "naechster_kampf": {
+      "ergebnis": "Loss",
       "event": "UFC Fight Night 292",
       "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
-      "gegner": "Piera Rodriguez",
-      "gegner_artikel": null
+      "gegner": "Piera Rodríguez",
+      "gegner_artikel": "Piera Rodríguez"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "ab",
@@ -34398,6 +34313,24 @@
    "gewichtsklasse": "Bantamweight",
    "event": "UFC 333",
    "event_wiki": "UFC 333"
+  },
+  {
+   "datum": "2026-10-31",
+   "land_iso": "SVK",
+   "name": "Lucia Szabová",
+   "artikel": "Lucia Szabová",
+   "gewichtsklasse": "Women's Flyweight",
+   "event": "UFC Fight Night 292",
+   "event_wiki": "UFC Fight Night: Moicano vs. Nolan"
+  },
+  {
+   "datum": "2026-10-31",
+   "land_iso": "USA",
+   "name": "Joseph Kropschot",
+   "artikel": null,
+   "gewichtsklasse": "Middleweight",
+   "event": "UFC Fight Night 292",
+   "event_wiki": "UFC Fight Night: Moicano vs. Nolan"
   }
  ],
  "abgaenge": [
@@ -35210,142 +35143,19 @@
    "grund": "Entlassen",
    "grund_original": "Released",
    "kategorie": "Entlassen"
+  },
+  {
+   "datum": "2026-10-31",
+   "land_iso": "USA",
+   "name": "Julian Erosa",
+   "artikel": "Julian Erosa",
+   "gewichtsklasse": "Featherweight",
+   "grund": "Karriereende",
+   "grund_original": "Retired",
+   "kategorie": "Karriereende"
   }
  ],
  "events": [
-  {
-   "name": "UFC Fight Night: Moicano vs. Nolan",
-   "artikel": "UFC Fight Night: Moicano vs. Nolan",
-   "datum": "2026-10-31",
-   "halle": "Meta Apex",
-   "ort": "Las Vegas, Nevada, U.S.",
-   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Moicano_vs._Nolan",
-   "kaempfe": [
-    {
-     "gewichtsklasse": "Lightweight",
-     "a": "Renato Moicano",
-     "a_artikel": "Renato Moicano",
-     "b": "Tom Nolan",
-     "b_artikel": "Tom Nolan (fighter)",
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Welterweight",
-     "a": "Randy Brown",
-     "a_artikel": "Randy Brown (fighter)",
-     "b": "Jacobe Smith",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Flyweight",
-     "a": "Ode' Osbourne",
-     "a_artikel": "Ode' Osbourne",
-     "b": "Cody Durden",
-     "b_artikel": "Cody Durden",
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Women's Bantamweight",
-     "a": "Yana Santos",
-     "a_artikel": "Yana Santos",
-     "b": "Luana Santos",
-     "b_artikel": "Luana Santos",
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Welterweight",
-     "a": "Jean-Paul Lebosnoyani",
-     "a_artikel": null,
-     "b": "Farman Hasanov",
-     "b_artikel": "Farman Hasanov",
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Catchweight (148 lb)",
-     "a": "Francis Marshall",
-     "a_artikel": null,
-     "b": "Dakota Hope",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Welterweight",
-     "a": "Rodrigo Sezinando",
-     "a_artikel": null,
-     "b": "Theodor Berggren",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Featherweight",
-     "a": "Julian Erosa",
-     "a_artikel": "Julian Erosa",
-     "b": "Lee Jeong-yeong",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Middleweight",
-     "a": "Zachary Reese",
-     "a_artikel": "Zachary Reese",
-     "b": "Mickey Gall",
-     "b_artikel": "Mickey Gall",
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Middleweight",
-     "a": "Nick Klein",
-     "a_artikel": null,
-     "b": "Joseph Kropschot",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Women's Strawweight",
-     "a": "Talita Alencar",
-     "a_artikel": "Talita Alencar",
-     "b": "Piera Rodriguez",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Women's Flyweight",
-     "a": "Lucia Szabová",
-     "a_artikel": "Lucia Szabová",
-     "b": "Tainara Lisboa",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    }
-   ],
-   "hauptkarte_utc": null,
-   "hauptkarte_quelle": null,
-   "ics": null
-  },
   {
    "name": "UFC Fight Night: Cortes-Acosta vs. Walker",
    "artikel": "UFC Fight Night: Cortes-Acosta vs. Walker",
@@ -35359,7 +35169,7 @@
      "a": "Waldo Cortes-Acosta",
      "a_artikel": "Waldo Cortes-Acosta",
      "b": "Johnny Walker",
-     "b_artikel": "Johnnie Walker (disambiguation)",
+     "b_artikel": "Johnny Walker (fighter)",
      "titelkampf": false,
      "karte": "Fight card (Paramount+)",
      "hinweis": null
