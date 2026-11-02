@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:ufc-fight-night-cortes-acosta-vs-walker@ufc-kader
-DTSTAMP:20261101T045135Z
+DTSTAMP:20261102T050111Z
 SUMMARY:UFC Fight Night: Cortes-Acosta vs. Walker
 LOCATION:Meta Apex\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nWaldo Cortes-Acosta vs. Johnny Walker (Heavyweight)\n
@@ -49,7 +49,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-334@ufc-kader
-DTSTAMP:20261101T045135Z
+DTSTAMP:20261102T050111Z
 SUMMARY:UFC 334: Gane vs. Hokit
 LOCATION:Madison Square Garden\, New York City\, New York\, U.S.
 DESCRIPTION:Kämpfe:\nCiryl Gane vs. Josh Hokit (Heavyweight\, Titelkampf)\
@@ -68,7 +68,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-prochazka-vs-stirling@ufc-kader
-DTSTAMP:20261101T045135Z
+DTSTAMP:20261102T050111Z
 SUMMARY:UFC Fight Night: Procházka vs. Stirling
 LOCATION:Ali Bin Hamad al-Attiyah Arena\, Al Rayyan\, Qatar
 DESCRIPTION:Kämpfe:\nJiří Procházka vs. Navajo Stirling (Light Heavywei
@@ -87,7 +87,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-295@ufc-kader
-DTSTAMP:20261101T045135Z
+DTSTAMP:20261102T050111Z
 SUMMARY:UFC Fight Night 295
 LOCATION:anb Arena\, Riyadh\, Saudi Arabia
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
@@ -99,7 +99,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-335@ufc-kader
-DTSTAMP:20261101T045135Z
+DTSTAMP:20261102T050111Z
 SUMMARY:UFC 335: Oliveira vs. Lopes
 LOCATION:T-Mobile Arena\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nCharles Oliveira vs. Diego Lopes (Lightweight\, Titel
@@ -114,7 +114,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-296@ufc-kader
-DTSTAMP:20261101T045135Z
+DTSTAMP:20261102T050111Z
 SUMMARY:UFC Fight Night 296
 LOCATION:American Airlines Center\, Dallas\, Texas\, U.S.
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
@@ -126,7 +126,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-336@ufc-kader
-DTSTAMP:20261101T045135Z
+DTSTAMP:20261102T050111Z
 SUMMARY:UFC 336: Van vs. Kape
 LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canada
 DESCRIPTION:Kämpfe:\nJoshua Van vs. Manel Kape (Flyweight\, Titelkampf)\nC
@@ -139,7 +139,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-297@ufc-kader
-DTSTAMP:20261101T045135Z
+DTSTAMP:20261102T050111Z
 SUMMARY:UFC Fight Night 297
 LOCATION:Afterpay Arena\, Sydney\, Australia
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi

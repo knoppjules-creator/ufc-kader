@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-01T04:51:35+00:00",
+ "stand": "2026-11-02T05:01:11+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -2460,6 +2460,7 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Robert Whittaker (fighter)",
     "reichweite_cm": "Wikipedia: Robert Whittaker (fighter)",
     "kampfstil": "Wikipedia (russisch): Уиттакер, Роберт",
@@ -2492,14 +2493,14 @@
    "groesse_cm": 183,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC 329",
-    "event_wiki": "UFC 329",
-    "ort": "Las Vegas",
-    "gegner": "Nikita Krylov",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night 297",
+    "ort": "Sydney",
+    "gegner": "Bogdan Guskov",
+    "datum": "2027-02-07"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q4845777",
    "gewicht_kg": 93.0,
@@ -3634,6 +3635,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Bogdan Guskov (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Bogdan Guskov",
     "reichweite_cm": "Wikipedia: Bogdan Guskov",
     "kampfstil": "Wikipedia (russisch): Гуськов, Богдан Владимирович",
@@ -3656,14 +3658,14 @@
    "groesse_cm": 190,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 282",
-    "event_wiki": "UFC Fight Night: Ankalaev vs. Guskov",
-    "ort": "Abu Dhabi",
-    "gegner": "Magomed Ankalaev",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night 297",
+    "ort": "Sydney",
+    "gegner": "Robert Whittaker",
+    "datum": "2027-02-07"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q85859462",
    "gewicht_kg": 93.0,
@@ -9095,6 +9097,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Daniel Rodriguez (fighter) (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Daniel Rodriguez (fighter)",
     "reichweite_cm": "Wikipedia: Daniel Rodriguez (fighter)",
     "kampfstil": "Wikipedia (russisch): Родригес, Даниэль (боец)",
@@ -9117,14 +9120,14 @@
    "groesse_cm": 188,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 283",
-    "event_wiki": "UFC Fight Night: Medić vs. Rodriguez",
-    "ort": "Belgrade",
-    "gegner": "Uroš Medić",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "Roberto Soldić",
+    "datum": "2027-01-30"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q99500036",
    "gewicht_kg": 77.1,
@@ -10901,6 +10904,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "nationalitaet": "Wikipedia: Roberto Soldić",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Roberto Soldić",
     "reichweite_cm": "Wikipedia: Roberto Soldić",
     "kampfstil": "Wikipedia (russisch): Солдич, Роберто",
@@ -10937,14 +10941,14 @@
    "groesse_cm": 180,
    "nationalitaet": "Croatian",
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC 332",
-    "event_wiki": "UFC 332",
-    "ort": "Salt Lake City",
-    "gegner": "Khaos Williams",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "Daniel Rodriguez",
+    "datum": "2027-01-30"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q46706516",
    "gewicht_kg": 83.9,
@@ -11411,7 +11415,7 @@
    "konflikte": {
     "geburtsort": [
      {
-      "wert": "Urmia, Iran",
+      "wert": "Urmia, West Azerbaijan, Iran",
       "quelle": "Wikipedia: Beneil Dariush"
      },
      {
@@ -11442,7 +11446,7 @@
    "gewicht_kg": 70.3,
    "reichweite_cm": 183,
    "kampfstil": "Brazilian Jiu-Jitsu",
-   "geburtsort": "Urmia, Iran"
+   "geburtsort": "Urmia, West Azerbaijan, Iran"
   },
   {
    "name": "Dan Hooker",
@@ -13445,7 +13449,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 298",
-    "event_wiki": "UFC Fight Night 298",
+    "event_wiki": "List of UFC events",
     "ort": "Sydney",
     "gegner": "Quillan Salkilld",
     "datum": null
@@ -14451,7 +14455,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 298",
-    "event_wiki": "UFC Fight Night 298",
+    "event_wiki": "List of UFC events",
     "ort": "Sydney",
     "gegner": "Benoît Saint Denis",
     "datum": null
@@ -18195,7 +18199,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "9-2",
@@ -18203,14 +18208,14 @@
    "groesse_cm": 175,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC 331",
-    "event_wiki": "UFC 331",
-    "ort": "Los Angeles",
-    "gegner": "Michael Aswell Jr.",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night 297",
+    "ort": "Sydney",
+    "gegner": "Marwan Rahiki",
+    "datum": "2027-02-07"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -18554,6 +18559,7 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "geburtsort": "Wikidata: Q138674257"
    },
    "konflikte": {},
@@ -18562,14 +18568,14 @@
    "groesse_cm": 173,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 288",
-    "event_wiki": "UFC Fight Night: Silva vs. Delgado",
-    "ort": "Glendale",
-    "gegner": "Tommy McMillen",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night 297",
+    "ort": "Sydney",
+    "gegner": "Yoo Joo-sang",
+    "datum": "2027-02-07"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q138674257",
    "gewicht_kg": null,
@@ -25168,18 +25174,7 @@
     "reichweite_cm": "Wikipedia: Luana Santos",
     "kampfstil": "Wikipedia (portugiesisch): Luana Santos"
    },
-   "konflikte": {
-    "bilanz": [
-     {
-      "wert": "12-2",
-      "quelle": "Wikipedia: List of current UFC fighters"
-     },
-     {
-      "wert": "11-2",
-      "quelle": "Wikipedia: Luana Santos"
-     }
-    ]
-   },
+   "konflikte": {},
    "bilanz": "12-2",
    "geburtsdatum": "2000-04-16",
    "groesse_cm": 168,
@@ -30761,7 +30756,7 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 298",
-      "event_wiki": "UFC Fight Night 298",
+      "event_wiki": "List of UFC events",
       "gegner": "Benoît Saint Denis",
       "gegner_artikel": "Benoît Saint Denis"
      },
@@ -30787,7 +30782,7 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 298",
-      "event_wiki": "UFC Fight Night 298",
+      "event_wiki": "List of UFC events",
       "gegner": "Quillan Salkilld",
       "gegner_artikel": "Quillan Salkilld"
      },
