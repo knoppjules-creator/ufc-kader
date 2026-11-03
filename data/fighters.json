@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-02T05:01:11+00:00",
+ "stand": "2026-11-03T04:54:11+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -10463,7 +10463,7 @@
    "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q138392818",
-   "gewicht_kg": 77.0,
+   "gewicht_kg": 77.6,
    "reichweite_cm": 183,
    "kampfstil": "Brazilian jiu-jitsu, Wrestling",
    "geburtsort": "Hermosa Beach"
@@ -29751,7 +29751,12 @@
       "gegner": "Magomed Ankalaev",
       "gegner_artikel": "Magomed Ankalaev"
      },
-     "naechster_kampf": null,
+     "naechster_kampf": {
+      "event": "UFC Fight Night 297",
+      "event_wiki": "UFC Fight Night 297",
+      "gegner": "Robert Whittaker",
+      "gegner_artikel": "Robert Whittaker (fighter)"
+     },
      "hinweis": null,
      "bewegung": {
       "art": "auf",
@@ -29772,7 +29777,12 @@
       "gegner": "Nikita Krylov",
       "gegner_artikel": "Nikita Krylov"
      },
-     "naechster_kampf": null,
+     "naechster_kampf": {
+      "event": "UFC Fight Night 297",
+      "event_wiki": "UFC Fight Night 297",
+      "gegner": "Bogdan Guskov",
+      "gegner_artikel": "Bogdan Guskov"
+     },
      "hinweis": null,
      "bewegung": {
       "art": "auf",
@@ -29991,7 +30001,7 @@
       "gegner_artikel": "Israel Adesanya"
      },
      "naechster_kampf": null,
-     "hinweis": "UFC Fight Night 299",
+     "hinweis": "UFC Fight Night 298",
      "bewegung": {
       "art": "gleich",
       "plaetze": 0
@@ -30174,7 +30184,7 @@
       "gegner_artikel": "Kyle Daukaus"
      },
      "naechster_kampf": null,
-     "hinweis": "UFC Fight Night 299",
+     "hinweis": "UFC Fight Night 298",
      "bewegung": {
       "art": "ab",
       "plaetze": 1
@@ -30385,13 +30395,8 @@
       "gegner": "Belal Muhammad",
       "gegner_artikel": "Belal Muhammad"
      },
-     "naechster_kampf": {
-      "event": "UFC Fight Night 293",
-      "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
-      "gegner": "TBA",
-      "gegner_artikel": "To be announced"
-     },
-     "hinweis": null,
+     "naechster_kampf": null,
+     "hinweis": "(October 29, 2026) – Bout cancelled",
      "bewegung": {
       "art": "gleich",
       "plaetze": 0
@@ -30594,7 +30599,12 @@
       "gegner": "Uroš Medić",
       "gegner_artikel": "Uroš Medić"
      },
-     "naechster_kampf": null,
+     "naechster_kampf": {
+      "event": "UFC 336",
+      "event_wiki": "UFC 336",
+      "gegner": "Roberto Soldić",
+      "gegner_artikel": "Roberto Soldić"
+     },
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -30755,8 +30765,8 @@
       "gegner_artikel": "Mateusz Gamrot"
      },
      "naechster_kampf": {
-      "event": "UFC Fight Night 298",
-      "event_wiki": "List of UFC events",
+      "event": "UFC Fight Night 297",
+      "event_wiki": "UFC Fight Night 297",
       "gegner": "Benoît Saint Denis",
       "gegner_artikel": "Benoît Saint Denis"
      },
@@ -30781,8 +30791,8 @@
       "gegner_artikel": "Paddy Pimblett"
      },
      "naechster_kampf": {
-      "event": "UFC Fight Night 298",
-      "event_wiki": "List of UFC events",
+      "event": "UFC Fight Night 297",
+      "event_wiki": "UFC Fight Night 297",
       "gegner": "Quillan Salkilld",
       "gegner_artikel": "Quillan Salkilld"
      },
