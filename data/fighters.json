@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-03T04:54:11+00:00",
+ "stand": "2026-11-04T04:58:09+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -2496,7 +2496,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 297",
-    "event_wiki": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
     "ort": "Sydney",
     "gegner": "Bogdan Guskov",
     "datum": "2027-02-07"
@@ -3661,7 +3661,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 297",
-    "event_wiki": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
     "ort": "Sydney",
     "gegner": "Robert Whittaker",
     "datum": "2027-02-07"
@@ -16805,6 +16805,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Joanderson Brito (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Joanderson Brito",
     "reichweite_cm": "Wikipedia: Joanderson Brito",
     "kampfstil": "Wikipedia (russisch): Бриту, Жуандерсон",
@@ -16827,14 +16828,14 @@
    "groesse_cm": 173,
    "nationalitaet": null,
    "siegesserie": 3,
-   "letzter_kampf": {
-    "event": "UFC 331",
-    "event_wiki": "UFC 331",
-    "ort": "Los Angeles",
-    "gegner": "Giga Chikadze",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
+    "ort": "Sydney",
+    "gegner": "Kaan Ofli",
+    "datum": "2027-02-07"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q133797867",
    "gewicht_kg": 66.0,
@@ -17816,7 +17817,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "14-4-1",
@@ -17824,14 +17826,14 @@
    "groesse_cm": 170,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 280",
-    "event_wiki": "UFC Fight Night: Fiziev vs. Torres",
-    "ort": "Baku",
-    "gegner": "Javier Reyes",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
+    "ort": "Sydney",
+    "gegner": "Joanderson Brito",
+    "datum": "2027-02-07"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -18211,7 +18213,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 297",
-    "event_wiki": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
     "ort": "Sydney",
     "gegner": "Marwan Rahiki",
     "datum": "2027-02-07"
@@ -18571,7 +18573,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 297",
-    "event_wiki": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
     "ort": "Sydney",
     "gegner": "Yoo Joo-sang",
     "datum": "2027-02-07"
@@ -28243,9 +28245,21 @@
     "kaempfe": "Wikipedia: List of current UFC fighters",
     "gewicht_kg": "Wikipedia: Iasmin Lucindo",
     "reichweite_cm": "Wikipedia: Iasmin Lucindo",
+    "kampfstil": "Wikipedia (russisch): Лусинду, Ясмин",
     "geburtsort": "Wikipedia: Iasmin Lucindo"
    },
-   "konflikte": {},
+   "konflikte": {
+    "reichweite_cm": [
+     {
+      "wert": 168,
+      "quelle": "Wikipedia: Iasmin Lucindo"
+     },
+     {
+      "wert": 170,
+      "quelle": "Wikipedia (russisch): Лусинду, Ясмин"
+     }
+    ]
+   },
    "bilanz": "19-6",
    "geburtsdatum": "2002-01-08",
    "groesse_cm": 160,
@@ -28263,7 +28277,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q136898149",
    "gewicht_kg": 52.6,
    "reichweite_cm": 168,
-   "kampfstil": null,
+   "kampfstil": "Kickboxing, Brazilian jiu-jitsu, Wrestling",
    "geburtsort": "Fortaleza, Ceara, Brazil"
   },
   {
@@ -29138,8 +29152,8 @@
  ],
  "ranglisten": {
   "Heavyweight": {
-   "stand": "2026-10-24",
-   "nach_event": "UFC 333",
+   "stand": "2026-10-31",
+   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
    "plaetze": [
     {
      "rang": "C",
@@ -29512,8 +29526,8 @@
    }
   },
   "Light Heavyweight": {
-   "stand": "2026-10-24",
-   "nach_event": "UFC 333",
+   "stand": "2026-10-31",
+   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
    "plaetze": [
     {
      "rang": "C",
@@ -29753,7 +29767,7 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 297",
-      "event_wiki": "UFC Fight Night 297",
+      "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
       "gegner": "Robert Whittaker",
       "gegner_artikel": "Robert Whittaker (fighter)"
      },
@@ -29779,7 +29793,7 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 297",
-      "event_wiki": "UFC Fight Night 297",
+      "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
       "gegner": "Bogdan Guskov",
       "gegner_artikel": "Bogdan Guskov"
      },
@@ -29881,8 +29895,8 @@
    }
   },
   "Middleweight": {
-   "stand": "2026-10-24",
-   "nach_event": "UFC 333",
+   "stand": "2026-10-31",
+   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
    "plaetze": [
     {
      "rang": "C",
@@ -30240,8 +30254,8 @@
    }
   },
   "Welterweight": {
-   "stand": "2026-10-24",
-   "nach_event": "UFC 333",
+   "stand": "2026-10-31",
+   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
    "plaetze": [
     {
      "rang": "C",
@@ -30440,8 +30454,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "auf",
-      "plaetze": 3
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -30508,8 +30522,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "auf",
-      "plaetze": 1
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -30529,8 +30543,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
-      "plaetze": 4
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -30562,6 +30576,26 @@
     {
      "rang": "14",
      "land_iso": "USA",
+     "name": "Jacobe Smith",
+     "artikel": null,
+     "bilanz": "14-0",
+     "serie": 14,
+     "letzter_kampf": {
+      "ergebnis": "Win",
+      "event": "UFC Fight Night 292",
+      "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
+      "gegner": "Randy Brown",
+      "gegner_artikel": "Randy Brown (fighter)"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "neu"
+     }
+    },
+    {
+     "rang": "15",
+     "land_iso": "USA",
      "name": "Kevin Holland",
      "artikel": "Kevin Holland",
      "bilanz": "29-15 (1 NC)",
@@ -30581,46 +30615,20 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
-     }
-    },
-    {
-     "rang": "15",
-     "land_iso": "USA",
-     "name": "Daniel Rodriguez",
-     "artikel": "Daniel Rodriguez (fighter)",
-     "bilanz": "20-6",
-     "serie": 0,
-     "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC Fight Night 283",
-      "event_wiki": "UFC Fight Night: Medić vs. Rodriguez",
-      "gegner": "Uroš Medić",
-      "gegner_artikel": "Uroš Medić"
-     },
-     "naechster_kampf": {
-      "event": "UFC 336",
-      "event_wiki": "UFC 336",
-      "gegner": "Roberto Soldić",
-      "gegner_artikel": "Roberto Soldić"
-     },
-     "hinweis": null,
-     "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 1
      }
     }
    ],
    "vergleich": {
-    "stand": "2026-10-10",
-    "nach_event": "UFC Fight Night: Allen vs. Duncan",
-    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-18)"
+    "stand": "2026-10-24",
+    "nach_event": "UFC 333",
+    "quelle": "Wikipedia: UFC rankings"
    }
   },
   "Lightweight": {
-   "stand": "2026-10-24",
-   "nach_event": "UFC 333",
+   "stand": "2026-10-31",
+   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
    "plaetze": [
     {
      "rang": "C",
@@ -30766,7 +30774,7 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 297",
-      "event_wiki": "UFC Fight Night 297",
+      "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
       "gegner": "Benoît Saint Denis",
       "gegner_artikel": "Benoît Saint Denis"
      },
@@ -30778,6 +30786,27 @@
     },
     {
      "rang": "7",
+     "land_iso": "AUS",
+     "name": "Tom Nolan",
+     "artikel": "Tom Nolan (fighter)",
+     "bilanz": "12-1",
+     "serie": 6,
+     "letzter_kampf": {
+      "ergebnis": "Win",
+      "event": "UFC Fight Night 292",
+      "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
+      "gegner": "Renato Moicano",
+      "gegner_artikel": "Renato Moicano"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "auf",
+      "plaetze": 5
+     }
+    },
+    {
+     "rang": "8",
      "land_iso": "FRA",
      "name": "Benoît Saint Denis",
      "artikel": "Benoît Saint Denis",
@@ -30792,35 +30821,14 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 297",
-      "event_wiki": "UFC Fight Night 297",
+      "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
       "gegner": "Quillan Salkilld",
       "gegner_artikel": "Quillan Salkilld"
      },
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
-     }
-    },
-    {
-     "rang": "8",
-     "land_iso": "BRA",
-     "name": "Renato Moicano",
-     "artikel": "Renato Moicano",
-     "bilanz": "21-8-1",
-     "serie": 0,
-     "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC Fight Night 292",
-      "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
-      "gegner": "Tom Nolan",
-      "gegner_artikel": "Tom Nolan (fighter)"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
@@ -30882,33 +30890,12 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "auf",
-      "plaetze": 3
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
      "rang": "12",
-     "land_iso": "AUS",
-     "name": "Tom Nolan",
-     "artikel": "Tom Nolan (fighter)",
-     "bilanz": "12-1",
-     "serie": 6,
-     "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC Fight Night 292",
-      "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
-      "gegner": "Renato Moicano",
-      "gegner_artikel": "Renato Moicano"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "ab",
-      "plaetze": 1
-     }
-    },
-    {
-     "rang": "13",
      "land_iso": "AZE",
      "name": "Tofiq Musayev",
      "artikel": "Tofiq Musayev",
@@ -30924,12 +30911,12 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "auf",
+      "plaetze": 1
      }
     },
     {
-     "rang": "14",
+     "rang": "13",
      "land_iso": "AZE",
      "name": "Rafael Fiziev",
      "artikel": "Rafael Fiziev",
@@ -30945,8 +30932,29 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
+      "art": "auf",
+      "plaetze": 1
+     }
+    },
+    {
+     "rang": "14",
+     "land_iso": "BRA",
+     "name": "Renato Moicano",
+     "artikel": "Renato Moicano",
+     "bilanz": "21-8-1",
+     "serie": 0,
+     "letzter_kampf": {
+      "ergebnis": "Loss",
+      "event": "UFC Fight Night 292",
+      "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
+      "gegner": "Tom Nolan",
+      "gegner_artikel": "Tom Nolan (fighter)"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
       "art": "ab",
-      "plaetze": 2
+      "plaetze": 6
      }
     },
     {
@@ -30972,14 +30980,14 @@
     }
    ],
    "vergleich": {
-    "stand": "2026-10-17",
-    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "stand": "2026-10-24",
+    "nach_event": "UFC 333",
     "quelle": "Wikipedia: UFC rankings"
    }
   },
   "Featherweight": {
-   "stand": "2026-10-24",
-   "nach_event": "UFC 333",
+   "stand": "2026-10-31",
+   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
    "plaetze": [
     {
      "rang": "C",
@@ -31342,8 +31350,8 @@
    }
   },
   "Bantamweight": {
-   "stand": "2026-10-24",
-   "nach_event": "UFC 333",
+   "stand": "2026-10-31",
+   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
    "plaetze": [
     {
      "rang": "C",
@@ -31685,8 +31693,8 @@
    }
   },
   "Flyweight": {
-   "stand": "2026-10-24",
-   "nach_event": "UFC 333",
+   "stand": "2026-10-31",
+   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
    "plaetze": [
     {
      "rang": "C",
@@ -32069,8 +32077,8 @@
    }
   },
   "Women's Bantamweight": {
-   "stand": "2026-10-24",
-   "nach_event": "UFC 333",
+   "stand": "2026-10-31",
+   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
    "plaetze": [
     {
      "rang": "C",
@@ -32140,27 +32148,6 @@
     {
      "rang": "3",
      "land_iso": "BRA",
-     "name": "Norma Dumont",
-     "artikel": "Norma Dumont",
-     "bilanz": "13-4",
-     "serie": 0,
-     "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC Fight Night 289",
-      "event_wiki": "UFC Fight Night: Rosas Jr. vs. Barcelos",
-      "gegner": "Ailín Pérez",
-      "gegner_artikel": "Ailín Pérez"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
-     }
-    },
-    {
-     "rang": "4",
-     "land_iso": "BRA",
      "name": "Luana Santos",
      "artikel": "Luana Santos",
      "bilanz": "12-2",
@@ -32175,8 +32162,29 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "auf",
+      "plaetze": 1
+     }
+    },
+    {
+     "rang": "4",
+     "land_iso": "BRA",
+     "name": "Norma Dumont",
+     "artikel": "Norma Dumont",
+     "bilanz": "13-4",
+     "serie": 0,
+     "letzter_kampf": {
+      "ergebnis": "Loss",
+      "event": "UFC Fight Night 289",
+      "event_wiki": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+      "gegner": "Ailín Pérez",
+      "gegner_artikel": "Ailín Pérez"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
@@ -32202,27 +32210,6 @@
     },
     {
      "rang": "6",
-     "land_iso": "RUS",
-     "name": "Yana Santos",
-     "artikel": "Yana Santos",
-     "bilanz": "17-9 (1 NC)",
-     "serie": 0,
-     "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC Fight Night 292",
-      "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
-      "gegner": "Luana Santos",
-      "gegner_artikel": "Luana Santos"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
-     }
-    },
-    {
-     "rang": "7",
      "land_iso": "POR",
      "name": "Jacqueline Cavalcanti",
      "artikel": "Jacqueline Cavalcanti",
@@ -32243,12 +32230,12 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "auf",
+      "plaetze": 1
      }
     },
     {
-     "rang": "8",
+     "rang": "7",
      "land_iso": "NZL",
      "name": "Michelle Montague",
      "artikel": null,
@@ -32269,8 +32256,29 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "auf",
+      "plaetze": 1
+     }
+    },
+    {
+     "rang": "8",
+     "land_iso": "RUS",
+     "name": "Yana Santos",
+     "artikel": "Yana Santos",
+     "bilanz": "17-9 (1 NC)",
+     "serie": 0,
+     "letzter_kampf": {
+      "ergebnis": "Loss",
+      "event": "UFC Fight Night 292",
+      "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
+      "gegner": "Luana Santos",
+      "gegner_artikel": "Luana Santos"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "ab",
+      "plaetze": 2
      }
     },
     {
@@ -32290,8 +32298,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "auf",
-      "plaetze": 6
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -32426,20 +32434,20 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
-      "plaetze": 6
+      "art": "gleich",
+      "plaetze": 0
      }
     }
    ],
    "vergleich": {
-    "stand": "2026-10-10",
-    "nach_event": "UFC Fight Night: Allen vs. Duncan",
-    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-18)"
+    "stand": "2026-10-24",
+    "nach_event": "UFC 333",
+    "quelle": "Wikipedia: UFC rankings"
    }
   },
   "Women's Flyweight": {
-   "stand": "2026-10-24",
-   "nach_event": "UFC 333",
+   "stand": "2026-10-31",
+   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
    "plaetze": [
     {
      "rang": "C",
@@ -32796,8 +32804,8 @@
    }
   },
   "Women's Strawweight": {
-   "stand": "2026-10-24",
-   "nach_event": "UFC 333",
+   "stand": "2026-10-31",
+   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
    "plaetze": [
     {
      "rang": "C",
@@ -32955,6 +32963,27 @@
     },
     {
      "rang": "7",
+     "land_iso": "VEN",
+     "name": "Piera Rodríguez",
+     "artikel": "Piera Rodríguez",
+     "bilanz": "13-2",
+     "serie": 4,
+     "letzter_kampf": {
+      "ergebnis": "Win",
+      "event": "UFC Fight Night 292",
+      "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
+      "gegner": "Talita Alencar",
+      "gegner_artikel": "Talita Alencar"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "auf",
+      "plaetze": 3
+     }
+    },
+    {
+     "rang": "8",
      "land_iso": "BRA",
      "name": "Iasmin Lucindo",
      "artikel": "Iasmin Lucindo",
@@ -32970,11 +32999,12 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "neu"
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
-     "rang": "8",
+     "rang": "9",
      "land_iso": "BRA",
      "name": "Alexia Thainara",
      "artikel": null,
@@ -32995,7 +33025,7 @@
      }
     },
     {
-     "rang": "9",
+     "rang": "10",
      "land_iso": "MEX",
      "name": "Loopy Godínez",
      "artikel": "Loopy Godínez",
@@ -33016,26 +33046,6 @@
      }
     },
     {
-     "rang": "10",
-     "land_iso": "VEN",
-     "name": "Piera Rodríguez",
-     "artikel": "Piera Rodríguez",
-     "bilanz": "13-2",
-     "serie": 4,
-     "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC Fight Night 292",
-      "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
-      "gegner": "Talita Alencar",
-      "gegner_artikel": "Talita Alencar"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "neu"
-     }
-    },
-    {
      "rang": "11",
      "land_iso": "CHN",
      "name": "Yan Xiaonan",
@@ -33052,8 +33062,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
-      "plaetze": 1
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -33073,8 +33083,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
-      "plaetze": 1
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -33094,33 +33104,12 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
-      "plaetze": 1
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
      "rang": "14",
-     "land_iso": "BRA",
-     "name": "Talita Alencar",
-     "artikel": "Talita Alencar",
-     "bilanz": "8-2-1",
-     "serie": 0,
-     "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC Fight Night 292",
-      "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
-      "gegner": "Piera Rodríguez",
-      "gegner_artikel": "Piera Rodríguez"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "ab",
-      "plaetze": 1
-     }
-    },
-    {
-     "rang": "15",
      "land_iso": "BRA",
      "name": "Amanda Lemos",
      "artikel": "Amanda Lemos",
@@ -33136,14 +33125,34 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
+      "art": "auf",
       "plaetze": 1
+     }
+    },
+    {
+     "rang": "15",
+     "land_iso": "USA",
+     "name": "Sam Hughes",
+     "artikel": "Sam Hughes (fighter)",
+     "bilanz": "11-7",
+     "serie": 0,
+     "letzter_kampf": {
+      "ergebnis": "Loss",
+      "event": "UFC Fight Night 269",
+      "event_wiki": "UFC Fight Night: Emmett vs. Vallejos",
+      "gegner": "Piera Rodríguez",
+      "gegner_artikel": "Piera Rodríguez"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "neu"
      }
     }
    ],
    "vergleich": {
-    "stand": "2026-10-17",
-    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "stand": "2026-10-24",
+    "nach_event": "UFC 333",
     "quelle": "Wikipedia: UFC rankings"
    }
   }
@@ -35641,13 +35650,34 @@
    "ics": null
   },
   {
-   "name": "UFC Fight Night 297",
-   "artikel": "UFC Fight Night 297",
+   "name": "UFC Fight Night: Salkilld vs. Saint Denis",
+   "artikel": "UFC Fight Night: Salkilld vs. Saint Denis",
    "datum": "2027-02-07",
    "halle": "Afterpay Arena",
    "ort": "Sydney, Australia",
-   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_297",
-   "kaempfe": [],
+   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Salkilld_vs._Saint_Denis",
+   "kaempfe": [
+    {
+     "gewichtsklasse": "Lightweight",
+     "a": "Quillan Salkilld",
+     "a_artikel": "Quillan Salkilld",
+     "b": "Benoît Saint Denis",
+     "b_artikel": "Benoît Saint Denis",
+     "titelkampf": false,
+     "karte": "Main card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Light Heavyweight",
+     "a": "Bogdan Guskov",
+     "a_artikel": "Bogdan Guskov",
+     "b": "Robert Whittaker",
+     "b_artikel": "Robert Whittaker (fighter)",
+     "titelkampf": false,
+     "karte": "Main card (Paramount+)",
+     "hinweis": null
+    }
+   ],
    "hauptkarte_utc": null,
    "hauptkarte_quelle": null,
    "ics": null
