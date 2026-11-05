@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-04T04:58:09+00:00",
+ "stand": "2026-11-05T05:00:10+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -2495,7 +2495,7 @@
    "siegesserie": null,
    "letzter_kampf": null,
    "naechster_kampf": {
-    "event": "UFC Fight Night 297",
+    "event": "UFC Fight Night 298",
     "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
     "ort": "Sydney",
     "gegner": "Bogdan Guskov",
@@ -3660,7 +3660,7 @@
    "siegesserie": 0,
    "letzter_kampf": null,
    "naechster_kampf": {
-    "event": "UFC Fight Night 297",
+    "event": "UFC Fight Night 298",
     "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
     "ort": "Sydney",
     "gegner": "Robert Whittaker",
@@ -5433,6 +5433,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Jun Yong Park",
     "reichweite_cm": "Wikipedia: Jun Yong Park",
     "kampfstil": "Wikipedia (russisch): Пак Чун Ён",
@@ -5456,8 +5458,14 @@
    "nationalitaet": null,
    "siegesserie": null,
    "letzter_kampf": null,
-   "naechster_kampf": null,
-   "status": "(March 6, 2026) – Injury – Out of UFC Fight Night 272 (Las Vegas) – Edmen Shahbazyan",
+   "naechster_kampf": {
+    "event": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night 295",
+    "ort": "Riyadh",
+    "gegner": "Marco Tulio",
+    "datum": "2026-12-05"
+   },
+   "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q104901720",
    "gewicht_kg": 83.9,
    "reichweite_cm": 185,
@@ -6797,7 +6805,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "14-3",
@@ -6805,14 +6814,14 @@
    "groesse_cm": 183,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC 328",
-    "event_wiki": "UFC 328",
-    "ort": "Newark",
-    "gegner": "Roman Kopylov",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night 295",
+    "ort": "Riyadh",
+    "gegner": "Park Jun-yong",
+    "datum": "2026-12-05"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -13435,6 +13444,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Benoît Saint Denis (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Benoît Saint Denis",
     "reichweite_cm": "Wikipedia: Benoît Saint Denis",
     "kampfstil": "Wikipedia (russisch): Сен-Дени, Бенуа",
@@ -13449,10 +13459,10 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 298",
-    "event_wiki": "List of UFC events",
+    "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
     "ort": "Sydney",
     "gegner": "Quillan Salkilld",
-    "datum": null
+    "datum": "2027-02-07"
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q112241194",
@@ -14430,6 +14440,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Quillan Salkilld (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Quillan Salkilld",
     "reichweite_cm": "Wikipedia: Quillan Salkilld",
     "kampfstil": "Wikipedia (russisch): Солкиллд, Куиллан",
@@ -14455,10 +14466,10 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 298",
-    "event_wiki": "List of UFC events",
+    "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
     "ort": "Sydney",
     "gegner": "Benoît Saint Denis",
-    "datum": null
+    "datum": "2027-02-07"
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q134467028",
@@ -16657,14 +16668,14 @@
    "groesse_cm": 173,
    "nationalitaet": null,
    "siegesserie": 4,
-   "letzter_kampf": {
-    "event": "UFC 328",
-    "event_wiki": "UFC 328",
-    "ort": "Newark",
-    "gegner": "William Gomis",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 297",
+    "event_wiki": null,
+    "ort": "TBA",
+    "gegner": "Vinicius Oliveira",
+    "datum": null
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q109658714",
    "gewicht_kg": 65.8,
@@ -16830,7 +16841,7 @@
    "siegesserie": 3,
    "letzter_kampf": null,
    "naechster_kampf": {
-    "event": "UFC Fight Night 297",
+    "event": "UFC Fight Night 298",
     "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
     "ort": "Sydney",
     "gegner": "Kaan Ofli",
@@ -17308,6 +17319,10 @@
       "quelle": "Wikipedia: Fernando Padilla"
      },
      {
+      "wert": "Ciudad Juárez",
+      "quelle": "Wikipedia (russisch): Падилья, Фернандо"
+     },
+     {
       "wert": "Chihuahua",
       "quelle": "Wikipedia (spanisch): Fernando Padilla"
      },
@@ -17655,14 +17670,14 @@
    "groesse_cm": 175,
    "nationalitaet": null,
    "siegesserie": 1,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 279",
-    "event_wiki": "UFC Fight Night: Kape vs. Horiguchi",
-    "ort": "Las Vegas",
-    "gegner": "Andre Fili",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 297",
+    "event_wiki": null,
+    "ort": "TBA",
+    "gegner": "Pat Sabatini",
+    "datum": null
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q132012973",
    "gewicht_kg": 61.0,
@@ -17788,7 +17803,9 @@
     "land_iso": "Wikipedia: List of current UFC fighters",
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters"
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "17-1",
@@ -17797,8 +17814,14 @@
    "nationalitaet": null,
    "siegesserie": null,
    "letzter_kampf": null,
-   "naechster_kampf": null,
-   "status": "(August 27, 2026) – Unspecified health issue – Bout cancelled – UFC Fight Night 287 (Paris) – Nathaniel Wood",
+   "naechster_kampf": {
+    "event": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night 295",
+    "ort": "Riyadh",
+    "gegner": "Akbar Abdullaev / Moving to Lightweight",
+    "datum": "2026-12-05"
+   },
+   "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
    "kampfstil": null,
@@ -17828,7 +17851,7 @@
    "siegesserie": null,
    "letzter_kampf": null,
    "naechster_kampf": {
-    "event": "UFC Fight Night 297",
+    "event": "UFC Fight Night 298",
     "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
     "ort": "Sydney",
     "gegner": "Joanderson Brito",
@@ -17896,7 +17919,7 @@
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
-    "gegner": "TBD",
+    "gegner": "Carlos Calderon",
     "datum": "2026-11-07"
    },
    "status": null,
@@ -18212,7 +18235,7 @@
    "siegesserie": null,
    "letzter_kampf": null,
    "naechster_kampf": {
-    "event": "UFC Fight Night 297",
+    "event": "UFC Fight Night 298",
     "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
     "ort": "Sydney",
     "gegner": "Marwan Rahiki",
@@ -18572,7 +18595,7 @@
    "siegesserie": null,
    "letzter_kampf": null,
    "naechster_kampf": {
-    "event": "UFC Fight Night 297",
+    "event": "UFC Fight Night 298",
     "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
     "ort": "Sydney",
     "gegner": "Yoo Joo-sang",
@@ -25481,11 +25504,11 @@
    "siegesserie": 8,
    "letzter_kampf": null,
    "naechster_kampf": {
-    "event": "UFC Fight Night 294",
-    "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
-    "ort": "Al Rayyan",
+    "event": "UFC 335",
+    "event_wiki": "UFC 335",
+    "ort": "Las Vegas",
     "gegner": "Jacqueline Cavalcanti",
-    "datum": "2026-11-21"
+    "datum": "2026-12-12"
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q55391191",
@@ -29766,7 +29789,7 @@
       "gegner_artikel": "Magomed Ankalaev"
      },
      "naechster_kampf": {
-      "event": "UFC Fight Night 297",
+      "event": "UFC Fight Night 298",
       "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
       "gegner": "Robert Whittaker",
       "gegner_artikel": "Robert Whittaker (fighter)"
@@ -29792,7 +29815,7 @@
       "gegner_artikel": "Nikita Krylov"
      },
      "naechster_kampf": {
-      "event": "UFC Fight Night 297",
+      "event": "UFC Fight Night 298",
       "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
       "gegner": "Bogdan Guskov",
       "gegner_artikel": "Bogdan Guskov"
@@ -30773,7 +30796,7 @@
       "gegner_artikel": "Mateusz Gamrot"
      },
      "naechster_kampf": {
-      "event": "UFC Fight Night 297",
+      "event": "UFC Fight Night 298",
       "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
       "gegner": "Benoît Saint Denis",
       "gegner_artikel": "Benoît Saint Denis"
@@ -30820,7 +30843,7 @@
       "gegner_artikel": "Paddy Pimblett"
      },
      "naechster_kampf": {
-      "event": "UFC Fight Night 297",
+      "event": "UFC Fight Night 298",
       "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
       "gegner": "Quillan Salkilld",
       "gegner_artikel": "Quillan Salkilld"
@@ -31158,7 +31181,7 @@
       "gegner_artikel": null
      },
      "naechster_kampf": null,
-     "hinweis": null,
+     "hinweis": "UFC Fight Night 297",
      "bewegung": {
       "art": "gleich",
       "plaetze": 0
@@ -31267,7 +31290,12 @@
       "gegner": "Giga Chikadze",
       "gegner_artikel": "Giga Chikadze"
      },
-     "naechster_kampf": null,
+     "naechster_kampf": {
+      "event": "UFC Fight Night 298",
+      "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
+      "gegner": "Kaan Ofli",
+      "gegner_artikel": null
+     },
      "hinweis": null,
      "bewegung": {
       "art": "ab",
@@ -35209,16 +35237,6 @@
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Welterweight",
-     "a": "Ko Seok-hyeon",
-     "a_artikel": null,
-     "b": "Wellington Turman",
-     "b_artikel": "Wellington Turman",
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
      "gewichtsklasse": "Light Heavyweight",
      "a": "Billy Elekana",
      "a_artikel": "Billy Elekana",
@@ -35229,13 +35247,33 @@
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Middleweight",
-     "a": "Mantas Kondratavičius",
-     "a_artikel": null,
-     "b": "Andre Petroski",
-     "b_artikel": "Andre Petroski",
+     "gewichtsklasse": "Women's Bantamweight",
+     "a": "Priscila Cachoeira",
+     "a_artikel": "Priscila Cachoeira",
+     "b": "Nina Nikolija Milošević",
+     "b_artikel": null,
      "titelkampf": false,
      "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Flyweight",
+     "a": "Mitch Raposo",
+     "a_artikel": null,
+     "b": "Marcos Degli",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Featherweight",
+     "a": "Keiichiro Nakamura",
+     "a_artikel": null,
+     "b": "Ollie Schmid",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35259,16 +35297,6 @@
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Flyweight",
-     "a": "Mitch Raposo",
-     "a_artikel": null,
-     "b": "Marcos Degli",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
      "gewichtsklasse": "Featherweight",
      "a": "José Mauro Delano",
      "a_artikel": null,
@@ -35280,20 +35308,30 @@
     },
     {
      "gewichtsklasse": "Featherweight",
-     "a": "Keiichiro Nakamura",
+     "a": "Austin Bashi",
      "a_artikel": null,
-     "b": "Ollie Schmid",
+     "b": "Carlos Calderon",
      "b_artikel": null,
      "titelkampf": false,
      "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Women's Bantamweight",
-     "a": "Priscila Cachoeira",
-     "a_artikel": "Priscila Cachoeira",
-     "b": "Nina Nikolija Milošević",
-     "b_artikel": null,
+     "gewichtsklasse": "Middleweight",
+     "a": "Mantas Kondratavičius",
+     "a_artikel": null,
+     "b": "Andre Petroski",
+     "b_artikel": "Andre Petroski",
+     "titelkampf": false,
+     "karte": "Preliminary card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Welterweight",
+     "a": "Ko Seok-hyeon",
+     "a_artikel": null,
+     "b": "Wellington Turman",
+     "b_artikel": "Wellington Turman",
      "titelkampf": false,
      "karte": "Preliminary card (Paramount+)",
      "hinweis": null
@@ -35364,7 +35402,7 @@
     {
      "gewichtsklasse": "Flyweight",
      "a": "Bilal Hasan",
-     "a_artikel": null,
+     "a_artikel": "Bilal Hasan",
      "b": "Luis Gurule",
      "b_artikel": null,
      "titelkampf": false,
