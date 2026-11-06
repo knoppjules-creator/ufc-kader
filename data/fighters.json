@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-05T05:00:10+00:00",
+ "stand": "2026-11-06T04:58:58+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -11999,7 +11999,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q15634226",
    "gewicht_kg": 70.3,
    "reichweite_cm": 178,
-   "kampfstil": "Boxing, Kickboxing, Wrestling",
+   "kampfstil": "Kickboxing, Wrestling",
    "geburtsort": "Safford, Arizona, U.S."
   },
   {
@@ -15580,6 +15580,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Yair Rodríguez",
     "reichweite_cm": "Wikipedia: Yair Rodríguez",
     "kampfstil": "Wikipedia (russisch): Родригес, Яир",
@@ -15625,8 +15627,14 @@
    "nationalitaet": null,
    "siegesserie": null,
    "letzter_kampf": null,
-   "naechster_kampf": null,
-   "status": "(August 20, 2026) – Injury – Out of UFC Fight Night 288 (Glendale) – Jean Silva",
+   "naechster_kampf": {
+    "event": "UFC 335",
+    "event_wiki": "UFC 335",
+    "ort": "Las Vegas",
+    "gegner": "Steve Garcia",
+    "datum": "2026-12-12"
+   },
+   "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q19668247",
    "gewicht_kg": 65.8,
    "reichweite_cm": 180,
@@ -16455,6 +16463,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Steve Garcia (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Steve Garcia",
     "reichweite_cm": "Wikipedia: Steve Garcia",
     "kampfstil": "Wikipedia (russisch): Гарсиа, Стив",
@@ -16477,14 +16486,14 @@
    "groesse_cm": 183,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC Freedom 250",
-    "event_wiki": "UFC Freedom 250",
-    "ort": "Washington",
-    "gegner": "Diego Lopes",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 335",
+    "event_wiki": "UFC 335",
+    "ort": "Las Vegas",
+    "gegner": "Yair Rodríguez",
+    "datum": "2026-12-12"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q18043912",
    "gewicht_kg": 65.8,
@@ -16646,6 +16655,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Pat Sabatini (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Pat Sabatini",
     "reichweite_cm": "Wikipedia: Pat Sabatini",
     "kampfstil": "Wikipedia (russisch): Сабатини, Пэт",
@@ -16671,10 +16681,10 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 297",
-    "event_wiki": null,
+    "event_wiki": "UFC Fight Night 297",
     "ort": "TBA",
     "gegner": "Vinicius Oliveira",
-    "datum": null
+    "datum": "2027-01-23"
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q109658714",
@@ -17659,6 +17669,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Vinicius Oliveira (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia (portugiesisch): Vinicius Oliveira",
     "reichweite_cm": "Wikipedia (russisch): Оливейра, Винисиус",
     "kampfstil": "Wikipedia (russisch): Оливейра, Винисиус",
@@ -17673,10 +17684,10 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 297",
-    "event_wiki": null,
+    "event_wiki": "UFC Fight Night 297",
     "ort": "TBA",
     "gegner": "Pat Sabatini",
-    "datum": null
+    "datum": "2027-01-23"
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q132012973",
@@ -19177,7 +19188,8 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: List of current UFC fighters (nur Siege)",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "9-0",
@@ -19185,14 +19197,14 @@
    "groesse_cm": 170,
    "nationalitaet": null,
    "siegesserie": 9,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 287",
-    "event_wiki": "UFC Fight Night: Hooker vs. Parnasse",
-    "ort": "Paris",
-    "gegner": "Nathaniel Wood",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night 295",
+    "ort": "Riyadh",
+    "gegner": "Mehemmedeli Osmanli",
+    "datum": "2026-12-05"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -22507,7 +22519,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "11-2",
@@ -22515,14 +22528,14 @@
    "groesse_cm": 175,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 289",
-    "event_wiki": "UFC Fight Night: Rosas Jr. vs. Barcelos",
-    "ort": "Las Vegas",
-    "gegner": "Ilimbek Akylbek Uulu",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night 295",
+    "ort": "Riyadh",
+    "gegner": "Pavel Andrusca",
+    "datum": "2026-12-05"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -26034,8 +26047,6 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Maycee Barber",
     "reichweite_cm": "Wikipedia (russisch): Барбер, Мэйси",
     "kampfstil": "Wikipedia: Maycee Barber",
@@ -26059,14 +26070,8 @@
    "nationalitaet": null,
    "siegesserie": null,
    "letzter_kampf": null,
-   "naechster_kampf": {
-    "event": "UFC 335",
-    "event_wiki": "UFC 335",
-    "ort": "Las Vegas",
-    "gegner": "Carli Judice",
-    "datum": "2026-12-12"
-   },
-   "status": null,
+   "naechster_kampf": null,
+   "status": "(November 5, 2026) – Undisclosed reasons – Out of UFC 335 (Las Vegas) – Carli Judice",
    "wikidata": "https://www.wikidata.org/wiki/Q58454724",
    "gewicht_kg": 56.7,
    "reichweite_cm": 165,
@@ -26830,7 +26835,7 @@
     "event": "UFC 335",
     "event_wiki": "UFC 335",
     "ort": "Las Vegas",
-    "gegner": "Maycee Barber",
+    "gegner": "TBD",
     "datum": "2026-12-12"
    },
    "status": null,
@@ -35402,7 +35407,7 @@
     {
      "gewichtsklasse": "Flyweight",
      "a": "Bilal Hasan",
-     "a_artikel": "Bilal Hasan",
+     "a_artikel": null,
      "b": "Luis Gurule",
      "b_artikel": null,
      "titelkampf": false,
@@ -35618,16 +35623,6 @@
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Women's Flyweight",
-     "a": "Maycee Barber",
-     "a_artikel": "Maycee Barber",
-     "b": "Carli Judice",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
      "gewichtsklasse": "Light Heavyweight",
      "a": "Quentin Pasley",
      "a_artikel": null,
@@ -35649,6 +35644,18 @@
    "halle": "American Airlines Center",
    "ort": "Dallas, Texas, U.S.",
    "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_296",
+   "kaempfe": [],
+   "hauptkarte_utc": null,
+   "hauptkarte_quelle": null,
+   "ics": null
+  },
+  {
+   "name": "UFC Fight Night 297",
+   "artikel": "UFC Fight Night 297",
+   "datum": "2027-01-23",
+   "halle": "TBA",
+   "ort": "TBA",
+   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_297",
    "kaempfe": [],
    "hauptkarte_utc": null,
    "hauptkarte_quelle": null,
