@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-06T04:58:58+00:00",
+ "stand": "2026-11-07T04:54:10+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -12,7 +12,7 @@
   "Wikipedia auf Russisch, Japanisch, Spanisch, Portugiesisch, Deutsch"
  ],
  "lizenz": "Wikipedia-Inhalte: CC BY-SA 4.0; Wikidata: CC0",
- "anzahl": 652,
+ "anzahl": 656,
  "kaempfer": [
   {
    "name": "Derrick Lewis",
@@ -2380,6 +2380,42 @@
     "ergebnis": "Win"
    },
    "naechster_kampf": null,
+   "status": null,
+   "gewicht_kg": null,
+   "reichweite_cm": null,
+   "kampfstil": null,
+   "geburtsort": null,
+   "wikidata": null
+  },
+  {
+   "name": "Gabriel Lorenço",
+   "artikel": null,
+   "wikipedia": null,
+   "gewichtsklasse": "Heavyweight",
+   "land_iso": "BRA",
+   "quellen": {
+    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
+    "land_iso": "Wikipedia: List of current UFC fighters",
+    "bilanz": "Wikipedia: List of current UFC fighters",
+    "geburtsdatum": "Wikipedia: List of current UFC fighters",
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
+   },
+   "konflikte": {},
+   "bilanz": "8-1",
+   "geburtsdatum": "1999-09-30",
+   "groesse_cm": 188,
+   "nationalitaet": null,
+   "siegesserie": null,
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 293",
+    "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
+    "ort": "Las Vegas",
+    "gegner": "Thomas Petersen",
+    "datum": "2026-11-07"
+   },
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -9792,6 +9828,42 @@
    "letzter_kampf": null,
    "naechster_kampf": null,
    "status": "(March 20, 2026) – Tested positive for ipamorelin – Suspended for 12 months until March 20, 2027",
+   "gewicht_kg": null,
+   "reichweite_cm": null,
+   "kampfstil": null,
+   "geburtsort": null,
+   "wikidata": null
+  },
+  {
+   "name": "Jonny Parsons",
+   "artikel": null,
+   "wikipedia": null,
+   "gewichtsklasse": "Welterweight",
+   "land_iso": "USA",
+   "quellen": {
+    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
+    "land_iso": "Wikipedia: List of current UFC fighters",
+    "bilanz": "Wikipedia: List of current UFC fighters",
+    "geburtsdatum": "Wikipedia: List of current UFC fighters",
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
+   },
+   "konflikte": {},
+   "bilanz": "9-3",
+   "geburtsdatum": "1991-09-06",
+   "groesse_cm": 175,
+   "nationalitaet": null,
+   "siegesserie": null,
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 293",
+    "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
+    "ort": "Las Vegas",
+    "gegner": "José Henrique Souza",
+    "datum": "2026-11-07"
+   },
+   "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
    "kampfstil": null,
@@ -19319,6 +19391,42 @@
    "wikidata": null
   },
   {
+   "name": "Carlos Calderon",
+   "artikel": null,
+   "wikipedia": null,
+   "gewichtsklasse": "Featherweight",
+   "land_iso": "USA",
+   "quellen": {
+    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
+    "land_iso": "Wikipedia: List of current UFC fighters",
+    "bilanz": "Wikipedia: List of current UFC fighters",
+    "geburtsdatum": "Wikipedia: List of current UFC fighters",
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
+   },
+   "konflikte": {},
+   "bilanz": "11-4",
+   "geburtsdatum": "1996-09-10",
+   "groesse_cm": 175,
+   "nationalitaet": null,
+   "siegesserie": null,
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 293",
+    "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
+    "ort": "Las Vegas",
+    "gegner": "Austin Bashi",
+    "datum": "2026-11-07"
+   },
+   "status": null,
+   "gewicht_kg": null,
+   "reichweite_cm": null,
+   "kampfstil": null,
+   "geburtsort": null,
+   "wikidata": null
+  },
+  {
    "name": "Davey Grant",
    "artikel": "Davey Grant",
    "wikipedia": "https://en.wikipedia.org/wiki/Davey_Grant",
@@ -20425,6 +20533,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Alateng Heili (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Alateng Heili",
     "reichweite_cm": "Wikipedia: Alateng Heili",
     "kampfstil": "Wikipedia: Alateng Heili",
@@ -20447,14 +20556,14 @@
    "groesse_cm": 168,
    "nationalitaet": null,
    "siegesserie": 1,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 289",
-    "event_wiki": "UFC Fight Night: Rosas Jr. vs. Barcelos",
-    "ort": "Las Vegas",
-    "gegner": "John Castañeda",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 334",
+    "event_wiki": "UFC 334",
+    "ort": "New York City",
+    "gegner": "Juan Díaz",
+    "datum": "2026-11-14"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q99937818",
    "gewicht_kg": 61.2,
@@ -22285,7 +22394,7 @@
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
-    "gegner": "TBD",
+    "gegner": "Alateng Heili",
     "datum": "2026-11-14"
    },
    "status": null,
@@ -24582,6 +24691,42 @@
    "reichweite_cm": null,
    "kampfstil": "Submission wrestling, Boxing",
    "geburtsort": "Mahón"
+  },
+  {
+   "name": "Marcos Degli",
+   "artikel": null,
+   "wikipedia": null,
+   "gewichtsklasse": "Flyweight",
+   "land_iso": "BRA",
+   "quellen": {
+    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
+    "land_iso": "Wikipedia: List of current UFC fighters",
+    "bilanz": "Wikipedia: List of current UFC fighters",
+    "geburtsdatum": "Wikipedia: List of current UFC fighters",
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
+   },
+   "konflikte": {},
+   "bilanz": "15-3",
+   "geburtsdatum": "2000-05-13",
+   "groesse_cm": 168,
+   "nationalitaet": null,
+   "siegesserie": null,
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 293",
+    "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
+    "ort": "Las Vegas",
+    "gegner": "Mitch Raposo",
+    "datum": "2026-11-07"
+   },
+   "status": null,
+   "gewicht_kg": null,
+   "reichweite_cm": null,
+   "kampfstil": null,
+   "geburtsort": null,
+   "wikidata": null
   },
   {
    "name": "Miesha Tate",
@@ -27671,6 +27816,7 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "siegesserie": "Wikipedia: Virna Jandiroba (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
     "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Virna Jandiroba",
@@ -27702,7 +27848,7 @@
    "geburtsdatum": "1988-05-30",
    "groesse_cm": 160,
    "nationalitaet": null,
-   "siegesserie": null,
+   "siegesserie": 1,
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 293",
@@ -35455,11 +35601,31 @@
      "hinweis": null
     },
     {
+     "gewichtsklasse": "Lightweight",
+     "a": "Jared Gordon",
+     "a_artikel": "Jared Gordon",
+     "b": "Melquizael Costa",
+     "b_artikel": "Melquizael Costa",
+     "titelkampf": false,
+     "karte": "Early preliminary card (Paramount+)",
+     "hinweis": null
+    },
+    {
      "gewichtsklasse": "Women's Bantamweight",
      "a": "Macy Chiasson",
      "a_artikel": "Macy Chiasson",
      "b": "Beatriz Mesquita",
      "b_artikel": "Beatriz Mesquita",
+     "titelkampf": false,
+     "karte": "Early preliminary card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Lightweight",
+     "a": "Evan Elder",
+     "a_artikel": null,
+     "b": "Samuel Sanches",
+     "b_artikel": null,
      "titelkampf": false,
      "karte": "Early preliminary card (Paramount+)",
      "hinweis": null
@@ -35484,7 +35650,7 @@
      "b": "Navajo Stirling",
      "b_artikel": "Navajo Stirling",
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Main card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35494,7 +35660,7 @@
      "b": "Kevin Vallejos",
      "b_artikel": "Kevin Vallejos",
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Main card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35504,7 +35670,17 @@
      "b": "Brian Ortega",
      "b_artikel": "Brian Ortega",
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Main card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Flyweight",
+     "a": "Kyoji Horiguchi",
+     "a_artikel": "Kyoji Horiguchi",
+     "b": "Asu Almabayev",
+     "b_artikel": "Asu Almabayev",
+     "titelkampf": false,
+     "karte": "Main card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35514,27 +35690,7 @@
      "b": "Ikram Aliskerov",
      "b_artikel": "Ikram Aliskerov",
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Heavyweight",
-     "a": "Shamil Gaziev",
-     "a_artikel": "Shamil Gaziev",
-     "b": "Tallison Teixeira",
-     "b_artikel": "Tallison Teixeira",
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Welterweight",
-     "a": "Jake Matthews",
-     "a_artikel": "Jake Matthews (fighter)",
-     "b": "Tahir Abdullayev",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Main card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35544,17 +35700,17 @@
      "b": "Santiago Luna",
      "b_artikel": "Santiago Luna (fighter)",
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Flyweight",
-     "a": "Asu Almabayev",
-     "a_artikel": "Asu Almabayev",
-     "b": "Kyoji Horiguchi",
-     "b_artikel": "Kyoji Horiguchi",
+     "gewichtsklasse": "Heavyweight",
+     "a": "Shamil Gaziev",
+     "a_artikel": "Shamil Gaziev",
+     "b": "Tallison Teixeira",
+     "b_artikel": "Tallison Teixeira",
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35564,7 +35720,17 @@
      "b": "Alessandro Costa",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Preliminary card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Welterweight",
+     "a": "Jake Matthews",
+     "a_artikel": "Jake Matthews (fighter)",
+     "b": "Tahir Abdullayev",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     }
    ],
@@ -35718,6 +35884,26 @@
      "a_artikel": "Bogdan Guskov",
      "b": "Robert Whittaker",
      "b_artikel": "Robert Whittaker (fighter)",
+     "titelkampf": false,
+     "karte": "Main card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Featherweight",
+     "a": "Marwan Rahiki",
+     "a_artikel": null,
+     "b": "Yoo Joo-sang",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Main card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Featherweight",
+     "a": "Kaan Ofli",
+     "a_artikel": null,
+     "b": "Joanderson Brito",
+     "b_artikel": "Joanderson Brito",
      "titelkampf": false,
      "karte": "Main card (Paramount+)",
      "hinweis": null
