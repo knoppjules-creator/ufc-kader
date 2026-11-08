@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-07T04:54:10+00:00",
+ "stand": "2026-11-08T04:54:00+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -428,7 +428,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Johnny Walker (fighter) (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Johnny Walker (fighter)",
     "reichweite_cm": "Wikipedia: Johnny Walker (fighter)",
     "kampfstil": "Wikipedia (russisch): Уокер, Джонни (боец)",
@@ -470,19 +469,19 @@
      }
     ]
    },
-   "bilanz": "23-10 (1 NC)",
+   "bilanz": "24-10 (1 NC)",
    "geburtsdatum": "1992-03-30",
    "groesse_cm": 196,
    "nationalitaet": null,
-   "siegesserie": 1,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 2,
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Waldo Cortes-Acosta",
-    "datum": "2026-11-07"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q61478503",
    "gewicht_kg": 109.8,
@@ -606,6 +605,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Serghei Spivac (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Serghei Spivac",
     "reichweite_cm": "Wikipedia (russisch): Спивак, Сергей",
     "kampfstil": "Wikipedia (russisch): Спивак, Сергей",
@@ -638,14 +638,14 @@
    "groesse_cm": 190,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 285",
-    "event_wiki": "UFC Fight Night: Hernandez vs. Rodrigues",
-    "ort": "Sacramento",
-    "gegner": "Vitor Petrino",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night 295",
+    "ort": "Riyadh",
+    "gegner": "Mário Pinto",
+    "datum": "2026-12-05"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q74099016",
    "gewicht_kg": 114.3,
@@ -895,7 +895,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Waldo Cortes-Acosta (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Waldo Cortes-Acosta",
     "reichweite_cm": "Wikipedia: Waldo Cortes-Acosta",
     "kampfstil": "Wikipedia (russisch): Кортес-Акоста, Вальдо (боец)",
@@ -913,19 +912,19 @@
      }
     ]
    },
-   "bilanz": "17-4",
+   "bilanz": "17-5",
    "geburtsdatum": "1991-10-03",
    "groesse_cm": 193,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Johnny Walker",
-    "datum": "2026-11-07"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q126165389",
    "gewicht_kg": 119.7,
@@ -1098,23 +1097,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "11-5",
+   "bilanz": "12-5",
    "geburtsdatum": "1995-03-30",
    "groesse_cm": 185,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Gabriel Lorenço",
-    "datum": "2026-11-07"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -1389,6 +1387,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Mario Pinto (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Mario Pinto",
     "reichweite_cm": "Wikipedia (russisch): Пинту, Мариу",
     "geburtsort": "Wikipedia: Mario Pinto"
@@ -1399,14 +1398,14 @@
    "groesse_cm": 196,
    "nationalitaet": null,
    "siegesserie": 13,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 287",
-    "event_wiki": "UFC Fight Night: Hooker vs. Parnasse",
-    "ort": "Paris",
-    "gegner": "Ryan Spann",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night 295",
+    "ort": "Riyadh",
+    "gegner": "Serghei Spivac",
+    "datum": "2026-12-05"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q133819989",
    "gewicht_kg": 115.7,
@@ -2399,23 +2398,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "8-1",
+   "bilanz": "8-2",
    "geburtsdatum": "1999-09-30",
    "groesse_cm": 188,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Thomas Petersen",
-    "datum": "2026-11-07"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -3484,7 +3482,7 @@
     ],
     "kampfstil": [
      {
-      "wert": "ARB, Boxing",
+      "wert": "ARB",
       "quelle": "Wikipedia (russisch): Мурзаканов, Азамат Анзорович"
      },
      {
@@ -3524,7 +3522,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q56000949",
    "gewicht_kg": 93.0,
    "reichweite_cm": 180,
-   "kampfstil": "ARB, Boxing",
+   "kampfstil": "ARB",
    "geburtsort": "Kyzburun III, Kabardino-Balkarian ASSR, Russian SFSR, Soviet Union, (now Dygulybgey, Kabardino-Balkaria, Russia)"
   },
   {
@@ -4061,7 +4059,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Billy Elekana (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Billy Elekana",
     "reichweite_cm": "Wikipedia: Billy Elekana",
     "kampfstil": "Wikipedia: Billy Elekana",
@@ -4079,19 +4076,19 @@
      }
     ]
    },
-   "bilanz": "10-2",
+   "bilanz": "10-3",
    "geburtsdatum": "1995-05-28",
    "groesse_cm": 190,
    "nationalitaet": null,
-   "siegesserie": 3,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Lucas Fernando",
-    "datum": "2026-11-07"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q137584666",
    "gewicht_kg": 93.0,
@@ -4261,7 +4258,18 @@
     "kampfstil": "Wikipedia: Abdul-Rakhman Yakhyaev",
     "geburtsort": "Wikipedia: Abdul-Rakhman Yakhyaev"
    },
-   "konflikte": {},
+   "konflikte": {
+    "reichweite_cm": [
+     {
+      "wert": 201,
+      "quelle": "Wikipedia: Abdul-Rakhman Yakhyaev"
+     },
+     {
+      "wert": 198,
+      "quelle": "Wikipedia (russisch): Яхьяев, Абдул-Рахман Алим-Хажиевич"
+     }
+    ]
+   },
    "bilanz": "11-0",
    "geburtsdatum": "2001-01-03",
    "groesse_cm": 188,
@@ -4586,23 +4594,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "14-3",
+   "bilanz": "15-3",
    "geburtsdatum": "1997-01-10",
    "groesse_cm": 190,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Billy Elekana",
-    "datum": "2026-11-07"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -5652,7 +5659,7 @@
    "konflikte": {
     "kampfstil": [
      {
-      "wert": "Freestyle wrestling, Grappling, Brazilian jiu-jitsu, Boxing",
+      "wert": "Freestyle wrestling, Brazilian jiu-jitsu, Boxing",
       "quelle": "Wikipedia (russisch): Чимаев, Хамзат Хизарович"
      },
      {
@@ -5682,7 +5689,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q76476288",
    "gewicht_kg": 83.9,
    "reichweite_cm": 190,
-   "kampfstil": "Freestyle wrestling, Grappling, Brazilian jiu-jitsu, Boxing",
+   "kampfstil": "Freestyle wrestling, Brazilian jiu-jitsu, Boxing",
    "geburtsort": "Gvardeyskoye, Chechen Republic, Russia"
   },
   {
@@ -6066,26 +6073,25 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Andre Petroski (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Andre Petroski",
     "reichweite_cm": "Wikipedia: Andre Petroski",
     "kampfstil": "Wikipedia (spanisch): Andre Petroski",
     "geburtsort": "Wikipedia: Andre Petroski"
    },
    "konflikte": {},
-   "bilanz": "13-6",
+   "bilanz": "14-6",
    "geburtsdatum": "1991-06-12",
    "groesse_cm": 183,
    "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 1,
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Mantas Kondratavičius",
-    "datum": "2026-11-07"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q112033004",
    "gewicht_kg": 84.4,
@@ -7510,23 +7516,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "9-1",
+   "bilanz": "9-2",
    "geburtsdatum": "1999-07-17",
    "groesse_cm": 188,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Andre Petroski",
-    "datum": "2026-11-07"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -7964,7 +7969,7 @@
    "konflikte": {
     "kampfstil": [
      {
-      "wert": "Kickboxing, Boxing, Muay Thai, Taekwondo, Karate",
+      "wert": "Boxing",
       "quelle": "Wikipedia (russisch): Холлоуэй, Макс"
      },
      {
@@ -8008,7 +8013,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q6794874",
    "gewicht_kg": 77.1,
    "reichweite_cm": 175,
-   "kampfstil": "Kickboxing, Boxing, Muay Thai, Taekwondo, Karate",
+   "kampfstil": "Boxing",
    "geburtsort": "Honolulu, Hawaii, U.S."
   },
   {
@@ -8213,7 +8218,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q5162259",
    "gewicht_kg": 77.0,
    "reichweite_cm": 188,
-   "kampfstil": "Brazilian jiu-jitsu, Mixed martial arts, Boxing",
+   "kampfstil": "Karate, Kickboxing, Boxing",
    "geburtsort": "Dublin, Ireland"
   },
   {
@@ -8410,7 +8415,7 @@
       "quelle": "Wikipedia: Islam Makhachev"
      },
      {
-      "wert": "Sambo, Freestyle wrestling, Judo, Grappling, Wushu",
+      "wert": "Sambo, Judo, Taekwondo",
       "quelle": "Wikipedia (russisch): Махачев, Ислам Рамазанович"
      },
      {
@@ -8927,26 +8932,25 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Wellington Turman (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Wellington Turman",
     "reichweite_cm": "Wikipedia: Wellington Turman",
     "kampfstil": "Wikipedia: Wellington Turman",
     "geburtsort": "Wikipedia: Wellington Turman"
    },
    "konflikte": {},
-   "bilanz": "18-8",
+   "bilanz": "18-9",
    "geburtsdatum": "1996-07-22",
    "groesse_cm": 183,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Ko Seok-hyeon",
-    "datum": "2026-11-07"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q98213107",
    "gewicht_kg": 77.1,
@@ -9846,23 +9850,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "9-3",
+   "bilanz": "9-4",
    "geburtsdatum": "1991-09-06",
    "groesse_cm": 175,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "José Henrique Souza",
-    "datum": "2026-11-07"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -10235,23 +10238,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "13-3",
+   "bilanz": "14-3",
    "geburtsdatum": "1993-09-24",
    "groesse_cm": 178,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Wellington Turman",
-    "datum": "2026-11-07"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -10631,23 +10633,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "9-1",
+   "bilanz": "10-1",
    "geburtsdatum": "2002-05-23",
    "groesse_cm": 190,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": null,
     "gegner": "Jonny Parsons",
-    "datum": "2026-11-07"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -11341,7 +11342,7 @@
     ],
     "kampfstil": [
      {
-      "wert": "Wrestling, Boxing",
+      "wert": "Wrestling",
       "quelle": "Wikipedia (russisch): Джонсон, Майкл (боец)"
      },
      {
@@ -11375,7 +11376,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q4896337",
    "gewicht_kg": 70.3,
    "reichweite_cm": 185,
-   "kampfstil": "Wrestling, Boxing",
+   "kampfstil": "Wrestling",
    "geburtsort": "St. Louis, Missouri, U.S."
   },
   {
@@ -13262,7 +13263,7 @@
       "quelle": "Wikipedia: Michael Chandler"
      },
      {
-      "wert": "MMA, Freestyle wrestling, Brazilian jiu-jitsu, Boxing, Muay Thai, Kickboxing",
+      "wert": "Freestyle wrestling",
       "quelle": "Wikipedia (russisch): Чендлер, Майкл"
      },
      {
@@ -13473,7 +13474,7 @@
    "konflikte": {
     "kampfstil": [
      {
-      "wert": "Boxing, Brazilian jiu-jitsu, Wrestling",
+      "wert": "Jujutsu",
       "quelle": "Wikipedia (russisch): Пимблетт, Пэдди"
      },
      {
@@ -13499,7 +13500,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q57409501",
    "gewicht_kg": 70.3,
    "reichweite_cm": 185,
-   "kampfstil": "Boxing, Brazilian jiu-jitsu, Wrestling",
+   "kampfstil": "Jujutsu",
    "geburtsort": "Liverpool, Merseyside, England"
   },
   {
@@ -13540,7 +13541,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q112241194",
    "gewicht_kg": 70.3,
    "reichweite_cm": 185,
-   "kampfstil": "Judo, Wrestling, Boxing, Brazilian jiu-jitsu",
+   "kampfstil": "Judo, Brazilian jiu-jitsu",
    "geburtsort": "Nîmes, Gard, France"
   },
   {
@@ -14495,7 +14496,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q131228114",
    "gewicht_kg": 70.3,
    "reichweite_cm": 190,
-   "kampfstil": "Muay Thai, Capoeira, Karate, Boxing, Kickboxing",
+   "kampfstil": "Muay Thai",
    "geburtsort": "Coruripe, Alagoas, Brazil"
   },
   {
@@ -17988,23 +17989,22 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "geburtsort": "Wikidata: Q140546496"
    },
    "konflikte": {},
-   "bilanz": "14-2",
+   "bilanz": "15-2",
    "geburtsdatum": "2001-09-29",
    "groesse_cm": 168,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Carlos Calderon",
-    "datum": "2026-11-07"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q140546496",
    "gewicht_kg": null,
@@ -18525,23 +18525,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "8-1",
+   "bilanz": "8-2",
    "geburtsdatum": "1998-12-02",
    "groesse_cm": 173,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Ollie Schmid",
-    "datum": "2026-11-07"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -18824,23 +18823,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "16-3",
+   "bilanz": "16-4",
    "geburtsdatum": "1996-08-11",
    "groesse_cm": 173,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Murtazali Magomedov",
-    "datum": "2026-11-07"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -18980,23 +18978,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "4-3",
+   "bilanz": "5-3",
    "geburtsdatum": "2000-12-28",
    "groesse_cm": 180,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Keiichiro Nakamura",
-    "datum": "2026-11-07"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -19116,23 +19113,22 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: List of current UFC fighters (nur Siege)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "11-0",
+   "bilanz": "12-0",
    "geburtsdatum": "1999-08-08",
    "groesse_cm": 175,
    "nationalitaet": null,
-   "siegesserie": 11,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 12,
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "José Mauro Delano",
-    "datum": "2026-11-07"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -19402,23 +19398,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "11-4",
+   "bilanz": "11-5",
    "geburtsdatum": "1996-09-10",
    "groesse_cm": 175,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Austin Bashi",
-    "datum": "2026-11-07"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -19440,26 +19435,25 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Davey Grant (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Davey Grant",
     "reichweite_cm": "Wikipedia: Davey Grant",
     "kampfstil": "Wikipedia (russisch): Грант, Дэйви",
     "geburtsort": "Wikipedia: Davey Grant"
    },
    "konflikte": {},
-   "bilanz": "18-8",
+   "bilanz": "18-9",
    "geburtsdatum": "1985-12-18",
    "groesse_cm": 173,
    "nationalitaet": null,
-   "siegesserie": 1,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Elijah Smith",
-    "datum": "2026-11-07"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q33133504",
    "gewicht_kg": 61.2,
@@ -19549,7 +19543,7 @@
     ],
     "geburtsort": [
      {
-      "wert": "Chone, Ecuador",
+      "wert": "Chone, Manabí, Ecuador",
       "quelle": "Wikipedia: Marlon Vera"
      },
      {
@@ -19584,7 +19578,7 @@
    "gewicht_kg": 61.7,
    "reichweite_cm": 179,
    "kampfstil": "Muay Thai, Brazilian jiu-jitsu, Boxing, Kickboxing, Wrestling",
-   "geburtsort": "Chone, Ecuador"
+   "geburtsort": "Chone, Manabí, Ecuador"
   },
   {
    "name": "Cody Garbrandt",
@@ -21811,23 +21805,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "10-1",
+   "bilanz": "11-1",
    "geburtsdatum": "2002-09-05",
    "groesse_cm": 175,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Davey Grant",
-    "datum": "2026-11-07"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q140191060",
    "gewicht_kg": null,
@@ -24087,23 +24080,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "11-2",
+   "bilanz": "12-2",
    "geburtsdatum": "1998-10-16",
    "groesse_cm": 165,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Marcos Degli",
-    "datum": "2026-11-07"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -24704,23 +24696,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "15-3",
+   "bilanz": "15-4",
    "geburtsdatum": "2000-05-13",
    "groesse_cm": 168,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Mitch Raposo",
-    "datum": "2026-11-07"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -24899,7 +24890,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Priscila Cachoeira (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Priscila Cachoeira",
     "reichweite_cm": "Wikipedia: Priscila Cachoeira",
     "geburtsort": "Wikipedia: Priscila Cachoeira"
@@ -24916,19 +24906,19 @@
      }
     ]
    },
-   "bilanz": "13-9",
+   "bilanz": "13-10",
    "geburtsdatum": "1988-08-19",
    "groesse_cm": 170,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Nina Nikolija Milošević",
-    "datum": "2026-11-07"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q51140987",
    "gewicht_kg": 56.7,
@@ -25772,23 +25762,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "9-1",
+   "bilanz": "10-1",
    "geburtsdatum": "1995-08-08",
    "groesse_cm": 165,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Priscila Cachoeira",
-    "datum": "2026-11-07"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -26585,7 +26574,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Karine Silva (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Karine Silva",
     "reichweite_cm": "Wikipedia: Karine Silva",
     "geburtsort": "Wikipedia: Karine Silva"
@@ -26602,19 +26590,19 @@
      }
     ]
    },
-   "bilanz": "19-7",
+   "bilanz": "20-7",
    "geburtsdatum": "1993-12-02",
    "groesse_cm": 165,
    "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 1,
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Gabriella Fernandes",
-    "datum": "2026-11-07"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q121898004",
    "gewicht_kg": 56.7,
@@ -26762,23 +26750,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "11-4",
+   "bilanz": "11-5",
    "geburtsdatum": "1993-08-13",
    "groesse_cm": 168,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Karine Silva",
-    "datum": "2026-11-07"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -27486,7 +27473,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Tatiana Suarez (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Tatiana Suarez",
     "reichweite_cm": "Wikipedia (russisch): Суарес, Татьяна",
     "kampfstil": "Wikipedia: Tatiana Suarez",
@@ -27522,19 +27508,19 @@
      }
     ]
    },
-   "bilanz": "12-1",
+   "bilanz": "13-1",
    "geburtsdatum": "1990-12-19",
    "groesse_cm": 165,
    "nationalitaet": null,
-   "siegesserie": 2,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 3,
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Virna Jandiroba",
-    "datum": "2026-11-07"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q7688105",
    "gewicht_kg": 56.7,
@@ -27818,7 +27804,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Virna Jandiroba (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Virna Jandiroba",
     "reichweite_cm": "Wikipedia (russisch): Жандироба, Вирна",
     "kampfstil": "Wikipedia (russisch): Жандироба, Вирна",
@@ -27844,19 +27829,19 @@
      }
     ]
    },
-   "bilanz": "23-4",
+   "bilanz": "23-5",
    "geburtsdatum": "1988-05-30",
    "groesse_cm": 160,
    "nationalitaet": null,
-   "siegesserie": 1,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC Fight Night 293",
     "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
     "ort": "Las Vegas",
     "gegner": "Tatiana Suarez",
-    "datum": "2026-11-07"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q56434195",
    "gewicht_kg": 52.2,
@@ -29519,21 +29504,16 @@
      "land_iso": "DOM",
      "name": "Waldo Cortes-Acosta",
      "artikel": "Waldo Cortes-Acosta",
-     "bilanz": "17-4",
+     "bilanz": "17-5",
      "serie": 0,
      "letzter_kampf": {
       "ergebnis": "Loss",
-      "event": "UFC Fight Night 288",
-      "event_wiki": "UFC Fight Night: Silva vs. Delgado",
-      "gegner": "Curtis Blaydes",
-      "gegner_artikel": "Curtis Blaydes"
-     },
-     "naechster_kampf": {
       "event": "UFC Fight Night 293",
       "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
       "gegner": "Johnny Walker",
       "gegner_artikel": "Johnny Walker (fighter)"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -29608,21 +29588,16 @@
      "land_iso": "BRA",
      "name": "Johnny Walker",
      "artikel": "Johnny Walker (fighter)",
-     "bilanz": "23-10 (1 NC)",
-     "serie": 1,
+     "bilanz": "24-10 (1 NC)",
+     "serie": 2,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC 332",
-      "event_wiki": "UFC 332",
-      "gegner": "Mick Parkin",
-      "gegner_artikel": "Mick Parkin"
-     },
-     "naechster_kampf": {
       "event": "UFC Fight Night 293",
       "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
       "gegner": "Waldo Cortes-Acosta",
       "gegner_artikel": "Waldo Cortes-Acosta"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -31331,8 +31306,13 @@
       "gegner": "William Gomis",
       "gegner_artikel": null
      },
-     "naechster_kampf": null,
-     "hinweis": "UFC Fight Night 297",
+     "naechster_kampf": {
+      "event": "UFC Fight Night 297",
+      "event_wiki": "UFC Fight Night 297",
+      "gegner": "Vinicius Oliveira",
+      "gegner_artikel": "Vinicius Oliveira"
+     },
+     "hinweis": null,
      "bewegung": {
       "art": "gleich",
       "plaetze": 0
@@ -31352,7 +31332,12 @@
       "gegner": "Nathaniel Wood",
       "gegner_artikel": "Nathaniel Wood (fighter)"
      },
-     "naechster_kampf": null,
+     "naechster_kampf": {
+      "event": "UFC Fight Night 295",
+      "event_wiki": "UFC Fight Night 295",
+      "gegner": "Mehemmedeli Osmanli",
+      "gegner_artikel": null
+     },
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -31493,7 +31478,12 @@
       "gegner": "Diego Lopes",
       "gegner_artikel": "Diego Lopes (fighter)"
      },
-     "naechster_kampf": null,
+     "naechster_kampf": {
+      "event": "UFC 335",
+      "event_wiki": "UFC 335",
+      "gegner": "Yair Rodríguez",
+      "gegner_artikel": "Yair Rodríguez"
+     },
      "hinweis": null,
      "bewegung": {
       "art": "ab",
@@ -32159,21 +32149,16 @@
      "land_iso": "USA",
      "name": "Mitch Raposo",
      "artikel": null,
-     "bilanz": "11-3",
-     "serie": 2,
+     "bilanz": "12-3",
+     "serie": 3,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC Fight Night 279",
-      "event_wiki": "UFC Fight Night: Kape vs. Horiguchi",
-      "gegner": "Allan Nascimento",
-      "gegner_artikel": "Allan Nascimento"
-     },
-     "naechster_kampf": {
       "event": "UFC Fight Night 293",
       "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
       "gegner": "Marcos Degli",
       "gegner_artikel": null
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -32402,8 +32387,8 @@
       "gegner_artikel": "Ketlen Vieira"
      },
      "naechster_kampf": {
-      "event": "UFC Fight Night 294",
-      "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
+      "event": "UFC 335",
+      "event_wiki": "UFC 335",
       "gegner": "Michelle Montague",
       "gegner_artikel": null
      },
@@ -32428,8 +32413,8 @@
       "gegner_artikel": "Mayra Bueno Silva"
      },
      "naechster_kampf": {
-      "event": "UFC Fight Night 294",
-      "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
+      "event": "UFC 335",
+      "event_wiki": "UFC 335",
       "gegner": "Jacqueline Cavalcanti",
       "gegner_artikel": "Jacqueline Cavalcanti"
      },
@@ -32828,13 +32813,8 @@
       "gegner": "Alexa Grasso",
       "gegner_artikel": "Alexa Grasso"
      },
-     "naechster_kampf": {
-      "event": "UFC 335",
-      "event_wiki": "UFC 335",
-      "gegner": "Carli Judice",
-      "gegner_artikel": null
-     },
-     "hinweis": null,
+     "naechster_kampf": null,
+     "hinweis": "(November 6, 2026) – Undisclosed withdrawal",
      "bewegung": {
       "art": "gleich",
       "plaetze": 0
@@ -32928,21 +32908,16 @@
      "land_iso": "BRA",
      "name": "Karine Silva",
      "artikel": "Karine Silva",
-     "bilanz": "19-7",
-     "serie": 0,
+     "bilanz": "20-7",
+     "serie": 1,
      "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC Fight Night 273",
-      "event_wiki": "UFC Fight Night: Burns vs. Malott",
-      "gegner": "Jasmine Jasudavicius",
-      "gegner_artikel": "Jasmine Jasudavicius"
-     },
-     "naechster_kampf": {
+      "ergebnis": "Win",
       "event": "UFC Fight Night 293",
       "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
       "gegner": "Gabriella Fernandes",
       "gegner_artikel": null
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -32966,8 +32941,8 @@
      "naechster_kampf": {
       "event": "UFC 335",
       "event_wiki": "UFC 335",
-      "gegner": "Maycee Barber",
-      "gegner_artikel": "Maycee Barber"
+      "gegner": "TBA",
+      "gegner_artikel": "To be announced"
      },
      "hinweis": null,
      "bewegung": {
@@ -33030,21 +33005,16 @@
      "land_iso": "BRA",
      "name": "Virna Jandiroba",
      "artikel": "Virna Jandiroba",
-     "bilanz": "23-4",
-     "serie": 1,
+     "bilanz": "23-5",
+     "serie": 0,
      "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC Fight Night 272",
-      "event_wiki": "UFC Fight Night: Moicano vs. Duncan",
-      "gegner": "Tabatha Ricci",
-      "gegner_artikel": "Tabatha Ricci"
-     },
-     "naechster_kampf": {
+      "ergebnis": "Loss",
       "event": "UFC Fight Night 293",
       "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
       "gegner": "Tatiana Suarez",
       "gegner_artikel": "Tatiana Suarez"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -33056,21 +33026,16 @@
      "land_iso": "USA",
      "name": "Tatiana Suarez",
      "artikel": "Tatiana Suarez",
-     "bilanz": "12-1",
-     "serie": 2,
+     "bilanz": "13-1",
+     "serie": 3,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC 327",
-      "event_wiki": "UFC 327",
-      "gegner": "Loopy Godínez",
-      "gegner_artikel": "Loopy Godínez"
-     },
-     "naechster_kampf": {
       "event": "UFC Fight Night 293",
       "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
       "gegner": "Virna Jandiroba",
       "gegner_artikel": "Virna Jandiroba"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -34524,6 +34489,33 @@
    "gewichtsklasse": "Middleweight",
    "event": "UFC Fight Night 292",
    "event_wiki": "UFC Fight Night: Moicano vs. Nolan"
+  },
+  {
+   "datum": "2026-11-07",
+   "land_iso": "USA",
+   "name": "Carlos Calderon",
+   "artikel": null,
+   "gewichtsklasse": "Featherweight",
+   "event": "UFC Fight Night 293",
+   "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker"
+  },
+  {
+   "datum": "2026-11-07",
+   "land_iso": "BRA",
+   "name": "Gabriel Lorenço",
+   "artikel": null,
+   "gewichtsklasse": "Heavyweight",
+   "event": "UFC Fight Night 293",
+   "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker"
+  },
+  {
+   "datum": "2026-11-07",
+   "land_iso": "BRA",
+   "name": "Marcos Degli",
+   "artikel": null,
+   "gewichtsklasse": "Flyweight",
+   "event": "UFC Fight Night 293",
+   "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker"
   }
  ],
  "abgaenge": [
@@ -35350,159 +35342,6 @@
  ],
  "events": [
   {
-   "name": "UFC Fight Night: Cortes-Acosta vs. Walker",
-   "artikel": "UFC Fight Night: Cortes-Acosta vs. Walker",
-   "datum": "2026-11-07",
-   "halle": "Meta Apex",
-   "ort": "Las Vegas, Nevada, U.S.",
-   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Cortes-Acosta_vs._Walker",
-   "kaempfe": [
-    {
-     "gewichtsklasse": "Heavyweight",
-     "a": "Waldo Cortes-Acosta",
-     "a_artikel": "Waldo Cortes-Acosta",
-     "b": "Johnny Walker",
-     "b_artikel": "Johnny Walker (fighter)",
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Women's Strawweight",
-     "a": "Tatiana Suarez",
-     "a_artikel": "Tatiana Suarez",
-     "b": "Virna Jandiroba",
-     "b_artikel": "Virna Jandiroba",
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Bantamweight",
-     "a": "Davey Grant",
-     "a_artikel": "Davey Grant",
-     "b": "Elijah Smith",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Light Heavyweight",
-     "a": "Billy Elekana",
-     "a_artikel": "Billy Elekana",
-     "b": "Lucas Fernando",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Women's Bantamweight",
-     "a": "Priscila Cachoeira",
-     "a_artikel": "Priscila Cachoeira",
-     "b": "Nina Nikolija Milošević",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Flyweight",
-     "a": "Mitch Raposo",
-     "a_artikel": null,
-     "b": "Marcos Degli",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Featherweight",
-     "a": "Keiichiro Nakamura",
-     "a_artikel": null,
-     "b": "Ollie Schmid",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Heavyweight",
-     "a": "Gabriel Lorenço",
-     "a_artikel": null,
-     "b": "Thomas Petersen",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Women's Flyweight",
-     "a": "Karine Silva",
-     "a_artikel": "Karine Silva",
-     "b": "Gabriella Fernandes",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Featherweight",
-     "a": "José Mauro Delano",
-     "a_artikel": null,
-     "b": "Murtazali Magomedov",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Featherweight",
-     "a": "Austin Bashi",
-     "a_artikel": null,
-     "b": "Carlos Calderon",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Middleweight",
-     "a": "Mantas Kondratavičius",
-     "a_artikel": null,
-     "b": "Andre Petroski",
-     "b_artikel": "Andre Petroski",
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Welterweight",
-     "a": "Ko Seok-hyeon",
-     "a_artikel": null,
-     "b": "Wellington Turman",
-     "b_artikel": "Wellington Turman",
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Welterweight",
-     "a": "Jonny Parsons",
-     "a_artikel": null,
-     "b": "José Henrique Souza",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    }
-   ],
-   "hauptkarte_utc": null,
-   "hauptkarte_quelle": null,
-   "ics": null
-  },
-  {
    "name": "UFC 334: Gane vs. Hokit",
    "artikel": "UFC 334",
    "datum": "2026-11-14",
@@ -35742,7 +35581,7 @@
    "name": "UFC Fight Night 295",
    "artikel": "UFC Fight Night 295",
    "datum": "2026-12-05",
-   "halle": "anb Arena",
+   "halle": "ANB Arena",
    "ort": "Riyadh, Saudi Arabia",
    "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_295",
    "kaempfe": [],

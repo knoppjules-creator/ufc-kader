@@ -25,31 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ufc-fight-night-cortes-acosta-vs-walker@ufc-kader
-DTSTAMP:20261107T045410Z
-SUMMARY:UFC Fight Night: Cortes-Acosta vs. Walker
-LOCATION:Meta Apex\, Las Vegas\, Nevada\, U.S.
-DESCRIPTION:Kämpfe:\nWaldo Cortes-Acosta vs. Johnny Walker (Heavyweight)\n
- Tatiana Suarez vs. Virna Jandiroba (Women's Strawweight)\nDavey Grant vs. 
- Elijah Smith (Bantamweight)\nBilly Elekana vs. Lucas Fernando (Light Heavy
- weight)\nPriscila Cachoeira vs. Nina Nikolija Milošević (Women's Bantamw
- eight)\nMitch Raposo vs. Marcos Degli (Flyweight)\nKeiichiro Nakamura vs. 
- Ollie Schmid (Featherweight)\nGabriel Lorenço vs. Thomas Petersen (Heavyw
- eight)\nKarine Silva vs. Gabriella Fernandes (Women's Flyweight)\nJosé Ma
- uro Delano vs. Murtazali Magomedov (Featherweight)\nAustin Bashi vs. Carlo
- s Calderon (Featherweight)\nMantas Kondratavičius vs. Andre Petroski (Mid
- dleweight)\nKo Seok-hyeon vs. Wellington Turman (Welterweight)\nJonny Pars
- ons vs. José Henrique Souza (Welterweight)\n\nUhrzeit folgt.\n\nQuelle: h
- ttps://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Cortes-Acosta_vs._Walker
-URL:https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Cortes-Acosta_vs._Walk
- er
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ufc-334@ufc-kader
-DTSTAMP:20261107T045410Z
+DTSTAMP:20261108T045400Z
 SUMMARY:UFC 334: Gane vs. Hokit
 LOCATION:Madison Square Garden\, New York City\, New York\, U.S.
 DESCRIPTION:Kämpfe:\nCiryl Gane vs. Josh Hokit (Heavyweight\, Titelkampf)\
@@ -69,7 +46,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-prochazka-vs-stirling@ufc-kader
-DTSTAMP:20261107T045410Z
+DTSTAMP:20261108T045400Z
 SUMMARY:UFC Fight Night: Procházka vs. Stirling
 LOCATION:Ali Bin Hamad al-Attiyah Arena\, Al Rayyan\, Qatar
 DESCRIPTION:Kämpfe:\nJiří Procházka vs. Navajo Stirling (Light Heavywei
@@ -88,9 +65,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-295@ufc-kader
-DTSTAMP:20261107T045410Z
+DTSTAMP:20261108T045400Z
 SUMMARY:UFC Fight Night 295
-LOCATION:anb Arena\, Riyadh\, Saudi Arabia
+LOCATION:ANB Arena\, Riyadh\, Saudi Arabia
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
  a.org/wiki/UFC_Fight_Night_295
 URL:https://en.wikipedia.org/wiki/UFC_Fight_Night_295
@@ -100,7 +77,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-335@ufc-kader
-DTSTAMP:20261107T045410Z
+DTSTAMP:20261108T045400Z
 SUMMARY:UFC 335: Oliveira vs. Lopes
 LOCATION:T-Mobile Arena\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nCharles Oliveira vs. Diego Lopes (Lightweight\, Titel
@@ -114,7 +91,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-296@ufc-kader
-DTSTAMP:20261107T045410Z
+DTSTAMP:20261108T045400Z
 SUMMARY:UFC Fight Night 296
 LOCATION:American Airlines Center\, Dallas\, Texas\, U.S.
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
@@ -126,7 +103,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-297@ufc-kader
-DTSTAMP:20261107T045410Z
+DTSTAMP:20261108T045400Z
 SUMMARY:UFC Fight Night 297
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
  a.org/wiki/UFC_Fight_Night_297
@@ -137,7 +114,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-336@ufc-kader
-DTSTAMP:20261107T045410Z
+DTSTAMP:20261108T045400Z
 SUMMARY:UFC 336: Van vs. Kape
 LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canada
 DESCRIPTION:Kämpfe:\nJoshua Van vs. Manel Kape (Flyweight\, Titelkampf)\nC
@@ -150,7 +127,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-salkilld-vs-saint-denis@ufc-kader
-DTSTAMP:20261107T045410Z
+DTSTAMP:20261108T045400Z
 SUMMARY:UFC Fight Night: Salkilld vs. Saint Denis
 LOCATION:Afterpay Arena\, Sydney\, Australia
 DESCRIPTION:Kämpfe:\nQuillan Salkilld vs. Benoît Saint Denis (Lightweight
