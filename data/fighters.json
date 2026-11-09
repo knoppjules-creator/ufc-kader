@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-08T04:54:00+00:00",
+ "stand": "2026-11-09T05:04:47+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -3014,7 +3014,7 @@
       "quelle": "Wikipedia: Magomed Ankalaev"
      },
      {
-      "wert": "Greco-Roman wrestling, Freestyle wrestling, Sambo, Mixed martial arts",
+      "wert": "Greco-Roman wrestling, Sambo, Mixed martial arts",
       "quelle": "Wikipedia (russisch): Анкалаев, Магомед Алибулатович"
      },
      {
@@ -12072,7 +12072,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q15634226",
    "gewicht_kg": 70.3,
    "reichweite_cm": 178,
-   "kampfstil": "Kickboxing, Wrestling",
+   "kampfstil": "Boxing, Kickboxing, Wrestling",
    "geburtsort": "Safford, Arizona, U.S."
   },
   {
@@ -13080,18 +13080,7 @@
     "kampfstil": "Wikipedia (russisch): Топурия, Илия",
     "geburtsort": "Wikipedia: Ilia Topuria"
    },
-   "konflikte": {
-    "groesse_cm": [
-     {
-      "wert": 170,
-      "quelle": "Wikipedia: List of current UFC fighters"
-     },
-     {
-      "wert": 173,
-      "quelle": "Wikipedia: Ilia Topuria"
-     }
-    ]
-   },
+   "konflikte": {},
    "bilanz": "17-1",
    "geburtsdatum": "1997-01-21",
    "groesse_cm": 170,
@@ -16281,7 +16270,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q47453148",
    "gewicht_kg": 65.8,
    "reichweite_cm": 184,
-   "kampfstil": "Greco-Roman wrestling, Grappling, Boxing, Sambo, Pankration",
+   "kampfstil": "Greco-Roman wrestling",
    "geburtsort": "Ordzhonikidzvskaya, Ingushetia, Russia , (now Sunzha, Ingushetia, Russia)"
   },
   {
@@ -22469,8 +22458,8 @@
   },
   {
    "name": "Abdul Hussein",
-   "artikel": null,
-   "wikipedia": null,
+   "artikel": "Abdul Hussein (fighter)",
+   "wikipedia": "https://en.wikipedia.org/wiki/Abdul_Hussein_%28fighter%29",
    "gewichtsklasse": "Bantamweight",
    "land_iso": "FIN",
    "quellen": {
@@ -22479,16 +22468,30 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "siegesserie": "Wikipedia: Abdul Hussein (fighter) (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
     "kampfdatum": "Wikipedia: List of UFC events",
-    "geburtsort": "Wikidata: Q106367933"
+    "gewicht_kg": "Wikipedia: Abdul Hussein (fighter)",
+    "reichweite_cm": "Wikipedia: Abdul Hussein (fighter)",
+    "geburtsort": "Wikipedia: Abdul Hussein (fighter)"
    },
-   "konflikte": {},
+   "konflikte": {
+    "groesse_cm": [
+     {
+      "wert": 165,
+      "quelle": "Wikipedia: List of current UFC fighters"
+     },
+     {
+      "wert": 170,
+      "quelle": "Wikipedia: Abdul Hussein (fighter)"
+     }
+    ]
+   },
    "bilanz": "16-2",
    "geburtsdatum": "1997-08-02",
    "groesse_cm": 165,
    "nationalitaet": null,
-   "siegesserie": null,
+   "siegesserie": 9,
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
@@ -22499,10 +22502,10 @@
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q106367933",
-   "gewicht_kg": null,
-   "reichweite_cm": null,
+   "gewicht_kg": 61.2,
+   "reichweite_cm": 170,
    "kampfstil": null,
-   "geburtsort": "Lebanon"
+   "geburtsort": "Beirut, Lebanon"
   },
   {
    "name": "Borislav Nikolić",
@@ -29555,7 +29558,12 @@
       "gegner": "Ryan Spann",
       "gegner_artikel": "Ryan Spann"
      },
-     "naechster_kampf": null,
+     "naechster_kampf": {
+      "event": "UFC Fight Night 295",
+      "event_wiki": "UFC Fight Night 295",
+      "gegner": "Serghei Spivac",
+      "gegner_artikel": "Serghei Spivac"
+     },
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -29639,7 +29647,12 @@
       "gegner": "Vitor Petrino",
       "gegner_artikel": "Vitor Petrino"
      },
-     "naechster_kampf": null,
+     "naechster_kampf": {
+      "event": "UFC Fight Night 295",
+      "event_wiki": "UFC Fight Night 295",
+      "gegner": "Mario Pinto",
+      "gegner_artikel": "Mario Pinto"
+     },
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
