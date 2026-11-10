@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-09T05:04:47+00:00",
+ "stand": "2026-11-10T04:53:42+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -641,7 +641,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Mário Pinto",
     "datum": "2026-12-05"
@@ -1401,7 +1401,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Serghei Spivac",
     "datum": "2026-12-05"
@@ -2735,7 +2735,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Magomed Tuchalov",
     "datum": "2026-12-05"
@@ -3482,7 +3482,7 @@
     ],
     "kampfstil": [
      {
-      "wert": "ARB",
+      "wert": "ARB, Boxing",
       "quelle": "Wikipedia (russisch): Мурзаканов, Азамат Анзорович"
      },
      {
@@ -3522,7 +3522,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q56000949",
    "gewicht_kg": 93.0,
    "reichweite_cm": 180,
-   "kampfstil": "ARB",
+   "kampfstil": "ARB, Boxing",
    "geburtsort": "Kyzburun III, Kabardino-Balkarian ASSR, Russian SFSR, Soviet Union, (now Dygulybgey, Kabardino-Balkaria, Russia)"
   },
   {
@@ -4191,7 +4191,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Ivan Gnizditskiy",
     "datum": "2026-12-05"
@@ -4534,7 +4534,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Ion Cuțelaba",
     "datum": "2026-12-05"
@@ -5216,7 +5216,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Sharabutdin Magomedov",
     "datum": "2026-12-05"
@@ -5503,7 +5503,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Marco Tulio",
     "datum": "2026-12-05"
@@ -6540,7 +6540,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Israel Adesanya",
     "datum": "2026-12-05"
@@ -6859,7 +6859,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Park Jun-yong",
     "datum": "2026-12-05"
@@ -7809,7 +7809,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Modestino Rodrigues",
     "datum": "2026-12-05"
@@ -8415,7 +8415,7 @@
       "quelle": "Wikipedia: Islam Makhachev"
      },
      {
-      "wert": "Sambo, Judo, Taekwondo",
+      "wert": "Sambo, Freestyle wrestling, Judo, Grappling, Wushu",
       "quelle": "Wikipedia (russisch): Махачев, Ислам Рамазанович"
      },
      {
@@ -10290,7 +10290,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Levan Chokheli",
     "datum": "2026-12-05"
@@ -10715,7 +10715,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Islam Dulatov",
     "datum": "2026-12-05"
@@ -13080,7 +13080,18 @@
     "kampfstil": "Wikipedia (russisch): Топурия, Илия",
     "geburtsort": "Wikipedia: Ilia Topuria"
    },
-   "konflikte": {},
+   "konflikte": {
+    "groesse_cm": [
+     {
+      "wert": 170,
+      "quelle": "Wikipedia: List of current UFC fighters"
+     },
+     {
+      "wert": 173,
+      "quelle": "Wikipedia: Ilia Topuria"
+     }
+    ]
+   },
    "bilanz": "17-1",
    "geburtsdatum": "1997-01-21",
    "groesse_cm": 170,
@@ -13252,7 +13263,7 @@
       "quelle": "Wikipedia: Michael Chandler"
      },
      {
-      "wert": "Freestyle wrestling",
+      "wert": "MMA, Freestyle wrestling, Brazilian jiu-jitsu, Boxing, Muay Thai, Kickboxing",
       "quelle": "Wikipedia (russisch): Чендлер, Майкл"
      },
      {
@@ -13463,7 +13474,7 @@
    "konflikte": {
     "kampfstil": [
      {
-      "wert": "Jujutsu",
+      "wert": "Boxing, Brazilian jiu-jitsu, Wrestling",
       "quelle": "Wikipedia (russisch): Пимблетт, Пэдди"
      },
      {
@@ -13489,7 +13500,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q57409501",
    "gewicht_kg": 70.3,
    "reichweite_cm": 185,
-   "kampfstil": "Jujutsu",
+   "kampfstil": "Boxing, Brazilian jiu-jitsu, Wrestling",
    "geburtsort": "Liverpool, Merseyside, England"
   },
   {
@@ -13530,7 +13541,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q112241194",
    "gewicht_kg": 70.3,
    "reichweite_cm": 185,
-   "kampfstil": "Judo, Brazilian jiu-jitsu",
+   "kampfstil": "Judo, Wrestling, Boxing, Brazilian jiu-jitsu",
    "geburtsort": "Nîmes, Gard, France"
   },
   {
@@ -17889,7 +17900,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Akbar Abdullaev / Moving to Lightweight",
     "datum": "2026-12-05"
@@ -19257,7 +19268,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Mehemmedeli Osmanli",
     "datum": "2026-12-05"
@@ -21206,7 +21217,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Bruno Gustavo da Silva",
     "datum": "2026-12-05"
@@ -22229,7 +22240,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Abdul Hussein",
     "datum": "2026-12-05"
@@ -22495,7 +22506,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Hecher Sosa",
     "datum": "2026-12-05"
@@ -22636,7 +22647,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Pavel Andrusca",
     "datum": "2026-12-05"
@@ -23244,7 +23255,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 295",
-    "event_wiki": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
     "ort": "Riyadh",
     "gegner": "Jafel Filho",
     "datum": "2026-12-05"
@@ -29560,7 +29571,7 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 295",
-      "event_wiki": "UFC Fight Night 295",
+      "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
       "gegner": "Serghei Spivac",
       "gegner_artikel": "Serghei Spivac"
      },
@@ -29649,7 +29660,7 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 295",
-      "event_wiki": "UFC Fight Night 295",
+      "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
       "gegner": "Mario Pinto",
       "gegner_artikel": "Mario Pinto"
      },
@@ -30288,7 +30299,7 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 295",
-      "event_wiki": "UFC Fight Night 295",
+      "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
       "gegner": "Sharabutdin Magomedov",
       "gegner_artikel": "Sharabutdin Magomedov"
      },
@@ -31347,7 +31358,7 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 295",
-      "event_wiki": "UFC Fight Night 295",
+      "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
       "gegner": "Mehemmedeli Osmanli",
       "gegner_artikel": null
      },
@@ -35591,13 +35602,134 @@
    "ics": null
   },
   {
-   "name": "UFC Fight Night 295",
-   "artikel": "UFC Fight Night 295",
+   "name": "UFC Fight Night: Adesanya vs. Magomedov",
+   "artikel": "UFC Fight Night: Adesanya vs. Magomedov",
    "datum": "2026-12-05",
    "halle": "ANB Arena",
    "ort": "Riyadh, Saudi Arabia",
-   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_295",
-   "kaempfe": [],
+   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Adesanya_vs._Magomedov",
+   "kaempfe": [
+    {
+     "gewichtsklasse": "Middleweight",
+     "a": "Israel Adesanya",
+     "a_artikel": "Israel Adesanya",
+     "b": "Sharabutdin Magomedov",
+     "b_artikel": "Sharabutdin Magomedov",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Welterweight",
+     "a": "Ian Machado Garry",
+     "a_artikel": "Ian Machado Garry",
+     "b": "Yaroslav Amosov",
+     "b_artikel": "Yaroslav Amosov",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Heavyweight",
+     "a": "Serghei Spivac",
+     "a_artikel": "Serghei Spivac",
+     "b": "Mário Pinto",
+     "b_artikel": "Mario Pinto",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Welterweight",
+     "a": "Levan Chokheli",
+     "a_artikel": null,
+     "b": "Islam Dulatov",
+     "b_artikel": "Islam Dulatov",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Lightweight",
+     "a": "Mairon Santos",
+     "a_artikel": null,
+     "b": "Akbar Abdullaev",
+     "b_artikel": "Akbar Abdullaev",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Light Heavyweight",
+     "a": "Magomed Tuchalov",
+     "a_artikel": null,
+     "b": "Ion Cuțelaba",
+     "b_artikel": "Ion Cutelaba",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Flyweight",
+     "a": "Bruno Gustavo da Silva",
+     "a_artikel": "Bruno Gustavo da Silva",
+     "b": "Jafel Filho",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Light Heavyweight",
+     "a": "Uran Satybaldiev",
+     "a_artikel": null,
+     "b": "Ivan Gnizditskiy",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Middleweight",
+     "a": "Marco Tulio",
+     "a_artikel": null,
+     "b": "Park Jun-yong",
+     "b_artikel": "Jun Yong Park",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Bantamweight",
+     "a": "Pavel Andrusca",
+     "a_artikel": null,
+     "b": "Mehemmedeli Osmanli",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Middleweight",
+     "a": "Modestino Rodrigues",
+     "a_artikel": null,
+     "b": "Matthieu Letho Duclos",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Bantamweight",
+     "a": "Abdul Hussein",
+     "a_artikel": "Abdul Hussein (fighter)",
+     "b": "Hecher Sosa",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    }
+   ],
    "hauptkarte_utc": null,
    "hauptkarte_quelle": null,
    "ics": null
