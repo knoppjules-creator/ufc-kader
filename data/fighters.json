@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-10T04:53:42+00:00",
+ "stand": "2026-11-11T05:00:02+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -6148,6 +6148,7 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "siegesserie": "Wikipedia: Caio Borralho (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
     "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Caio Borralho",
@@ -6160,7 +6161,7 @@
    "geburtsdatum": "1993-01-16",
    "groesse_cm": 188,
    "nationalitaet": null,
-   "siegesserie": null,
+   "siegesserie": 1,
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC 334",
@@ -9327,6 +9328,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Ignacio Bahamondes (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Ignacio Bahamondes",
     "reichweite_cm": "Wikipedia: Ignacio Bahamondes",
     "kampfstil": "Wikipedia: Ignacio Bahamondes",
@@ -9359,14 +9361,14 @@
    "groesse_cm": 190,
    "nationalitaet": null,
    "siegesserie": 1,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 288",
-    "event_wiki": "UFC Fight Night: Silva vs. Delgado",
-    "ort": "Glendale",
-    "gegner": "Muslim Salikhov",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 296",
+    "event_wiki": "UFC Fight Night 296",
+    "ort": "Dallas",
+    "gegner": "Chidi Njokuani",
+    "datum": "2027-01-16"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q111023906",
    "gewicht_kg": 77.1,
@@ -9639,6 +9641,7 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Chidi Njokuani",
     "reichweite_cm": "Wikipedia: Chidi Njokuani",
     "kampfstil": "Wikipedia: Chidi Njokuani",
@@ -9661,14 +9664,14 @@
    "groesse_cm": 190,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC 330",
-    "event_wiki": "UFC 330",
-    "ort": "Philadelphia",
-    "gegner": "Joel Álvarez",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 296",
+    "event_wiki": "UFC Fight Night 296",
+    "ort": "Dallas",
+    "gegner": "Ignacio Bahamondes",
+    "datum": "2027-01-16"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q112108330",
    "gewicht_kg": 83.9,
@@ -17452,7 +17455,7 @@
    "konflikte": {
     "reichweite_cm": [
      {
-      "wert": 184,
+      "wert": 183,
       "quelle": "Wikipedia: Diego Lopes (fighter)"
      },
      {
@@ -17481,7 +17484,7 @@
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q124217612",
    "gewicht_kg": 65.8,
-   "reichweite_cm": 184,
+   "reichweite_cm": 183,
    "kampfstil": "Brazilian jiu-jitsu, Boxing",
    "geburtsort": "Manaus, Amazonas, Brazil"
   },
@@ -21346,7 +21349,9 @@
     "land_iso": "Wikipedia: List of current UFC fighters",
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters"
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "12-2",
@@ -21355,7 +21360,13 @@
    "nationalitaet": null,
    "siegesserie": null,
    "letzter_kampf": null,
-   "naechster_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "Louis Lee Scott",
+    "datum": "2027-01-30"
+   },
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -29325,8 +29336,8 @@
  ],
  "ranglisten": {
   "Heavyweight": {
-   "stand": "2026-10-31",
-   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
+   "stand": "2026-11-07",
+   "nach_event": "UFC Fight Night: Cortes-Acosta vs. Walker",
    "plaetze": [
     {
      "rang": "C",
@@ -29389,8 +29400,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "auf",
-      "plaetze": 2
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -29441,8 +29452,8 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
-      "plaetze": 2
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -29467,33 +29478,12 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "auf",
-      "plaetze": 1
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
      "rang": "6",
-     "land_iso": "USA",
-     "name": "Curtis Blaydes",
-     "artikel": "Curtis Blaydes",
-     "bilanz": "20-6 (1 NC)",
-     "serie": 1,
-     "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC Fight Night 288",
-      "event_wiki": "UFC Fight Night: Silva vs. Delgado",
-      "gegner": "Waldo Cortes-Acosta",
-      "gegner_artikel": "Waldo Cortes-Acosta"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "auf",
-      "plaetze": 1
-     }
-    },
-    {
-     "rang": "7",
      "land_iso": "RUS",
      "name": "Rizvan Kuniev",
      "artikel": "Rizvan Kuniev",
@@ -29509,29 +29499,50 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
-      "plaetze": 2
+      "art": "auf",
+      "plaetze": 1
      }
     },
     {
-     "rang": "8",
-     "land_iso": "DOM",
-     "name": "Waldo Cortes-Acosta",
-     "artikel": "Waldo Cortes-Acosta",
-     "bilanz": "17-5",
-     "serie": 0,
+     "rang": "7",
+     "land_iso": "USA",
+     "name": "Curtis Blaydes",
+     "artikel": "Curtis Blaydes",
+     "bilanz": "20-6 (1 NC)",
+     "serie": 1,
      "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC Fight Night 293",
-      "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
-      "gegner": "Johnny Walker",
-      "gegner_artikel": "Johnny Walker (fighter)"
+      "ergebnis": "Win",
+      "event": "UFC Fight Night 288",
+      "event_wiki": "UFC Fight Night: Silva vs. Delgado",
+      "gegner": "Waldo Cortes-Acosta",
+      "gegner_artikel": "Waldo Cortes-Acosta"
      },
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 1
+     }
+    },
+    {
+     "rang": "8",
+     "land_iso": "BRA",
+     "name": "Johnny Walker",
+     "artikel": "Johnny Walker (fighter)",
+     "bilanz": "24-10 (1 NC)",
+     "serie": 2,
+     "letzter_kampf": {
+      "ergebnis": "Win",
+      "event": "UFC Fight Night 293",
+      "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
+      "gegner": "Waldo Cortes-Acosta",
+      "gegner_artikel": "Waldo Cortes-Acosta"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "auf",
+      "plaetze": 4
      }
     },
     {
@@ -29604,23 +29615,23 @@
     },
     {
      "rang": "12",
-     "land_iso": "BRA",
-     "name": "Johnny Walker",
-     "artikel": "Johnny Walker (fighter)",
-     "bilanz": "24-10 (1 NC)",
-     "serie": 2,
+     "land_iso": "DOM",
+     "name": "Waldo Cortes-Acosta",
+     "artikel": "Waldo Cortes-Acosta",
+     "bilanz": "17-5",
+     "serie": 0,
      "letzter_kampf": {
-      "ergebnis": "Win",
+      "ergebnis": "Loss",
       "event": "UFC Fight Night 293",
       "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
-      "gegner": "Waldo Cortes-Acosta",
-      "gegner_artikel": "Waldo Cortes-Acosta"
+      "gegner": "Johnny Walker",
+      "gegner_artikel": "Johnny Walker (fighter)"
      },
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "ab",
+      "plaetze": 4
      }
     },
     {
@@ -29693,14 +29704,14 @@
     }
    ],
    "vergleich": {
-    "stand": "2026-10-17",
-    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "stand": "2026-10-31",
+    "nach_event": "UFC Fight Night: Moicano vs. Nolan",
     "quelle": "Wikipedia: UFC rankings"
    }
   },
   "Light Heavyweight": {
-   "stand": "2026-10-31",
-   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
+   "stand": "2026-11-07",
+   "nach_event": "UFC Fight Night: Cortes-Acosta vs. Walker",
    "plaetze": [
     {
      "rang": "C",
@@ -30068,8 +30079,8 @@
    }
   },
   "Middleweight": {
-   "stand": "2026-10-31",
-   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
+   "stand": "2026-11-07",
+   "nach_event": "UFC Fight Night: Cortes-Acosta vs. Walker",
    "plaetze": [
     {
      "rang": "C",
@@ -30427,8 +30438,8 @@
    }
   },
   "Welterweight": {
-   "stand": "2026-10-31",
-   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
+   "stand": "2026-11-07",
+   "nach_event": "UFC Fight Night: Cortes-Acosta vs. Walker",
    "plaetze": [
     {
      "rang": "C",
@@ -30800,8 +30811,8 @@
    }
   },
   "Lightweight": {
-   "stand": "2026-10-31",
-   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
+   "stand": "2026-11-07",
+   "nach_event": "UFC Fight Night: Cortes-Acosta vs. Walker",
    "plaetze": [
     {
      "rang": "C",
@@ -31159,8 +31170,8 @@
    }
   },
   "Featherweight": {
-   "stand": "2026-10-31",
-   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
+   "stand": "2026-11-07",
+   "nach_event": "UFC Fight Night: Cortes-Acosta vs. Walker",
    "plaetze": [
     {
      "rang": "C",
@@ -31344,32 +31355,6 @@
     },
     {
      "rang": "8",
-     "land_iso": "MLD",
-     "name": "Pavel Andrusca",
-     "artikel": null,
-     "bilanz": "9-0",
-     "serie": 9,
-     "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC Fight Night 287",
-      "event_wiki": "UFC Fight Night: Hooker vs. Parnasse",
-      "gegner": "Nathaniel Wood",
-      "gegner_artikel": "Nathaniel Wood (fighter)"
-     },
-     "naechster_kampf": {
-      "event": "UFC Fight Night 295",
-      "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
-      "gegner": "Mehemmedeli Osmanli",
-      "gegner_artikel": null
-     },
-     "hinweis": null,
-     "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
-     }
-    },
-    {
-     "rang": "9",
      "land_iso": "MAR",
      "name": "Youssef Zalal",
      "artikel": "Youssef Zalal",
@@ -31385,12 +31370,12 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "auf",
+      "plaetze": 1
      }
     },
     {
-     "rang": "10",
+     "rang": "9",
      "land_iso": "USA",
      "name": "Aaron Pico",
      "artikel": "Aaron Pico",
@@ -31407,11 +31392,11 @@
      "hinweis": null,
      "bewegung": {
       "art": "auf",
-      "plaetze": 4
+      "plaetze": 1
      }
     },
     {
-     "rang": "11",
+     "rang": "10",
      "land_iso": "ARG",
      "name": "Kevin Vallejos",
      "artikel": "Kevin Vallejos",
@@ -31432,12 +31417,12 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
+      "art": "auf",
       "plaetze": 1
      }
     },
     {
-     "rang": "12",
+     "rang": "11",
      "land_iso": "BRA",
      "name": "Joanderson Brito",
      "artikel": "Joanderson Brito",
@@ -31458,12 +31443,12 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
+      "art": "auf",
       "plaetze": 1
      }
     },
     {
-     "rang": "13",
+     "rang": "12",
      "land_iso": "BRA",
      "name": "Melquizael Costa",
      "artikel": "Melquizael Costa",
@@ -31484,12 +31469,12 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
+      "art": "auf",
       "plaetze": 1
      }
     },
     {
-     "rang": "14",
+     "rang": "13",
      "land_iso": "USA",
      "name": "Steve Garcia",
      "artikel": "Steve Garcia",
@@ -31510,12 +31495,12 @@
      },
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
+      "art": "auf",
       "plaetze": 1
      }
     },
     {
-     "rang": "15",
+     "rang": "14",
      "land_iso": "USA",
      "name": "Jamall Emmers",
      "artikel": "Jamall Emmers",
@@ -31531,20 +31516,40 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "auf",
+      "plaetze": 1
+     }
+    },
+    {
+     "rang": "15",
+     "land_iso": "BRA",
+     "name": "Patrício Pitbull",
+     "artikel": "Patrício Pitbull",
+     "bilanz": "38-9",
+     "serie": 1,
+     "letzter_kampf": {
+      "ergebnis": "Win",
+      "event": "UFC 331",
+      "event_wiki": "UFC 331",
+      "gegner": "Choi Doo-ho",
+      "gegner_artikel": "Choi Doo-ho"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "neu"
      }
     }
    ],
    "vergleich": {
-    "stand": "2026-10-17",
-    "nach_event": "UFC Fight Night: Buckley vs. Malott",
+    "stand": "2026-10-31",
+    "nach_event": "UFC Fight Night: Moicano vs. Nolan",
     "quelle": "Wikipedia: UFC rankings"
    }
   },
   "Bantamweight": {
-   "stand": "2026-10-31",
-   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
+   "stand": "2026-11-07",
+   "nach_event": "UFC Fight Night: Cortes-Acosta vs. Walker",
    "plaetze": [
     {
      "rang": "C",
@@ -31886,8 +31891,8 @@
    }
   },
   "Flyweight": {
-   "stand": "2026-10-31",
-   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
+   "stand": "2026-11-07",
+   "nach_event": "UFC Fight Night: Cortes-Acosta vs. Walker",
    "plaetze": [
     {
      "rang": "C",
@@ -32265,8 +32270,8 @@
    }
   },
   "Women's Bantamweight": {
-   "stand": "2026-10-31",
-   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
+   "stand": "2026-11-07",
+   "nach_event": "UFC Fight Night: Cortes-Acosta vs. Walker",
    "plaetze": [
     {
      "rang": "C",
@@ -32634,8 +32639,8 @@
    }
   },
   "Women's Flyweight": {
-   "stand": "2026-10-31",
-   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
+   "stand": "2026-11-07",
+   "nach_event": "UFC Fight Night: Cortes-Acosta vs. Walker",
    "plaetze": [
     {
      "rang": "C",
@@ -32714,8 +32719,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "auf",
-      "plaetze": 3
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -32756,8 +32761,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
-      "plaetze": 2
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -32777,8 +32782,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
-      "plaetze": 1
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -32888,47 +32893,6 @@
     },
     {
      "rang": "12",
-     "land_iso": "USA",
-     "name": "Miranda Maverick",
-     "artikel": "Miranda Maverick",
-     "bilanz": "15-6",
-     "serie": 0,
-     "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC on ESPN 69",
-      "event_wiki": "UFC on ESPN: Usman vs. Buckley",
-      "gegner": "Rose Namajunas",
-      "gegner_artikel": "Rose Namajunas"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
-     }
-    },
-    {
-     "rang": "13",
-     "land_iso": "MEX",
-     "name": "Regina Tarín",
-     "artikel": null,
-     "bilanz": "9-0",
-     "serie": 9,
-     "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC Fight Night 288",
-      "event_wiki": "UFC Fight Night: Silva vs. Delgado",
-      "gegner": "JJ Aldrich",
-      "gegner_artikel": "JJ Aldrich"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "neu"
-     }
-    },
-    {
-     "rang": "14",
      "land_iso": "BRA",
      "name": "Karine Silva",
      "artikel": "Karine Silva",
@@ -32944,8 +32908,50 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "auf",
+      "plaetze": 2
+     }
+    },
+    {
+     "rang": "13",
+     "land_iso": "USA",
+     "name": "Miranda Maverick",
+     "artikel": "Miranda Maverick",
+     "bilanz": "15-6",
+     "serie": 0,
+     "letzter_kampf": {
+      "ergebnis": "Loss",
+      "event": "UFC on ESPN 69",
+      "event_wiki": "UFC on ESPN: Usman vs. Buckley",
+      "gegner": "Rose Namajunas",
+      "gegner_artikel": "Rose Namajunas"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "ab",
+      "plaetze": 1
+     }
+    },
+    {
+     "rang": "14",
+     "land_iso": "MEX",
+     "name": "Regina Tarín",
+     "artikel": null,
+     "bilanz": "9-0",
+     "serie": 9,
+     "letzter_kampf": {
+      "ergebnis": "Win",
+      "event": "UFC Fight Night 288",
+      "event_wiki": "UFC Fight Night: Silva vs. Delgado",
+      "gegner": "JJ Aldrich",
+      "gegner_artikel": "JJ Aldrich"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
@@ -32976,14 +32982,14 @@
     }
    ],
    "vergleich": {
-    "stand": "2026-10-10",
-    "nach_event": "UFC Fight Night: Allen vs. Duncan",
-    "quelle": "Wikipedia: UFC rankings (Version vom 2026-10-18)"
+    "stand": "2026-10-31",
+    "nach_event": "UFC Fight Night: Moicano vs. Nolan",
+    "quelle": "Wikipedia: UFC rankings"
    }
   },
   "Women's Strawweight": {
-   "stand": "2026-10-31",
-   "nach_event": "UFC Fight Night: Moicano vs. Nolan",
+   "stand": "2026-11-07",
+   "nach_event": "UFC Fight Night: Cortes-Acosta vs. Walker",
    "plaetze": [
     {
      "rang": "C",
@@ -33005,48 +33011,6 @@
     },
     {
      "rang": "1",
-     "land_iso": "CHN",
-     "name": "Zhang Weili",
-     "artikel": "Zhang Weili",
-     "bilanz": "26-4",
-     "serie": 0,
-     "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC 322",
-      "event_wiki": "UFC 322",
-      "gegner": "Valentina Shevchenko",
-      "gegner_artikel": "Valentina Shevchenko"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
-     }
-    },
-    {
-     "rang": "2",
-     "land_iso": "BRA",
-     "name": "Virna Jandiroba",
-     "artikel": "Virna Jandiroba",
-     "bilanz": "23-5",
-     "serie": 0,
-     "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC Fight Night 293",
-      "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
-      "gegner": "Tatiana Suarez",
-      "gegner_artikel": "Tatiana Suarez"
-     },
-     "naechster_kampf": null,
-     "hinweis": null,
-     "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
-     }
-    },
-    {
-     "rang": "3",
      "land_iso": "USA",
      "name": "Tatiana Suarez",
      "artikel": "Tatiana Suarez",
@@ -33062,8 +33026,50 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "gleich",
-      "plaetze": 0
+      "art": "auf",
+      "plaetze": 2
+     }
+    },
+    {
+     "rang": "2",
+     "land_iso": "CHN",
+     "name": "Zhang Weili",
+     "artikel": "Zhang Weili",
+     "bilanz": "26-4",
+     "serie": 0,
+     "letzter_kampf": {
+      "ergebnis": "Loss",
+      "event": "UFC 322",
+      "event_wiki": "UFC 322",
+      "gegner": "Valentina Shevchenko",
+      "gegner_artikel": "Valentina Shevchenko"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "ab",
+      "plaetze": 1
+     }
+    },
+    {
+     "rang": "3",
+     "land_iso": "BRA",
+     "name": "Virna Jandiroba",
+     "artikel": "Virna Jandiroba",
+     "bilanz": "23-5",
+     "serie": 0,
+     "letzter_kampf": {
+      "ergebnis": "Loss",
+      "event": "UFC Fight Night 293",
+      "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
+      "gegner": "Tatiana Suarez",
+      "gegner_artikel": "Tatiana Suarez"
+     },
+     "naechster_kampf": null,
+     "hinweis": null,
+     "bewegung": {
+      "art": "ab",
+      "plaetze": 1
      }
     },
     {
@@ -33146,8 +33152,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "auf",
-      "plaetze": 3
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -33167,8 +33173,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
-      "plaetze": 1
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -33188,8 +33194,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
-      "plaetze": 1
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -33209,8 +33215,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "ab",
-      "plaetze": 1
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -33293,8 +33299,8 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "auf",
-      "plaetze": 1
+      "art": "gleich",
+      "plaetze": 0
      }
     },
     {
@@ -33314,13 +33320,14 @@
      "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
-      "art": "neu"
+      "art": "gleich",
+      "plaetze": 0
      }
     }
    ],
    "vergleich": {
-    "stand": "2026-10-24",
-    "nach_event": "UFC 333",
+    "stand": "2026-10-31",
+    "nach_event": "UFC Fight Night: Moicano vs. Nolan",
     "quelle": "Wikipedia: UFC rankings"
    }
   }
@@ -35416,7 +35423,7 @@
     {
      "gewichtsklasse": "Flyweight",
      "a": "Bilal Hasan",
-     "a_artikel": null,
+     "a_artikel": "Bilal Hasan",
      "b": "Luis Gurule",
      "b_artikel": null,
      "titelkampf": false,
@@ -35479,6 +35486,16 @@
      "a_artikel": "Macy Chiasson",
      "b": "Beatriz Mesquita",
      "b_artikel": "Beatriz Mesquita",
+     "titelkampf": false,
+     "karte": "Early preliminary card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Bantamweight",
+     "a": "Alateng Heili",
+     "a_artikel": "Alateng Heili",
+     "b": "Juan Díaz",
+     "b_artikel": null,
      "titelkampf": false,
      "karte": "Early preliminary card (Paramount+)",
      "hinweis": null
@@ -35605,7 +35622,7 @@
    "name": "UFC Fight Night: Adesanya vs. Magomedov",
    "artikel": "UFC Fight Night: Adesanya vs. Magomedov",
    "datum": "2026-12-05",
-   "halle": "ANB Arena",
+   "halle": "anb Arena",
    "ort": "Riyadh, Saudi Arabia",
    "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Adesanya_vs._Magomedov",
    "kaempfe": [
