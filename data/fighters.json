@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-11T05:00:02+00:00",
+ "stand": "2026-11-12T05:00:10+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -440,7 +440,7 @@
       "quelle": "Wikipedia: Johnny Walker (fighter)"
      },
      {
-      "wert": 93.0,
+      "wert": 108.0,
       "quelle": "Wikipedia (portugiesisch): Johnny Walker"
      }
     ],
@@ -9172,11 +9172,11 @@
    "siegesserie": 0,
    "letzter_kampf": null,
    "naechster_kampf": {
-    "event": "UFC 336",
-    "event_wiki": "UFC 336",
-    "ort": "Toronto",
+    "event": "UFC Fight Night 296",
+    "event_wiki": "UFC Fight Night 296",
+    "ort": "Dallas",
     "gegner": "Roberto Soldić",
-    "datum": "2027-01-30"
+    "datum": "2027-01-16"
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q99500036",
@@ -11028,11 +11028,11 @@
    "siegesserie": null,
    "letzter_kampf": null,
    "naechster_kampf": {
-    "event": "UFC 336",
-    "event_wiki": "UFC 336",
-    "ort": "Toronto",
+    "event": "UFC Fight Night 296",
+    "event_wiki": "UFC Fight Night 296",
+    "ort": "Dallas",
     "gegner": "Daniel Rodriguez",
-    "datum": "2027-01-30"
+    "datum": "2027-01-16"
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q46706516",
@@ -35369,6 +35369,16 @@
    "grund": "Karriereende",
    "grund_original": "Retired",
    "kategorie": "Karriereende"
+  },
+  {
+   "datum": "2026-11-10",
+   "land_iso": "BRA",
+   "name": "Norma Dumont",
+   "artikel": "Norma Dumont",
+   "gewichtsklasse": "Women's Bantamweight",
+   "grund": "Entlassen",
+   "grund_original": "Released",
+   "kategorie": "Entlassen"
   }
  ],
  "events": [
