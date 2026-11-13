@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-12T05:00:10+00:00",
+ "stand": "2026-11-13T05:00:56+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -12,7 +12,7 @@
   "Wikipedia auf Russisch, Japanisch, Spanisch, Portugiesisch, Deutsch"
  ],
  "lizenz": "Wikipedia-Inhalte: CC BY-SA 4.0; Wikidata: CC0",
- "anzahl": 656,
+ "anzahl": 658,
  "kaempfer": [
   {
    "name": "Derrick Lewis",
@@ -4306,7 +4306,7 @@
     "kaempfe": "Wikipedia: List of current UFC fighters",
     "gewicht_kg": "Wikipedia: Iwo Baraniewski",
     "reichweite_cm": "Wikipedia: Iwo Baraniewski",
-    "kampfstil": "Wikipedia: Iwo Baraniewski",
+    "kampfstil": "Wikipedia (russisch): Бараневский, Иво",
     "geburtsort": "Wikipedia: Iwo Baraniewski"
    },
    "konflikte": {},
@@ -4327,7 +4327,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q131730273",
    "gewicht_kg": 93.0,
    "reichweite_cm": 185,
-   "kampfstil": "Judo and Brazilian jiu-jitsu",
+   "kampfstil": "Judo",
    "geburtsort": "Warsaw, Poland"
   },
   {
@@ -8798,6 +8798,8 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Geoff Neal (Tabelle „Mixed martial arts record“)",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Geoff Neal",
     "reichweite_cm": "Wikipedia: Geoff Neal",
     "kampfstil": "Wikipedia (russisch): Нил, Джефф (боец)",
@@ -8810,8 +8812,14 @@
    "nationalitaet": null,
    "siegesserie": 0,
    "letzter_kampf": null,
-   "naechster_kampf": null,
-   "status": "(July 29, 2026) – Undisclosed reasons – Out of UFC 330 (Philadelphia) – Chidi Njokuani",
+   "naechster_kampf": {
+    "event": "UFC Fight Night 296",
+    "event_wiki": "UFC Fight Night 296",
+    "ort": "Dallas",
+    "gegner": "Chris Curtis",
+    "datum": "2027-01-16"
+   },
+   "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q61046269",
    "gewicht_kg": 77.1,
    "reichweite_cm": 190,
@@ -9429,6 +9437,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Chris Curtis (fighter) (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Chris Curtis (fighter)",
     "reichweite_cm": "Wikipedia: Chris Curtis (fighter)",
     "kampfstil": "Wikipedia (russisch): Кёртис, Крис (боец)",
@@ -9465,14 +9474,14 @@
    "groesse_cm": 178,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 269",
-    "event_wiki": "UFC Fight Night: Emmett vs. Vallejos",
-    "ort": "Las Vegas",
-    "gegner": "Myktybek Orolbai",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 296",
+    "event_wiki": "UFC Fight Night 296",
+    "ort": "Dallas",
+    "gegner": "Geoff Neal",
+    "datum": "2027-01-16"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q47539914",
    "gewicht_kg": 77.1,
@@ -15083,6 +15092,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Magomed Zaynukov",
     "reichweite_cm": "Wikipedia: Magomed Zaynukov",
     "kampfstil": "Wikipedia: Magomed Zaynukov",
@@ -15106,8 +15117,14 @@
    "nationalitaet": null,
    "siegesserie": null,
    "letzter_kampf": null,
-   "naechster_kampf": null,
-   "status": "(September 28, 2026) – Operation and did not sign contract – Not competing at UFC Fight Night 294 (Al Rayyan) – Manoel Sousa",
+   "naechster_kampf": {
+    "event": "UFC Fight Night 296",
+    "event_wiki": "UFC Fight Night 296",
+    "ort": "Dallas",
+    "gegner": "Piero Guaylupo",
+    "datum": "2027-01-16"
+   },
+   "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q97165831",
    "gewicht_kg": 70.3,
    "reichweite_cm": 173,
@@ -15378,6 +15395,42 @@
     "ergebnis": "Win"
    },
    "naechster_kampf": null,
+   "status": null,
+   "gewicht_kg": null,
+   "reichweite_cm": null,
+   "kampfstil": null,
+   "geburtsort": null,
+   "wikidata": null
+  },
+  {
+   "name": "Samuel Sanches",
+   "artikel": null,
+   "wikipedia": null,
+   "gewichtsklasse": "Lightweight",
+   "land_iso": "BRA",
+   "quellen": {
+    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
+    "land_iso": "Wikipedia: List of current UFC fighters",
+    "bilanz": "Wikipedia: List of current UFC fighters",
+    "geburtsdatum": "Wikipedia: List of current UFC fighters",
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
+   },
+   "konflikte": {},
+   "bilanz": "11-1",
+   "geburtsdatum": "2003-01-28",
+   "groesse_cm": 178,
+   "nationalitaet": null,
+   "siegesserie": null,
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 334",
+    "event_wiki": "UFC 334",
+    "ort": "New York City",
+    "gegner": "Evan Elder",
+    "datum": "2026-11-14"
+   },
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -21939,42 +21992,6 @@
    "geburtsort": "Ecatepec de Morelos, State of Mexico, Mexico"
   },
   {
-   "name": "Luis Gurule",
-   "artikel": null,
-   "wikipedia": null,
-   "gewichtsklasse": "Bantamweight",
-   "land_iso": "USA",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
-   },
-   "konflikte": {},
-   "bilanz": "11-4",
-   "geburtsdatum": "1993-06-16",
-   "groesse_cm": 165,
-   "nationalitaet": null,
-   "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
-    "event": "UFC 334",
-    "event_wiki": "UFC 334",
-    "ort": "New York City",
-    "gegner": "Bilal Hasan / Moving to Flyweight",
-    "datum": "2026-11-14"
-   },
-   "status": null,
-   "gewicht_kg": null,
-   "reichweite_cm": null,
-   "kampfstil": null,
-   "geburtsort": null,
-   "wikidata": null
-  },
-  {
    "name": "Malcolm Wellmaker",
    "artikel": null,
    "wikipedia": null,
@@ -24388,6 +24405,42 @@
    "wikidata": null
   },
   {
+   "name": "Luis Gurule",
+   "artikel": null,
+   "wikipedia": null,
+   "gewichtsklasse": "Flyweight",
+   "land_iso": "USA",
+   "quellen": {
+    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
+    "land_iso": "Wikipedia: List of current UFC fighters",
+    "bilanz": "Wikipedia: List of current UFC fighters",
+    "geburtsdatum": "Wikipedia: List of current UFC fighters",
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
+   },
+   "konflikte": {},
+   "bilanz": "11-4",
+   "geburtsdatum": "1993-06-16",
+   "groesse_cm": 165,
+   "nationalitaet": null,
+   "siegesserie": null,
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 334",
+    "event_wiki": "UFC 334",
+    "ort": "New York City",
+    "gegner": "Bilal Hasan",
+    "datum": "2026-11-14"
+   },
+   "status": null,
+   "gewicht_kg": null,
+   "reichweite_cm": null,
+   "kampfstil": null,
+   "geburtsort": null,
+   "wikidata": null
+  },
+  {
    "name": "Alibi Idiris",
    "artikel": null,
    "wikipedia": null,
@@ -24595,11 +24648,11 @@
     "datum": "2026-11-14"
    },
    "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q141693129",
    "gewicht_kg": null,
    "reichweite_cm": null,
    "kampfstil": null,
-   "geburtsort": null
+   "geburtsort": null,
+   "wikidata": null
   },
   {
    "name": "Nilson Rojas",
@@ -24835,6 +24888,66 @@
    "reichweite_cm": 169,
    "kampfstil": "Submission wrestling",
    "geburtsort": "Tacoma, Washington, U.S."
+  },
+  {
+   "name": "Amanda Nunes",
+   "artikel": "Amanda Nunes",
+   "wikipedia": "https://en.wikipedia.org/wiki/Amanda_Nunes",
+   "gewichtsklasse": "Women's Bantamweight",
+   "land_iso": "BRA",
+   "quellen": {
+    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
+    "land_iso": "Wikipedia: List of current UFC fighters",
+    "bilanz": "Wikipedia: List of current UFC fighters",
+    "geburtsdatum": "Wikipedia: List of current UFC fighters",
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "siegesserie": "Wikipedia: Amanda Nunes (Tabelle „Mixed martial arts record“)",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
+    "gewicht_kg": "Wikipedia: Amanda Nunes",
+    "reichweite_cm": "Wikipedia: Amanda Nunes",
+    "kampfstil": "Wikipedia (russisch): Нунис, Аманда",
+    "geburtsort": "Wikipedia: Amanda Nunes"
+   },
+   "konflikte": {
+    "geburtsort": [
+     {
+      "wert": "Pojuca, Bahia, Brazil",
+      "quelle": "Wikipedia: Amanda Nunes"
+     },
+     {
+      "wert": "Pojuca",
+      "quelle": "Wikipedia (russisch): Нунис, Аманда"
+     },
+     {
+      "wert": "Bay",
+      "quelle": "Wikipedia (spanisch): Amanda Nunes"
+     },
+     {
+      "wert": "Pojuca",
+      "quelle": "Wikipedia (portugiesisch): Amanda Nunes"
+     }
+    ]
+   },
+   "bilanz": "23-5",
+   "geburtsdatum": "1988-05-30",
+   "groesse_cm": 173,
+   "nationalitaet": null,
+   "siegesserie": 2,
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 334",
+    "event_wiki": "UFC 334",
+    "ort": "New York City",
+    "gegner": "Kayla Harrison",
+    "datum": "2026-11-14"
+   },
+   "status": null,
+   "wikidata": "https://www.wikidata.org/wiki/Q4739716",
+   "gewicht_kg": 61.2,
+   "reichweite_cm": 175,
+   "kampfstil": "Wrestling, Brazilian jiu-jitsu",
+   "geburtsort": "Pojuca, Bahia, Brazil"
   },
   {
    "name": "Julianna Peña",
