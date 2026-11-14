@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-13T05:00:56+00:00",
+ "stand": "2026-11-14T04:54:11+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -693,6 +693,16 @@
       "quelle": "Wikipedia: Ciryl Gane"
      }
     ],
+    "gewicht_kg": [
+     {
+      "wert": 110.2,
+      "quelle": "Wikipedia: Ciryl Gane"
+     },
+     {
+      "wert": 112.0,
+      "quelle": "Wikipedia (portugiesisch): Ciryl Gane"
+     }
+    ],
     "reichweite_cm": [
      {
       "wert": 206,
@@ -727,7 +737,7 @@
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q79372882",
-   "gewicht_kg": 112.5,
+   "gewicht_kg": 110.2,
    "reichweite_cm": 206,
    "kampfstil": "Muay Thai, Kickboxing",
    "geburtsort": "La Roche-sur-Yon, Vendée, France"
@@ -2033,6 +2043,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Gable Steveson (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Gable Steveson",
     "geburtsort": "Wikipedia: Gable Steveson"
    },
@@ -2042,14 +2053,14 @@
    "groesse_cm": 185,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC 331",
-    "event_wiki": "UFC 331",
-    "ort": "Los Angeles",
-    "gegner": "Sean Sharaf",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "Terrance Chatman",
+    "datum": "2027-01-30"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q97610308",
    "gewicht_kg": 109.3,
@@ -2253,7 +2264,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "5-2",
@@ -2261,14 +2273,14 @@
    "groesse_cm": 183,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 285",
-    "event_wiki": "UFC Fight Night: Hernandez vs. Rodrigues",
-    "ort": "Sacramento",
-    "gegner": "Anthony Wint",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "Gable Steveson",
+    "datum": "2027-01-30"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -7336,7 +7348,7 @@
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q27063332",
-   "gewicht_kg": 83.9,
+   "gewicht_kg": 84.4,
    "reichweite_cm": 201,
    "kampfstil": "Kickboxing",
    "geburtsort": "Amsterdam, Netherlands"
@@ -9317,7 +9329,7 @@
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q112110665",
-   "gewicht_kg": 77.1,
+   "gewicht_kg": 77.6,
    "reichweite_cm": 180,
    "kampfstil": "Judo, Kickboxing, Brazilian jiu-jitsu",
    "geburtsort": "Novi Sad, Serbia, FR Yugoslavia"
@@ -11289,7 +11301,7 @@
    "gewicht_kg": 70.8,
    "reichweite_cm": 188,
    "kampfstil": "Brazilian jiu-jitsu",
-   "geburtsort": "Guarujá, Brazil"
+   "geburtsort": "Guarujá, São Paulo, Brazil"
   },
   {
    "name": "Michael Johnson",
@@ -12559,7 +12571,7 @@
    "gewicht_kg": 70.3,
    "reichweite_cm": 184,
    "kampfstil": "Freestyle wrestling, Submission grappling",
-   "geburtsort": "Akhalkalaki, Georgia"
+   "geburtsort": "Akhalkalaki, Samtskhe–Javakheti, Georgia"
   },
   {
    "name": "Mike Davis",
@@ -13122,7 +13134,7 @@
    "gewicht_kg": 70.3,
    "reichweite_cm": 175,
    "kampfstil": "Boxing, Greco-Roman wrestling, Brazilian jiu-jitsu",
-   "geburtsort": "Halle, Germany"
+   "geburtsort": "Halle, North Rhine-Westphalia, Germany"
   },
   {
    "name": "Mateusz Gamrot",
@@ -14575,9 +14587,23 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "reichweite_cm": "Wikipedia (russisch): Стил, Коди",
+    "kampfstil": "Wikipedia (russisch): Стил, Коди",
+    "geburtsort": "Wikidata: Q141823241"
    },
-   "konflikte": {},
+   "konflikte": {
+    "geburtsort": [
+     {
+      "wert": "Port Angeles",
+      "quelle": "Wikidata: Q141823241"
+     },
+     {
+      "wert": "Austin, Texas",
+      "quelle": "Wikipedia (russisch): Стил, Коди"
+     }
+    ]
+   },
    "bilanz": "9-1",
    "geburtsdatum": "1995-04-21",
    "groesse_cm": 175,
@@ -14592,11 +14618,11 @@
    },
    "naechster_kampf": null,
    "status": null,
+   "wikidata": "https://www.wikidata.org/wiki/Q141823241",
    "gewicht_kg": null,
-   "reichweite_cm": null,
-   "kampfstil": null,
-   "geburtsort": null,
-   "wikidata": null
+   "reichweite_cm": 180,
+   "kampfstil": "Boxing, Wrestling",
+   "geburtsort": "Port Angeles"
   },
   {
    "name": "Gauge Young",
@@ -19921,6 +19947,16 @@
     "geburtsort": "Wikipedia: Merab Dvalishvili"
    },
    "konflikte": {
+    "groesse_cm": [
+     {
+      "wert": 168,
+      "quelle": "Wikipedia: List of current UFC fighters"
+     },
+     {
+      "wert": 165,
+      "quelle": "Wikipedia: Merab Dvalishvili"
+     }
+    ],
     "kampfstil": [
      {
       "wert": "Combat sambo",
@@ -35574,7 +35610,7 @@
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Lightweight",
+     "gewichtsklasse": "Catchweight (160.2 lb)",
      "a": "Jim Miller",
      "a_artikel": "Jim Miller (fighter)",
      "b": "Terrance McKinney",
@@ -35584,7 +35620,7 @@
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Middleweight",
+     "gewichtsklasse": "Catchweight (190 lb)",
      "a": "Donte Johnson",
      "a_artikel": null,
      "b": "César Almeida",
@@ -35614,7 +35650,7 @@
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Bantamweight",
+     "gewichtsklasse": "Catchweight (136.4 lb)",
      "a": "Alateng Heili",
      "a_artikel": "Alateng Heili",
      "b": "Juan Díaz",
