@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-14T04:54:11+00:00",
+ "stand": "2026-11-15T04:56:58+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -12,7 +12,7 @@
   "Wikipedia auf Russisch, Japanisch, Spanisch, Portugiesisch, Deutsch"
  ],
  "lizenz": "Wikipedia-Inhalte: CC BY-SA 4.0; Wikidata: CC0",
- "anzahl": 658,
+ "anzahl": 657,
  "kaempfer": [
   {
    "name": "Derrick Lewis",
@@ -666,7 +666,6 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Ciryl Gane",
     "reichweite_cm": "Wikipedia: Ciryl Gane",
     "kampfstil": "Wikipedia (russisch): Ган, Сирил",
@@ -733,7 +732,7 @@
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Josh Hokit",
-    "datum": "2026-11-14"
+    "datum": null
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q79372882",
@@ -1729,7 +1728,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Josh Hokit (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Josh Hokit",
     "reichweite_cm": "Wikipedia: Josh Hokit",
     "kampfstil": "Wikipedia (russisch): Хокит, Джош",
@@ -1784,11 +1782,11 @@
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Ciryl Gane",
-    "datum": "2026-11-14"
+    "datum": null
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q108055029",
-   "gewicht_kg": 104.8,
+   "gewicht_kg": 105.2,
    "reichweite_cm": 185,
    "kampfstil": "Wrestling, Boxing",
    "geburtsort": "Bakersfield, California, U.S."
@@ -5772,18 +5770,7 @@
     "reichweite_cm": "Wikipedia: Duško Todorović",
     "geburtsort": "Wikipedia: Duško Todorović"
    },
-   "konflikte": {
-    "bilanz": [
-     {
-      "wert": "13-7",
-      "quelle": "Wikipedia: List of current UFC fighters"
-     },
-     {
-      "wert": "94-1",
-      "quelle": "Wikipedia: Duško Todorović"
-     }
-    ]
-   },
+   "konflikte": {},
    "bilanz": "13-7",
    "geburtsdatum": "1994-05-19",
    "groesse_cm": 185,
@@ -6162,26 +6149,36 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Caio Borralho (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Caio Borralho",
     "reichweite_cm": "Wikipedia: Caio Borralho",
     "kampfstil": "Wikipedia (russisch): Борралью, Каю",
     "geburtsort": "Wikipedia: Caio Borralho"
    },
-   "konflikte": {},
-   "bilanz": "18-2 (1 NC)",
+   "konflikte": {
+    "bilanz": [
+     {
+      "wert": "19-2 (1 NC)",
+      "quelle": "Wikipedia: List of current UFC fighters"
+     },
+     {
+      "wert": "18-2 (1 NC)",
+      "quelle": "Wikipedia: Caio Borralho"
+     }
+    ]
+   },
+   "bilanz": "19-2 (1 NC)",
    "geburtsdatum": "1993-01-16",
    "groesse_cm": 188,
    "nationalitaet": null,
-   "siegesserie": 1,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 2,
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Yousri Belgaroui",
-    "datum": "2026-11-14"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q120264548",
    "gewicht_kg": 83.9,
@@ -6279,7 +6276,7 @@
    "siegesserie": 4,
    "letzter_kampf": null,
    "naechster_kampf": {
-    "event": "UFC Fight Night [Feb 2027]",
+    "event": "UFC Fight Night 299",
     "event_wiki": null,
     "ort": "Cleveland",
     "gegner": "Bo Nickal",
@@ -6391,7 +6388,7 @@
    "siegesserie": 2,
    "letzter_kampf": null,
    "naechster_kampf": {
-    "event": "UFC Fight Night [Feb 2027]",
+    "event": "UFC Fight Night 299",
     "event_wiki": null,
     "ort": "Cleveland",
     "gegner": "Joe Pyfer",
@@ -6677,7 +6674,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: César Almeida (fighter) (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: César Almeida (fighter)",
     "reichweite_cm": "Wikipedia (russisch): Алмейда, Сесар",
     "kampfstil": "Wikipedia: César Almeida (fighter)",
@@ -6695,19 +6691,19 @@
      }
     ]
    },
-   "bilanz": "7-3",
+   "bilanz": "8-3",
    "geburtsdatum": "1988-03-23",
    "groesse_cm": 185,
    "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 1,
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Donte Johnson",
-    "datum": "2026-11-14"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q79494528",
    "gewicht_kg": 83.9,
@@ -7315,13 +7311,22 @@
     "nationalitaet": "Wikipedia: Yousri Belgaroui",
     "siegesserie": "Wikipedia: Yousri Belgaroui (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Yousri Belgaroui",
     "reichweite_cm": "Wikipedia (russisch): Белгаруи, Юсри",
     "kampfstil": "Wikipedia: Yousri Belgaroui",
     "geburtsort": "Wikipedia: Yousri Belgaroui"
    },
    "konflikte": {
+    "bilanz": [
+     {
+      "wert": "11-4",
+      "quelle": "Wikipedia: List of current UFC fighters"
+     },
+     {
+      "wert": "11-3",
+      "quelle": "Wikipedia: Yousri Belgaroui"
+     }
+    ],
     "geburtsdatum": [
      {
       "wert": "1992-06-29",
@@ -7333,19 +7338,19 @@
      }
     ]
    },
-   "bilanz": "11-3",
+   "bilanz": "11-4",
    "geburtsdatum": "1992-06-29",
    "groesse_cm": 196,
    "nationalitaet": "Dutch, Tunisian",
-   "siegesserie": 6,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Caio Borralho",
-    "datum": "2026-11-14"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q27063332",
    "gewicht_kg": 84.4,
@@ -7365,27 +7370,25 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: List of current UFC fighters (nur Siege)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia (japanisch): ドンテ・ジョンソン",
     "kampfstil": "Wikipedia (japanisch): ドンテ・ジョンソン",
     "geburtsort": "Wikipedia (japanisch): ドンテ・ジョンソン"
    },
    "konflikte": {},
-   "bilanz": "3-0",
+   "bilanz": "9-1",
    "geburtsdatum": "1999-01-25",
    "groesse_cm": 173,
    "nationalitaet": null,
-   "siegesserie": 3,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": null,
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "César Almeida",
-    "datum": "2026-11-14"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q138000768",
    "gewicht_kg": 83.0,
@@ -7903,62 +7906,6 @@
    "kampfstil": null,
    "geburtsort": null,
    "wikidata": null
-  },
-  {
-   "name": "Stephen Thompson",
-   "artikel": "Stephen Thompson (fighter)",
-   "wikipedia": "https://en.wikipedia.org/wiki/Stephen_Thompson_%28fighter%29",
-   "gewichtsklasse": "Welterweight",
-   "land_iso": "USA",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: Stephen Thompson (fighter) (Tabelle „Mixed martial arts record“)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
-    "gewicht_kg": "Wikipedia: Stephen Thompson (fighter)",
-    "reichweite_cm": "Wikipedia: Stephen Thompson (fighter)",
-    "kampfstil": "Wikipedia: Stephen Thompson (fighter)",
-    "geburtsort": "Wikipedia: Stephen Thompson (fighter)"
-   },
-   "konflikte": {
-    "kampfstil": [
-     {
-      "wert": "Kickboxing",
-      "quelle": "Wikipedia: Stephen Thompson (fighter)"
-     },
-     {
-      "wert": "Kickboxing, Karate",
-      "quelle": "Wikipedia (russisch): Томпсон, Стивен"
-     },
-     {
-      "wert": "Full contact karate",
-      "quelle": "Wikipedia (spanisch): Stephen Thompson (peleador)"
-     }
-    ]
-   },
-   "bilanz": "17-9-1",
-   "geburtsdatum": "1983-02-11",
-   "groesse_cm": 183,
-   "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
-    "event": "UFC 334",
-    "event_wiki": "UFC 334",
-    "ort": "New York City",
-    "gegner": "Charles Radtke",
-    "datum": "2026-11-14"
-   },
-   "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q11253984",
-   "gewicht_kg": 77.1,
-   "reichweite_cm": 190,
-   "kampfstil": "Kickboxing",
-   "geburtsort": "Simpsonville, South Carolina, U.S."
   },
   {
    "name": "Max Holloway",
@@ -8826,7 +8773,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 296",
-    "event_wiki": "UFC Fight Night 296",
+    "event_wiki": "UFC Fight Night: Rodríguez vs. Garcia",
     "ort": "Dallas",
     "gegner": "Chris Curtis",
     "datum": "2027-01-16"
@@ -8852,7 +8799,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Kevin Holland (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Kevin Holland",
     "reichweite_cm": "Wikipedia: Kevin Holland",
     "kampfstil": "Wikipedia (russisch): Холланд, Кевин",
@@ -8880,19 +8826,19 @@
      }
     ]
    },
-   "bilanz": "29-15 (1 NC)",
+   "bilanz": "29-15-1 (1 NC)",
    "geburtsdatum": "1992-11-05",
    "groesse_cm": 190,
    "nationalitaet": null,
-   "siegesserie": 1,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Uroš Medić",
-    "datum": "2026-11-14"
+    "ergebnis": "Draw"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q62788166",
    "gewicht_kg": 77.1,
@@ -8992,6 +8938,8 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Sean Brady (fighter) (Tabelle „Mixed martial arts record“)",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Sean Brady (fighter)",
     "reichweite_cm": "Wikipedia: Sean Brady (fighter)",
     "kampfstil": "Wikipedia (russisch): Брэди, Шон (боец)",
@@ -9004,8 +8952,14 @@
    "nationalitaet": null,
    "siegesserie": 1,
    "letzter_kampf": null,
-   "naechster_kampf": null,
-   "status": "(October 29, 2026) – Knee staph infection – Bout cancelled – UFC Fight Night 293 (Las Vegas) – Gabriel Bonfim",
+   "naechster_kampf": {
+    "event": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "ort": "Las Vegas",
+    "gegner": "Gabriel Bonfim",
+    "datum": "2027-01-23"
+   },
+   "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q98780764",
    "gewicht_kg": 77.1,
    "reichweite_cm": 183,
@@ -9193,7 +9147,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 296",
-    "event_wiki": "UFC Fight Night 296",
+    "event_wiki": "UFC Fight Night: Rodríguez vs. Garcia",
     "ort": "Dallas",
     "gegner": "Roberto Soldić",
     "datum": "2027-01-16"
@@ -9307,26 +9261,25 @@
     "nationalitaet": "Wikipedia: Uroš Medić",
     "siegesserie": "Wikipedia: Uroš Medić (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Uroš Medić",
     "reichweite_cm": "Wikipedia: Uroš Medić",
     "kampfstil": "Wikipedia (russisch): Медич, Урош",
     "geburtsort": "Wikipedia: Uroš Medić"
    },
    "konflikte": {},
-   "bilanz": "14-3",
+   "bilanz": "14-3-1",
    "geburtsdatum": "1993-04-25",
    "groesse_cm": 185,
    "nationalitaet": "Serbian",
-   "siegesserie": 4,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Kevin Holland",
-    "datum": "2026-11-14"
+    "ergebnis": "Draw"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q112110665",
    "gewicht_kg": 77.6,
@@ -9384,7 +9337,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 296",
-    "event_wiki": "UFC Fight Night 296",
+    "event_wiki": "UFC Fight Night: Rodríguez vs. Garcia",
     "ort": "Dallas",
     "gegner": "Chidi Njokuani",
     "datum": "2027-01-16"
@@ -9489,7 +9442,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 296",
-    "event_wiki": "UFC Fight Night 296",
+    "event_wiki": "UFC Fight Night: Rodríguez vs. Garcia",
     "ort": "Dallas",
     "gegner": "Geoff Neal",
     "datum": "2027-01-16"
@@ -9688,7 +9641,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 296",
-    "event_wiki": "UFC Fight Night 296",
+    "event_wiki": "UFC Fight Night: Rodríguez vs. Garcia",
     "ort": "Dallas",
     "gegner": "Ignacio Bahamondes",
     "datum": "2027-01-16"
@@ -9768,6 +9721,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Gabriel Bonfim",
     "reichweite_cm": "Wikipedia: Gabriel Bonfim",
     "kampfstil": "Wikipedia (russisch): Бонфим, Габриэл",
@@ -9791,8 +9746,14 @@
    "nationalitaet": null,
    "siegesserie": null,
    "letzter_kampf": null,
-   "naechster_kampf": null,
-   "status": "(October 29, 2026) – Brady knee staph infection – Bout cancelled – UFC Fight Night 293 (Las Vegas) – Sean Brady",
+   "naechster_kampf": {
+    "event": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "ort": "Las Vegas",
+    "gegner": "Sean Brady",
+    "datum": "2027-01-23"
+   },
+   "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q121590551",
    "gewicht_kg": 77.1,
    "reichweite_cm": 183,
@@ -9944,23 +9905,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "12-5",
+   "bilanz": "12-6",
    "geburtsdatum": "1990-07-09",
    "groesse_cm": 175,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Stephen Thompson",
-    "datum": "2026-11-14"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -11050,7 +11010,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 296",
-    "event_wiki": "UFC Fight Night 296",
+    "event_wiki": "UFC Fight Night: Rodríguez vs. Garcia",
     "ort": "Dallas",
     "gegner": "Daniel Rodriguez",
     "datum": "2027-01-16"
@@ -11205,7 +11165,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Jim Miller (fighter) (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Jim Miller (fighter)",
     "reichweite_cm": "Wikipedia: Jim Miller (fighter)",
     "kampfstil": "Wikipedia (russisch): Миллер, Джим (боец)",
@@ -11231,19 +11190,19 @@
      }
     ]
    },
-   "bilanz": "39-19 (1 NC)",
+   "bilanz": "39-20 (1 NC)",
    "geburtsdatum": "1983-08-30",
    "groesse_cm": 173,
    "nationalitaet": null,
-   "siegesserie": 1,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Terrance McKinney",
-    "datum": "2026-11-14"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q742812",
    "gewicht_kg": 70.3,
@@ -11457,13 +11416,22 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Drew Dober (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Drew Dober",
     "reichweite_cm": "Wikipedia: Drew Dober",
     "kampfstil": "Wikipedia (russisch): Добер, Дрю",
     "geburtsort": "Wikipedia: Drew Dober"
    },
    "konflikte": {
+    "bilanz": [
+     {
+      "wert": "29-16 (1 NC)",
+      "quelle": "Wikipedia: List of current UFC fighters"
+     },
+     {
+      "wert": "29-15 (1 NC)",
+      "quelle": "Wikipedia: Drew Dober"
+     }
+    ],
     "kampfstil": [
      {
       "wert": "Muay Thai, Wrestling",
@@ -11479,19 +11447,19 @@
      }
     ]
    },
-   "bilanz": "29-15 (1 NC)",
+   "bilanz": "29-16 (1 NC)",
    "geburtsdatum": "1988-10-19",
    "groesse_cm": 173,
    "nationalitaet": null,
-   "siegesserie": 2,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Chris Duncan",
-    "datum": "2026-11-14"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q18685758",
    "gewicht_kg": 70.3,
@@ -11988,7 +11956,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Jared Gordon (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Jared Gordon",
     "reichweite_cm": "Wikipedia: Jared Gordon",
     "kampfstil": "Wikipedia (spanisch): Jared Gordon",
@@ -12010,19 +11977,19 @@
      }
     ]
    },
-   "bilanz": "21-9 (1 NC)",
+   "bilanz": "21-10 (1 NC)",
    "geburtsdatum": "1988-09-06",
    "groesse_cm": 175,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Melquizael Costa",
-    "datum": "2026-11-14"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q30944937",
    "gewicht_kg": 70.3,
@@ -13438,7 +13405,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Terrance McKinney (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Terrance McKinney",
     "reichweite_cm": "Wikipedia: Terrance McKinney",
     "kampfstil": "Wikipedia (russisch): Маккинни, Терренс",
@@ -13456,19 +13422,19 @@
      }
     ]
    },
-   "bilanz": "18-9",
+   "bilanz": "19-9",
    "geburtsdatum": "1994-09-15",
    "groesse_cm": 178,
    "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 1,
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Jim Miller",
-    "datum": "2026-11-14"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q111219354",
    "gewicht_kg": 70.3,
@@ -13647,23 +13613,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "10-2",
+   "bilanz": "11-2",
    "geburtsdatum": "1997-04-11",
    "groesse_cm": 178,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Samuel Sanches",
-    "datum": "2026-11-14"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -13860,6 +13825,45 @@
    "reichweite_cm": 168,
    "kampfstil": "Boxing, Brazilian jiu-jitsu",
    "geburtsort": "Gryfice, Poland"
+  },
+  {
+   "name": "Melquizael Costa",
+   "artikel": "Melquizael Costa",
+   "wikipedia": "https://en.wikipedia.org/wiki/Melquizael_Costa",
+   "gewichtsklasse": "Lightweight",
+   "land_iso": "BRA",
+   "quellen": {
+    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
+    "land_iso": "Wikipedia: List of current UFC fighters",
+    "bilanz": "Wikipedia: List of current UFC fighters",
+    "geburtsdatum": "Wikipedia: List of current UFC fighters",
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "siegesserie": "Wikipedia: Melquizael Costa (Tabelle „Mixed martial arts record“)",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "gewicht_kg": "Wikipedia: Melquizael Costa",
+    "reichweite_cm": "Wikipedia: Melquizael Costa",
+    "geburtsort": "Wikipedia: Melquizael Costa"
+   },
+   "konflikte": {},
+   "bilanz": "27-8",
+   "geburtsdatum": "1996-09-14",
+   "groesse_cm": 178,
+   "nationalitaet": null,
+   "siegesserie": 1,
+   "letzter_kampf": {
+    "event": "UFC 334",
+    "event_wiki": "UFC 334",
+    "ort": "New York City",
+    "gegner": "Jared Gordon",
+    "ergebnis": "Win"
+   },
+   "naechster_kampf": null,
+   "status": null,
+   "wikidata": "https://www.wikidata.org/wiki/Q126947204",
+   "gewicht_kg": 66.0,
+   "reichweite_cm": 180,
+   "kampfstil": null,
+   "geburtsort": "Porto de Moz, Pará, Brazil"
   },
   {
    "name": "Anshul Jubli",
@@ -14132,7 +14136,6 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Chris Duncan (fighter)",
     "reichweite_cm": "Wikipedia: Chris Duncan (fighter)",
     "geburtsort": "Wikipedia: Chris Duncan (fighter)"
@@ -14140,7 +14143,7 @@
    "konflikte": {
     "bilanz": [
      {
-      "wert": "15-2",
+      "wert": "16-2",
       "quelle": "Wikipedia: List of current UFC fighters"
      },
      {
@@ -14149,19 +14152,19 @@
      }
     ]
    },
-   "bilanz": "15-2",
+   "bilanz": "16-2",
    "geburtsdatum": "1993-05-10",
    "groesse_cm": 178,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Drew Dober",
-    "datum": "2026-11-14"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q136451075",
    "gewicht_kg": 70.8,
@@ -15145,7 +15148,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 296",
-    "event_wiki": "UFC Fight Night 296",
+    "event_wiki": "UFC Fight Night: Rodríguez vs. Garcia",
     "ort": "Dallas",
     "gegner": "Piero Guaylupo",
     "datum": "2027-01-16"
@@ -15440,23 +15443,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "11-1",
+   "bilanz": "11-2",
    "geburtsdatum": "2003-01-28",
    "groesse_cm": 178,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Evan Elder",
-    "datum": "2026-11-14"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -15783,11 +15785,11 @@
    "siegesserie": null,
    "letzter_kampf": null,
    "naechster_kampf": {
-    "event": "UFC 335",
-    "event_wiki": "UFC 335",
-    "ort": "Las Vegas",
+    "event": "UFC Fight Night 296",
+    "event_wiki": "UFC Fight Night: Rodríguez vs. Garcia",
+    "ort": "Dallas",
     "gegner": "Steve Garcia",
-    "datum": "2026-12-12"
+    "datum": "2027-01-16"
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q19668247",
@@ -16643,11 +16645,11 @@
    "siegesserie": 0,
    "letzter_kampf": null,
    "naechster_kampf": {
-    "event": "UFC 335",
-    "event_wiki": "UFC 335",
-    "ort": "Las Vegas",
+    "event": "UFC Fight Night 296",
+    "event_wiki": "UFC Fight Night: Rodríguez vs. Garcia",
+    "ort": "Dallas",
     "gegner": "Yair Rodríguez",
-    "datum": "2026-12-12"
+    "datum": "2027-01-16"
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q18043912",
@@ -16836,8 +16838,8 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 297",
-    "event_wiki": "UFC Fight Night 297",
-    "ort": "TBA",
+    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "ort": "Las Vegas",
     "gegner": "Vinicius Oliveira",
     "datum": "2027-01-23"
    },
@@ -17173,46 +17175,6 @@
    "kampfstil": null,
    "geburtsort": null,
    "wikidata": null
-  },
-  {
-   "name": "Melquizael Costa",
-   "artikel": "Melquizael Costa",
-   "wikipedia": "https://en.wikipedia.org/wiki/Melquizael_Costa",
-   "gewichtsklasse": "Featherweight",
-   "land_iso": "BRA",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: Melquizael Costa (Tabelle „Mixed martial arts record“)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
-    "gewicht_kg": "Wikipedia: Melquizael Costa",
-    "reichweite_cm": "Wikipedia: Melquizael Costa",
-    "geburtsort": "Wikipedia: Melquizael Costa"
-   },
-   "konflikte": {},
-   "bilanz": "26-8",
-   "geburtsdatum": "1996-09-14",
-   "groesse_cm": 178,
-   "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
-    "event": "UFC 334",
-    "event_wiki": "UFC 334",
-    "ort": "New York City",
-    "gegner": "Jared Gordon / Moving to Lightweight",
-    "datum": "2026-11-14"
-   },
-   "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q126947204",
-   "gewicht_kg": 66.0,
-   "reichweite_cm": 180,
-   "kampfstil": null,
-   "geburtsort": "Porto de Moz, Pará, Brazil"
   },
   {
    "name": "Lee Jeong-yeong",
@@ -17839,7 +17801,7 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 297",
-    "event_wiki": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
     "ort": "TBA",
     "gegner": "Pat Sabatini",
     "datum": "2027-01-23"
@@ -18319,7 +18281,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "10-1",
@@ -18327,14 +18290,14 @@
    "groesse_cm": 173,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 284",
-    "event_wiki": "UFC Fight Night: Gamrot vs. Salkilld",
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
     "ort": "Las Vegas",
-    "gegner": "Darren Elkins",
-    "ergebnis": "Win"
+    "gegner": "Ezra Elliott",
+    "datum": "2027-01-23"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -19232,6 +19195,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: List of current UFC fighters (nur Siege)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "geburtsort": "Wikidata: Q141800230"
    },
    "konflikte": {},
@@ -19240,14 +19204,14 @@
    "groesse_cm": 175,
    "nationalitaet": null,
    "siegesserie": 8,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 281",
-    "event_wiki": "UFC Fight Night: du Plessis vs. Usman",
-    "ort": "Oklahoma City",
-    "gegner": "Damien Anderson",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "ort": "Las Vegas",
+    "gegner": "Ezra Elliott",
+    "datum": "2027-01-23"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q141800230",
    "gewicht_kg": null,
@@ -20619,7 +20583,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Alateng Heili (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Alateng Heili",
     "reichweite_cm": "Wikipedia: Alateng Heili",
     "kampfstil": "Wikipedia: Alateng Heili",
@@ -20637,19 +20600,19 @@
      }
     ]
    },
-   "bilanz": "18-10-2",
+   "bilanz": "18-11-2",
    "geburtsdatum": "1991-12-14",
    "groesse_cm": 168,
    "nationalitaet": null,
-   "siegesserie": 1,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Juan Díaz",
-    "datum": "2026-11-14"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q99937818",
    "gewicht_kg": 61.2,
@@ -22437,26 +22400,26 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
+    "gewicht_kg": "Wikipedia (portugiesisch): Juan Díaz (lutador)",
     "geburtsort": "Wikipedia (spanisch): Juan Díaz (peleador)"
    },
    "konflikte": {},
-   "bilanz": "16-1-1",
+   "bilanz": "17-1-1",
    "geburtsdatum": "1998-06-03",
    "groesse_cm": 173,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Alateng Heili",
-    "datum": "2026-11-14"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q131567065",
-   "gewicht_kg": null,
+   "gewicht_kg": 70.0,
    "reichweite_cm": null,
    "kampfstil": null,
    "geburtsort": "Lima"
@@ -24452,23 +24415,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "11-4",
+   "bilanz": "12-4",
    "geburtsdatum": "1993-06-16",
    "groesse_cm": 165,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Bilal Hasan",
-    "datum": "2026-11-14"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -24656,8 +24618,8 @@
   },
   {
    "name": "Bilal Hasan",
-   "artikel": null,
-   "wikipedia": null,
+   "artikel": "Bilal Hasan",
+   "wikipedia": "https://en.wikipedia.org/wiki/Bilal_Hasan",
    "gewichtsklasse": "Flyweight",
    "land_iso": "INA",
    "quellen": {
@@ -24666,29 +24628,31 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "siegesserie": "Wikipedia: Bilal Hasan (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "gewicht_kg": "Wikipedia: Bilal Hasan",
+    "geburtsort": "Wikipedia: Bilal Hasan"
    },
    "konflikte": {},
-   "bilanz": "10-0 (1 NC)",
+   "bilanz": "10-1 (1 NC)",
    "geburtsdatum": "2001-07-16",
    "groesse_cm": 170,
    "nationalitaet": null,
-   "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Luis Gurule",
-    "datum": "2026-11-14"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
-   "gewicht_kg": null,
+   "wikidata": "https://www.wikidata.org/wiki/Q141683054",
+   "gewicht_kg": 56.7,
    "reichweite_cm": null,
    "kampfstil": null,
-   "geburtsort": null,
-   "wikidata": null
+   "geburtsort": "Honolulu, Hawaii, U.S."
   },
   {
    "name": "Nilson Rojas",
@@ -24939,7 +24903,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Amanda Nunes (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Amanda Nunes",
     "reichweite_cm": "Wikipedia: Amanda Nunes",
     "kampfstil": "Wikipedia (russisch): Нунис, Аманда",
@@ -24976,7 +24939,7 @@
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Kayla Harrison",
-    "datum": "2026-11-14"
+    "datum": null
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q4739716",
@@ -25155,7 +25118,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Macy Chiasson (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Macy Chiasson",
     "reichweite_cm": "Wikipedia (portugiesisch): Macy Chiasson",
     "kampfstil": "Wikipedia (portugiesisch): Macy Chiasson",
@@ -25183,19 +25145,19 @@
      }
     ]
    },
-   "bilanz": "10-6",
+   "bilanz": "10-7",
    "geburtsdatum": "1991-07-27",
    "groesse_cm": 175,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Beatriz Mesquita",
-    "datum": "2026-11-14"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q57210892",
    "gewicht_kg": 63.5,
@@ -25704,7 +25666,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Kayla Harrison (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Kayla Harrison",
     "reichweite_cm": "Wikipedia: Kayla Harrison",
     "kampfstil": "Wikipedia: Kayla Harrison",
@@ -25722,7 +25683,7 @@
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Amanda Nunes",
-    "datum": "2026-11-14"
+    "datum": null
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q2358331",
@@ -25853,7 +25814,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Beatriz Mesquita (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "kampfstil": "Wikipedia: Beatriz Mesquita",
     "geburtsort": "Wikipedia: Beatriz Mesquita"
    },
@@ -25869,19 +25829,19 @@
      }
     ]
    },
-   "bilanz": "8-0",
+   "bilanz": "9-0",
    "geburtsdatum": "1991-04-07",
    "groesse_cm": 163,
    "nationalitaet": null,
-   "siegesserie": 8,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 9,
+   "letzter_kampf": {
     "event": "UFC 334",
     "event_wiki": "UFC 334",
     "ort": "New York City",
     "gegner": "Macy Chiasson",
-    "datum": "2026-11-14"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q48641628",
    "gewicht_kg": null,
@@ -30348,7 +30308,7 @@
       "gegner_artikel": "Israel Adesanya"
      },
      "naechster_kampf": null,
-     "hinweis": "UFC Fight Night 298",
+     "hinweis": "UFC Fight Night 299",
      "bewegung": {
       "art": "gleich",
       "plaetze": 0
@@ -30359,21 +30319,16 @@
      "land_iso": "BRA",
      "name": "Caio Borralho",
      "artikel": "Caio Borralho",
-     "bilanz": "18-2 (1 NC)",
-     "serie": 1,
+     "bilanz": "19-2 (1 NC)",
+     "serie": 2,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC 326",
-      "event_wiki": "UFC 326",
-      "gegner": "Reinier de Ridder",
-      "gegner_artikel": "Reinier de Ridder"
-     },
-     "naechster_kampf": {
       "event": "UFC 334",
       "event_wiki": "UFC 334",
       "gegner": "Yousri Belgaroui",
       "gegner_artikel": "Yousri Belgaroui"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -30531,7 +30486,7 @@
       "gegner_artikel": "Kyle Daukaus"
      },
      "naechster_kampf": null,
-     "hinweis": "UFC Fight Night 298",
+     "hinweis": "UFC Fight Night 299",
      "bewegung": {
       "art": "ab",
       "plaetze": 1
@@ -30721,8 +30676,13 @@
       "gegner": "Joaquin Buckley",
       "gegner_artikel": "Joaquin Buckley"
      },
-     "naechster_kampf": null,
-     "hinweis": "(October 29, 2026) – Staph infection",
+     "naechster_kampf": {
+      "event": "UFC Fight Night 297",
+      "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+      "gegner": "Gabriel Bonfim",
+      "gegner_artikel": "Gabriel Bonfim"
+     },
+     "hinweis": null,
      "bewegung": {
       "art": "gleich",
       "plaetze": 0
@@ -30742,8 +30702,13 @@
       "gegner": "Belal Muhammad",
       "gegner_artikel": "Belal Muhammad"
      },
-     "naechster_kampf": null,
-     "hinweis": "(October 29, 2026) – Bout cancelled",
+     "naechster_kampf": {
+      "event": "UFC Fight Night 297",
+      "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+      "gegner": "Sean Brady",
+      "gegner_artikel": "Sean Brady (fighter)"
+     },
+     "hinweis": null,
      "bewegung": {
       "art": "gleich",
       "plaetze": 0
@@ -30796,21 +30761,16 @@
      "land_iso": "SER",
      "name": "Uroš Medić",
      "artikel": "Uroš Medić",
-     "bilanz": "14-3",
-     "serie": 4,
+     "bilanz": "14-3-1",
+     "serie": 0,
      "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC Fight Night 283",
-      "event_wiki": "UFC Fight Night: Medić vs. Rodriguez",
-      "gegner": "Daniel Rodriguez",
-      "gegner_artikel": "Daniel Rodriguez (fighter)"
-     },
-     "naechster_kampf": {
+      "ergebnis": "Draw",
       "event": "UFC 334",
       "event_wiki": "UFC 334",
       "gegner": "Kevin Holland",
       "gegner_artikel": "Kevin Holland"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -30931,21 +30891,16 @@
      "land_iso": "USA",
      "name": "Kevin Holland",
      "artikel": "Kevin Holland",
-     "bilanz": "29-15 (1 NC)",
-     "serie": 1,
+     "bilanz": "29-15-1 (1 NC)",
+     "serie": 0,
      "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC 327",
-      "event_wiki": "UFC 327",
-      "gegner": "Randy Brown",
-      "gegner_artikel": "Randy Brown (fighter)"
-     },
-     "naechster_kampf": {
+      "ergebnis": "Draw",
       "event": "UFC 334",
       "event_wiki": "UFC 334",
       "gegner": "Uroš Medić",
       "gegner_artikel": "Uroš Medić"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "ab",
@@ -31492,7 +31447,7 @@
      },
      "naechster_kampf": {
       "event": "UFC Fight Night 297",
-      "event_wiki": "UFC Fight Night 297",
+      "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
       "gegner": "Vinicius Oliveira",
       "gegner_artikel": "Vinicius Oliveira"
      },
@@ -31601,21 +31556,16 @@
      "land_iso": "BRA",
      "name": "Melquizael Costa",
      "artikel": "Melquizael Costa",
-     "bilanz": "26-8",
-     "serie": 0,
+     "bilanz": "27-8",
+     "serie": 1,
      "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC Fight Night 276",
-      "event_wiki": "UFC Fight Night: Allen vs. Costa",
-      "gegner": "Arnold Allen",
-      "gegner_artikel": "Arnold Allen"
-     },
-     "naechster_kampf": {
+      "ergebnis": "Win",
       "event": "UFC 334",
       "event_wiki": "UFC 334",
       "gegner": "Jared Gordon",
       "gegner_artikel": "Jared Gordon"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "auf",
@@ -32670,21 +32620,16 @@
      "land_iso": "BRA",
      "name": "Beatriz Mesquita",
      "artikel": "Beatriz Mesquita",
-     "bilanz": "8-0",
-     "serie": 8,
+     "bilanz": "9-0",
+     "serie": 9,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC Fight Night 279",
-      "event_wiki": "UFC Fight Night: Kape vs. Horiguchi",
-      "gegner": "Melissa Mullins",
-      "gegner_artikel": null
-     },
-     "naechster_kampf": {
       "event": "UFC 334",
       "event_wiki": "UFC 334",
       "gegner": "Macy Chiasson",
       "gegner_artikel": "Macy Chiasson"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -32738,21 +32683,16 @@
      "land_iso": "USA",
      "name": "Macy Chiasson",
      "artikel": "Macy Chiasson",
-     "bilanz": "11-6",
+     "bilanz": "11-7",
      "serie": 0,
      "letzter_kampf": {
       "ergebnis": "Loss",
-      "event": "UFC Fight Night 268",
-      "event_wiki": "UFC Fight Night: Moreno vs. Kavanagh",
-      "gegner": "Ailín Pérez",
-      "gegner_artikel": "Ailín Pérez"
-     },
-     "naechster_kampf": {
       "event": "UFC 334",
       "event_wiki": "UFC 334",
       "gegner": "Beatriz Mesquita",
       "gegner_artikel": "Beatriz Mesquita"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -34696,6 +34636,15 @@
    "gewichtsklasse": "Flyweight",
    "event": "UFC Fight Night 293",
    "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker"
+  },
+  {
+   "datum": "2026-11-14",
+   "land_iso": "BRA",
+   "name": "Samuel Sanches",
+   "artikel": null,
+   "gewichtsklasse": "Lightweight",
+   "event": "UFC 334",
+   "event_wiki": "UFC 334"
   }
  ],
  "abgaenge": [
@@ -35528,152 +35477,19 @@
    "grund": "Entlassen",
    "grund_original": "Released",
    "kategorie": "Entlassen"
+  },
+  {
+   "datum": "2026-11-14",
+   "land_iso": "USA",
+   "name": "Stephen Thompson",
+   "artikel": "Stephen Thompson (fighter)",
+   "gewichtsklasse": "Welterweight",
+   "grund": "Karriereende",
+   "grund_original": "Retired",
+   "kategorie": "Karriereende"
   }
  ],
  "events": [
-  {
-   "name": "UFC 334: Gane vs. Hokit",
-   "artikel": "UFC 334",
-   "datum": "2026-11-14",
-   "halle": "Madison Square Garden",
-   "ort": "New York City, New York, U.S.",
-   "wikipedia": "https://en.wikipedia.org/wiki/UFC_334",
-   "kaempfe": [
-    {
-     "gewichtsklasse": "Heavyweight",
-     "a": "Ciryl Gane",
-     "a_artikel": "Ciryl Gane",
-     "b": "Josh Hokit",
-     "b_artikel": "Josh Hokit",
-     "titelkampf": true,
-     "karte": "Main card (Paramount+)",
-     "hinweis": "For the UFC Heavyweight Championship."
-    },
-    {
-     "gewichtsklasse": "Women's Bantamweight",
-     "a": "Kayla Harrison",
-     "a_artikel": "Kayla Harrison",
-     "b": "Amanda Nunes",
-     "b_artikel": "Amanda Nunes",
-     "titelkampf": true,
-     "karte": "Main card (Paramount+)",
-     "hinweis": "For the UFC Women's Bantamweight Championship."
-    },
-    {
-     "gewichtsklasse": "Middleweight",
-     "a": "Caio Borralho",
-     "a_artikel": "Caio Borralho",
-     "b": "Yousri Belgaroui",
-     "b_artikel": "Yousri Belgaroui",
-     "titelkampf": false,
-     "karte": "Main card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Welterweight",
-     "a": "Uroš Medić",
-     "a_artikel": "Uroš Medić",
-     "b": "Kevin Holland",
-     "b_artikel": "Kevin Holland",
-     "titelkampf": false,
-     "karte": "Main card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Flyweight",
-     "a": "Bilal Hasan",
-     "a_artikel": "Bilal Hasan",
-     "b": "Luis Gurule",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Main card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Welterweight",
-     "a": "Stephen Thompson",
-     "a_artikel": "Stephen Thompson (fighter)",
-     "b": "Charles Radtke",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Lightweight",
-     "a": "Drew Dober",
-     "a_artikel": "Drew Dober",
-     "b": "Chris Duncan",
-     "b_artikel": "Chris Duncan (fighter)",
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Catchweight (160.2 lb)",
-     "a": "Jim Miller",
-     "a_artikel": "Jim Miller (fighter)",
-     "b": "Terrance McKinney",
-     "b_artikel": "Terrance McKinney",
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Catchweight (190 lb)",
-     "a": "Donte Johnson",
-     "a_artikel": null,
-     "b": "César Almeida",
-     "b_artikel": "César Almeida (fighter)",
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Lightweight",
-     "a": "Jared Gordon",
-     "a_artikel": "Jared Gordon",
-     "b": "Melquizael Costa",
-     "b_artikel": "Melquizael Costa",
-     "titelkampf": false,
-     "karte": "Early preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Women's Bantamweight",
-     "a": "Macy Chiasson",
-     "a_artikel": "Macy Chiasson",
-     "b": "Beatriz Mesquita",
-     "b_artikel": "Beatriz Mesquita",
-     "titelkampf": false,
-     "karte": "Early preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Catchweight (136.4 lb)",
-     "a": "Alateng Heili",
-     "a_artikel": "Alateng Heili",
-     "b": "Juan Díaz",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Early preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Lightweight",
-     "a": "Evan Elder",
-     "a_artikel": null,
-     "b": "Samuel Sanches",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Early preliminary card (Paramount+)",
-     "hinweis": null
-    }
-   ],
-   "hauptkarte_utc": null,
-   "hauptkarte_quelle": null,
-   "ics": null
-  },
   {
    "name": "UFC Fight Night: Procházka vs. Stirling",
    "artikel": "UFC Fight Night: Procházka vs. Stirling",
@@ -35964,25 +35780,67 @@
    "ics": null
   },
   {
-   "name": "UFC Fight Night 296",
-   "artikel": "UFC Fight Night 296",
+   "name": "UFC Fight Night: Rodríguez vs. Garcia",
+   "artikel": "UFC Fight Night: Rodríguez vs. Garcia",
    "datum": "2027-01-16",
    "halle": "American Airlines Center",
    "ort": "Dallas, Texas, U.S.",
-   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_296",
-   "kaempfe": [],
+   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Rodr%C3%ADguez_vs._Garcia",
+   "kaempfe": [
+    {
+     "gewichtsklasse": "Featherweight",
+     "a": "Yair Rodríguez",
+     "a_artikel": "Yair Rodríguez",
+     "b": "Steve Garcia",
+     "b_artikel": "Steve Garcia",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Welterweight",
+     "a": "Daniel Rodriguez",
+     "a_artikel": "Daniel Rodriguez (fighter)",
+     "b": "Roberto Soldić",
+     "b_artikel": "Roberto Soldić",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Welterweight",
+     "a": "Chidi Njokuani",
+     "a_artikel": "Chidi Njokuani",
+     "b": "Ignacio Bahamondes",
+     "b_artikel": "Ignacio Bahamondes",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    }
+   ],
    "hauptkarte_utc": null,
    "hauptkarte_quelle": null,
    "ics": null
   },
   {
-   "name": "UFC Fight Night 297",
-   "artikel": "UFC Fight Night 297",
+   "name": "UFC Fight Night: Bonfim vs. Brady",
+   "artikel": "UFC Fight Night: Bonfim vs. Brady",
    "datum": "2027-01-23",
-   "halle": "TBA",
-   "ort": "TBA",
-   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night_297",
-   "kaempfe": [],
+   "halle": "Meta Apex",
+   "ort": "Las Vegas, Nevada, U.S.",
+   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Bonfim_vs._Brady",
+   "kaempfe": [
+    {
+     "gewichtsklasse": "Welterweight",
+     "a": "Gabriel Bonfim",
+     "a_artikel": "Gabriel Bonfim",
+     "b": "Sean Brady",
+     "b_artikel": "Sean Brady (fighter)",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    }
+   ],
    "hauptkarte_utc": null,
    "hauptkarte_quelle": null,
    "ics": null
