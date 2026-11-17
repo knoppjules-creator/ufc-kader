@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-16T05:34:39+00:00",
+ "stand": "2026-11-17T05:00:40+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -12,7 +12,7 @@
   "Wikipedia auf Russisch, Japanisch, Spanisch, Portugiesisch, Deutsch"
  ],
  "lizenz": "Wikipedia-Inhalte: CC BY-SA 4.0; Wikidata: CC0",
- "anzahl": 657,
+ "anzahl": 651,
  "kaempfer": [
   {
    "name": "Derrick Lewis",
@@ -6241,6 +6241,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Joe Pyfer (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Joe Pyfer",
     "reichweite_cm": "Wikipedia: Joe Pyfer",
     "kampfstil": "Wikipedia (spanisch): Joe Pyfer",
@@ -6266,10 +6267,10 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 299",
-    "event_wiki": null,
+    "event_wiki": "UFC Fight Night: Pyfer vs. Nickal",
     "ort": "Cleveland",
     "gegner": "Bo Nickal",
-    "datum": null
+    "datum": "2027-02-13"
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q124447415",
@@ -6331,6 +6332,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Bo Nickal (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Bo Nickal",
     "reichweite_cm": "Wikipedia: Bo Nickal",
     "kampfstil": "Wikipedia: Bo Nickal",
@@ -6378,10 +6380,10 @@
    "letzter_kampf": null,
    "naechster_kampf": {
     "event": "UFC Fight Night 299",
-    "event_wiki": null,
+    "event_wiki": "UFC Fight Night: Pyfer vs. Nickal",
     "ort": "Cleveland",
     "gegner": "Joe Pyfer",
-    "datum": null
+    "datum": "2027-02-13"
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q86752584",
@@ -7956,54 +7958,6 @@
    "geburtsort": "Honolulu, Hawaii, U.S."
   },
   {
-   "name": "Tim Means",
-   "artikel": "Tim Means",
-   "wikipedia": "https://en.wikipedia.org/wiki/Tim_Means",
-   "gewichtsklasse": "Welterweight",
-   "land_iso": "USA",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: Tim Means (Tabelle „Mixed martial arts record“)",
-    "gewicht_kg": "Wikipedia: Tim Means",
-    "reichweite_cm": "Wikipedia: Tim Means",
-    "kampfstil": "Wikipedia (japanisch): ティム・ミーンズ",
-    "geburtsort": "Wikipedia: Tim Means"
-   },
-   "konflikte": {
-    "gewicht_kg": [
-     {
-      "wert": 77.6,
-      "quelle": "Wikipedia: Tim Means"
-     },
-     {
-      "wert": 77.0,
-      "quelle": "Wikipedia (japanisch): ティム・ミーンズ"
-     },
-     {
-      "wert": 70.0,
-      "quelle": "Wikipedia (portugiesisch): Tim Means"
-     }
-    ]
-   },
-   "bilanz": "33-17-1 (1 NC)",
-   "geburtsdatum": "1984-02-20",
-   "groesse_cm": 188,
-   "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": null,
-   "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q7803967",
-   "gewicht_kg": 77.6,
-   "reichweite_cm": 190,
-   "kampfstil": "Boxing",
-   "geburtsort": "Wilburton, Oklahoma, U.S."
-  },
-  {
    "name": "Gunnar Nelson",
    "artikel": "Gunnar Nelson (fighter)",
    "wikipedia": "https://en.wikipedia.org/wiki/Gunnar_Nelson_%28fighter%29",
@@ -8616,38 +8570,6 @@
    "reichweite_cm": 196,
    "kampfstil": null,
    "geburtsort": "Uddevalla, Sweden"
-  },
-  {
-   "name": "Song Kenan",
-   "artikel": "Song Kenan",
-   "wikipedia": "https://en.wikipedia.org/wiki/Song_Kenan",
-   "gewichtsklasse": "Welterweight",
-   "land_iso": "CHN",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: Song Kenan (Tabelle „Mixed martial arts record“)",
-    "gewicht_kg": "Wikipedia: Song Kenan",
-    "reichweite_cm": "Wikipedia: Song Kenan",
-    "geburtsort": "Wikipedia: Song Kenan"
-   },
-   "konflikte": {},
-   "bilanz": "22-9",
-   "geburtsdatum": "1990-03-10",
-   "groesse_cm": 183,
-   "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": null,
-   "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q58007960",
-   "gewicht_kg": 77.1,
-   "reichweite_cm": 182,
-   "kampfstil": null,
-   "geburtsort": "Tangshan, Hebei, China"
   },
   {
    "name": "Muslim Salikhov",
@@ -9472,11 +9394,11 @@
    "siegesserie": 0,
    "letzter_kampf": null,
    "naechster_kampf": {
-    "event": "UFC 335",
-    "event_wiki": "UFC 335",
-    "ort": "Las Vegas",
+    "event": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
+    "ort": "Riyadh",
     "gegner": "Yaroslav Amosov",
-    "datum": "2026-12-12"
+    "datum": "2026-12-05"
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q109657967",
@@ -9663,7 +9585,7 @@
       "quelle": "Wikipedia (russisch): Малотт, Майк"
      },
      {
-      "wert": "Burlington, Ontario",
+      "wert": "Cleveland",
       "quelle": "Wikipedia (spanisch): Mike Malott"
      }
     ]
@@ -10426,11 +10348,11 @@
    "siegesserie": 3,
    "letzter_kampf": null,
    "naechster_kampf": {
-    "event": "UFC 335",
-    "event_wiki": "UFC 335",
-    "ort": "Las Vegas",
+    "event": "UFC Fight Night 295",
+    "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
+    "ort": "Riyadh",
     "gegner": "Ian Machado Garry",
-    "datum": "2026-12-12"
+    "datum": "2026-12-05"
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q26255520",
@@ -14516,7 +14438,7 @@
     "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Quillan Salkilld",
     "reichweite_cm": "Wikipedia: Quillan Salkilld",
-    "kampfstil": "Wikipedia (russisch): Солкиллд, Куиллан",
+    "kampfstil": "Wikipedia: Quillan Salkilld",
     "geburtsort": "Wikipedia: Quillan Salkilld"
    },
    "konflikte": {
@@ -14548,7 +14470,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q134467028",
    "gewicht_kg": 70.3,
    "reichweite_cm": 190,
-   "kampfstil": "Muay Thai, Brazilian jiu-jitsu, Wrestling",
+   "kampfstil": "Brazilian Jiu-Jitsu",
    "geburtsort": "Pinjarra, Western Australia, Australia"
   },
   {
@@ -17776,7 +17698,7 @@
    "naechster_kampf": {
     "event": "UFC Fight Night 297",
     "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
-    "ort": "TBA",
+    "ort": "Las Vegas",
     "gegner": "Pat Sabatini",
     "datum": "2027-01-23"
    },
@@ -19183,7 +19105,7 @@
     "event": "UFC Fight Night 297",
     "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
     "ort": "Las Vegas",
-    "gegner": "Ezra Elliott",
+    "gegner": "Yadier del Valle",
     "datum": "2027-01-23"
    },
    "status": null,
@@ -20397,54 +20319,6 @@
    "geburtsort": "Greenville, Texas, U.S."
   },
   {
-   "name": "Jonathan Martinez",
-   "artikel": "Jonathan Martinez",
-   "wikipedia": "https://en.wikipedia.org/wiki/Jonathan_Martinez",
-   "gewichtsklasse": "Bantamweight",
-   "land_iso": "USA",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: Jonathan Martinez (Tabelle „Mixed martial arts record“)",
-    "gewicht_kg": "Wikipedia: Jonathan Martinez",
-    "reichweite_cm": "Wikipedia (portugiesisch): Jonathan Martinez",
-    "kampfstil": "Wikipedia (portugiesisch): Jonathan Martinez",
-    "geburtsort": "Wikipedia: Jonathan Martinez"
-   },
-   "konflikte": {
-    "geburtsort": [
-     {
-      "wert": "Los Angeles, California, U.S.",
-      "quelle": "Wikipedia: Jonathan Martinez"
-     },
-     {
-      "wert": "Los Angeles",
-      "quelle": "Wikipedia (spanisch): Jonathan Martinez"
-     },
-     {
-      "wert": "Plainview, Texas",
-      "quelle": "Wikipedia (portugiesisch): Jonathan Martinez"
-     }
-    ]
-   },
-   "bilanz": "19-6",
-   "geburtsdatum": "1994-04-20",
-   "groesse_cm": 170,
-   "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": null,
-   "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q65555171",
-   "gewicht_kg": 61.2,
-   "reichweite_cm": 178,
-   "kampfstil": "Kickboxing",
-   "geburtsort": "Los Angeles, California, U.S."
-  },
-  {
    "name": "Mario Bautista",
    "artikel": "Mario Bautista",
    "wikipedia": "https://en.wikipedia.org/wiki/Mario_Bautista",
@@ -20915,34 +20789,6 @@
     "gegner": "Steven Koslow",
     "ergebnis": "Loss"
    },
-   "naechster_kampf": null,
-   "status": null,
-   "gewicht_kg": null,
-   "reichweite_cm": null,
-   "kampfstil": null,
-   "geburtsort": null,
-   "wikidata": null
-  },
-  {
-   "name": "Garrett Armfield",
-   "artikel": null,
-   "wikipedia": null,
-   "gewichtsklasse": "Bantamweight",
-   "land_iso": "USA",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters"
-   },
-   "konflikte": {},
-   "bilanz": "10-5",
-   "geburtsdatum": "1996-10-09",
-   "groesse_cm": 170,
-   "nationalitaet": null,
-   "siegesserie": null,
-   "letzter_kampf": null,
    "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
@@ -24974,38 +24820,6 @@
    "geburtsort": "Spokane, Washington, U.S."
   },
   {
-   "name": "Raquel Pennington",
-   "artikel": "Raquel Pennington",
-   "wikipedia": "https://en.wikipedia.org/wiki/Raquel_Pennington",
-   "gewichtsklasse": "Women's Bantamweight",
-   "land_iso": "USA",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: Raquel Pennington (Tabelle „Mixed martial arts record“)",
-    "gewicht_kg": "Wikipedia: Raquel Pennington",
-    "reichweite_cm": "Wikipedia (russisch): Пеннингтон, Ракель",
-    "geburtsort": "Wikipedia: Raquel Pennington"
-   },
-   "konflikte": {},
-   "bilanz": "16-9",
-   "geburtsdatum": "1988-09-05",
-   "groesse_cm": 170,
-   "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": null,
-   "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q15987788",
-   "gewicht_kg": 61.2,
-   "reichweite_cm": 171,
-   "kampfstil": null,
-   "geburtsort": "Colorado Springs, Colorado, U.S."
-  },
-  {
    "name": "Priscila Cachoeira",
    "artikel": "Priscila Cachoeira",
    "wikipedia": "https://en.wikipedia.org/wiki/Priscila_Cachoeira",
@@ -25196,71 +25010,6 @@
    "reichweite_cm": 170,
    "kampfstil": "Muay Thai",
    "geburtsort": "Vila Velha, Espírito Santo, Brazil"
-  },
-  {
-   "name": "Norma Dumont",
-   "artikel": "Norma Dumont",
-   "wikipedia": "https://en.wikipedia.org/wiki/Norma_Dumont",
-   "gewichtsklasse": "Women's Bantamweight",
-   "land_iso": "BRA",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: Norma Dumont (Tabelle „Mixed martial arts record“)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "gewicht_kg": "Wikipedia: Norma Dumont",
-    "reichweite_cm": "Wikipedia (russisch): Думонт, Норма",
-    "kampfstil": "Wikipedia: Norma Dumont",
-    "geburtsort": "Wikipedia: Norma Dumont"
-   },
-   "konflikte": {
-    "gewicht_kg": [
-     {
-      "wert": 65.8,
-      "quelle": "Wikipedia: Norma Dumont"
-     },
-     {
-      "wert": 61.0,
-      "quelle": "Wikipedia (portugiesisch): Norma Dumont"
-     }
-    ],
-    "kampfstil": [
-     {
-      "wert": "Sanda",
-      "quelle": "Wikipedia: Norma Dumont"
-     },
-     {
-      "wert": "Wushu, Brazilian jiu-jitsu",
-      "quelle": "Wikipedia (russisch): Думонт, Норма"
-     },
-     {
-      "wert": "Sanda",
-      "quelle": "Wikipedia (spanisch): Norma Dumont"
-     }
-    ]
-   },
-   "bilanz": "13-4",
-   "geburtsdatum": "1990-10-01",
-   "groesse_cm": 170,
-   "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 289",
-    "event_wiki": "UFC Fight Night: Rosas Jr. vs. Barcelos",
-    "ort": "Las Vegas",
-    "gegner": "Ailín Pérez",
-    "ergebnis": "Loss"
-   },
-   "naechster_kampf": null,
-   "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q106950074",
-   "gewicht_kg": 65.8,
-   "reichweite_cm": 170,
-   "kampfstil": "Sanda",
-   "geburtsort": "Belo Horizonte, Minas Gerais, Brazil"
   },
   {
    "name": "Joselyne Edwards",
@@ -30586,8 +30335,8 @@
       "gegner_artikel": "Islam Makhachev"
      },
      "naechster_kampf": {
-      "event": "UFC 335",
-      "event_wiki": "UFC 335",
+      "event": "UFC Fight Night: Adesanya vs. Magomedov",
+      "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
       "gegner": "Yaroslav Amosov",
       "gegner_artikel": "Yaroslav Amosov"
      },
@@ -30837,8 +30586,8 @@
       "gegner_artikel": "Joel Álvarez"
      },
      "naechster_kampf": {
-      "event": "UFC 335",
-      "event_wiki": "UFC 335",
+      "event": "UFC Fight Night: Adesanya vs. Magomedov",
+      "event_wiki": "UFC Fight Night: Adesanya vs. Magomedov",
       "gegner": "Ian Machado Garry",
       "gegner_artikel": "Ian Machado Garry"
      },
@@ -35742,11 +35491,31 @@
      "hinweis": null
     },
     {
+     "gewichtsklasse": "Bantamweight",
+     "a": "Kyler Phillips",
+     "a_artikel": "Kyler Phillips",
+     "b": "Ethyn Ewing",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
      "gewichtsklasse": "Light Heavyweight",
      "a": "Quentin Pasley",
      "a_artikel": null,
      "b": "Junior Tafa",
      "b_artikel": "Junior Tafa",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Middleweight",
+     "a": "Damian Pinas",
+     "a_artikel": "Damian Pinas",
+     "b": "Baisangur Susurkaev",
+     "b_artikel": null,
      "titelkampf": false,
      "karte": "Fight card (Paramount+)",
      "hinweis": null
@@ -35849,6 +35618,36 @@
      "titelkampf": true,
      "karte": "Fight card (Paramount+)",
      "hinweis": "For the interim UFC Welterweight Championship."
+    },
+    {
+     "gewichtsklasse": "Lightweight",
+     "a": "Lance Gibson Jr.",
+     "a_artikel": null,
+     "b": "Michael Johnson",
+     "b_artikel": "Michael Johnson (fighter)",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Bantamweight",
+     "a": "Serhiy Sidey",
+     "a_artikel": null,
+     "b": "Louis Lee Scott",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Welterweight",
+     "a": "Cameron Nelson",
+     "a_artikel": null,
+     "b": "Sean Clancy Jr.",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
     }
    ],
    "hauptkarte_utc": null,
