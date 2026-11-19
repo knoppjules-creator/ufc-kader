@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-18T05:02:20+00:00",
+ "stand": "2026-11-19T05:05:10+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -12,7 +12,7 @@
   "Wikipedia auf Russisch, Japanisch, Spanisch, Portugiesisch, Deutsch"
  ],
  "lizenz": "Wikipedia-Inhalte: CC BY-SA 4.0; Wikidata: CC0",
- "anzahl": 651,
+ "anzahl": 650,
  "kaempfer": [
   {
    "name": "Derrick Lewis",
@@ -14441,7 +14441,7 @@
     "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Quillan Salkilld",
     "reichweite_cm": "Wikipedia: Quillan Salkilld",
-    "kampfstil": "Wikipedia: Quillan Salkilld",
+    "kampfstil": "Wikipedia (russisch): Солкиллд, Куиллан",
     "geburtsort": "Wikipedia: Quillan Salkilld"
    },
    "konflikte": {
@@ -14473,7 +14473,7 @@
    "wikidata": "https://www.wikidata.org/wiki/Q134467028",
    "gewicht_kg": 70.3,
    "reichweite_cm": 190,
-   "kampfstil": "Brazilian Jiu-Jitsu",
+   "kampfstil": "Muay Thai, Brazilian jiu-jitsu, Wrestling",
    "geburtsort": "Pinjarra, Western Australia, Australia"
   },
   {
@@ -14606,7 +14606,8 @@
     "land_iso": "Wikipedia: List of current UFC fighters",
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters"
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "geburtsort": "Wikidata: Q142208755"
    },
    "konflikte": {},
    "bilanz": "7-1",
@@ -14617,11 +14618,11 @@
    "letzter_kampf": null,
    "naechster_kampf": null,
    "status": null,
+   "wikidata": "https://www.wikidata.org/wiki/Q142208755",
    "gewicht_kg": null,
    "reichweite_cm": null,
    "kampfstil": null,
-   "geburtsort": null,
-   "wikidata": null
+   "geburtsort": "Milwaukee"
   },
   {
    "name": "Tofiq Musayev",
@@ -27670,65 +27671,6 @@
    "geburtsort": "Phoenix, Arizona, U.S."
   },
   {
-   "name": "Virna Jandiroba",
-   "artikel": "Virna Jandiroba",
-   "wikipedia": "https://en.wikipedia.org/wiki/Virna_Jandiroba",
-   "gewichtsklasse": "Women's Strawweight",
-   "land_iso": "BRA",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: Virna Jandiroba (Tabelle „Mixed martial arts record“)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "gewicht_kg": "Wikipedia: Virna Jandiroba",
-    "reichweite_cm": "Wikipedia (russisch): Жандироба, Вирна",
-    "kampfstil": "Wikipedia (russisch): Жандироба, Вирна",
-    "geburtsort": "Wikipedia: Virna Jandiroba"
-   },
-   "konflikte": {
-    "geburtsort": [
-     {
-      "wert": "Serrinha, Bahia, Brazil",
-      "quelle": "Wikipedia: Virna Jandiroba"
-     },
-     {
-      "wert": "Serrinha",
-      "quelle": "Wikipedia (russisch): Жандироба, Вирна"
-     },
-     {
-      "wert": "Bahia",
-      "quelle": "Wikipedia (spanisch): Virna Jandiroba"
-     },
-     {
-      "wert": "Serrinha",
-      "quelle": "Wikipedia (portugiesisch): Virna Jandiroba"
-     }
-    ]
-   },
-   "bilanz": "23-5",
-   "geburtsdatum": "1988-05-30",
-   "groesse_cm": 160,
-   "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
-    "ort": "Las Vegas",
-    "gegner": "Tatiana Suarez",
-    "ergebnis": "Loss"
-   },
-   "naechster_kampf": null,
-   "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q56434195",
-   "gewicht_kg": 52.2,
-   "reichweite_cm": 163,
-   "kampfstil": "Muay Thai, Judo, Brazilian jiu-jitsu",
-   "geburtsort": "Serrinha, Bahia, Brazil"
-  },
-  {
    "name": "Amanda Ribas",
    "artikel": "Amanda Ribas",
    "wikipedia": "https://en.wikipedia.org/wiki/Amanda_Ribas",
@@ -33273,7 +33215,7 @@
   {
    "datum": "2026-02-28",
    "land_iso": "MEX",
-   "name": "Regina Tarin",
+   "name": "Regina Tarín",
    "artikel": null,
    "gewichtsklasse": "Women's Flyweight",
    "event": "UFC Fight Night 268",
@@ -33301,7 +33243,7 @@
    "datum": "2026-02-28",
    "land_iso": "MEX",
    "name": "Imanol Rodríguez",
-   "artikel": null,
+   "artikel": "Imanol Rodríguez",
    "gewichtsklasse": "Flyweight",
    "event": "UFC Fight Night 268",
    "event_wiki": "UFC Fight Night: Moreno vs. Kavanagh"
@@ -35227,6 +35169,16 @@
    "grund": "Karriereende",
    "grund_original": "Retired",
    "kategorie": "Karriereende"
+  },
+  {
+   "datum": "2026-11-18",
+   "land_iso": "BRA",
+   "name": "Virna Jandiroba",
+   "artikel": "Virna Jandiroba",
+   "gewichtsklasse": "Women's Strawweight",
+   "grund": "Entlassen",
+   "grund_original": "Released",
+   "kategorie": "Entlassen"
   }
  ],
  "events": [
@@ -35368,7 +35320,7 @@
      "b": "Sharabutdin Magomedov",
      "b_artikel": "Sharabutdin Magomedov",
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Main card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35378,7 +35330,7 @@
      "b": "Yaroslav Amosov",
      "b_artikel": "Yaroslav Amosov",
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Main card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35388,7 +35340,7 @@
      "b": "Mário Pinto",
      "b_artikel": "Mario Pinto",
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Main card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35398,7 +35350,7 @@
      "b": "Islam Dulatov",
      "b_artikel": "Islam Dulatov",
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Main card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35408,7 +35360,7 @@
      "b": "Akbar Abdullaev",
      "b_artikel": "Akbar Abdullaev",
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Main card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35418,7 +35370,7 @@
      "b": "Ion Cuțelaba",
      "b_artikel": "Ion Cutelaba",
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Main card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35428,7 +35380,7 @@
      "b": "Jafel Filho",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35438,7 +35390,7 @@
      "b": "Ivan Gnizditskiy",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35448,7 +35400,7 @@
      "b": "Park Jun-yong",
      "b_artikel": "Jun Yong Park",
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35458,7 +35410,7 @@
      "b": "Mehemmedeli Osmanli",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35468,7 +35420,7 @@
      "b": "Matthieu Letho Duclos",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35478,7 +35430,7 @@
      "b": "Hecher Sosa",
      "b_artikel": null,
      "titelkampf": false,
-     "karte": "Fight card (Paramount+)",
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     }
    ],

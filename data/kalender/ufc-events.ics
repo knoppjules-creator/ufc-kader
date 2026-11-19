@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:ufc-fight-night-prochazka-vs-stirling@ufc-kader
-DTSTAMP:20261118T050220Z
+DTSTAMP:20261119T050510Z
 SUMMARY:UFC Fight Night: Procházka vs. Stirling
 LOCATION:Ali Bin Hamad al-Attiyah Arena\, Al Rayyan\, Qatar
 DESCRIPTION:Kämpfe:\nJiří Procházka vs. Navajo Stirling (Light Heavywei
@@ -47,7 +47,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-adesanya-vs-magomedov@ufc-kader
-DTSTAMP:20261118T050220Z
+DTSTAMP:20261119T050510Z
 SUMMARY:UFC Fight Night: Adesanya vs. Magomedov
 LOCATION:anb Arena\, Riyadh\, Saudi Arabia
 DESCRIPTION:Kämpfe:\nIsrael Adesanya vs. Sharabutdin Magomedov (Middleweig
@@ -68,7 +68,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-335@ufc-kader
-DTSTAMP:20261118T050220Z
+DTSTAMP:20261119T050510Z
 SUMMARY:UFC 335: Oliveira vs. Lopes
 LOCATION:T-Mobile Arena\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nCharles Oliveira vs. Diego Lopes (Lightweight\, Titel
@@ -84,7 +84,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-rodriguez-vs-garcia@ufc-kader
-DTSTAMP:20261118T050220Z
+DTSTAMP:20261119T050510Z
 SUMMARY:UFC Fight Night: Rodríguez vs. Garcia
 LOCATION:American Airlines Center\, Dallas\, Texas\, U.S.
 DESCRIPTION:Kämpfe:\nYair Rodríguez vs. Steve Garcia (Featherweight)\nDan
@@ -99,7 +99,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-bonfim-vs-brady@ufc-kader
-DTSTAMP:20261118T050220Z
+DTSTAMP:20261119T050510Z
 SUMMARY:UFC Fight Night: Bonfim vs. Brady
 LOCATION:Meta Apex\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nGabriel Bonfim vs. Sean Brady (Welterweight)\n\nUhrze
@@ -112,7 +112,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-336@ufc-kader
-DTSTAMP:20261118T050220Z
+DTSTAMP:20261119T050510Z
 SUMMARY:UFC 336: Van vs. Kape
 LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canada
 DESCRIPTION:Kämpfe:\nJoshua Van vs. Manel Kape (Flyweight\, Titelkampf)\nC
@@ -127,7 +127,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-salkilld-vs-saint-denis@ufc-kader
-DTSTAMP:20261118T050220Z
+DTSTAMP:20261119T050510Z
 SUMMARY:UFC Fight Night: Salkilld vs. Saint Denis
 LOCATION:Afterpay Arena\, Sydney\, Australia
 DESCRIPTION:Kämpfe:\nQuillan Salkilld vs. Benoît Saint Denis (Lightweight
@@ -143,7 +143,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-pyfer-vs-nickal@ufc-kader
-DTSTAMP:20261118T050220Z
+DTSTAMP:20261119T050510Z
 SUMMARY:UFC Fight Night: Pyfer vs. Nickal
 LOCATION:Rocket Arena\, Cleveland\, Ohio\, U.S.
 DESCRIPTION:Kämpfe:\nJoe Pyfer vs. Bo Nickal (Middleweight)\n\nUhrzeit fol
@@ -156,7 +156,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-337@ufc-kader
-DTSTAMP:20261118T050220Z
+DTSTAMP:20261119T050510Z
 SUMMARY:UFC 337
 LOCATION:Kia Center\, Orlando\, Florida\, U.S.
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
