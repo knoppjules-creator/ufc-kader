@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-20T05:02:02+00:00",
+ "stand": "2026-11-21T12:26:40+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -12,7 +12,7 @@
   "Wikipedia auf Russisch, Japanisch, Spanisch, Portugiesisch, Deutsch"
  ],
  "lizenz": "Wikipedia-Inhalte: CC BY-SA 4.0; Wikidata: CC0",
- "anzahl": 650,
+ "anzahl": 649,
  "kaempfer": [
   {
    "name": "Derrick Lewis",
@@ -691,6 +691,16 @@
      },
      {
       "wert": "1990-04-12",
+      "quelle": "Wikipedia: Ciryl Gane"
+     }
+    ],
+    "groesse_cm": [
+     {
+      "wert": 196,
+      "quelle": "Wikipedia: List of current UFC fighters"
+     },
+     {
+      "wert": 193,
       "quelle": "Wikipedia: Ciryl Gane"
      }
     ],
@@ -4727,6 +4737,42 @@
     "ergebnis": "Win"
    },
    "naechster_kampf": null,
+   "status": null,
+   "gewicht_kg": null,
+   "reichweite_cm": null,
+   "kampfstil": null,
+   "geburtsort": null,
+   "wikidata": null
+  },
+  {
+   "name": "Alik Lorenz",
+   "artikel": null,
+   "wikipedia": null,
+   "gewichtsklasse": "Light Heavyweight",
+   "land_iso": "USA",
+   "quellen": {
+    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
+    "land_iso": "Wikipedia: List of current UFC fighters",
+    "bilanz": "Wikipedia: List of current UFC fighters",
+    "geburtsdatum": "Wikipedia: List of current UFC fighters",
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
+   },
+   "konflikte": {},
+   "bilanz": "8-2",
+   "geburtsdatum": "1997-01-25",
+   "groesse_cm": 188,
+   "nationalitaet": null,
+   "siegesserie": null,
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 294",
+    "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
+    "ort": "Al Rayyan",
+    "gegner": "Diyar Nurgozhay",
+    "datum": "2026-11-21"
+   },
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -9702,7 +9748,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "15-3-1",
@@ -9710,14 +9757,14 @@
    "groesse_cm": 190,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 282",
-    "event_wiki": "UFC Fight Night: Ankalaev vs. Guskov",
-    "ort": "Abu Dhabi",
-    "gegner": "Santiago Ponzinibbio",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 298",
+    "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
+    "ort": "Sydney",
+    "gegner": "Jonathan Micallef",
+    "datum": "2027-02-07"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -10084,7 +10131,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "10-1",
@@ -10092,14 +10140,14 @@
    "groesse_cm": 183,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 275",
-    "event_wiki": "UFC Fight Night: Della Maddalena vs. Prates",
-    "ort": "Perth",
-    "gegner": "Themba Gorimbo",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 298",
+    "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
+    "ort": "Sydney",
+    "gegner": "Sam Patterson",
+    "datum": "2027-02-07"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -11613,6 +11661,69 @@
    "reichweite_cm": 188,
    "kampfstil": "Brazilian Jiu Jitsu",
    "geburtsort": "Careiro da Várzea, Amazonas, Brazil"
+  },
+  {
+   "name": "Brian Ortega",
+   "artikel": "Brian Ortega",
+   "wikipedia": "https://en.wikipedia.org/wiki/Brian_Ortega",
+   "gewichtsklasse": "Lightweight",
+   "land_iso": "USA",
+   "quellen": {
+    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
+    "land_iso": "Wikipedia: List of current UFC fighters",
+    "bilanz": "Wikipedia: List of current UFC fighters",
+    "geburtsdatum": "Wikipedia: List of current UFC fighters",
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "nationalitaet": "Wikipedia: Brian Ortega",
+    "siegesserie": "Wikipedia: Brian Ortega (Tabelle „Mixed martial arts record“)",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
+    "gewicht_kg": "Wikipedia: Brian Ortega",
+    "reichweite_cm": "Wikipedia: Brian Ortega",
+    "kampfstil": "Wikipedia (russisch): Ортега, Брайан",
+    "geburtsort": "Wikipedia: Brian Ortega"
+   },
+   "konflikte": {
+    "groesse_cm": [
+     {
+      "wert": 173,
+      "quelle": "Wikipedia: List of current UFC fighters"
+     },
+     {
+      "wert": 175,
+      "quelle": "Wikipedia: Brian Ortega"
+     }
+    ],
+    "gewicht_kg": [
+     {
+      "wert": 69.4,
+      "quelle": "Wikipedia: Brian Ortega"
+     },
+     {
+      "wert": 66.0,
+      "quelle": "Wikipedia (portugiesisch): Brian Ortega"
+     }
+    ]
+   },
+   "bilanz": "16-5 (1 NC)",
+   "geburtsdatum": "1991-02-21",
+   "groesse_cm": 173,
+   "nationalitaet": "American • Mexican",
+   "siegesserie": 0,
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 294",
+    "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
+    "ort": "Al Rayyan",
+    "gegner": "Dan Hooker",
+    "datum": "2026-11-21"
+   },
+   "status": null,
+   "wikidata": "https://www.wikidata.org/wiki/Q4964959",
+   "gewicht_kg": 69.4,
+   "reichweite_cm": 175,
+   "kampfstil": "Brazilian jiu-jitsu, Kickboxing, Boxing",
+   "geburtsort": "Los Angeles, California, U.S."
   },
   {
    "name": "Renato Moicano",
@@ -15396,6 +15507,78 @@
    "wikidata": null
   },
   {
+   "name": "Shoaib Yousaf",
+   "artikel": null,
+   "wikipedia": null,
+   "gewichtsklasse": "Lightweight",
+   "land_iso": "ENG",
+   "quellen": {
+    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
+    "land_iso": "Wikipedia: List of current UFC fighters",
+    "bilanz": "Wikipedia: List of current UFC fighters",
+    "geburtsdatum": "Wikipedia: List of current UFC fighters",
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
+   },
+   "konflikte": {},
+   "bilanz": "14-3",
+   "geburtsdatum": "1995-09-07",
+   "groesse_cm": 180,
+   "nationalitaet": null,
+   "siegesserie": null,
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 294",
+    "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
+    "ort": "Al Rayyan",
+    "gegner": "John Mitchell",
+    "datum": "2026-11-21"
+   },
+   "status": null,
+   "gewicht_kg": null,
+   "reichweite_cm": null,
+   "kampfstil": null,
+   "geburtsort": null,
+   "wikidata": null
+  },
+  {
+   "name": "John Mitchell",
+   "artikel": null,
+   "wikipedia": null,
+   "gewichtsklasse": "Lightweight",
+   "land_iso": "IRL",
+   "quellen": {
+    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
+    "land_iso": "Wikipedia: List of current UFC fighters",
+    "bilanz": "Wikipedia: List of current UFC fighters",
+    "geburtsdatum": "Wikipedia: List of current UFC fighters",
+    "groesse_cm": "Wikipedia: List of current UFC fighters",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
+   },
+   "konflikte": {},
+   "bilanz": "11-3",
+   "geburtsdatum": "1995-07-21",
+   "groesse_cm": 185,
+   "nationalitaet": null,
+   "siegesserie": null,
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 294",
+    "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
+    "ort": "Al Rayyan",
+    "gegner": "Shoaib Yousaf",
+    "datum": "2026-11-21"
+   },
+   "status": null,
+   "gewicht_kg": null,
+   "reichweite_cm": null,
+   "kampfstil": null,
+   "geburtsort": null,
+   "wikidata": null
+  },
+  {
    "name": "Andre Fili",
    "artikel": "Andre Fili",
    "wikipedia": "https://en.wikipedia.org/wiki/Andre_Fili",
@@ -15445,67 +15628,6 @@
    "reichweite_cm": 188,
    "kampfstil": "Kickboxing",
    "geburtsort": "Federal Way, Washington, U.S."
-  },
-  {
-   "name": "Douglas Silva de Andrade",
-   "artikel": "Douglas Silva de Andrade",
-   "wikipedia": "https://en.wikipedia.org/wiki/Douglas_Silva_de_Andrade",
-   "gewichtsklasse": "Featherweight",
-   "land_iso": "BRA",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: Douglas Silva de Andrade (Tabelle „Mixed martial arts record“)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "gewicht_kg": "Wikipedia: Douglas Silva de Andrade",
-    "reichweite_cm": "Wikipedia (russisch): Силва ди Андради, Дуглас",
-    "kampfstil": "Wikipedia: Douglas Silva de Andrade",
-    "geburtsort": "Wikipedia: Douglas Silva de Andrade"
-   },
-   "konflikte": {
-    "groesse_cm": [
-     {
-      "wert": 170,
-      "quelle": "Wikipedia: List of current UFC fighters"
-     },
-     {
-      "wert": 168,
-      "quelle": "Wikipedia: Douglas Silva de Andrade"
-     }
-    ],
-    "gewicht_kg": [
-     {
-      "wert": 61.2,
-      "quelle": "Wikipedia: Douglas Silva de Andrade"
-     },
-     {
-      "wert": 66.0,
-      "quelle": "Wikipedia (portugiesisch): Douglas Silva de Andrade"
-     }
-    ]
-   },
-   "bilanz": "29-7 (1 NC)",
-   "geburtsdatum": "1985-06-22",
-   "groesse_cm": 170,
-   "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 268",
-    "event_wiki": "UFC Fight Night: Moreno vs. Kavanagh",
-    "ort": "Mexico City",
-    "gegner": "Javier Reyes",
-    "ergebnis": "Loss"
-   },
-   "naechster_kampf": null,
-   "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q31925723",
-   "gewicht_kg": 61.2,
-   "reichweite_cm": 173,
-   "kampfstil": "Boxing, BJJ",
-   "geburtsort": "Castanhal, Pará, Brazil"
   },
   {
    "name": "Aljamain Sterling",
@@ -15590,69 +15712,6 @@
    "reichweite_cm": 180,
    "kampfstil": "Freestyle wrestling, Brazilian jiu-jitsu",
    "geburtsort": "Uniondale, New York, U.S."
-  },
-  {
-   "name": "Brian Ortega",
-   "artikel": "Brian Ortega",
-   "wikipedia": "https://en.wikipedia.org/wiki/Brian_Ortega",
-   "gewichtsklasse": "Featherweight",
-   "land_iso": "USA",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "nationalitaet": "Wikipedia: Brian Ortega",
-    "siegesserie": "Wikipedia: Brian Ortega (Tabelle „Mixed martial arts record“)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
-    "gewicht_kg": "Wikipedia: Brian Ortega",
-    "reichweite_cm": "Wikipedia: Brian Ortega",
-    "kampfstil": "Wikipedia (russisch): Ортега, Брайан",
-    "geburtsort": "Wikipedia: Brian Ortega"
-   },
-   "konflikte": {
-    "groesse_cm": [
-     {
-      "wert": 173,
-      "quelle": "Wikipedia: List of current UFC fighters"
-     },
-     {
-      "wert": 175,
-      "quelle": "Wikipedia: Brian Ortega"
-     }
-    ],
-    "gewicht_kg": [
-     {
-      "wert": 69.4,
-      "quelle": "Wikipedia: Brian Ortega"
-     },
-     {
-      "wert": 66.0,
-      "quelle": "Wikipedia (portugiesisch): Brian Ortega"
-     }
-    ]
-   },
-   "bilanz": "16-5 (1 NC)",
-   "geburtsdatum": "1991-02-21",
-   "groesse_cm": 173,
-   "nationalitaet": "American • Mexican",
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
-    "event": "UFC Fight Night 294",
-    "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
-    "ort": "Al Rayyan",
-    "gegner": "Dan Hooker / Moving to Lightweight",
-    "datum": "2026-11-21"
-   },
-   "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q4964959",
-   "gewicht_kg": 69.4,
-   "reichweite_cm": 175,
-   "kampfstil": "Brazilian jiu-jitsu, Kickboxing, Boxing",
-   "geburtsort": "Los Angeles, California, U.S."
   },
   {
    "name": "Yair Rodríguez",
@@ -16388,75 +16447,6 @@
    "geburtsort": "Newton, Kansas, U.S."
   },
   {
-   "name": "Giga Chikadze",
-   "artikel": "Giga Chikadze",
-   "wikipedia": "https://en.wikipedia.org/wiki/Giga_Chikadze",
-   "gewichtsklasse": "Featherweight",
-   "land_iso": "GEO",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: Giga Chikadze (Tabelle „Mixed martial arts record“)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "gewicht_kg": "Wikipedia: Giga Chikadze",
-    "reichweite_cm": "Wikipedia: Giga Chikadze",
-    "kampfstil": "Wikipedia: Giga Chikadze",
-    "geburtsort": "Wikipedia: Giga Chikadze"
-   },
-   "konflikte": {
-    "gewicht_kg": [
-     {
-      "wert": 65.8,
-      "quelle": "Wikipedia: Giga Chikadze"
-     },
-     {
-      "wert": 65.0,
-      "quelle": "Wikipedia (portugiesisch): Giga Chikadze"
-     }
-    ],
-    "kampfstil": [
-     {
-      "wert": "Kickboxing",
-      "quelle": "Wikipedia: Giga Chikadze"
-     },
-     {
-      "wert": "Muay Thai",
-      "quelle": "Wikipedia (russisch): Чикадзе, Гига"
-     },
-     {
-      "wert": "Gōjū-ryū, Kickboxing",
-      "quelle": "Wikipedia (spanisch): Giga Chikadze"
-     },
-     {
-      "wert": "Kickboxing",
-      "quelle": "Wikipedia (portugiesisch): Giga Chikadze"
-     }
-    ]
-   },
-   "bilanz": "15-7",
-   "geburtsdatum": "1988-08-25",
-   "groesse_cm": 183,
-   "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC 331",
-    "event_wiki": "UFC 331",
-    "ort": "Los Angeles",
-    "gegner": "Joanderson Brito",
-    "ergebnis": "Loss"
-   },
-   "naechster_kampf": null,
-   "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q95453345",
-   "gewicht_kg": 65.8,
-   "reichweite_cm": 188,
-   "kampfstil": "Kickboxing",
-   "geburtsort": "Tbilisi, Georgian SSR, Soviet Union"
-  },
-  {
    "name": "Sean Woodson",
    "artikel": "Sean Woodson",
    "wikipedia": "https://en.wikipedia.org/wiki/Sean_Woodson",
@@ -17036,41 +17026,6 @@
    "geburtsort": "Uberlândia, Minas Gerais, Brazil"
   },
   {
-   "name": "William Gomis",
-   "artikel": null,
-   "wikipedia": null,
-   "gewichtsklasse": "Featherweight",
-   "land_iso": "FRA",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
-   },
-   "konflikte": {},
-   "bilanz": "15-4",
-   "geburtsdatum": "1997-06-13",
-   "groesse_cm": 183,
-   "nationalitaet": null,
-   "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC 328",
-    "event_wiki": "UFC 328",
-    "ort": "Newark",
-    "gegner": "Pat Sabatini",
-    "ergebnis": "Loss"
-   },
-   "naechster_kampf": null,
-   "status": null,
-   "gewicht_kg": null,
-   "reichweite_cm": null,
-   "kampfstil": null,
-   "geburtsort": null,
-   "wikidata": null
-  },
-  {
    "name": "Francis Marshall",
    "artikel": null,
    "wikipedia": null,
@@ -17095,41 +17050,6 @@
     "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
     "ort": "Las Vegas",
     "gegner": "Dakota Hope",
-    "ergebnis": "Loss"
-   },
-   "naechster_kampf": null,
-   "status": null,
-   "gewicht_kg": null,
-   "reichweite_cm": null,
-   "kampfstil": null,
-   "geburtsort": null,
-   "wikidata": null
-  },
-  {
-   "name": "Lee Jeong-yeong",
-   "artikel": null,
-   "wikipedia": null,
-   "gewichtsklasse": "Featherweight",
-   "land_iso": "KOR",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
-   },
-   "konflikte": {},
-   "bilanz": "11-3",
-   "geburtsdatum": "1995-11-13",
-   "groesse_cm": 178,
-   "nationalitaet": null,
-   "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 292",
-    "event_wiki": "UFC Fight Night: Moicano vs. Nolan",
-    "ort": "Las Vegas",
-    "gegner": "Julian Erosa",
     "ergebnis": "Loss"
    },
    "naechster_kampf": null,
@@ -26768,7 +26688,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "geburtsort": "Wikidata: Q142226892"
    },
    "konflikte": {},
    "bilanz": "10-4",
@@ -26785,11 +26706,11 @@
    },
    "naechster_kampf": null,
    "status": null,
+   "wikidata": "https://www.wikidata.org/wiki/Q142226892",
    "gewicht_kg": null,
    "reichweite_cm": null,
    "kampfstil": null,
-   "geburtsort": null,
-   "wikidata": null
+   "geburtsort": "Recife"
   },
   {
    "name": "Ernesta Kareckaitė",
@@ -32558,7 +32479,7 @@
       "gegner_artikel": "Alexa Grasso"
      },
      "naechster_kampf": null,
-     "hinweis": null,
+     "hinweis": "(October 19, 2026) – 3-month CSAD suspension",
      "bewegung": {
       "art": "gleich",
       "plaetze": 0
@@ -33137,7 +33058,12 @@
       "gegner": "Piera Rodríguez",
       "gegner_artikel": "Piera Rodríguez"
      },
-     "naechster_kampf": null,
+     "naechster_kampf": {
+      "event": "UFC Fight Night 296",
+      "event_wiki": "UFC Fight Night: Rodríguez vs. Garcia",
+      "gegner": "Karolina Kowalkiewicz",
+      "gegner_artikel": "Karolina Kowalkiewicz"
+     },
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -35248,6 +35174,46 @@
    "grund": "Entlassen",
    "grund_original": "Released",
    "kategorie": "Entlassen"
+  },
+  {
+   "datum": "2026-11-20",
+   "land_iso": "KOR",
+   "name": "Lee Jeong-yeong",
+   "artikel": null,
+   "gewichtsklasse": "Featherweight",
+   "grund": "Karriereende",
+   "grund_original": "Retired",
+   "kategorie": "Karriereende"
+  },
+  {
+   "datum": "2026-11-20",
+   "land_iso": "BRA",
+   "name": "Douglas Silva de Andrade",
+   "artikel": "Douglas Silva de Andrade",
+   "gewichtsklasse": "Featherweight",
+   "grund": "Entlassen",
+   "grund_original": "Released",
+   "kategorie": "Entlassen"
+  },
+  {
+   "datum": "2026-11-20",
+   "land_iso": "GEO",
+   "name": "Giga Chikadze",
+   "artikel": "Giga Chikadze",
+   "gewichtsklasse": "Featherweight",
+   "grund": "Entlassen",
+   "grund_original": "Released",
+   "kategorie": "Entlassen"
+  },
+  {
+   "datum": "2026-11-20",
+   "land_iso": "FRA",
+   "name": "William Gomis",
+   "artikel": null,
+   "gewichtsklasse": "Featherweight",
+   "grund": "Entlassen",
+   "grund_original": "Released",
+   "kategorie": "Entlassen"
   }
  ],
  "events": [
@@ -35340,7 +35306,7 @@
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Welterweight",
+     "gewichtsklasse": "Catchweight (172 lb)",
      "a": "Jake Matthews",
      "a_artikel": "Jake Matthews (fighter)",
      "b": "Tahir Abdullayev",
