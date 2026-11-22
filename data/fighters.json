@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-21T12:26:40+00:00",
+ "stand": "2026-11-22T12:29:51+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -12,7 +12,7 @@
   "Wikipedia auf Russisch, Japanisch, Spanisch, Portugiesisch, Deutsch"
  ],
  "lizenz": "Wikipedia-Inhalte: CC BY-SA 4.0; Wikidata: CC0",
- "anzahl": 649,
+ "anzahl": 648,
  "kaempfer": [
   {
    "name": "Derrick Lewis",
@@ -1068,37 +1068,25 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Shamil Gaziev (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Shamil Gaziev",
     "reichweite_cm": "Wikipedia: Shamil Gaziev",
     "kampfstil": "Wikipedia (russisch): Газиев, Шамиль Хасбулатович",
     "geburtsort": "Wikipedia: Shamil Gaziev"
    },
-   "konflikte": {
-    "groesse_cm": [
-     {
-      "wert": 193,
-      "quelle": "Wikipedia: List of current UFC fighters"
-     },
-     {
-      "wert": 190,
-      "quelle": "Wikipedia: Shamil Gaziev"
-     }
-    ]
-   },
-   "bilanz": "15-3",
+   "konflikte": {},
+   "bilanz": "15-4",
    "geburtsdatum": "1990-02-10",
    "groesse_cm": 193,
    "nationalitaet": null,
-   "siegesserie": 1,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Tallison Teixeira",
-    "datum": "2026-11-21"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q126005422",
    "gewicht_kg": 117.9,
@@ -1346,7 +1334,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Tallison Teixeira (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Tallison Teixeira",
     "reichweite_cm": "Wikipedia: Tallison Teixeira",
     "kampfstil": "Wikipedia (russisch): Тейшейра, Таллисон",
@@ -1374,19 +1361,19 @@
      }
     ]
    },
-   "bilanz": "9-2",
+   "bilanz": "10-2",
    "geburtsdatum": "1999-12-07",
    "groesse_cm": 201,
    "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 1,
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Shamil Gaziev",
-    "datum": "2026-11-21"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q134289443",
    "gewicht_kg": 117.5,
@@ -3283,8 +3270,8 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "nationalitaet": "Wikipedia: Jiří Procházka",
+    "siegesserie": "Wikipedia: Jiří Procházka (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Jiří Procházka",
     "reichweite_cm": "Wikipedia: Jiří Procházka",
     "kampfstil": "Wikipedia (russisch): Прохазка, Иржи (спортсмен)",
@@ -3314,19 +3301,19 @@
      }
     ]
    },
-   "bilanz": "32-6-1",
+   "bilanz": "32-7-1",
    "geburtsdatum": "1992-10-14",
    "groesse_cm": 193,
    "nationalitaet": "Czech",
-   "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Navajo Stirling",
-    "datum": "2026-11-21"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q27917811",
    "gewicht_kg": 93.0,
@@ -4047,7 +4034,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Navajo Stirling (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Navajo Stirling",
     "reichweite_cm": "Wikipedia: Navajo Stirling",
     "kampfstil": "Wikipedia: Navajo Stirling",
@@ -4065,19 +4051,19 @@
      }
     ]
    },
-   "bilanz": "11-0",
+   "bilanz": "12-0",
    "geburtsdatum": "1997-11-07",
    "groesse_cm": 193,
    "nationalitaet": null,
-   "siegesserie": 11,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 12,
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Jiří Procházka",
-    "datum": "2026-11-21"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q136816852",
    "gewicht_kg": 93.0,
@@ -4183,23 +4169,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "12-2",
+   "bilanz": "13-2",
    "geburtsdatum": "1997-04-22",
    "groesse_cm": 188,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Alik Lorenz",
-    "datum": "2026-11-21"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -4328,7 +4313,7 @@
    "gewicht_kg": 93.0,
    "reichweite_cm": 201,
    "kampfstil": "Mixed martial arts",
-   "geburtsort": "Chechnya, Russia"
+   "geburtsort": "Tsotsi-Yurt, Chechnya, Russia"
   },
   {
    "name": "Iwo Baraniewski",
@@ -4756,23 +4741,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "8-2",
+   "bilanz": "8-3",
    "geburtsdatum": "1997-01-25",
    "groesse_cm": 188,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Diyar Nurgozhay",
-    "datum": "2026-11-21"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -4923,7 +4907,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Jared Cannonier (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Jared Cannonier",
     "reichweite_cm": "Wikipedia: Jared Cannonier",
     "kampfstil": "Wikipedia (portugiesisch): Jared Cannonier",
@@ -4951,19 +4934,19 @@
      }
     ]
    },
-   "bilanz": "18-10",
+   "bilanz": "18-11",
    "geburtsdatum": "1984-03-03",
    "groesse_cm": 180,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Ikram Aliskerov",
-    "datum": "2026-11-21"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q27957217",
    "gewicht_kg": 83.9,
@@ -6520,26 +6503,25 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Ikram Aliskerov (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Ikram Aliskerov",
     "reichweite_cm": "Wikipedia: Ikram Aliskerov",
     "kampfstil": "Wikipedia: Ikram Aliskerov",
     "geburtsort": "Wikipedia: Ikram Aliskerov"
    },
    "konflikte": {},
-   "bilanz": "18-2",
+   "bilanz": "19-2",
    "geburtsdatum": "1992-12-07",
    "groesse_cm": 183,
    "nationalitaet": null,
-   "siegesserie": 3,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 4,
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Jared Cannonier",
-    "datum": "2026-11-21"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q25693551",
    "gewicht_kg": 83.9,
@@ -8272,7 +8254,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Jake Matthews (fighter) (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Jake Matthews (fighter)",
     "reichweite_cm": "Wikipedia: Jake Matthews (fighter)",
     "kampfstil": "Wikipedia (russisch): Мэттьюз, Джейк",
@@ -8294,19 +8275,19 @@
      }
     ]
    },
-   "bilanz": "23-8",
+   "bilanz": "23-9",
    "geburtsdatum": "1994-08-19",
    "groesse_cm": 180,
    "nationalitaet": null,
-   "siegesserie": 1,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Tahir Abdullayev",
-    "datum": "2026-11-21"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q19364772",
    "gewicht_kg": 77.1,
@@ -10701,11 +10682,10 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "20-3",
+   "bilanz": "21-3",
    "geburtsdatum": "1997-02-02",
    "groesse_cm": 173,
    "nationalitaet": null,
@@ -10716,7 +10696,7 @@
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Jake Matthews",
-    "datum": "2026-11-21"
+    "datum": null
    },
    "status": null,
    "gewicht_kg": null,
@@ -11506,7 +11486,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Dan Hooker (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Dan Hooker",
     "reichweite_cm": "Wikipedia: Dan Hooker",
     "kampfstil": "Wikipedia: Dan Hooker",
@@ -11542,19 +11521,19 @@
      }
     ]
    },
-   "bilanz": "24-15",
+   "bilanz": "25-15",
    "geburtsdatum": "1990-02-13",
    "groesse_cm": 183,
    "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 1,
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Brian Ortega",
-    "datum": "2026-11-21"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q19946041",
    "gewicht_kg": 70.8,
@@ -11661,69 +11640,6 @@
    "reichweite_cm": 188,
    "kampfstil": "Brazilian Jiu Jitsu",
    "geburtsort": "Careiro da Várzea, Amazonas, Brazil"
-  },
-  {
-   "name": "Brian Ortega",
-   "artikel": "Brian Ortega",
-   "wikipedia": "https://en.wikipedia.org/wiki/Brian_Ortega",
-   "gewichtsklasse": "Lightweight",
-   "land_iso": "USA",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "nationalitaet": "Wikipedia: Brian Ortega",
-    "siegesserie": "Wikipedia: Brian Ortega (Tabelle „Mixed martial arts record“)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
-    "gewicht_kg": "Wikipedia: Brian Ortega",
-    "reichweite_cm": "Wikipedia: Brian Ortega",
-    "kampfstil": "Wikipedia (russisch): Ортега, Брайан",
-    "geburtsort": "Wikipedia: Brian Ortega"
-   },
-   "konflikte": {
-    "groesse_cm": [
-     {
-      "wert": 173,
-      "quelle": "Wikipedia: List of current UFC fighters"
-     },
-     {
-      "wert": 175,
-      "quelle": "Wikipedia: Brian Ortega"
-     }
-    ],
-    "gewicht_kg": [
-     {
-      "wert": 69.4,
-      "quelle": "Wikipedia: Brian Ortega"
-     },
-     {
-      "wert": 66.0,
-      "quelle": "Wikipedia (portugiesisch): Brian Ortega"
-     }
-    ]
-   },
-   "bilanz": "16-5 (1 NC)",
-   "geburtsdatum": "1991-02-21",
-   "groesse_cm": 173,
-   "nationalitaet": "American • Mexican",
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
-    "event": "UFC Fight Night 294",
-    "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
-    "ort": "Al Rayyan",
-    "gegner": "Dan Hooker",
-    "datum": "2026-11-21"
-   },
-   "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q4964959",
-   "gewicht_kg": 69.4,
-   "reichweite_cm": 175,
-   "kampfstil": "Brazilian jiu-jitsu, Kickboxing, Boxing",
-   "geburtsort": "Los Angeles, California, U.S."
   },
   {
    "name": "Renato Moicano",
@@ -13582,25 +13498,24 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Nikolas Motta (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Nikolas Motta",
     "reichweite_cm": "Wikipedia (russisch): Мотта, Николас",
     "geburtsort": "Wikipedia: Nikolas Motta"
    },
    "konflikte": {},
-   "bilanz": "15-6 (1 NC)",
+   "bilanz": "15-7 (1 NC)",
    "geburtsdatum": "1993-02-08",
    "groesse_cm": 175,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Dom Mar Fan",
-    "datum": "2026-11-21"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q131428911",
    "gewicht_kg": 70.3,
@@ -14915,23 +14830,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "9-3",
+   "bilanz": "10-3",
    "geburtsdatum": "2000-05-19",
    "groesse_cm": 180,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Nikolas Motta",
-    "datum": "2026-11-21"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -15518,23 +15432,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "14-3",
+   "bilanz": "14-4",
    "geburtsdatum": "1995-09-07",
    "groesse_cm": 180,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "John Mitchell",
-    "datum": "2026-11-21"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -15554,23 +15467,22 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events"
+    "kaempfe": "Wikipedia: List of current UFC fighters"
    },
    "konflikte": {},
-   "bilanz": "11-3",
+   "bilanz": "12-3",
    "geburtsdatum": "1995-07-21",
    "groesse_cm": 185,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Shoaib Yousaf",
-    "datum": "2026-11-21"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -15643,7 +15555,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Aljamain Sterling (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Aljamain Sterling",
     "reichweite_cm": "Wikipedia: Aljamain Sterling",
     "kampfstil": "Wikipedia (russisch): Стерлинг, Алджамейн",
@@ -15693,19 +15604,19 @@
      }
     ]
    },
-   "bilanz": "26-5",
+   "bilanz": "26-6",
    "geburtsdatum": "1989-07-31",
    "groesse_cm": 170,
    "nationalitaet": null,
-   "siegesserie": 2,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Kevin Vallejos",
-    "datum": "2026-11-21"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q17403242",
    "gewicht_kg": 66.2,
@@ -18023,7 +17934,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Kevin Vallejos (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Kevin Vallejos",
     "reichweite_cm": "Wikipedia: Kevin Vallejos",
     "kampfstil": "Wikipedia (russisch): Вальехос, Кевин",
@@ -18041,19 +17951,19 @@
      }
     ]
    },
-   "bilanz": "18-1",
+   "bilanz": "19-1",
    "geburtsdatum": "2001-11-08",
    "groesse_cm": 170,
    "nationalitaet": null,
-   "siegesserie": 7,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 8,
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Aljamain Sterling",
-    "datum": "2026-11-21"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q135207548",
    "gewicht_kg": 65.8,
@@ -21620,32 +21530,31 @@
     "nationalitaet": "Wikipedia: Aleksandre Topuria",
     "siegesserie": "Wikipedia: Aleksandre Topuria (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Aleksandre Topuria",
     "reichweite_cm": "Wikipedia: Aleksandre Topuria",
     "kampfstil": "Wikipedia (russisch): Топурия, Александр",
     "geburtsort": "Wikipedia: Aleksandre Topuria"
    },
    "konflikte": {},
-   "bilanz": "7-1",
+   "bilanz": "7-2",
    "geburtsdatum": "1996-01-28",
    "groesse_cm": 170,
    "nationalitaet": "Georgian",
-   "siegesserie": 5,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Santiago Luna",
-    "datum": "2026-11-21"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q124562187",
    "gewicht_kg": 61.2,
    "reichweite_cm": 173,
    "kampfstil": "Greco-Roman wrestling, Brazilian jiu-jitsu, Boxing",
-   "geburtsort": "Halle, Germany"
+   "geburtsort": "Halle, North Rhine-Westphalia, Germany"
   },
   {
    "name": "Elijah Smith",
@@ -21867,7 +21776,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Santiago Luna (fighter) (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Santiago Luna (fighter)",
     "reichweite_cm": "Wikipedia: Santiago Luna (fighter)",
     "geburtsort": "Wikipedia: Santiago Luna (fighter)"
@@ -21894,19 +21802,19 @@
      }
     ]
    },
-   "bilanz": "8-1",
+   "bilanz": "9-1",
    "geburtsdatum": "2004-08-06",
    "groesse_cm": 175,
    "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 1,
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Aleksandre Topuria",
-    "datum": "2026-11-21"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q136266296",
    "gewicht_kg": 61.0,
@@ -22719,7 +22627,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Kyoji Horiguchi (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Kyoji Horiguchi",
     "reichweite_cm": "Wikipedia: Kyoji Horiguchi",
     "kampfstil": "Wikipedia: Kyoji Horiguchi",
@@ -22747,19 +22654,19 @@
      }
     ]
    },
-   "bilanz": "36-6 (1 NC)",
+   "bilanz": "37-6 (1 NC)",
    "geburtsdatum": "1993-10-12",
    "groesse_cm": 165,
    "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 1,
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Asu Almabayev",
-    "datum": "2026-11-21"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q6451952",
    "gewicht_kg": 57.2,
@@ -23215,26 +23122,25 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Amir Albazi (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Amir Albazi",
     "reichweite_cm": "Wikipedia: Amir Albazi",
     "kampfstil": "Wikipedia (russisch): Альбази, Амир",
     "geburtsort": "Wikipedia: Amir Albazi"
    },
    "konflikte": {},
-   "bilanz": "17-3",
+   "bilanz": "18-3",
    "geburtsdatum": "1993-10-27",
    "groesse_cm": 165,
    "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 1,
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Alessandro Costa",
-    "datum": "2026-11-21"
+    "ergebnis": "Win"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q78095043",
    "gewicht_kg": 56.7,
@@ -23476,26 +23382,25 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia (portugiesisch): Alessandro Costa",
     "reichweite_cm": "Wikipedia (russisch): Коста, Алессандро (боец)",
     "kampfstil": "Wikipedia (russisch): Коста, Алессандро (боец)",
     "geburtsort": "Wikipedia (russisch): Коста, Алессандро (боец)"
    },
    "konflikte": {},
-   "bilanz": "17-5",
+   "bilanz": "17-6",
    "geburtsdatum": "1996-01-28",
    "groesse_cm": 163,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Amir Albazi",
-    "datum": "2026-11-21"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q131624565",
    "gewicht_kg": 56.0,
@@ -23745,26 +23650,25 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Asu Almabayev (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Asu Almabayev",
     "reichweite_cm": "Wikipedia: Asu Almabayev",
     "kampfstil": "Wikipedia (russisch): Алмабаев, Асу Абайулы",
     "geburtsort": "Wikipedia: Asu Almabayev"
    },
    "konflikte": {},
-   "bilanz": "24-3",
+   "bilanz": "24-4",
    "geburtsdatum": "1994-01-25",
    "groesse_cm": 163,
    "nationalitaet": null,
-   "siegesserie": 3,
-   "letzter_kampf": null,
-   "naechster_kampf": {
+   "siegesserie": 0,
+   "letzter_kampf": {
     "event": "UFC Fight Night 294",
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Kyoji Horiguchi",
-    "datum": "2026-11-21"
+    "ergebnis": "Loss"
    },
+   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q128803907",
    "gewicht_kg": 56.7,
@@ -25224,7 +25128,6 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Jacqueline Cavalcanti (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
-    "kampfdatum": "Wikipedia: List of UFC events",
     "reichweite_cm": "Wikipedia: Jacqueline Cavalcanti",
     "geburtsort": "Wikipedia: Jacqueline Cavalcanti"
    },
@@ -25240,7 +25143,7 @@
     "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
     "ort": "Al Rayyan",
     "gegner": "Michelle Montague",
-    "datum": "2026-11-21"
+    "datum": null
    },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q131151601",
@@ -29539,21 +29442,16 @@
      "land_iso": "CZE",
      "name": "Jiří Procházka",
      "artikel": "Jiří Procházka",
-     "bilanz": "32-6-1",
+     "bilanz": "32-7-1",
      "serie": 0,
      "letzter_kampf": {
       "ergebnis": "Loss",
-      "event": "UFC 327",
-      "event_wiki": "UFC 327",
-      "gegner": "Carlos Ulberg",
-      "gegner_artikel": "Carlos Ulberg"
-     },
-     "naechster_kampf": {
       "event": "UFC Fight Night 294",
       "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
       "gegner": "Navajo Stirling",
       "gegner_artikel": "Navajo Stirling"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -29628,21 +29526,16 @@
      "land_iso": "NZL",
      "name": "Navajo Stirling",
      "artikel": "Navajo Stirling",
-     "bilanz": "11-0",
-     "serie": 11,
+     "bilanz": "12-0",
+     "serie": 12,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC Fight Night 283",
-      "event_wiki": "UFC Fight Night: Medić vs. Rodriguez",
-      "gegner": "Jan Błachowicz",
-      "gegner_artikel": "Jan Błachowicz"
-     },
-     "naechster_kampf": {
       "event": "UFC Fight Night 294",
       "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
       "gegner": "Jiří Procházka",
       "gegner_artikel": "Jiří Procházka"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "ab",
@@ -30081,21 +29974,16 @@
      "land_iso": "RUS",
      "name": "Ikram Aliskerov",
      "artikel": "Ikram Aliskerov",
-     "bilanz": "18-2",
-     "serie": 3,
+     "bilanz": "19-2",
+     "serie": 4,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC Fight Night 280",
-      "event_wiki": "UFC Fight Night: Fiziev vs. Torres",
-      "gegner": "Brunno Ferreira",
-      "gegner_artikel": "Brunno Ferreira"
-     },
-     "naechster_kampf": {
       "event": "UFC Fight Night 294",
       "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
       "gegner": "Jared Cannonier",
       "gegner_artikel": "Jared Cannonier"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -31026,21 +30914,16 @@
      "land_iso": "USA",
      "name": "Aljamain Sterling",
      "artikel": "Aljamain Sterling",
-     "bilanz": "26-5",
-     "serie": 2,
+     "bilanz": "26-6",
+     "serie": 0,
      "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC Fight Night 274",
-      "event_wiki": "UFC Fight Night: Sterling vs. Zalal",
-      "gegner": "Youssef Zalal",
-      "gegner_artikel": "Youssef Zalal"
-     },
-     "naechster_kampf": {
+      "ergebnis": "Loss",
       "event": "UFC Fight Night 294",
       "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
       "gegner": "Kevin Vallejos",
       "gegner_artikel": "Kevin Vallejos"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -31162,21 +31045,16 @@
      "land_iso": "ARG",
      "name": "Kevin Vallejos",
      "artikel": "Kevin Vallejos",
-     "bilanz": "18-1",
-     "serie": 7,
+     "bilanz": "19-1",
+     "serie": 8,
      "letzter_kampf": {
       "ergebnis": "Win",
-      "event": "UFC Fight Night 269",
-      "event_wiki": "UFC Fight Night: Emmett vs. Vallejos",
-      "gegner": "Josh Emmett",
-      "gegner_artikel": "Josh Emmett"
-     },
-     "naechster_kampf": {
       "event": "UFC Fight Night 294",
       "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
       "gegner": "Aljamain Sterling",
       "gegner_artikel": "Aljamain Sterling"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "gleich",
@@ -31789,21 +31667,16 @@
      "land_iso": "KAZ",
      "name": "Asu Almabayev",
      "artikel": "Asu Almabayev",
-     "bilanz": "24-3",
-     "serie": 3,
+     "bilanz": "24-4",
+     "serie": 0,
      "letzter_kampf": {
-      "ergebnis": "Win",
-      "event": "UFC Fight Night 280",
-      "event_wiki": "UFC Fight Night: Fiziev vs. Torres",
-      "gegner": "Charles Johnson",
-      "gegner_artikel": "Charles Johnson (fighter)"
-     },
-     "naechster_kampf": {
+      "ergebnis": "Loss",
       "event": "UFC Fight Night 294",
       "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
       "gegner": "Kyoji Horiguchi",
       "gegner_artikel": "Kyoji Horiguchi"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "ab",
@@ -31815,21 +31688,16 @@
      "land_iso": "JPN",
      "name": "Kyoji Horiguchi",
      "artikel": "Kyoji Horiguchi",
-     "bilanz": "36-6 (1 NC)",
-     "serie": 0,
+     "bilanz": "37-6 (1 NC)",
+     "serie": 1,
      "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC Fight Night 279",
-      "event_wiki": "UFC Fight Night: Kape vs. Horiguchi",
-      "gegner": "Manel Kape",
-      "gegner_artikel": "Manel Kape"
-     },
-     "naechster_kampf": {
+      "ergebnis": "Win",
       "event": "UFC Fight Night 294",
       "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
       "gegner": "Asu Almabayev",
       "gegner_artikel": "Asu Almabayev"
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "auf",
@@ -31841,21 +31709,16 @@
      "land_iso": "IRQ",
      "name": "Amir Albazi",
      "artikel": "Amir Albazi",
-     "bilanz": "17-3",
-     "serie": 0,
+     "bilanz": "18-3",
+     "serie": 1,
      "letzter_kampf": {
-      "ergebnis": "Loss",
-      "event": "UFC Fight Night 266",
-      "event_wiki": "UFC Fight Night: Bautista vs. Oliveira",
-      "gegner": "Kyoji Horiguchi",
-      "gegner_artikel": "Kyoji Horiguchi"
-     },
-     "naechster_kampf": {
+      "ergebnis": "Win",
       "event": "UFC Fight Night 294",
       "event_wiki": "UFC Fight Night: Procházka vs. Stirling",
       "gegner": "Alessandro Costa",
       "gegner_artikel": null
      },
+     "naechster_kampf": null,
      "hinweis": null,
      "bewegung": {
       "art": "auf",
@@ -34302,6 +34165,33 @@
    "gewichtsklasse": "Lightweight",
    "event": "UFC 334",
    "event_wiki": "UFC 334"
+  },
+  {
+   "datum": "2026-11-21",
+   "land_iso": "ENG",
+   "name": "Shoaib Yousaf",
+   "artikel": null,
+   "gewichtsklasse": "Lightweight",
+   "event": "UFC Fight Night 294",
+   "event_wiki": "UFC Fight Night: Procházka vs. Stirling"
+  },
+  {
+   "datum": "2026-11-21",
+   "land_iso": "IRL",
+   "name": "John Mitchell",
+   "artikel": null,
+   "gewichtsklasse": "Lightweight",
+   "event": "UFC Fight Night 294",
+   "event_wiki": "UFC Fight Night: Procházka vs. Stirling"
+  },
+  {
+   "datum": "2026-11-21",
+   "land_iso": "USA",
+   "name": "Alik Lorenz",
+   "artikel": null,
+   "gewichtsklasse": "Light Heavyweight",
+   "event": "UFC Fight Night 294",
+   "event_wiki": "UFC Fight Night: Procházka vs. Stirling"
   }
  ],
  "abgaenge": [
@@ -35214,142 +35104,19 @@
    "grund": "Entlassen",
    "grund_original": "Released",
    "kategorie": "Entlassen"
+  },
+  {
+   "datum": "2026-11-21",
+   "land_iso": "USA",
+   "name": "Brian Ortega",
+   "artikel": "Brian Ortega",
+   "gewichtsklasse": "Featherweight",
+   "grund": "Karriereende",
+   "grund_original": "Retired",
+   "kategorie": "Karriereende"
   }
  ],
  "events": [
-  {
-   "name": "UFC Fight Night: Procházka vs. Stirling",
-   "artikel": "UFC Fight Night: Procházka vs. Stirling",
-   "datum": "2026-11-21",
-   "halle": "Ali Bin Hamad al-Attiyah Arena",
-   "ort": "Al Rayyan, Qatar",
-   "wikipedia": "https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Proch%C3%A1zka_vs._Stirling",
-   "kaempfe": [
-    {
-     "gewichtsklasse": "Light Heavyweight",
-     "a": "Jiří Procházka",
-     "a_artikel": "Jiří Procházka",
-     "b": "Navajo Stirling",
-     "b_artikel": "Navajo Stirling",
-     "titelkampf": false,
-     "karte": "Main card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Featherweight",
-     "a": "Aljamain Sterling",
-     "a_artikel": "Aljamain Sterling",
-     "b": "Kevin Vallejos",
-     "b_artikel": "Kevin Vallejos",
-     "titelkampf": false,
-     "karte": "Main card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Lightweight",
-     "a": "Dan Hooker",
-     "a_artikel": "Dan Hooker",
-     "b": "Brian Ortega",
-     "b_artikel": "Brian Ortega",
-     "titelkampf": false,
-     "karte": "Main card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Flyweight",
-     "a": "Kyoji Horiguchi",
-     "a_artikel": "Kyoji Horiguchi",
-     "b": "Asu Almabayev",
-     "b_artikel": "Asu Almabayev",
-     "titelkampf": false,
-     "karte": "Main card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Middleweight",
-     "a": "Jared Cannonier",
-     "a_artikel": "Jared Cannonier",
-     "b": "Ikram Aliskerov",
-     "b_artikel": "Ikram Aliskerov",
-     "titelkampf": false,
-     "karte": "Main card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Bantamweight",
-     "a": "Aleksandre Topuria",
-     "a_artikel": "Aleksandre Topuria",
-     "b": "Santiago Luna",
-     "b_artikel": "Santiago Luna (fighter)",
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Heavyweight",
-     "a": "Shamil Gaziev",
-     "a_artikel": "Shamil Gaziev",
-     "b": "Tallison Teixeira",
-     "b_artikel": "Tallison Teixeira",
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Flyweight",
-     "a": "Amir Albazi",
-     "a_artikel": "Amir Albazi",
-     "b": "Alessandro Costa",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Catchweight (172 lb)",
-     "a": "Jake Matthews",
-     "a_artikel": "Jake Matthews (fighter)",
-     "b": "Tahir Abdullayev",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Lightweight",
-     "a": "Nikolas Motta",
-     "a_artikel": "Nikolas Motta",
-     "b": "Dom Mar Fan",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Light Heavyweight",
-     "a": "Diyar Nurgozhay",
-     "a_artikel": null,
-     "b": "Alik Lorenz",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    },
-    {
-     "gewichtsklasse": "Lightweight",
-     "a": "Shoaib Yousaf",
-     "a_artikel": null,
-     "b": "John Mitchell",
-     "b_artikel": null,
-     "titelkampf": false,
-     "karte": "Preliminary card (Paramount+)",
-     "hinweis": null
-    }
-   ],
-   "hauptkarte_utc": null,
-   "hauptkarte_quelle": null,
-   "ics": null
-  },
   {
    "name": "UFC Fight Night: Adesanya vs. Magomedov",
    "artikel": "UFC Fight Night: Adesanya vs. Magomedov",
