@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-22T12:29:51+00:00",
+ "stand": "2026-11-23T14:20:52+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -12,7 +12,7 @@
   "Wikipedia auf Russisch, Japanisch, Spanisch, Portugiesisch, Deutsch"
  ],
  "lizenz": "Wikipedia-Inhalte: CC BY-SA 4.0; Wikidata: CC0",
- "anzahl": 648,
+ "anzahl": 647,
  "kaempfer": [
   {
    "name": "Derrick Lewis",
@@ -5446,6 +5446,7 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Marc-André Barriault",
     "reichweite_cm": "Wikipedia (russisch): Баррьо, Марк-Андре",
     "kampfstil": "Wikipedia (russisch): Баррьо, Марк-Андре",
@@ -5468,14 +5469,14 @@
    "groesse_cm": 185,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 291",
-    "event_wiki": "UFC Fight Night: Buckley vs. Malott",
-    "ort": "Edmonton",
-    "gegner": "Kyle Daukaus",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "Tresean Gore",
+    "datum": "2027-01-30"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q65954962",
    "gewicht_kg": 83.9,
@@ -6168,6 +6169,7 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "reichweite_cm": "Wikipedia (russisch): Гор, Трешон",
     "geburtsort": "Wikipedia (russisch): Гор, Трешон"
    },
@@ -6177,14 +6179,14 @@
    "groesse_cm": 183,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC 330",
-    "event_wiki": "UFC 330",
-    "ort": "Philadelphia",
-    "gegner": "Vicente Luque",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "Marc-André Barriault",
+    "datum": "2027-01-30"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q139675367",
    "gewicht_kg": null,
@@ -8843,46 +8845,6 @@
    "geburtsort": "Gijón, Asturias, Spain"
   },
   {
-   "name": "Wellington Turman",
-   "artikel": "Wellington Turman",
-   "wikipedia": "https://en.wikipedia.org/wiki/Wellington_Turman",
-   "gewichtsklasse": "Welterweight",
-   "land_iso": "BRA",
-   "quellen": {
-    "gewichtsklasse": "Wikipedia: List of current UFC fighters",
-    "land_iso": "Wikipedia: List of current UFC fighters",
-    "bilanz": "Wikipedia: List of current UFC fighters",
-    "geburtsdatum": "Wikipedia: List of current UFC fighters",
-    "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "siegesserie": "Wikipedia: Wellington Turman (Tabelle „Mixed martial arts record“)",
-    "kaempfe": "Wikipedia: List of current UFC fighters",
-    "gewicht_kg": "Wikipedia: Wellington Turman",
-    "reichweite_cm": "Wikipedia: Wellington Turman",
-    "kampfstil": "Wikipedia: Wellington Turman",
-    "geburtsort": "Wikipedia: Wellington Turman"
-   },
-   "konflikte": {},
-   "bilanz": "18-9",
-   "geburtsdatum": "1996-07-22",
-   "groesse_cm": 183,
-   "nationalitaet": null,
-   "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 293",
-    "event_wiki": "UFC Fight Night: Cortes-Acosta vs. Walker",
-    "ort": "Las Vegas",
-    "gegner": "Ko Seok-hyeon",
-    "ergebnis": "Loss"
-   },
-   "naechster_kampf": null,
-   "status": null,
-   "wikidata": "https://www.wikidata.org/wiki/Q98213107",
-   "gewicht_kg": 77.1,
-   "reichweite_cm": 183,
-   "kampfstil": "Brazilian Jiu-Jitsu",
-   "geburtsort": "Curitiba, Brazil"
-  },
-  {
    "name": "Sean Brady",
    "artikel": "Sean Brady (fighter)",
    "wikipedia": "https://en.wikipedia.org/wiki/Sean_Brady_%28fighter%29",
@@ -9136,6 +9098,16 @@
     "geburtsort": "Wikipedia: Shavkat Rakhmonov"
    },
    "konflikte": {
+    "groesse_cm": [
+     {
+      "wert": 185,
+      "quelle": "Wikipedia: List of current UFC fighters"
+     },
+     {
+      "wert": 190,
+      "quelle": "Wikipedia: Shavkat Rakhmonov"
+     }
+    ],
     "geburtsort": [
      {
       "wert": "Shoʻrchi, Surxondaryo Region, Uzbekistan",
@@ -9524,6 +9496,16 @@
     "geburtsort": "Wikipedia: Michael Morales (fighter)"
    },
    "konflikte": {
+    "groesse_cm": [
+     {
+      "wert": 183,
+      "quelle": "Wikipedia: List of current UFC fighters"
+     },
+     {
+      "wert": 188,
+      "quelle": "Wikipedia: Michael Morales (fighter)"
+     }
+    ],
     "geburtsort": [
      {
       "wert": "Pasaje, El Oro, Ecuador",
@@ -9649,7 +9631,7 @@
    "bilanz": "15-2-1",
    "geburtsdatum": "1991-11-07",
    "groesse_cm": 185,
-   "nationalitaet": "Canadian",
+   "nationalitaet": "Canadian, American",
    "siegesserie": 5,
    "letzter_kampf": {
     "event": "UFC Fight Night 291",
@@ -9944,7 +9926,18 @@
     "kampfstil": "Wikipedia: Carlos Prates",
     "geburtsort": "Wikipedia: Carlos Prates"
    },
-   "konflikte": {},
+   "konflikte": {
+    "groesse_cm": [
+     {
+      "wert": 185,
+      "quelle": "Wikipedia: List of current UFC fighters"
+     },
+     {
+      "wert": 188,
+      "quelle": "Wikipedia: Carlos Prates"
+     }
+    ]
+   },
    "bilanz": "24-7",
    "geburtsdatum": "1993-08-17",
    "groesse_cm": 185,
