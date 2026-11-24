@@ -26,20 +26,21 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:ufc-fight-night-adesanya-vs-magomedov@ufc-kader
-DTSTAMP:20261123T142052Z
+DTSTAMP:20261124T144654Z
 SUMMARY:UFC Fight Night: Adesanya vs. Magomedov
 LOCATION:anb Arena\, Riyadh\, Saudi Arabia
 DESCRIPTION:Kämpfe:\nIsrael Adesanya vs. Sharabutdin Magomedov (Middleweig
- ht)\nIan Machado Garry vs. Yaroslav Amosov (Welterweight)\nSerghei Spivac 
- vs. Mário Pinto (Heavyweight)\nLevan Chokheli vs. Islam Dulatov (Welterwe
+ ht)\nIan Machado Garry vs. Yaroslav Amosov (Welterweight)\nLevan Chokheli 
+ vs. Islam Dulatov (Welterweight)\nSerghei Spivac vs. Mário Pinto (Heavywe
  ight)\nMairon Santos vs. Akbar Abdullaev (Lightweight)\nMagomed Tuchalov v
- s. Ion Cuțelaba (Light Heavyweight)\nBruno Gustavo da Silva vs. Jafel Fil
- ho (Flyweight)\nUran Satybaldiev vs. Ivan Gnizditskiy (Light Heavyweight)\
- nMarco Tulio vs. Park Jun-yong (Middleweight)\nPavel Andrusca vs. Mehemmed
- eli Osmanli (Bantamweight)\nModestino Rodrigues vs. Matthieu Letho Duclos 
- (Middleweight)\nAbdul Hussein vs. Hecher Sosa (Bantamweight)\n\nUhrzeit fo
- lgt.\n\nQuelle: https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Adesanya_
- vs._Magomedov
+ s. Ion Cuțelaba (Light Heavyweight)\nLuke Riley vs. Gabriel Santos (Feath
+ erweight)\nBruno Gustavo da Silva vs. Jafel Filho (Flyweight)\nUran Satyba
+ ldiev vs. Ivan Gnizditskiy (Light Heavyweight)\nMarco Tulio vs. Park Jun-y
+ ong (Middleweight)\nPavel Andrusca vs. Mehemmedeli Osmanli (Bantamweight)\
+ nModestino Rodrigues vs. Matthieu Letho Duclos (Middleweight)\nAbdul Husse
+ in vs. Hecher Sosa (Bantamweight)\nMateusz Rębecki vs. Elves Brener (Ligh
+ tweight)\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedia.org/wiki/UFC_Fi
+ ght_Night%3A_Adesanya_vs._Magomedov
 URL:https://en.wikipedia.org/wiki/UFC_Fight_Night%3A_Adesanya_vs._Magomedov
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
@@ -47,7 +48,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-335@ufc-kader
-DTSTAMP:20261123T142052Z
+DTSTAMP:20261124T144654Z
 SUMMARY:UFC 335: Oliveira vs. Lopes
 LOCATION:T-Mobile Arena\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nCharles Oliveira vs. Diego Lopes (Lightweight\, Titel
@@ -63,7 +64,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-rodriguez-vs-garcia@ufc-kader
-DTSTAMP:20261123T142052Z
+DTSTAMP:20261124T144654Z
 SUMMARY:UFC Fight Night: Rodríguez vs. Garcia
 LOCATION:American Airlines Center\, Dallas\, Texas\, U.S.
 DESCRIPTION:Kämpfe:\nYair Rodríguez vs. Steve Garcia (Featherweight)\nDan
@@ -85,7 +86,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-bonfim-vs-brady@ufc-kader
-DTSTAMP:20261123T142052Z
+DTSTAMP:20261124T144654Z
 SUMMARY:UFC Fight Night: Bonfim vs. Brady
 LOCATION:Meta Apex\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nGabriel Bonfim vs. Sean Brady (Welterweight)\n\nUhrze
@@ -98,7 +99,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-336@ufc-kader
-DTSTAMP:20261123T142052Z
+DTSTAMP:20261124T144654Z
 SUMMARY:UFC 336: Van vs. Kape
 LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canada
 DESCRIPTION:Kämpfe:\nJoshua Van vs. Manel Kape (Flyweight\, Titelkampf)\nC
@@ -113,7 +114,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-salkilld-vs-saint-denis@ufc-kader
-DTSTAMP:20261123T142052Z
+DTSTAMP:20261124T144654Z
 SUMMARY:UFC Fight Night: Salkilld vs. Saint Denis
 LOCATION:Afterpay Arena\, Sydney\, Australia
 DESCRIPTION:Kämpfe:\nQuillan Salkilld vs. Benoît Saint Denis (Lightweight
@@ -130,7 +131,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-pyfer-vs-nickal@ufc-kader
-DTSTAMP:20261123T142052Z
+DTSTAMP:20261124T144654Z
 SUMMARY:UFC Fight Night: Pyfer vs. Nickal
 LOCATION:Rocket Arena\, Cleveland\, Ohio\, U.S.
 DESCRIPTION:Kämpfe:\nJoe Pyfer vs. Bo Nickal (Middleweight)\n\nUhrzeit fol
@@ -143,7 +144,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-337@ufc-kader
-DTSTAMP:20261123T142052Z
+DTSTAMP:20261124T144654Z
 SUMMARY:UFC 337
 LOCATION:Kia Center\, Orlando\, Florida\, U.S.
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi

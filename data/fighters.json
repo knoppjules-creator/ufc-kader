@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-23T14:20:52+00:00",
+ "stand": "2026-11-24T14:46:54+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -239,6 +239,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Tai Tuivasa (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Tai Tuivasa",
     "reichweite_cm": "Wikipedia: Tai Tuivasa",
     "kampfstil": "Wikipedia (russisch): Туиваса, Тай",
@@ -250,14 +251,14 @@
    "groesse_cm": 188,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC 331",
-    "event_wiki": "UFC 331",
-    "ort": "Los Angeles",
-    "gegner": "Robelis Despaigne",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 298",
+    "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
+    "ort": "Sydney",
+    "gegner": "Jhonata Diniz",
+    "datum": "2027-02-07"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q30675529",
    "gewicht_kg": 120.2,
@@ -767,6 +768,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Tanner Boser (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Tanner Boser",
     "reichweite_cm": "Wikipedia: Tanner Boser",
     "geburtsort": "Wikipedia: Tanner Boser"
@@ -802,14 +804,14 @@
    "groesse_cm": 188,
    "nationalitaet": null,
    "siegesserie": 1,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 291",
-    "event_wiki": "UFC Fight Night: Buckley vs. Malott",
-    "ort": "Edmonton",
-    "gegner": "Jhonata Diniz",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "José Montanha",
+    "datum": "2027-01-30"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q96694117",
    "gewicht_kg": 120.2,
@@ -1259,6 +1261,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Jhonata Diniz (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Jhonata Diniz",
     "kampfstil": "Wikipedia: Jhonata Diniz",
     "geburtsort": "Wikipedia: Jhonata Diniz"
@@ -1269,14 +1272,14 @@
    "groesse_cm": 193,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 291",
-    "event_wiki": "UFC Fight Night: Buckley vs. Malott",
-    "ort": "Edmonton",
-    "gegner": "Tanner Boser",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 298",
+    "event_wiki": "UFC Fight Night: Salkilld vs. Saint Denis",
+    "ort": "Sydney",
+    "gegner": "Tai Tuivasa",
+    "datum": "2027-02-07"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q118279267",
    "gewicht_kg": 117.0,
@@ -2182,7 +2185,7 @@
    "wikidata": null
   },
   {
-   "name": "José Luiz",
+   "name": "José Montanha",
    "artikel": null,
    "wikipedia": null,
    "gewichtsklasse": "Heavyweight",
@@ -2193,7 +2196,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "7-1",
@@ -2201,14 +2205,14 @@
    "groesse_cm": 198,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 284",
-    "event_wiki": "UFC Fight Night: Gamrot vs. Salkilld",
-    "ort": "Las Vegas",
-    "gegner": "Louie Sutherland",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "Tanner Boser",
+    "datum": "2027-01-30"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -4993,7 +4997,7 @@
    "bilanz": "24-13-1",
    "geburtsdatum": "1991-11-27",
    "groesse_cm": 180,
-   "nationalitaet": "Brazilian , American",
+   "nationalitaet": "United States , Brazil",
    "siegesserie": 0,
    "letzter_kampf": {
     "event": "UFC 330",
@@ -7607,7 +7611,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "10-4",
@@ -7615,14 +7620,14 @@
    "groesse_cm": 188,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 291",
-    "event_wiki": "UFC Fight Night: Buckley vs. Malott",
-    "ort": "Edmonton",
-    "gegner": "Nick Galanti",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "Vlasto Čepo",
+    "datum": "2027-01-30"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -7783,7 +7788,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "14-4",
@@ -7791,14 +7797,14 @@
    "groesse_cm": 183,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 283",
-    "event_wiki": "UFC Fight Night: Medić vs. Rodriguez",
-    "ort": "Belgrade",
-    "gegner": "Gilbert Urbina",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "Julien Leblanc",
+    "datum": "2027-01-30"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -8107,6 +8113,7 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Neil Magny",
     "reichweite_cm": "Wikipedia: Neil Magny",
     "kampfstil": "Wikipedia (russisch): Магни, Нил",
@@ -8118,14 +8125,14 @@
    "groesse_cm": 190,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC 330",
-    "event_wiki": "UFC 330",
-    "ort": "Philadelphia",
-    "gegner": "Ramiz Brahimaj",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "ort": "Las Vegas",
+    "gegner": "Daniil Donchenko",
+    "datum": "2027-01-23"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q15987654",
    "gewicht_kg": 77.1,
@@ -9098,16 +9105,6 @@
     "geburtsort": "Wikipedia: Shavkat Rakhmonov"
    },
    "konflikte": {
-    "groesse_cm": [
-     {
-      "wert": 185,
-      "quelle": "Wikipedia: List of current UFC fighters"
-     },
-     {
-      "wert": 190,
-      "quelle": "Wikipedia: Shavkat Rakhmonov"
-     }
-    ],
     "geburtsort": [
      {
       "wert": "Shoʻrchi, Surxondaryo Region, Uzbekistan",
@@ -9496,16 +9493,6 @@
     "geburtsort": "Wikipedia: Michael Morales (fighter)"
    },
    "konflikte": {
-    "groesse_cm": [
-     {
-      "wert": 183,
-      "quelle": "Wikipedia: List of current UFC fighters"
-     },
-     {
-      "wert": 188,
-      "quelle": "Wikipedia: Michael Morales (fighter)"
-     }
-    ],
     "geburtsort": [
      {
       "wert": "Pasaje, El Oro, Ecuador",
@@ -9631,7 +9618,7 @@
    "bilanz": "15-2-1",
    "geburtsdatum": "1991-11-07",
    "groesse_cm": 185,
-   "nationalitaet": "Canadian, American",
+   "nationalitaet": "United States, Canada",
    "siegesserie": 5,
    "letzter_kampf": {
     "event": "UFC Fight Night 291",
@@ -9926,18 +9913,7 @@
     "kampfstil": "Wikipedia: Carlos Prates",
     "geburtsort": "Wikipedia: Carlos Prates"
    },
-   "konflikte": {
-    "groesse_cm": [
-     {
-      "wert": 185,
-      "quelle": "Wikipedia: List of current UFC fighters"
-     },
-     {
-      "wert": 188,
-      "quelle": "Wikipedia: Carlos Prates"
-     }
-    ]
-   },
+   "konflikte": {},
    "bilanz": "24-7",
    "geburtsdatum": "1993-08-17",
    "groesse_cm": 185,
@@ -10348,7 +10324,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "15-2",
@@ -10356,14 +10333,14 @@
    "groesse_cm": 180,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 287",
-    "event_wiki": "UFC Fight Night: Hooker vs. Parnasse",
-    "ort": "Paris",
-    "gegner": "Punahele Soriano",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC Fight Night 297",
+    "event_wiki": "UFC Fight Night: Bonfim vs. Brady",
+    "ort": "Las Vegas",
+    "gegner": "Neil Magny",
+    "datum": "2027-01-23"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -35139,21 +35116,21 @@
      "hinweis": null
     },
     {
-     "gewichtsklasse": "Heavyweight",
-     "a": "Serghei Spivac",
-     "a_artikel": "Serghei Spivac",
-     "b": "Mário Pinto",
-     "b_artikel": "Mario Pinto",
-     "titelkampf": false,
-     "karte": "Main card (Paramount+)",
-     "hinweis": null
-    },
-    {
      "gewichtsklasse": "Welterweight",
      "a": "Levan Chokheli",
      "a_artikel": null,
      "b": "Islam Dulatov",
      "b_artikel": "Islam Dulatov",
+     "titelkampf": false,
+     "karte": "Main card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Heavyweight",
+     "a": "Serghei Spivac",
+     "a_artikel": "Serghei Spivac",
+     "b": "Mário Pinto",
+     "b_artikel": "Mario Pinto",
      "titelkampf": false,
      "karte": "Main card (Paramount+)",
      "hinweis": null
@@ -35176,6 +35153,16 @@
      "b_artikel": "Ion Cutelaba",
      "titelkampf": false,
      "karte": "Main card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Featherweight",
+     "a": "Luke Riley",
+     "a_artikel": null,
+     "b": "Gabriel Santos",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Preliminary card (Paramount+)",
      "hinweis": null
     },
     {
@@ -35233,6 +35220,16 @@
      "a": "Abdul Hussein",
      "a_artikel": "Abdul Hussein (fighter)",
      "b": "Hecher Sosa",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Preliminary card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Lightweight",
+     "a": "Mateusz Rębecki",
+     "a_artikel": "Mateusz Rębecki",
+     "b": "Elves Brener",
      "b_artikel": null,
      "titelkampf": false,
      "karte": "Preliminary card (Paramount+)",
