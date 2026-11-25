@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:ufc-fight-night-adesanya-vs-magomedov@ufc-kader
-DTSTAMP:20261124T144654Z
+DTSTAMP:20261125T140825Z
 SUMMARY:UFC Fight Night: Adesanya vs. Magomedov
 LOCATION:anb Arena\, Riyadh\, Saudi Arabia
 DESCRIPTION:Kämpfe:\nIsrael Adesanya vs. Sharabutdin Magomedov (Middleweig
@@ -48,15 +48,16 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-335@ufc-kader
-DTSTAMP:20261124T144654Z
+DTSTAMP:20261125T140825Z
 SUMMARY:UFC 335: Oliveira vs. Lopes
 LOCATION:T-Mobile Arena\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nCharles Oliveira vs. Diego Lopes (Lightweight\, Titel
  kampf)\nSergei Pavlovich vs. Alex Pereira (Heavyweight)\nBrandon Moreno vs
- . Charles Johnson (Flyweight)\nKyler Phillips vs. Ethyn Ewing (Bantamweigh
- t)\nDamian Pinas vs. Baisangur Susurkaev (Middleweight)\nQuentin Pasley vs
- . Junior Tafa (Light Heavyweight)\n\nUhrzeit folgt.\n\nQuelle: https://en.
- wikipedia.org/wiki/UFC_335
+ . Charles Johnson (Flyweight)\nDamian Pinas vs. Baisangur Susurkaev (Middl
+ eweight)\nKyler Phillips vs. Ethyn Ewing (Bantamweight)\nJacqueline Cavalc
+ anti vs. Michelle Montague (Women's Bantamweight)\nQuentin Pasley vs. Juni
+ or Tafa (Light Heavyweight)\nRoque Conceição Jr. vs. Nilson Rojas (Flywe
+ ight)\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedia.org/wiki/UFC_335
 URL:https://en.wikipedia.org/wiki/UFC_335
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
@@ -64,7 +65,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-rodriguez-vs-garcia@ufc-kader
-DTSTAMP:20261124T144654Z
+DTSTAMP:20261125T140825Z
 SUMMARY:UFC Fight Night: Rodríguez vs. Garcia
 LOCATION:American Airlines Center\, Dallas\, Texas\, U.S.
 DESCRIPTION:Kämpfe:\nYair Rodríguez vs. Steve Garcia (Featherweight)\nDan
@@ -86,7 +87,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-bonfim-vs-brady@ufc-kader
-DTSTAMP:20261124T144654Z
+DTSTAMP:20261125T140825Z
 SUMMARY:UFC Fight Night: Bonfim vs. Brady
 LOCATION:Meta Apex\, Las Vegas\, Nevada\, U.S.
 DESCRIPTION:Kämpfe:\nGabriel Bonfim vs. Sean Brady (Welterweight)\n\nUhrze
@@ -99,14 +100,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-336@ufc-kader
-DTSTAMP:20261124T144654Z
+DTSTAMP:20261125T140825Z
 SUMMARY:UFC 336: Van vs. Kape
 LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canada
 DESCRIPTION:Kämpfe:\nJoshua Van vs. Manel Kape (Flyweight\, Titelkampf)\nC
  arlos Prates vs. Michael Morales (Welterweight\, Titelkampf)\nLance Gibson
-  Jr. vs. Michael Johnson (Lightweight)\nSerhiy Sidey vs. Louis Lee Scott (
- Bantamweight)\nCameron Nelson vs. Sean Clancy Jr. (Welterweight)\n\nUhrzei
- t folgt.\n\nQuelle: https://en.wikipedia.org/wiki/UFC_336
+  Jr. vs. Michael Johnson (Lightweight)\nTanner Boser vs. José Montanha (H
+ eavyweight)\nMarc-André Barriault vs. Tresean Gore (Middleweight)\nGable 
+ Steveson vs. Terrance Chatman (Heavyweight)\nSerhiy Sidey vs. Louis Lee Sc
+ ott (Bantamweight)\nCameron Nelson vs. Sean Clancy Jr. (Welterweight)\nJul
+ ien Leblanc vs. Vlasto Čepo (Middleweight)\n\nUhrzeit folgt.\n\nQuelle: h
+ ttps://en.wikipedia.org/wiki/UFC_336
 URL:https://en.wikipedia.org/wiki/UFC_336
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
@@ -114,7 +118,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-salkilld-vs-saint-denis@ufc-kader
-DTSTAMP:20261124T144654Z
+DTSTAMP:20261125T140825Z
 SUMMARY:UFC Fight Night: Salkilld vs. Saint Denis
 LOCATION:Afterpay Arena\, Sydney\, Australia
 DESCRIPTION:Kämpfe:\nQuillan Salkilld vs. Benoît Saint Denis (Lightweight
@@ -131,7 +135,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-pyfer-vs-nickal@ufc-kader
-DTSTAMP:20261124T144654Z
+DTSTAMP:20261125T140825Z
 SUMMARY:UFC Fight Night: Pyfer vs. Nickal
 LOCATION:Rocket Arena\, Cleveland\, Ohio\, U.S.
 DESCRIPTION:Kämpfe:\nJoe Pyfer vs. Bo Nickal (Middleweight)\n\nUhrzeit fol
@@ -144,7 +148,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-337@ufc-kader
-DTSTAMP:20261124T144654Z
+DTSTAMP:20261125T140825Z
 SUMMARY:UFC 337
 LOCATION:Kia Center\, Orlando\, Florida\, U.S.
 DESCRIPTION:Kämpfe folgen\n\nUhrzeit folgt.\n\nQuelle: https://en.wikipedi
