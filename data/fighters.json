@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-25T14:08:25+00:00",
+ "stand": "2026-11-26T13:47:48+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -695,16 +695,6 @@
       "quelle": "Wikipedia: Ciryl Gane"
      }
     ],
-    "groesse_cm": [
-     {
-      "wert": 196,
-      "quelle": "Wikipedia: List of current UFC fighters"
-     },
-     {
-      "wert": 193,
-      "quelle": "Wikipedia: Ciryl Gane"
-     }
-    ],
     "gewicht_kg": [
      {
       "wert": 110.2,
@@ -1343,19 +1333,9 @@
     "geburtsort": "Wikipedia: Tallison Teixeira"
    },
    "konflikte": {
-    "groesse_cm": [
-     {
-      "wert": 201,
-      "quelle": "Wikipedia: List of current UFC fighters"
-     },
-     {
-      "wert": 203,
-      "quelle": "Wikipedia: Tallison Teixeira"
-     }
-    ],
     "gewicht_kg": [
      {
-      "wert": 117.5,
+      "wert": 113.4,
       "quelle": "Wikipedia: Tallison Teixeira"
      },
      {
@@ -1379,7 +1359,7 @@
    "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q134289443",
-   "gewicht_kg": 117.5,
+   "gewicht_kg": 113.4,
    "reichweite_cm": 211,
    "kampfstil": "Boxing, Kickboxing",
    "geburtsort": "Vitória da Conquista, Bahia, Brazil"
@@ -35514,6 +35494,106 @@
      "a_artikel": "Gabriel Bonfim",
      "b": "Sean Brady",
      "b_artikel": "Sean Brady (fighter)",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Featherweight",
+     "a": "Pat Sabatini",
+     "a_artikel": "Pat Sabatini",
+     "b": "Vinicius Oliveira",
+     "b_artikel": "Vinicius Oliveira",
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Welterweight",
+     "a": "Neil Magny",
+     "a_artikel": "Neil Magny",
+     "b": "Daniil Donchenko",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Middleweight",
+     "a": "Azamat Bekoev",
+     "a_artikel": "Azamat Bekoev",
+     "b": "Eric McConico",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Featherweight",
+     "a": "Yadier del Valle",
+     "a_artikel": null,
+     "b": "Ezra Elliott",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Middleweight",
+     "a": "Trent Miller",
+     "a_artikel": null,
+     "b": "Nick Klein",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Featherweight",
+     "a": "Ramon Taveras",
+     "a_artikel": null,
+     "b": "Roman Puga",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Featherweight",
+     "a": "Jamall Emmers",
+     "a_artikel": "Jamall Emmers",
+     "b": "Ramiro Jiménez",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Women's Strawweight",
+     "a": "Anna Melisano",
+     "a_artikel": null,
+     "b": "Marina Spasić",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Welterweight",
+     "a": "Ty Miller",
+     "a_artikel": null,
+     "b": "Christopher Alvidrez",
+     "b_artikel": null,
+     "titelkampf": false,
+     "karte": "Fight card (Paramount+)",
+     "hinweis": null
+    },
+    {
+     "gewichtsklasse": "Women's Bantamweight",
+     "a": "Smilla Sundell",
+     "a_artikel": "Smilla Sundell",
+     "b": "Melissa Mullins",
+     "b_artikel": null,
      "titelkampf": false,
      "karte": "Fight card (Paramount+)",
      "hinweis": null
