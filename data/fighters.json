@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-26T13:47:48+00:00",
+ "stand": "2026-11-27T13:45:00+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -13031,10 +13031,20 @@
     "siegesserie": "Wikipedia: Mateusz Gamrot (Tabelle „Mixed martial arts record“)",
     "gewicht_kg": "Wikipedia: Mateusz Gamrot",
     "reichweite_cm": "Wikipedia: Mateusz Gamrot",
-    "kampfstil": "Wikipedia: Mateusz Gamrot",
+    "kampfstil": "Wikipedia (russisch): Гамрот, Матеуш",
     "geburtsort": "Wikipedia: Mateusz Gamrot"
    },
    "konflikte": {
+    "gewicht_kg": [
+     {
+      "wert": 70.8,
+      "quelle": "Wikipedia: Mateusz Gamrot"
+     },
+     {
+      "wert": 70.0,
+      "quelle": "Wikipedia (portugiesisch): Mateusz Gamrot"
+     }
+    ],
     "reichweite_cm": [
      {
       "wert": 180,
@@ -13054,10 +13064,6 @@
      }
     ],
     "kampfstil": [
-     {
-      "wert": "Submission Grappling, Freestyle Wrestling",
-      "quelle": "Wikipedia: Mateusz Gamrot"
-     },
      {
       "wert": "Brazilian jiu-jitsu, Freestyle wrestling",
       "quelle": "Wikipedia (russisch): Гамрот, Матеуш"
@@ -13085,9 +13091,9 @@
    "naechster_kampf": null,
    "status": "(October 26, 2026) – Gamrot denied bout was taking place at UFC Fight Night 297 (Las Vegas) – Axel Sola",
    "wikidata": "https://www.wikidata.org/wiki/Q19521996",
-   "gewicht_kg": 70.3,
+   "gewicht_kg": 70.8,
    "reichweite_cm": 180,
-   "kampfstil": "Submission Grappling, Freestyle Wrestling",
+   "kampfstil": "Brazilian jiu-jitsu, Freestyle wrestling",
    "geburtsort": "Bielsko-Biała, Silesian Voivodeship, Poland"
   },
   {
