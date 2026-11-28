@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-27T13:45:00+00:00",
+ "stand": "2026-11-28T12:55:36+00:00",
  "jahr": 2026,
  "quellen": [
   "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
@@ -2078,7 +2078,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "6-1",
@@ -2086,14 +2087,14 @@
    "groesse_cm": 198,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 290",
-    "event_wiki": "UFC Fight Night: Allen vs. Duncan",
-    "ort": "Las Vegas",
-    "gegner": "Allen Frye Jr.",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "Javad Mahjoub",
+    "datum": "2027-01-30"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -2336,6 +2337,7 @@
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Javad Mahjoub (Tabelle „Mixed martial arts record“)",
     "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Javad Mahjoub",
     "kampfstil": "Wikipedia: Javad Mahjoub",
     "geburtsort": "Wikipedia: Javad Mahjoub"
@@ -2346,14 +2348,14 @@
    "groesse_cm": 185,
    "nationalitaet": null,
    "siegesserie": 0,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 291",
-    "event_wiki": "UFC Fight Night: Buckley vs. Malott",
-    "ort": "Edmonton",
-    "gegner": "Joel Faglier",
-    "ergebnis": "Loss"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 336",
+    "event_wiki": "UFC 336",
+    "ort": "Toronto",
+    "gegner": "RJ Harris",
+    "datum": "2027-01-30"
    },
-   "naechster_kampf": null,
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q6165100",
    "gewicht_kg": 120.2,
@@ -9610,7 +9612,7 @@
    "bilanz": "15-2-1",
    "geburtsdatum": "1991-11-07",
    "groesse_cm": 185,
-   "nationalitaet": "United States, Canada",
+   "nationalitaet": "Canadian",
    "siegesserie": 5,
    "letzter_kampf": {
     "event": "UFC Fight Night 291",
@@ -20138,6 +20140,8 @@
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
     "siegesserie": "Wikipedia: Chris Gutiérrez (Tabelle „Mixed martial arts record“)",
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events",
     "gewicht_kg": "Wikipedia: Chris Gutiérrez",
     "kampfstil": "Wikipedia (spanisch): Chris Gutiérrez",
     "geburtsort": "Wikipedia: Chris Gutiérrez"
@@ -20160,7 +20164,13 @@
    "nationalitaet": null,
    "siegesserie": 0,
    "letzter_kampf": null,
-   "naechster_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 335",
+    "event_wiki": "UFC 335",
+    "ort": "Las Vegas",
+    "gegner": "Cody Haddon",
+    "datum": "2026-12-12"
+   },
    "status": null,
    "wikidata": "https://www.wikidata.org/wiki/Q68009446",
    "gewicht_kg": 61.7,
@@ -21341,7 +21351,8 @@
     "bilanz": "Wikipedia: List of current UFC fighters",
     "geburtsdatum": "Wikipedia: List of current UFC fighters",
     "groesse_cm": "Wikipedia: List of current UFC fighters",
-    "kaempfe": "Wikipedia: List of current UFC fighters"
+    "kaempfe": "Wikipedia: List of current UFC fighters",
+    "kampfdatum": "Wikipedia: List of UFC events"
    },
    "konflikte": {},
    "bilanz": "9-1",
@@ -21349,14 +21360,14 @@
    "groesse_cm": 170,
    "nationalitaet": null,
    "siegesserie": null,
-   "letzter_kampf": {
-    "event": "UFC Fight Night 277",
-    "event_wiki": "UFC Fight Night: Song vs. Figueiredo",
-    "ort": "Macau",
-    "gegner": "Aori Qileng",
-    "ergebnis": "Win"
+   "letzter_kampf": null,
+   "naechster_kampf": {
+    "event": "UFC 335",
+    "event_wiki": "UFC 335",
+    "ort": "Las Vegas",
+    "gegner": "Chris Gutiérrez",
+    "datum": "2026-12-12"
    },
-   "naechster_kampf": null,
    "status": null,
    "gewicht_kg": null,
    "reichweite_cm": null,
@@ -35270,10 +35281,10 @@
     },
     {
      "gewichtsklasse": "Heavyweight",
-     "a": "Sergei Pavlovich",
-     "a_artikel": "Sergei Pavlovich",
-     "b": "Alex Pereira",
-     "b_artikel": "Alex Pereira",
+     "a": "Alex Pereira",
+     "a_artikel": "Alex Pereira",
+     "b": "Sergei Pavlovich",
+     "b_artikel": "Sergei Pavlovich",
      "titelkampf": false,
      "karte": "Main card (Paramount+)",
      "hinweis": null
